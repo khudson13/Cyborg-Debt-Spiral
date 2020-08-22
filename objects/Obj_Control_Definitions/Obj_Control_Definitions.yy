@@ -87,6 +87,20 @@
             "value": "0",
             "varName": "control_down",
             "varType": 0
+        },
+        {
+            "id": "2dbc770f-f86d-4d76-8eb1-316638f2da3d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "interact",
+            "varType": 0
         }
     ],
     "solid": false,
