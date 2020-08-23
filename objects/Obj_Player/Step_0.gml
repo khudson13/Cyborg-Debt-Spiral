@@ -14,7 +14,9 @@ switch (keyboard_key)
 	// INTERACTION CONTROLS
 	
 	case Obj_Control_Definitions.interact:
-		if (ev_collision == Obj_Coin)
-			Obj_Player.inventory[0] = Obj_Coin;
-			instance_destroy(instance_nearest(Obj_Player.x,Obj_Player.y,Obj_Coin)); break;
+		if (place_meeting(x,y,Obj_Coin))
+		{
+			inventory[0] = Obj_Coin;
+			instance_destroy(instance_nearest(x,y,Obj_Coin)); break;
+		}
 }
