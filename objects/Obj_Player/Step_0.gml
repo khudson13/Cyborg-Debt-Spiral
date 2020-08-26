@@ -12,13 +12,15 @@ switch (keyboard_key)
 	case Obj_Control_Definitions.control_down: y += TILE_SIZE / 2; break;
 	
 	// INTERACTION CONTROLS
-	
-	// PICKKUP FROM FLOOR
+
 	case Obj_Control_Definitions.interact:
+	
+		// PICKKUP FROM FLOOR
 		if (place_meeting(x,y,Obj_Item))
 		{
-			var inst = instance_nearest(x,y,Obj_Item);
-			inventory = inventory_Add(inventory, (inst).ItemID);
-			instance_destroy(inst); break;
+			var inst = instance_nearest(x,y,Obj_Item); // Get instance ID
+			if (capacity > 0){
+				inventory = inventory_Add(inventory, (inst).ItemID); // Copy item to inventory
+				instance_destroy(inst);}
 		} break;
 }

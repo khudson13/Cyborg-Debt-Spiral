@@ -1,7 +1,7 @@
 // @function inventory_Add(inventory, thing);
 // @param {array} Inventory array
 // @param {enum} Item being added
-
+/*
 function inventory_Add(inventory, thing){
 	
 	// @description Adds an item to an inventory array
