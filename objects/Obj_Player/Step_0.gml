@@ -13,10 +13,12 @@ switch (keyboard_key)
 	
 	// INTERACTION CONTROLS
 	
+	// PICKKUP FROM FLOOR
 	case Obj_Control_Definitions.interact:
-		if (place_meeting(x,y,Obj_Coin))
+		if (place_meeting(x,y,Obj_Item))
 		{
-			inventory[0] = Obj_Coin;
-			instance_destroy(instance_nearest(x,y,Obj_Coin)); break;
-		}
+			var inst = instance_nearest(x,y,Obj_Item);
+			inventory = inventory_Add(inventory, (inst).ItemID);
+			instance_destroy(inst); break;
+		} break;
 }
