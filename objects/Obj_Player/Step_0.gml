@@ -21,6 +21,7 @@ switch (keyboard_key)
 			var inst = instance_nearest(x,y,Obj_Item); // Get instance ID
 			if (capacity > 0){
 				inventory = inventory_Add(inventory, (inst).ItemID); // Copy item to inventory
+				total_weight += Obj_Items_Master.ItemsMaster[(inst).ItemID][itemstats.weight];
 				capacity -= 1;
 				instance_destroy(inst);}
 		} break;
