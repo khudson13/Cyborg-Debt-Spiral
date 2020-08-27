@@ -9,8 +9,8 @@ for (var i = 0; i < 10; ++i;)
 capacity = 10;
 total_weight = 0;
 
+// Figure out how to offload this code to a script file 
 function inventory_Add(inventory, thing){
-	
 	for (var i = 0; i < 10; ++i;){
 		
 		if (inventory[i] == item.nothing){
