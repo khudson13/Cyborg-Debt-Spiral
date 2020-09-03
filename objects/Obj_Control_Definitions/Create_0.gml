@@ -8,3 +8,7 @@ control_down = ord("S");
 
 
 interact = ord("E");
+
+// UI CONTROLS
+inventory = ord("I");
+escape = vk_escape;

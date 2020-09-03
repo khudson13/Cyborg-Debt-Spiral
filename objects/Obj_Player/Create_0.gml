@@ -1,5 +1,8 @@
 /// @description Initialize Variables
 
+
+// True when currently controlling character and not inventory or something
+control = true;
 // Initialize Inventory
 inventory = [];
 for (var i = 0; i < 10; ++i;)
