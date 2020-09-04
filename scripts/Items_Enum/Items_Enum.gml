@@ -27,6 +27,7 @@ enum itemstats{
 	name,
 	weight,
 	worth,
+	menu,
 	
 	nomore
 	

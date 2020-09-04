@@ -26,11 +26,11 @@ switch (keyboard_key)
 		if (place_meeting(x,y,Obj_Item))
 		{
 			var inst = instance_nearest(x,y,Obj_Item); // Get instance ID
-			if (capacity > 0){
+			if (true){  // PLACEHOLDER FOR CARRYING CAPACITY CHECK
 				inventory = inventory_Add(inventory, (inst).ItemID); // Copy item to inventory
-				total_weight += Obj_Items_Master.ItemsMaster[(inst).ItemID][itemstats.weight];
-				capacity -= 1;
-				instance_destroy(inst);}
+				total_weight += Obj_Items_Master.ItemsMaster[(inst).ItemID][itemstats.weight]; // Increase carried weight
+				capacity -= 1;  // Reduce remaining capacity
+				instance_destroy(inst);}  // Destroy item instance on floor
 		} io_clear(); break;
 		
 	// UI CONTROLS
