@@ -28,7 +28,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.worth]  = 1;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of items in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
-			ItemsMaster[i][itemstats.menu][2] = "slop";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
 			
 		case item.nothing:
@@ -37,7 +37,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.worth]  = 0;
 			ItemsMaster[i][itemstats.menu][0] = 3; // Number of items in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
-			ItemsMaster[i][itemstats.menu][2] = "clop";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
 			ItemsMaster[i][itemstats.menu][3] = "HAHAnope";
 			break;
 	}

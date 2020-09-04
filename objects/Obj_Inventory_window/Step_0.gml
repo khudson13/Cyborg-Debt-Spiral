@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// MAIN INVENTORY WINDOW
 if (access == -1){
 	switch(keyboard_key){
 		case Obj_Control_Definitions.control_up:
@@ -17,7 +18,9 @@ if (access == -1){
 			instance_destroy(self);
 	}
 }
-			
+
+
+// INVENTORY SUB-MENU
 if (access != -1){
 	switch (keyboard_key){
 		case Obj_Control_Definitions.control_up:
@@ -29,8 +32,8 @@ if (access != -1){
 			if (selected_subindex > Obj_Items_Master.ItemsMaster[inventory[selected_index]][itemstats.menu][0]){
 				selected_subindex = 1;}
 			io_clear(); break;
-		case Obj_Control_Definitions.control_right:
-			access = selected_subindex; break;
+		//case Obj_Control_Definitions.control_right:
+		//	access = selected_subindex; break;
 		case Obj_Control_Definitions.escape:
 			io_clear();
 			access = -1
