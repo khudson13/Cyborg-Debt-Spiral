@@ -1,1 +1,2 @@
 #macro TILE_SIZE 64
+#macro INVENTORY_SIZE 19

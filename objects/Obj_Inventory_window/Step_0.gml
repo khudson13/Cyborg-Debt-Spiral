@@ -33,7 +33,7 @@ if (access != -1){
 				selected_subindex = 1;}
 			io_clear(); break;
 		//case Obj_Control_Definitions.control_right:
-		//	access = selected_subindex; break;
+		//access = selected_subindex; break;
 		case Obj_Control_Definitions.escape:
 			io_clear();
 			access = -1
@@ -46,5 +46,5 @@ if (access != -1){
 
 // Prevent selection from going out of bounds
 // Attempting to go out of bounds loops to other end
-if (selected_index < 0) {selected_index = 9;}
-if (selected_index > 9) {selected_index = 0;}
+if (selected_index < 0) {selected_index = Obj_Player.slots_filled;}
+if (selected_index > Obj_Player.slots_filled) {selected_index = 0;}
