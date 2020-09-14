@@ -1,7 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var display_y = 0;
+var display_y = 0; // Start drawing at upper left
+
+// Draw the inventory list, omitting "nothing" and coloring
+// the selected item red. Also draw submenus to right of
+// inventory list when an item is accessed (second nested 'if' statement).
 for (var i = 0; i == 0 || i < Obj_Player.slots_filled; ++i;){
 	if (selected_index == i){ draw_set_color(c_red)};
 	else {draw_set_color(c_white)};

@@ -10,14 +10,14 @@ ItemsMaster = [];
 
 for (var i = item.nomore - 1; i >= item.nothing; --i;){
 	
-	// Stats for all the items, in alphabetical order
+	// Stats for all the items, organized by category and in alphabetical order
 	switch(i){
 		
 		case item.coin:
 			ItemsMaster[i][itemstats.name]   = "coin";
 			ItemsMaster[i][itemstats.weight] = .1;
 			ItemsMaster[i][itemstats.worth]  = 1;
-			ItemsMaster[i][itemstats.menu][0] = 2; // Number of items in sub-menu
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
@@ -26,7 +26,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.name]   = "homemade knife";
 			ItemsMaster[i][itemstats.weight] = 2;
 			ItemsMaster[i][itemstats.worth]  = 1;
-			ItemsMaster[i][itemstats.menu][0] = 2; // Number of items in sub-menu
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
@@ -35,7 +35,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.name]   = "nothing";
 			ItemsMaster[i][itemstats.weight] = 0;
 			ItemsMaster[i][itemstats.worth]  = 0;
-			ItemsMaster[i][itemstats.menu][0] = 3; // Number of items in sub-menu
+			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			ItemsMaster[i][itemstats.menu][3] = "HAHAnope";

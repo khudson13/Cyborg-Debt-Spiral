@@ -3,16 +3,15 @@
 
 // True when currently controlling character and not inventory or something
 control = true;
-// Initialize Inventory
+// Initialize Inventory - saves work by avoiding resizing later
 inventory = [];
 for (var i = 0; i < INVENTORY_SIZE; ++i;)
 {inventory[i] = item.nothing;}
 
-// Number of inventory slots filled
-slots_filled = 0;
 
 // INVENTORY VARIABLES
-total_weight = 0;
+slots_filled = 0; // Number of inventory slots filled
+total_weight = 0; // Total inventory weight
 
 // Figure out how to offload this code to a script file 
 function inventory_Add(inventory, thing){
