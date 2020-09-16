@@ -19,7 +19,11 @@ for (var i = 0; i == 0 || i < Obj_Player.slots_filled; ++i;){
 			draw_text(200,sub_y + display_height,Obj_Items_Master.ItemsMaster[inventory[selected_index]][itemstats.menu][ii]);
 			sub_y += display_height;
 		}
-		
+	if (subaccess != -1){
+		if (Obj_Items_Master.ItemsMaster[inventory[selected_index]][itemstats.menu][subaccess] == "look"){
+			draw_text(400,sub_y + display_height,Obj_Items_Master.ItemsMaster[inventory[selected_index]][itemstats.description]);
+		}
+	}
 	}
 	display_y += display_height;
 }

@@ -25,6 +25,8 @@ enum item{
 enum itemstats{
 	
 	name,
+	sprite,
+	description,
 	weight,
 	worth,
 	menu,

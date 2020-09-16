@@ -49,12 +49,21 @@ if (subaccess != -1){
 			io_clear();
 			subaccess = -1; break;
 	}
-	
-	//switch (subaccess){
-		
-	//}
 }
 
+// ACTIVATE SUBMENU COMMAND
+if (subaccess != -1){		
+	// "look" code in DRAW event
+		
+	// if "drop"
+	if (Obj_Items_Master.ItemsMaster[inventory[selected_index]][itemstats.menu][subaccess] == "drop"){
+		inventory_Drop(Obj_Player,selected_index,Obj_Player.x,Obj_Player.y);
+		subaccess = -1;
+		access = -1;
+		selected_subindex = 1;
+		io_clear();
+	}
+}
 
 // Prevent base inventory selection from going out of bounds
 // Attempting to go out of bounds loops to other end
