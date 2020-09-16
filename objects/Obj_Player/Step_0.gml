@@ -27,7 +27,7 @@ switch (keyboard_key)
 		{
 			var inst = instance_nearest(x,y,Obj_Item); // Get instance ID
 			if (true){  // PLACEHOLDER FOR CARRYING CAPACITY CHECK
-				inventory = inventory_Add(inventory, (inst).ItemID); // Copy item to inventory
+				inventory = inventory_Add(Obj_Player,inventory, (inst).ItemID); // Copy item to inventory
 				total_weight += Obj_Items_Master.ItemsMaster[(inst).ItemID][itemstats.weight]; // Increase carried weight
 				instance_destroy(inst);}  // Destroy item instance on floor
 		} io_clear(); break;
