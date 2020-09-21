@@ -8,3 +8,4 @@ cannot traverse, but can read. Output is stored in an array and displayed in the
 above. The array is of limited size so that only so much is displayed at once.
 
 Choosing some dialoge options should be able to modify or remove existing options or add new ones.
+
