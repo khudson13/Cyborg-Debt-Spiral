@@ -20,7 +20,9 @@ access = -1;
 talking_to = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC).NPC_name;
 
 // Dialogue options array
-dialogue_options = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC).dialogue_options +
-	instance_nearest(x,y,Obj_Player).evidence;
+dialogue_options = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC).dialogue_options;
+	//+ instance_nearest(x,y,Obj_Player).evidence;
+	
+responses = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC).responses;
 
 options_count = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC).options_count;

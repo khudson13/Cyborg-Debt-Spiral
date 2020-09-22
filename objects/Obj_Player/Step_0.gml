@@ -30,7 +30,16 @@ switch (keyboard_key)
 				inventory = inventory_Add(Obj_Player,inventory, (inst).ItemID); // Copy item to inventory
 				total_weight += Obj_Items_Master.ItemsMaster[(inst).ItemID][itemstats.weight]; // Increase carried weight
 				instance_destroy(inst);}  // Destroy item instance on floor
-		} io_clear(); break;
+		} io_clear();
+		
+		// TALK TO NPC
+		if (place_meeting(x,y,Obj_NPC))
+		{
+			control = false;
+			instance_create_layer(x,y,layer_get_id("UI_Windows"),Obj_Dialogue);
+		}
+		
+		break;
 		
 	// UI CONTROLS
 	
