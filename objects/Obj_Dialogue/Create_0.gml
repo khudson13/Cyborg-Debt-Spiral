@@ -11,7 +11,7 @@ in the future. Some NPC's, at random, may have special connections which make th
 interaction as contacts.
 */
 
-character_height = 35; // Height of character display
+display_height = 35; // Height of character display
 
 // dialogue options
 selected_index = 0;
@@ -22,3 +22,5 @@ talking_to = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC).NPC_name;
 // Dialogue options array
 dialogue_options = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC).dialogue_options +
 	instance_nearest(x,y,Obj_Player).evidence;
+
+options_count = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC).options_count;

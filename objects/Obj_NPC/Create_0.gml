@@ -12,6 +12,7 @@ for (var i = 0; i < 10; ++i;)
 
 // NPC default dialogue choices, populated from NPC master array
 dialogue_options = [];
+options_count = 0;
 
 // NPC default dialoge responses, populated from NPC master array
 responses = [];

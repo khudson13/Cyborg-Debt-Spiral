@@ -11,10 +11,11 @@ Choosing some dialoge options should be able to modify or remove existing option
 */
 var display_y = 0; // Start drawing at upper left
 
-// Draw the inventory list, omitting "nothing" and coloring
-// the selected item red. Also draw submenus to right of
-// inventory list when an item is accessed (second nested 'if' statement).
-for (var i = 0; i == 0 || i < Obj_Player.slots_filled; ++i;){
+// Dialogue selections show red, with responses to the right
+
+draw_text(0,display_y + display_height * 2,talking_to);
+display_y += display_height * 2;
+for (var i = 0; i == 0 || i < options_count; ++i;){
 	if (selected_index == i){ draw_set_color(c_red)};
 	else {draw_set_color(c_white)};
 	draw_text(0,display_y + display_height,dialogue_options[i]);

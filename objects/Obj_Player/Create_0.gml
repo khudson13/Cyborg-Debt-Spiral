@@ -9,6 +9,7 @@ for (var i = 0; i < INVENTORY_SIZE; ++i;)
 {inventory[i] = item.nothing;}
 
 evidence = [];
+evidence_count = 0;
 
 // INVENTORY VARIABLES
 slots_filled = 0; // Number of inventory slots filled
