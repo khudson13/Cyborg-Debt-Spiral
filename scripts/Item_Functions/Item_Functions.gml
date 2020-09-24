@@ -13,3 +13,11 @@ function inventory_Drop(droppingInstance,inventoryIndex,dropX,dropY){
 	
 	droppingInstance.slots_filled -= 1;
 }
+
+// check to see if an item is in an inventory
+function has_item(item,inventory_list,inventory_length){
+	for (var i = 0; i < inventory_length; ++i;){
+		if (inventory_list[i] == item){return true;}
+	}
+	return false;
+}

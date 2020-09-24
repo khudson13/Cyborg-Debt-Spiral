@@ -13,7 +13,8 @@ switch(keyboard_key){
 		io_clear(); break;
 	case Obj_Control_Definitions.control_right:
 		io_clear();
-		access = selected_index; break;
+		access = selected_index;
+		instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC).dialogue(dialogue_options[selected_index]) break;
 	case Obj_Control_Definitions.escape:
 		Obj_Player.control = true;
 		io_clear();

@@ -58,5 +58,16 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			ItemsMaster[i][itemstats.menu][3] = "HAHAnope";
 			break;
+			
+		case item.passport:
+			ItemsMaster[i][itemstats.name]   = "passport";
+			ItemsMaster[i][itemstats.sprite] = Spr_Passport;
+			ItemsMaster[i][itemstats.description] = "This will get you past the gate";
+			ItemsMaster[i][itemstats.weight] = 0;
+			ItemsMaster[i][itemstats.worth]  = 0;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
 	}
 }

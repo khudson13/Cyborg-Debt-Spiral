@@ -11,6 +11,7 @@ enum item{
 
 	// MONEY AND VENDOR TRASH
 	coin,
+	passport,
 		
 	// WEAPONS
 	homemade_knife,
