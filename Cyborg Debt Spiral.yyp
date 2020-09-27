@@ -4,6 +4,8 @@
     {"id":{"name":"Item_Functions","path":"scripts/Item_Functions/Item_Functions.yy",},"order":3,},
     {"id":{"name":"Spr_DemoWalls","path":"sprites/Spr_DemoWalls/Spr_DemoWalls.yy",},"order":1,},
     {"id":{"name":"Spr_Blank","path":"sprites/Spr_Blank/Spr_Blank.yy",},"order":2,},
+    {"id":{"name":"Obj_Sector_Gate","path":"objects/Obj_Sector_Gate/Obj_Sector_Gate.yy",},"order":13,},
+    {"id":{"name":"Spr_Sector_Gate","path":"sprites/Spr_Sector_Gate/Spr_Sector_Gate.yy",},"order":9,},
     {"id":{"name":"Spr_Homemade_Knife","path":"sprites/Spr_Homemade_Knife/Spr_Homemade_Knife.yy",},"order":5,},
     {"id":{"name":"Obj_Homemade_Knife","path":"objects/Obj_Homemade_Knife/Obj_Homemade_Knife.yy",},"order":1,},
     {"id":{"name":"Spr_Coin","path":"sprites/Spr_Coin/Spr_Coin.yy",},"order":3,},
