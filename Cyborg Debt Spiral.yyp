@@ -16,6 +16,7 @@
     {"id":{"name":"Obj_GateGuard","path":"objects/Obj_GateGuard/Obj_GateGuard.yy",},"order":0,},
     {"id":{"name":"Spr_Inventory_Window","path":"sprites/Spr_Inventory_Window/Spr_Inventory_Window.yy",},"order":6,},
     {"id":{"name":"Inventory_Functions","path":"scripts/Inventory_Functions/Inventory_Functions.yy",},"order":2,},
+    {"id":{"name":"R2_Demo_Level","path":"rooms/R2_Demo_Level/R2_Demo_Level.yy",},"order":1,},
     {"id":{"name":"Items_Enum","path":"scripts/Items_Enum/Items_Enum.yy",},"order":1,},
     {"id":{"name":"Obj_Impassable","path":"objects/Obj_Impassable/Obj_Impassable.yy",},"order":2,},
     {"id":{"name":"Obj_Furniture","path":"objects/Obj_Furniture/Obj_Furniture.yy",},"order":6,},
@@ -32,7 +33,7 @@
     {"id":{"name":"Obj_Coin","path":"objects/Obj_Coin/Obj_Coin.yy",},"order":0,},
     {"id":{"name":"Obj_Dialogue","path":"objects/Obj_Dialogue/Obj_Dialogue.yy",},"order":10,},
     {"id":{"name":"Obj_Inventory_window","path":"objects/Obj_Inventory_window/Obj_Inventory_window.yy",},"order":9,},
-    {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":0,},
+    {"id":{"name":"R1_Start_Screen","path":"rooms/R1_Start_Screen/R1_Start_Screen.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Windows","path":"options/windows/options_windows.yy",},
@@ -48,7 +49,8 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"room0","path":"rooms/room0/room0.yy",},
+    {"name":"R1_Start_Screen","path":"rooms/R1_Start_Screen/R1_Start_Screen.yy",},
+    {"name":"R2_Demo_Level","path":"rooms/R2_Demo_Level/R2_Demo_Level.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

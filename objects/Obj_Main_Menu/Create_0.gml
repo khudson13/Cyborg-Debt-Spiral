@@ -2,5 +2,8 @@
 // You can write your code in this editor
 
 menu_array[0] = "Start Game";
-menu_items = 1;
+menu_array[1] = "Selector Test";
+menu_items = 2;
 selected_index = 0;
+display_height = 35;
+access = -1;
