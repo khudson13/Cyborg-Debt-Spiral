@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"Spr_Railing","path":"sprites/Spr_Railing/Spr_Railing.yy",},"order":10,},
     {"id":{"name":"Spr_Player","path":"sprites/Spr_Player/Spr_Player.yy",},"order":0,},
     {"id":{"name":"Item_Functions","path":"scripts/Item_Functions/Item_Functions.yy",},"order":3,},
     {"id":{"name":"Spr_DemoWalls","path":"sprites/Spr_DemoWalls/Spr_DemoWalls.yy",},"order":1,},
@@ -20,6 +21,7 @@
     {"id":{"name":"Items_Enum","path":"scripts/Items_Enum/Items_Enum.yy",},"order":1,},
     {"id":{"name":"Obj_Impassable","path":"objects/Obj_Impassable/Obj_Impassable.yy",},"order":2,},
     {"id":{"name":"Obj_Furniture","path":"objects/Obj_Furniture/Obj_Furniture.yy",},"order":6,},
+    {"id":{"name":"Obj_Railing","path":"objects/Obj_Railing/Obj_Railing.yy",},"order":15,},
     {"id":{"name":"Obj_NPC","path":"objects/Obj_NPC/Obj_NPC.yy",},"order":5,},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
     {"id":{"name":"Spr_Passport","path":"sprites/Spr_Passport/Spr_Passport.yy",},"order":8,},
