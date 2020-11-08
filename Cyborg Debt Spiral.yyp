@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"Spr_AlgaeProcessor","path":"sprites/Spr_AlgaeProcessor/Spr_AlgaeProcessor.yy",},"order":11,},
     {"id":{"name":"Spr_Railing","path":"sprites/Spr_Railing/Spr_Railing.yy",},"order":10,},
     {"id":{"name":"Spr_Player","path":"sprites/Spr_Player/Spr_Player.yy",},"order":0,},
     {"id":{"name":"Item_Functions","path":"scripts/Item_Functions/Item_Functions.yy",},"order":3,},
@@ -12,6 +13,7 @@
     {"id":{"name":"Spr_Coin","path":"sprites/Spr_Coin/Spr_Coin.yy",},"order":3,},
     {"id":{"name":"Spr_NPC","path":"sprites/Spr_NPC/Spr_NPC.yy",},"order":7,},
     {"id":{"name":"Spr_Fail","path":"sprites/Spr_Fail/Spr_Fail.yy",},"order":4,},
+    {"id":{"name":"Obj_AlgaeProcessor","path":"objects/Obj_AlgaeProcessor/Obj_AlgaeProcessor.yy",},"order":16,},
     {"id":{"name":"Tset_DemoWalls","path":"tilesets/Tset_DemoWalls/Tset_DemoWalls.yy",},"order":0,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
     {"id":{"name":"Obj_GateGuard","path":"objects/Obj_GateGuard/Obj_GateGuard.yy",},"order":0,},

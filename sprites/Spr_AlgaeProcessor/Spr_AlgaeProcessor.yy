@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 1,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"dcebd16f-265a-42fb-8824-4e38b4062309","path":"sprites/Spr_Sector_Gate/Spr_Sector_Gate.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"dcebd16f-265a-42fb-8824-4e38b4062309","path":"sprites/Spr_Sector_Gate/Spr_Sector_Gate.yy",},"LayerId":{"name":"aa320e6a-5bb6-41fd-9987-2b26f198e0e0","path":"sprites/Spr_Sector_Gate/Spr_Sector_Gate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Sector_Gate","path":"sprites/Spr_Sector_Gate/Spr_Sector_Gate.yy",},"resourceVersion":"1.0","name":"dcebd16f-265a-42fb-8824-4e38b4062309","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"85a0db84-29c7-48b7-b8b2-bb4ce79a39cb","path":"sprites/Spr_AlgaeProcessor/Spr_AlgaeProcessor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"85a0db84-29c7-48b7-b8b2-bb4ce79a39cb","path":"sprites/Spr_AlgaeProcessor/Spr_AlgaeProcessor.yy",},"LayerId":{"name":"398281d8-dd58-478c-8d54-1e4d6ad9c318","path":"sprites/Spr_AlgaeProcessor/Spr_AlgaeProcessor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_AlgaeProcessor","path":"sprites/Spr_AlgaeProcessor/Spr_AlgaeProcessor.yy",},"resourceVersion":"1.0","name":"85a0db84-29c7-48b7-b8b2-bb4ce79a39cb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Sector_Gate","path":"sprites/Spr_Sector_Gate/Spr_Sector_Gate.yy",},
+    "spriteId": {"name":"Spr_AlgaeProcessor","path":"sprites/Spr_AlgaeProcessor/Spr_AlgaeProcessor.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"331d1170-6009-499d-8353-74cf67a0bc6c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dcebd16f-265a-42fb-8824-4e38b4062309","path":"sprites/Spr_Sector_Gate/Spr_Sector_Gate.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7469e1ed-6a44-4afa-b1bd-235f777909fe","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"85a0db84-29c7-48b7-b8b2-bb4ce79a39cb","path":"sprites/Spr_AlgaeProcessor/Spr_AlgaeProcessor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Sector_Gate","path":"sprites/Spr_Sector_Gate/Spr_Sector_Gate.yy",},
+    "parent": {"name":"Spr_AlgaeProcessor","path":"sprites/Spr_AlgaeProcessor/Spr_AlgaeProcessor.yy",},
     "resourceVersion": "1.3",
-    "name": "Spr_Sector_Gate",
+    "name": "Spr_AlgaeProcessor",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"aa320e6a-5bb6-41fd-9987-2b26f198e0e0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"398281d8-dd58-478c-8d54-1e4d6ad9c318","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_Sector_Gate",
+  "name": "Spr_AlgaeProcessor",
   "tags": [],
   "resourceType": "GMSprite",
 }
