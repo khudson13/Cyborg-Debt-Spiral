@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ebe29303-b783-4194-8dd5-5d9437307d4a","path":"sprites/Spr_AlgaePurifier/Spr_AlgaePurifier.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ebe29303-b783-4194-8dd5-5d9437307d4a","path":"sprites/Spr_AlgaePurifier/Spr_AlgaePurifier.yy",},"LayerId":{"name":"e25b46b7-ca64-4524-9e8e-21bf48a47d2b","path":"sprites/Spr_AlgaePurifier/Spr_AlgaePurifier.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_AlgaePurifier","path":"sprites/Spr_AlgaePurifier/Spr_AlgaePurifier.yy",},"resourceVersion":"1.0","name":"ebe29303-b783-4194-8dd5-5d9437307d4a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c74b0c1d-5b9c-4657-aac0-f0f82604f2eb","path":"sprites/Spr_Bed_E/Spr_Bed_E.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c74b0c1d-5b9c-4657-aac0-f0f82604f2eb","path":"sprites/Spr_Bed_E/Spr_Bed_E.yy",},"LayerId":{"name":"25d4de74-691c-4748-83f7-7ff3a6f03ac4","path":"sprites/Spr_Bed_E/Spr_Bed_E.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Bed_E","path":"sprites/Spr_Bed_E/Spr_Bed_E.yy",},"resourceVersion":"1.0","name":"c74b0c1d-5b9c-4657-aac0-f0f82604f2eb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_AlgaePurifier","path":"sprites/Spr_AlgaePurifier/Spr_AlgaePurifier.yy",},
+    "spriteId": {"name":"Spr_Bed_E","path":"sprites/Spr_Bed_E/Spr_Bed_E.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e33bab8c-57a8-41a9-8d7c-c597f707911c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ebe29303-b783-4194-8dd5-5d9437307d4a","path":"sprites/Spr_AlgaePurifier/Spr_AlgaePurifier.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d09444d1-0601-4f17-8980-9d1285a8a872","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c74b0c1d-5b9c-4657-aac0-f0f82604f2eb","path":"sprites/Spr_Bed_E/Spr_Bed_E.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_AlgaePurifier","path":"sprites/Spr_AlgaePurifier/Spr_AlgaePurifier.yy",},
+    "parent": {"name":"Spr_Bed_E","path":"sprites/Spr_Bed_E/Spr_Bed_E.yy",},
     "resourceVersion": "1.3",
-    "name": "Spr_AlgaePurifier",
+    "name": "Spr_Bed_E",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e25b46b7-ca64-4524-9e8e-21bf48a47d2b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"25d4de74-691c-4748-83f7-7ff3a6f03ac4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Machines",
-    "path": "folders/Sprites/Furnitre/Machines.yy",
+    "name": "Beds",
+    "path": "folders/Sprites/Furnitre/Beds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_AlgaePurifier",
+  "name": "Spr_Bed_E",
   "tags": [],
   "resourceType": "GMSprite",
 }

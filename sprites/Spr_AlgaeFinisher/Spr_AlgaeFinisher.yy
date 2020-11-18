@@ -88,8 +88,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0a661189-4b54-4e90-be5f-71a74ee777f1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Machines",
+    "path": "folders/Sprites/Furnitre/Machines.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_AlgaeFinisher",

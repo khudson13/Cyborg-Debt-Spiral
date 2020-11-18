@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"449c75ec-b8ac-4b09-a0a4-f16023ce87fd","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Beds",
+    "path": "folders/Sprites/Furnitre/Beds.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_Bed_C",
