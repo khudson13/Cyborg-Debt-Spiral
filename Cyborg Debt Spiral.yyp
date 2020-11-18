@@ -41,6 +41,7 @@
     {"id":{"name":"Obj_Furniture","path":"objects/Obj_Furniture/Obj_Furniture.yy",},"order":6,},
     {"id":{"name":"Obj_Railing","path":"objects/Obj_Railing/Obj_Railing.yy",},"order":15,},
     {"id":{"name":"Obj_Bed_B","path":"objects/Obj_Bed_B/Obj_Bed_B.yy",},"order":24,},
+    {"id":{"name":"Spr_Computer_C","path":"sprites/Spr_Computer_C/Spr_Computer_C.yy",},"order":5,},
     {"id":{"name":"Obj_ManholeCover","path":"objects/Obj_ManholeCover/Obj_ManholeCover.yy",},"order":19,},
     {"id":{"name":"Obj_NPC","path":"objects/Obj_NPC/Obj_NPC.yy",},"order":5,},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},

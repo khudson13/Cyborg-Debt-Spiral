@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Spr_Computer_C",
+    "path": "sprites/Spr_Computer_C/Spr_Computer_C.yy",
+  },
   "solid": true,
   "visible": true,
   "spriteMaskId": null,
