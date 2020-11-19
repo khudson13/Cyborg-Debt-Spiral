@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Beds",
-    "path": "folders/Sprites/Furnitre/Beds.yy",
+    "path": "folders/Sprites/Furniture/Beds.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_Bed_F",

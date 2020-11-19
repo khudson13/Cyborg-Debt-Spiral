@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Machines",
-    "path": "folders/Sprites/Furnitre/Machines.yy",
+    "path": "folders/Sprites/Furniture/Machines.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_AlgaePurifier",

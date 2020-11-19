@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"005a651b-0c6b-4875-985e-867f39cdb5f9","path":"sprites/Spr_Bed_B/Spr_Bed_B.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"005a651b-0c6b-4875-985e-867f39cdb5f9","path":"sprites/Spr_Bed_B/Spr_Bed_B.yy",},"LayerId":{"name":"04b172dd-bd5e-47a5-b7fa-785d233d9678","path":"sprites/Spr_Bed_B/Spr_Bed_B.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Bed_B","path":"sprites/Spr_Bed_B/Spr_Bed_B.yy",},"resourceVersion":"1.0","name":"005a651b-0c6b-4875-985e-867f39cdb5f9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ba05b851-f1b6-4730-b7ef-946151c87f10","path":"sprites/Spr_Cabinet_A/Spr_Cabinet_A.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ba05b851-f1b6-4730-b7ef-946151c87f10","path":"sprites/Spr_Cabinet_A/Spr_Cabinet_A.yy",},"LayerId":{"name":"1e9ba07d-2941-4be9-a2c1-ef638941a346","path":"sprites/Spr_Cabinet_A/Spr_Cabinet_A.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Cabinet_A","path":"sprites/Spr_Cabinet_A/Spr_Cabinet_A.yy",},"resourceVersion":"1.0","name":"ba05b851-f1b6-4730-b7ef-946151c87f10","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Bed_B","path":"sprites/Spr_Bed_B/Spr_Bed_B.yy",},
+    "spriteId": {"name":"Spr_Cabinet_A","path":"sprites/Spr_Cabinet_A/Spr_Cabinet_A.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"60ccd1dd-d6c6-4a37-8bfe-af81609dc7c5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"005a651b-0c6b-4875-985e-867f39cdb5f9","path":"sprites/Spr_Bed_B/Spr_Bed_B.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"01cf994a-8fb1-4697-b0e5-8f0d1b48bd14","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ba05b851-f1b6-4730-b7ef-946151c87f10","path":"sprites/Spr_Cabinet_A/Spr_Cabinet_A.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Bed_B","path":"sprites/Spr_Bed_B/Spr_Bed_B.yy",},
+    "parent": {"name":"Spr_Cabinet_A","path":"sprites/Spr_Cabinet_A/Spr_Cabinet_A.yy",},
     "resourceVersion": "1.3",
-    "name": "Spr_Bed_B",
+    "name": "Spr_Cabinet_A",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"04b172dd-bd5e-47a5-b7fa-785d233d9678","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1e9ba07d-2941-4be9-a2c1-ef638941a346","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Beds",
-    "path": "folders/Sprites/Furniture/Beds.yy",
+    "name": "Furniture",
+    "path": "folders/Sprites/Furniture.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_Bed_B",
+  "name": "Spr_Cabinet_A",
   "tags": [],
   "resourceType": "GMSprite",
 }
