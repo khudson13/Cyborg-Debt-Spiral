@@ -17,6 +17,9 @@ enum item{
 	homemade_knife,
 	combat_kife,
 	
+	// GARBAGE - SCENERY
+	paper_trash_A,
+	
 	// NULL TERMINATOR
 	nomore
 
