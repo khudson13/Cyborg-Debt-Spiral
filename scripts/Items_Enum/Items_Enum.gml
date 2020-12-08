@@ -19,6 +19,7 @@ enum item{
 	
 	// GARBAGE - SCENERY
 	paper_trash_A,
+	paper_trash_B,
 	
 	// NULL TERMINATOR
 	nomore
