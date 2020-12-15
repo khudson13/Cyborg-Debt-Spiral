@@ -26,16 +26,16 @@ function dialogue(topic){
 	switch(topic){
 		case "Hello":
 			Obj_Dialogue.dialogue_options[0] = "Don't you have a name?";
-			Obj_Dialogue.responses = "Hello, yourself"; break;
+			Obj_Dialogue.response = "Hello, yourself"; break;
 		case "Who are you?":
-			Obj_Dialogue.responses = "I'm the gate guard"; break;
+			Obj_Dialogue.response = "I'm the gate guard"; break;
 		case "Open the gate!":
 			if (has_item(item.passport,Obj_Player.inventory,Obj_Player.slots_filled) == true){
-				Obj_Dialogue.responses = "You may pass";}
+				Obj_Dialogue.response = "You may pass";}
 			else{
-				Obj_Dialogue.responses = "You need a passport";}
+				Obj_Dialogue.response = "You need a passport";}
 			break;
 		case "Don't you have a name?":
-			Obj_Dialogue.responses = "Hell no, I don't"; break;
+			Obj_Dialogue.response = "Hell no, I don't"; break;
 	}
 }

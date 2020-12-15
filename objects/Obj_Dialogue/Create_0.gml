@@ -23,6 +23,6 @@ talking_to = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC).NPC_name;
 dialogue_options = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC).dialogue_options;
 	//+ instance_nearest(x,y,Obj_Player).evidence;
 	
-responses = "";
+response = "";
 
 options_count = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC).options_count;

@@ -15,7 +15,7 @@ dialogue_options = [];
 options_count = 0;
 
 // NPC default dialoge responses, populated from NPC master array
-responses = [];
+response = [];
 
 
 // Evidence which the NPC can reveal
