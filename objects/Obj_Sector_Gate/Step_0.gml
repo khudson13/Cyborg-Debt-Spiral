@@ -3,8 +3,7 @@
 
 if (accessed == true){
 	if (locked == true){
-		draw_set_color(c_red);
-		draw_text(x, y, "This door is locked. Press esc");
+		Obj_Furniture_Manager.description = "This door is locked. Press esc";
 	}
 	else if (locked == false && open == false){
 		instance_destroy(Obj_Furniture_Manager);
