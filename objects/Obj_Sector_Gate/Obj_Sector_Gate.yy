@@ -3,7 +3,7 @@
     "name": "Spr_Sector_Gate",
     "path": "sprites/Spr_Sector_Gate/Spr_Sector_Gate.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -25,6 +25,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Sector_Gate","path":"objects/Obj_Sector_Gate/Obj_Sector_Gate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_Sector_Gate","path":"objects/Obj_Sector_Gate/Obj_Sector_Gate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -32,6 +32,7 @@ switch (keyboard_key)
 				instance_destroy(inst);}  // Destroy item instance on floor
 		} io_clear();
 		
+		
 		// TALK TO NPC
 		if (place_meeting(x,y,Obj_NPC))
 		{
@@ -39,7 +40,13 @@ switch (keyboard_key)
 			instance_create_layer(x,y,layer_get_id("UI_Windows"),Obj_Dialogue);
 		}
 		
-		break;
+		
+		// INTERACT WITH FURNITURE
+		if (place_meeting(x,y,Obj_Furniture)){
+			
+			control = false;
+			instance_create_layer(x,y,layer_get_id("UI_Windows"), Obj_Furniture_Manager);
+		}break;
 		
 	// UI CONTROLS
 	
