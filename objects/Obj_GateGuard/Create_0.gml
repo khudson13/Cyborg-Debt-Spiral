@@ -32,7 +32,7 @@ function dialogue(topic){
 		case "Open the gate!":
 			if (has_item(item.passport,Obj_Player.inventory,Obj_Player.slots_filled) == true){
 				Obj_Dialogue.response = "You may pass";
-				instance_nearest(x,y,Obj_Sector_Gate).open = true;}
+				instance_nearest(x,y,Obj_Sector_Gate).locked = false;}
 			else{
 				Obj_Dialogue.response = "You need a passport";}
 			break;
