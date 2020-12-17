@@ -1,6 +1,10 @@
 #macro TILE_SIZE 64
 #macro INVENTORY_SIZE 19
 
+// Figure out how to access camera variables directly
+#macro Camera_Center_X 750
+#macro Camera_center_Y 420
+
 
 /*
 The CREATE_ID global simulates passing a value to the create event of an object.
