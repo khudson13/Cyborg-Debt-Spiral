@@ -25,7 +25,6 @@ knowsabout = [];
 function dialogue(topic){
 	switch(topic){
 		case "Hello":
-			Obj_Dialogue.dialogue_options[0] = "Don't you have a name?";
 			Obj_Dialogue.response = "Hello, yourself"; break;
 		case "Who are you?":
 			Obj_Dialogue.response = "I'm the gate guard"; break;
@@ -36,7 +35,5 @@ function dialogue(topic){
 			else{
 				Obj_Dialogue.response = "You need a passport";}
 			break;
-		case "Don't you have a name?":
-			Obj_Dialogue.response = "Hell no, I don't"; break;
 	}
 }

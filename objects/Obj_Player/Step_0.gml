@@ -21,7 +21,7 @@ switch (keyboard_key)
 	// INTERACTION CONTROLS
 
 	case Obj_Control_Definitions.interact:
-	
+		//instance_create_layer(x, y, "Instances", Obj_Interact);
 		// PICKUP FROM FLOOR
 		if (place_meeting(x,y,Obj_Item))
 		{
