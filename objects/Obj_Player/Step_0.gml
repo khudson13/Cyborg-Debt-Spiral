@@ -23,6 +23,7 @@ switch (keyboard_key)
 	case Obj_Control_Definitions.interact:
 		control = false;
 		instance_create_layer(x, y, "Instances", Obj_Interact);
+		io_clear();
 		/*
 		// PICKUP FROM FLOOR
 		if (place_meeting(x,y,Obj_Item))
