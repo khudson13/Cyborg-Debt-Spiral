@@ -3,7 +3,7 @@
 
 // Figure out how to access camera variables directly
 #macro Camera_Center_X 750
-#macro Camera_center_Y 420
+#macro Camera_Center_Y 420
 
 
 /*
