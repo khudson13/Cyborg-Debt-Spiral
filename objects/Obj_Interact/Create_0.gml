@@ -1,17 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-count = 0; // How many collisions.
+itemCount = 0;      // How many items.
+npcCount = 0;       // How many npc's
+furnitureCount = 0; // How many furniture.
+totalCount = 0;     // How many collisions total.
 
 // Three lists created for items, npc's, and furniture repsectively, then added
 // together to create a complete list of collisions from which a menu will
 // be generated.
 items = ds_list_create();
-count += instance_position_list(x,y,Obj_Item,items,true);
+itemCount += instance_position_list(x,y,Obj_Item,items,true);
 npc = ds_list_create();
-count += instance_position_list(x,y,Obj_NPC,npc,true);
+npcCount += instance_position_list(x,y,Obj_NPC,npc,true);
 furniture = ds_list_create();
-count += instance_position_list(x,y,Obj_Furniture,furniture,true);
+furnitureCount += instance_position_list(x,y,Obj_Furniture,furniture,true);
+totalCount = itemCount + npcCount + furnitureCount;
 
 // Put it all together for the master list
 masterList = ds_list_create();
@@ -20,12 +24,12 @@ masterList = items + npc + furniture;
 cursorPos = 0; // Selected index in collision menu.
 
 // IF NO COLLISIONS
-if (count == 0){
+if (totalCount == 0){
 	Obj_Player.control = true;
 	instance_destroy(self);}
 
 // IF ONLY ONE COLLISION
-if (count == 1){
+if (totalCount == 1){
 	
 	//IF ITEM
 	if (masterList[0] == Obj_Item){
