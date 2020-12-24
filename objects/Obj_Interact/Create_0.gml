@@ -6,17 +6,12 @@ npcCount = 0;       // How many npc's
 furnitureCount = 0; // How many furniture.
 totalCount = 0;     // How many collisions total.
 
-// Three lists created for items, npc's, and furniture repsectively, then added
-// together to create a complete list of collisions from which a menu will
-// be generated.
+// Three lists created for items, npc's, and furniture repsectively.
 items = ds_list_create();
-//ds_list_clear(items);
 itemCount += collision_circle_list(x,y,40,Obj_Item,false,true,items,true);
 npc = ds_list_create();
-//ds_list_clear(npc);
 npcCount += collision_circle_list(x,y,40,Obj_NPC,false,true,npc,true);
 furniture = ds_list_create();
-//ds_list_clear(furniture);
 furnitureCount += collision_circle_list(x,y,40,Obj_Furniture,false,true,furniture,true);
 totalCount = itemCount + npcCount + furnitureCount;
 

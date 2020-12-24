@@ -23,33 +23,7 @@ switch (keyboard_key)
 	case Obj_Control_Definitions.interact:
 		control = false;
 		instance_create_layer(x, y, "Instances", Obj_Interact);
-		io_clear();
-		/*
-		// PICKUP FROM FLOOR
-		if (place_meeting(x,y,Obj_Item))
-		{
-			var inst = instance_nearest(x,y,Obj_Item); // Get instance ID
-			if (true){  // PLACEHOLDER FOR CARRYING CAPACITY CHECK
-				inventory = inventory_Add(Obj_Player,inventory, (inst).ItemID); // Copy item to inventory
-				total_weight += Obj_Items_Master.ItemsMaster[(inst).ItemID][itemstats.weight]; // Increase carried weight
-				instance_destroy(inst);}  // Destroy item instance on floor
-		} io_clear();
-		
-		
-		// TALK TO NPC
-		if (place_meeting(x,y,Obj_NPC))
-		{
-			control = false;
-			instance_create_layer(x,y,layer_get_id("UI_Windows"),Obj_Dialogue);
-		}
-		
-		
-		// INTERACT WITH FURNITURE
-		if (place_meeting(x,y,Obj_Furniture)){
-			
-			control = false;
-			instance_create_layer(x,y,layer_get_id("UI_Windows"), Obj_Furniture_Manager);
-		}*/break;
+		io_clear();break;
 		
 	// UI CONTROLS
 	
