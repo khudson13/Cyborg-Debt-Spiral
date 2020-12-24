@@ -11,19 +11,14 @@ totalCount = 0;     // How many collisions total.
 // be generated.
 items = ds_list_create();
 //ds_list_clear(items);
-itemCount += instance_position_list(x,y,Obj_Item,items,true);
+itemCount += collision_circle_list(x,y,40,Obj_Item,false,true,items,true);
 npc = ds_list_create();
 //ds_list_clear(npc);
-npcCount += instance_position_list(x,y,Obj_NPC,npc,true);
+npcCount += collision_circle_list(x,y,40,Obj_NPC,false,true,npc,true);
 furniture = ds_list_create();
 //ds_list_clear(furniture);
-furnitureCount += instance_position_list(x,y,Obj_Furniture,furniture,true);
+furnitureCount += collision_circle_list(x,y,40,Obj_Furniture,false,true,furniture,true);
 totalCount = itemCount + npcCount + furnitureCount;
-
-// Put it all together for the master list
-masterList = ds_list_create();
-ds_list_clear(masterList);
-masterList = items + npc + furniture;
 
 selected_index = 0; // Selected index in collision menu.
 display_height = 35;
