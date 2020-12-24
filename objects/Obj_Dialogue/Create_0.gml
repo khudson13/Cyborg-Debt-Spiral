@@ -17,6 +17,7 @@ display_height = 35; // Height of character display
 selected_index = 0;
 access = -1;
 
+talking_ID = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC);
 talking_to = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC).NPC_name;
 
 // Dialogue options array
