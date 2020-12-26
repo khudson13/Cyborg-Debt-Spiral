@@ -8,11 +8,11 @@ totalCount = 0;     // How many collisions total.
 
 // Three lists created for items, npc's, and furniture repsectively.
 items = ds_list_create();
-itemCount += collision_circle_list(x,y,40,Obj_Item,false,true,items,true);
+itemCount = collision_circle_list(x,y,50,Obj_Item,false,true,items,true);
 npc = ds_list_create();
-npcCount += collision_circle_list(x,y,40,Obj_NPC,false,true,npc,true);
+npcCount = collision_circle_list(x,y,50,Obj_NPC,false,true,npc,true);
 furniture = ds_list_create();
-furnitureCount += collision_circle_list(x,y,40,Obj_Furniture,false,true,furniture,true);
+furnitureCount = collision_circle_list(x,y,50,Obj_Furniture,false,true,furniture,true);
 totalCount = itemCount + npcCount + furnitureCount;
 
 selected_index = 0; // Selected index in collision menu.

@@ -1,7 +1,10 @@
 /// @
 
 // Identify the object accessed and activate its code
-furniture = instance_nearest(Obj_Player.x, Obj_Player.y, Obj_Furniture);
+if (instance_exists(Obj_Interact)){
+	furniture = Obj_Interact.furniture[| Obj_Interact.furnitureCount - 1]}
+else{
+	furniture = instance_nearest(Obj_Player.x, Obj_Player.y, Obj_Furniture);}
 furniture.accessed = true;
 
 // Display variables
