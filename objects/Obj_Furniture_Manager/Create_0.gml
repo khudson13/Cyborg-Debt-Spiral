@@ -8,6 +8,7 @@ else{
 
 // Display variables
 display_height = 35;
+name = "";
 description = "";      // Basic furniture text
 
 
@@ -15,4 +16,5 @@ description = "";      // Basic furniture text
 x = furniture.x;
 y = furniture.y;
 
+// Get functionality from furniture instance
 furniture.access();

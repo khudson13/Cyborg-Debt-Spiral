@@ -4,9 +4,12 @@
 name = "Sector Gate";
 open = false;
 locked = true;
+hasInventory = false;
+hasOptions = false;
 
 function access(){
 	if (locked == true){
+		Obj_Furniture_Manager.name = name;
 		Obj_Furniture_Manager.description = "This door is locked. Press esc";
 	}
 	else if (locked == false && open == false){
