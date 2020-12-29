@@ -4,12 +4,19 @@
 // TEMPLATE CODE FOR FURNITURE OBJECTS
 name = "";
 description = "";
-hasInventory = false; // Does furniture contain inventory?
-hasOptions = false;   // Does furniture have additional functionality?
-					  // Additional functions handled by an array of commands
-					  // utilized by a switch function titled 'options()' located
-					  // in the specific furniture object.
-
+hasInventory = false; 
+hasOptions = false;
+/* Does furniture contain inventory?
+Does furniture have additional functionality?
+Inventory (inventory[]) handled within furniture manager, and
+is a simple array of enums, as found in items_enum.
+Additional functions handled by an array of command strings
+utilized by a switch function titled 'options()' located
+in the specific furniture object.*/
 function access(){
-	
+	// assign 'name,' 'description,' and any other
+	// necessaries to Obj_Furniture_Manager. But this
+	// function mostly exists to accomplish quick, single
+	// button tasks (such as opening doors) without 
+	//getting the manager involved.
 }

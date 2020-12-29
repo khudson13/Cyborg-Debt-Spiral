@@ -37,8 +37,7 @@ switch (keyboard_key)
 	// If furniture interact
 	if (selected_index >= ((itemCount) + (npcCount))){
 		instance_create_layer(Obj_Player.x,Obj_Player.y,"UI_Windows",Obj_Furniture_Manager);
-		instance_destroy(self);
-	}
+		instance_destroy(self);}
 	
 	io_clear(); break;
 	

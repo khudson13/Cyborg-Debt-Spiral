@@ -10,7 +10,7 @@ hasOptions = false;
 function access(){
 	if (locked == true){
 		Obj_Furniture_Manager.name = name;
-		Obj_Furniture_Manager.description = "This door is locked. Press esc";
+		Obj_Furniture_Manager.description = "This door is locked.";
 	}
 	else if (locked == false && open == false){
 		instance_destroy(Obj_Furniture_Manager);

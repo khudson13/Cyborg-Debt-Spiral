@@ -5,11 +5,11 @@
 switch(keyboard_key){
 	case Obj_Control_Definitions.control_up:
 		selected_index -= 1; 
-		if (selected_index < 0){selected_index = options_count;}
+		if (selected_index < 0){selected_index = options_count - 1;}
 		io_clear(); break;
 	case Obj_Control_Definitions.control_down:
 		selected_index += 1; 
-		if (selected_index > options_count){selected_index = 0;}
+		if (selected_index > options_count - 1){selected_index = 0;}
 		io_clear(); break;
 	case Obj_Control_Definitions.control_right:
 		io_clear();
