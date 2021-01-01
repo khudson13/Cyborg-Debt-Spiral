@@ -14,9 +14,11 @@ Additional functions handled by an array of command strings
 utilized by a switch function titled 'options()' located
 in the specific furniture object.*/
 function access(){
-	// assign 'name,' 'description,' and any other
-	// necessaries to Obj_Furniture_Manager. But this
-	// function mostly exists to accomplish quick, single
-	// button tasks (such as opening doors) without 
-	//getting the manager involved.
+	// This function mostly exists to accomplish quick, 
+	// single button tasks (such as opening doors) without 
+	// getting the manager involved and showing the player
+	// any menus.
+	
+	Obj_Furniture_Manager.name = name;
+	Obj_Furniture_Manager.description = description;
 }
