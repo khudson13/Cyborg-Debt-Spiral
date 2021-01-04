@@ -3,6 +3,7 @@
 
 name = "Algae Processor";
 description = "Part of the algae processing system.";
+passable = false;
 hasInventory = false; 
 hasOptions = false;
 

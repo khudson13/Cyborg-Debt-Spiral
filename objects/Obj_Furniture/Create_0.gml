@@ -4,6 +4,7 @@
 // TEMPLATE CODE FOR FURNITURE OBJECTS
 name = "";
 description = "";
+passable = false;
 hasInventory = false; 
 hasOptions = false;
 /* Does furniture contain inventory?

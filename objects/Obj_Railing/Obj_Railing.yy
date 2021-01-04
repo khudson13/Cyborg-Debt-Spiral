@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Obj_Furniture",
-    "path": "objects/Obj_Furniture/Obj_Furniture.yy",
+    "name": "Obj_Blocker",
+    "path": "objects/Obj_Blocker/Obj_Blocker.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

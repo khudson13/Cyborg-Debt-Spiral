@@ -3,6 +3,7 @@
 
 name = "Cabinet";
 description = "A home for sundries.";
+passable = false;
 hasInventory = false; 
 hasOptions = false;
 

@@ -29,4 +29,4 @@ dialogue_options = talking_ID.dialogue_options;
 	
 response = "";
 
-options_count = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC).options_count;
+options_count = talking_ID.options_count;

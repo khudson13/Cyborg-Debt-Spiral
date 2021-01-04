@@ -1,9 +1,11 @@
 {
   "resources": [
     {"id":{"name":"Spr_AlgaeProcessor","path":"sprites/Spr_AlgaeProcessor/Spr_AlgaeProcessor.yy",},"order":1,},
+    {"id":{"name":"Obj_Door_A","path":"objects/Obj_Door_A/Obj_Door_A.yy",},"order":37,},
     {"id":{"name":"Spr_Railing","path":"sprites/Spr_Railing/Spr_Railing.yy",},"order":10,},
     {"id":{"name":"Spr_Bed_A","path":"sprites/Spr_Bed_A/Spr_Bed_A.yy",},"order":0,},
     {"id":{"name":"Obj_AlgaePurifier","path":"objects/Obj_AlgaePurifier/Obj_AlgaePurifier.yy",},"order":2,},
+    {"id":{"name":"Obj_Blocker","path":"objects/Obj_Blocker/Obj_Blocker.yy",},"order":38,},
     {"id":{"name":"Spr_Player","path":"sprites/Spr_Player/Spr_Player.yy",},"order":0,},
     {"id":{"name":"Item_Functions","path":"scripts/Item_Functions/Item_Functions.yy",},"order":3,},
     {"id":{"name":"Spr_AlgaePurifier","path":"sprites/Spr_AlgaePurifier/Spr_AlgaePurifier.yy",},"order":2,},
@@ -51,6 +53,7 @@
     {"id":{"name":"Obj_Impassable","path":"objects/Obj_Impassable/Obj_Impassable.yy",},"order":2,},
     {"id":{"name":"Obj_Furniture","path":"objects/Obj_Furniture/Obj_Furniture.yy",},"order":6,},
     {"id":{"name":"Obj_Railing","path":"objects/Obj_Railing/Obj_Railing.yy",},"order":15,},
+    {"id":{"name":"Spr_OpenDoor_A","path":"sprites/Spr_OpenDoor_A/Spr_OpenDoor_A.yy",},"order":29,},
     {"id":{"name":"Obj_Bed_B","path":"objects/Obj_Bed_B/Obj_Bed_B.yy",},"order":4,},
     {"id":{"name":"Spr_Computer_C","path":"sprites/Spr_Computer_C/Spr_Computer_C.yy",},"order":5,},
     {"id":{"name":"Obj_ManholeCover","path":"objects/Obj_ManholeCover/Obj_ManholeCover.yy",},"order":19,},
@@ -74,6 +77,7 @@
     {"id":{"name":"Obj_PaperTrash_A","path":"objects/Obj_PaperTrash_A/Obj_PaperTrash_A.yy",},"order":3,},
     {"id":{"name":"Obj_Main_Menu","path":"objects/Obj_Main_Menu/Obj_Main_Menu.yy",},"order":14,},
     {"id":{"name":"Obj_Cabinet_B","path":"objects/Obj_Cabinet_B/Obj_Cabinet_B.yy",},"order":10,},
+    {"id":{"name":"Spr_Door_A","path":"sprites/Spr_Door_A/Spr_Door_A.yy",},"order":28,},
     {"id":{"name":"Obj_Coin","path":"objects/Obj_Coin/Obj_Coin.yy",},"order":0,},
     {"id":{"name":"Spr_Cabinet_B","path":"sprites/Spr_Cabinet_B/Spr_Cabinet_B.yy",},"order":3,},
     {"id":{"name":"Obj_Dialogue","path":"objects/Obj_Dialogue/Obj_Dialogue.yy",},"order":10,},

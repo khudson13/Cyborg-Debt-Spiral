@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "Spr_Computer_C",
-    "path": "sprites/Spr_Computer_C/Spr_Computer_C.yy",
+    "name": "Spr_Door_A",
+    "path": "sprites/Spr_Door_A/Spr_Door_A.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -24,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Computer_C","path":"objects/Obj_Computer_C/Obj_Computer_C.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Door_A","path":"objects/Obj_Door_A/Obj_Door_A.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Furniture",
-    "path": "folders/Objects/Furniture.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Computer_C",
+  "name": "Obj_Door_A",
   "tags": [],
   "resourceType": "GMObject",
 }

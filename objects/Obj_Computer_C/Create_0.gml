@@ -3,6 +3,7 @@
 
 name = "Computer";
 description = "Does this save time, or consume it?";
+passable = false;
 hasInventory = false; 
 hasOptions = false;
 

@@ -3,6 +3,7 @@
 
 name = "Bed";
 description = "In time, sleep comes for us all.";
+passable = false;
 hasInventory = false; 
 hasOptions = false;
 function access(){

@@ -3,6 +3,7 @@
 
 name = "Chair";
 description = "It's for sitting!";
+passable = false;
 hasInventory = false; 
 hasOptions = false;
 

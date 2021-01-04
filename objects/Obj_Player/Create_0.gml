@@ -1,6 +1,10 @@
 /// @description Initialize Variables
 
 
+// previous position, used when movement is blocked
+prevX = x;
+prevY = y;
+
 // True when currently controlling character and not inventory or something
 control = true;
 // Initialize Inventory - saves work by avoiding resizing later
