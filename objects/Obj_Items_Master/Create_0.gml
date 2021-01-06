@@ -59,6 +59,17 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.menu][3] = "HAHAnope";
 			break;
 			
+		case item.OldBogSweat:
+			ItemsMaster[i][itemstats.name]   = "Old Bog Sweat";
+			ItemsMaster[i][itemstats.sprite] = Spr_Old_Bog_Sweat;
+			ItemsMaster[i][itemstats.description] = "This cheap, dirty distillate of fermented algae will knock you on the floor";
+			ItemsMaster[i][itemstats.weight] = 1;
+			ItemsMaster[i][itemstats.worth]  = 1;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+			
 		case item.passport:
 			ItemsMaster[i][itemstats.name]   = "passport";
 			ItemsMaster[i][itemstats.sprite] = Spr_Passport;

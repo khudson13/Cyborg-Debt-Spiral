@@ -67,5 +67,5 @@ if (subaccess != -1){
 
 // Prevent base inventory selection from going out of bounds
 // Attempting to go out of bounds loops to other end
-if (selected_index < 0) {selected_index = Obj_Player.slots_filled;}
-if (selected_index > Obj_Player.slots_filled) {selected_index = 0;}
+if (selected_index < 0) {selected_index = Obj_Player.slots_filled - 1;}
+if (selected_index > Obj_Player.slots_filled - 1) {selected_index = 0;}

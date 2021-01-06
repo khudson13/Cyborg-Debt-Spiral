@@ -12,10 +12,14 @@ enum item{
 	// MONEY AND VENDOR TRASH
 	coin,
 	passport,
+	
+	// BOOZE
+	OldBogSweat,
 		
 	// WEAPONS
-	homemade_knife,
 	combat_kife,
+	homemade_knife,
+	
 	
 	// GARBAGE - SCENERY
 	paper_trash_A,

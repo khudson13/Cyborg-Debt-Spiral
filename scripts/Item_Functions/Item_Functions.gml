@@ -11,6 +11,8 @@ function inventory_Drop(droppingInstance,inventoryIndex,dropX,dropY){
 		droppingInstance.inventory[i] = droppingInstance.inventory[i + 1];
 	}
 	
+	if (Obj_Inventory_window.selected_index > 0){
+		Obj_Inventory_window.selected_index -= 1;}
 	droppingInstance.slots_filled -= 1;
 }
 

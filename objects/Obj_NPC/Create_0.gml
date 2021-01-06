@@ -14,9 +14,13 @@ for (var i = 0; i < 10; ++i;)
 dialogue_options = [];
 options_count = 0;
 
-// NPC default dialoge responses, populated from NPC master array
-response = [];
-
+// Dialogue function returns appropriate response to each topic,
+// executes relevant actions, and updates topic array in dialogue 
+// interface as needed
+/*function dialogue(topic){
+	switch(topic){
+		
+	}} */
 
 // Evidence which the NPC can reveal
 // Populated when a case starts, cleared when the case concludes
