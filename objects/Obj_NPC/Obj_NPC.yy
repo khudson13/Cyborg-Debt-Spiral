@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_NPC",
-    "path": "sprites/Spr_NPC/Spr_NPC.yy",
+    "name": "Spr_Fail",
+    "path": "sprites/Spr_Fail/Spr_Fail.yy",
   },
   "solid": true,
   "visible": true,
