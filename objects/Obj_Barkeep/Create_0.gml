@@ -11,7 +11,7 @@ for (var i = 0; i < 10; ++i;)
 
 // NPC default dialogue choices, populated from NPC master array
 dialogue_options = ["What's on tap?", "Anything interesting going on?"];
-options_count = 0;
+options_count = 2;
 
 // Dialogue function returns appropriate response to each topic,
 // executes relevant actions, and updates topic array in dialogue 
@@ -19,7 +19,8 @@ options_count = 0;
 function dialogue(topic){
 	switch(topic){
 		case "What's on tap?":
-			Obj_Dialogue.response = "CONTENT INCOMPLETE"; break;
+			Obj_Dialogue.response = "Here's what I've got:";
+			dialogue_options = ["Old Bog Sweat - $10", "Biscuit Wash - $3"]; break;
 		case "Anything interesting going on?":
 			Obj_Dialogue.response = "Buy something if you want to talk." break;
 	}} 
