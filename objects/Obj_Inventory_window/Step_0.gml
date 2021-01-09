@@ -26,11 +26,11 @@ if ((access != -1) && (subaccess == -1)){
 	switch (keyboard_key){
 		case Obj_Control_Definitions.control_up:
 			selected_subindex -= 1;
-			if (selected_subindex < 1){selected_subindex = Obj_Items_Master.ItemsMaster[inventory[selected_index]][itemstats.menu][0];}
+			if (selected_subindex < 1){selected_subindex = Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][0];}
 			io_clear(); break;
 		case Obj_Control_Definitions.control_down:
 			selected_subindex += 1; 
-			if (selected_subindex > Obj_Items_Master.ItemsMaster[inventory[selected_index]][itemstats.menu][0]){
+			if (selected_subindex > Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][0]){
 				selected_subindex = 1;}
 			io_clear(); break;
 		case Obj_Control_Definitions.control_right:
@@ -56,7 +56,7 @@ if (subaccess != -1){
 	// "look" code in DRAW event
 		
 	// if "drop"
-	if (Obj_Items_Master.ItemsMaster[inventory[selected_index]][itemstats.menu][subaccess] == "drop"){
+	if (Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess] == "drop"){
 		inventory_Drop(Obj_Player,selected_index,Obj_Player.x,Obj_Player.y);
 		subaccess = -1;
 		access = -1;

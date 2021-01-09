@@ -28,7 +28,7 @@ if (totalCount == 1){
 	
 	//IF ITEM
 	if (itemCount == 1){
-		Obj_Player.inventory = inventory_Add(Obj_Player, Obj_Player.inventory, items[| 0].ItemID); // Copy item to inventory
+		Obj_Player.inventory = inventory_Add(Obj_Player, Obj_Player.inventory, PLAYER_INVENTORY_SIZE, items[| 0].ItemID); // Copy item to inventory
 		Obj_Player.total_weight += Obj_Items_Master.ItemsMaster[items[| 0].ItemID][itemstats.weight]; // Increase carried weight
 		instance_destroy(items[| 0]);  // Destroy item instance on floor
 		Obj_Player.control = true;

@@ -9,7 +9,6 @@
     {"id":{"name":"Obj_AlgaePurifier","path":"objects/Obj_AlgaePurifier/Obj_AlgaePurifier.yy",},"order":2,},
     {"id":{"name":"Obj_Blocker","path":"objects/Obj_Blocker/Obj_Blocker.yy",},"order":38,},
     {"id":{"name":"Spr_Player","path":"sprites/Spr_Player/Spr_Player.yy",},"order":0,},
-    {"id":{"name":"Item_Functions","path":"scripts/Item_Functions/Item_Functions.yy",},"order":3,},
     {"id":{"name":"Spr_AlgaePurifier","path":"sprites/Spr_AlgaePurifier/Spr_AlgaePurifier.yy",},"order":2,},
     {"id":{"name":"Spr_Bed_E","path":"sprites/Spr_Bed_E/Spr_Bed_E.yy",},"order":4,},
     {"id":{"name":"Spr_DemoWalls","path":"sprites/Spr_DemoWalls/Spr_DemoWalls.yy",},"order":1,},

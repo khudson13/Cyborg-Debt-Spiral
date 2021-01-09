@@ -8,9 +8,8 @@ prevY = y;
 // True when currently controlling character and not inventory or something
 control = true;
 // Initialize Inventory - saves work by avoiding resizing later
-inventory = [];
-for (var i = 0; i < INVENTORY_SIZE; ++i;)
-{inventory[i] = item.nothing;}
+inventory = inventory_create(PLAYER_INVENTORY_SIZE);
+
 
 evidence = [];
 evidence_count = 0;

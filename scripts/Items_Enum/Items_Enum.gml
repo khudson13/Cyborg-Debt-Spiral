@@ -15,7 +15,7 @@ enum item{
 	
 	// BOOZE
 	OldBogSweat,
-	BiscuitWash
+	BiscuitWash,
 		
 	// WEAPONS
 	combat_kife,
