@@ -17,16 +17,16 @@ function inventory_Add(calling_instance, inventory, size, thing){
 	
 	for (var i = 0; i < size; ++i;){
 		
-		// Add to quantity
-		if (inventory[i][0] == thing){
-			inventory[i][1] += 1;
-			return inventory;}
-		
 		//Add new item
 		if (inventory[i][0] == item.nothing){
 			inventory[i][0] = thing;
 			inventory[i][1] = 1;
 			calling_instance.slots_filled += 1;
+			return inventory;}
+			
+		// Add to quantity
+		else if (inventory[i][0] == thing){
+			inventory[i][1] = (inventory[i][1] + 1); // += fails for some reason
 			return inventory;}
 	}	
 		
