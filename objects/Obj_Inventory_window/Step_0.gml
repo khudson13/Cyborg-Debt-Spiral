@@ -57,10 +57,10 @@ if (subaccess != -1){
 		
 	// if "drop"
 	if (Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess] == "drop"){
-		inventory_Drop(Obj_Player,selected_index,Obj_Player.x,Obj_Player.y);
 		subaccess = -1;
-		access = -1;
 		selected_subindex = 1;
+		inventory_Drop(Obj_Player,selected_index,Obj_Player.x,Obj_Player.y);
+		access = -1;
 		io_clear();
 	}
 }

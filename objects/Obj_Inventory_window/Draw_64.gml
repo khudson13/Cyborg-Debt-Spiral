@@ -10,6 +10,7 @@ for (var i = 0; i == 0 || i < Obj_Player.slots_filled; ++i;){
 	if (selected_index == i){ draw_set_color(c_red)};
 	else {draw_set_color(c_white)};
 	draw_text(0,display_y + display_height,Obj_Items_Master.ItemsMaster[inventory[i][0]][itemstats.name]);
+	draw_text(150,display_y + display_height,inventory[i][1]);  // Output item quantity, spacing needs to bemore procedural
 	if (access == i){
 		var sub_y = display_y;
 		var menu_depth = Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][0];
