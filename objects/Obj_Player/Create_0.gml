@@ -9,6 +9,7 @@ prevY = y;
 control = true;
 // Initialize Inventory - saves work by avoiding resizing later
 inventory = inventory_create(PLAYER_INVENTORY_SIZE);
+money = 0;
 
 
 evidence = [];

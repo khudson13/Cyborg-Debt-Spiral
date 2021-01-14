@@ -15,20 +15,27 @@ function inventory_Add(calling_instance, inventory, size, thing){
 	// @description Adds an item to an inventory array
 	// Returns 'false' if inventory is full
 	
-	for (var i = 0; i < size; ++i;){
+	//Add money
+	if (thing == item.coin){
+		calling_instance.money += 1;}
+	
+	// Add item
+	else{
+		for (var i = 0; i < size; ++i;){
 		
-		//Add new item
-		if (inventory[i][0] == item.nothing){
-			inventory[i][0] = thing;
-			inventory[i][1] = 1;
-			calling_instance.slots_filled += 1;
-			return inventory;}
+
+			//Add new item
+			if (inventory[i][0] == item.nothing){
+				inventory[i][0] = thing;
+				inventory[i][1] = 1;
+				calling_instance.slots_filled += 1;
+				return inventory;}
 			
-		// Add to quantity
-		else if (inventory[i][0] == thing){
-			inventory[i][1] = (inventory[i][1] + 1); // += fails for some reason
-			return inventory;}
-	}	
+			// Add to quantity
+			else if (inventory[i][0] == thing){
+				inventory[i][1] = (inventory[i][1] + 1); // += fails for some reason
+				return inventory;}
+	}}
 		
 	return inventory;
 }

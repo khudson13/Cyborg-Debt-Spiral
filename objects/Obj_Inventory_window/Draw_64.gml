@@ -3,9 +3,18 @@
 
 var display_y = 0; // Start drawing at upper left
 
+// Header and money
+draw_set_color(c_yellow);
+draw_text(0,display_y + display_height,"**INVENTORY**");
+display_y += display_height;
+draw_set_color(c_white);
+draw_text(0,display_y + display_height,"Money - $" + string(Obj_Player.money));
+display_y += (display_height * 2);
+
 // Draw the inventory list, omitting "nothing" and coloring
 // the selected item red. Also draw submenus to right of
 // inventory list when an item is accessed (second nested 'if' statement).
+// Do not omit nothing if that's all there is.
 for (var i = 0; i == 0 || i < Obj_Player.slots_filled; ++i;){
 	if (selected_index == i){ draw_set_color(c_red)};
 	else {draw_set_color(c_white)};

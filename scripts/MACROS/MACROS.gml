@@ -5,6 +5,8 @@
 #macro Camera_Center_Y 420
 
 #macro PLAYER_INVENTORY_SIZE 19
+
+#macro CALLING_INSTANCE Obj_Player  // For when a create event needs to know what created its object
 /*
 The CREATE_ID global simulates passing a value to the create event of an object.
 This value tells the object, such as the generic Obj_Item, precisely what sort 

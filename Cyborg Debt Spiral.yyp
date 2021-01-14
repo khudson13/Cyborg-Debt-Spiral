@@ -42,6 +42,7 @@
     {"id":{"name":"Tset_DemoWalls","path":"tilesets/Tset_DemoWalls/Tset_DemoWalls.yy",},"order":0,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
     {"id":{"name":"Obj_Computer_A","path":"objects/Obj_Computer_A/Obj_Computer_A.yy",},"order":12,},
+    {"id":{"name":"Obj_Inventory_Swap","path":"objects/Obj_Inventory_Swap/Obj_Inventory_Swap.yy",},"order":40,},
     {"id":{"name":"Obj_Table_B","path":"objects/Obj_Table_B/Obj_Table_B.yy",},"order":16,},
     {"id":{"name":"Spr_Bed_B","path":"sprites/Spr_Bed_B/Spr_Bed_B.yy",},"order":1,},
     {"id":{"name":"Obj_GateGuard","path":"objects/Obj_GateGuard/Obj_GateGuard.yy",},"order":0,},
