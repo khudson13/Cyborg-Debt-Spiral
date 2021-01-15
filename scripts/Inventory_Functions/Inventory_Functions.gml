@@ -56,8 +56,22 @@ function inventory_Drop(droppingInstance,inventoryIndex,dropX,dropY){
 		droppingInstance.slots_filled -= 1;
 	}
 	
-	if (Obj_Inventory_window.selected_index > 0){
-		Obj_Inventory_window.selected_index -= 1;}
+//	if (Obj_Inventory_window.selected_index > 0){
+//		Obj_Inventory_window.selected_index -= 1;}
+}
+
+function inventory_Remove(droppingInstance,inventoryIndex){
+	droppingInstance.inventory[inventoryIndex][1] = (droppingInstance.inventory[inventoryIndex][1] - 1);
+	if (droppingInstance.inventory[inventoryIndex][1] == 0){
+		for (var i = inventoryIndex; i < droppingInstance.slots_filled; ++i;){
+			droppingInstance.inventory[i][0] = droppingInstance.inventory[i + 1][0];
+			droppingInstance.inventory[i][1] = droppingInstance.inventory[i + 1][1];}
+		
+		droppingInstance.slots_filled -= 1;
+	}
+	
+//	if (Obj_Inventory_Swap.selected_index > 0){
+//		Obj_Inventory_Swap.selected_index -= 1;}
 }
 
 // check to see if an item is in an inventory

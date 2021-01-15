@@ -16,26 +16,28 @@ draw_text(150,display_y + display_height,"***TRADE***");
 display_y += display_height;
 
 // Output both inventories with selector position
+if (Obj_Player.slots_filled == 0){
+	draw_set_color(c_yellow);
+	draw_text(0,display_y + display_height,"empty");}
+if (accessed_instance.slots_filled == 0){
+	draw_set_color(c_yellow);
+	draw_text(300,display_y + display_height,"empty");}
 for (var i = 0; i < iteratorLimit; ++i){
 	// PLAYER INVENTORY
 	draw_set_color(c_white);
-	if (Obj_Player.slots_filled == 0){
-		draw_set_color(c_yellow);
-		draw_text(0,display_y + display_height,"empty");}
 	if (selected_index == i && column == 1){
 		draw_set_color(c_red);}
 	if (i < Obj_Player.slots_filled){
-		draw_text(0,display_y + display_height,Obj_Player.inventory[i].name);}
+		draw_text(0,display_y + display_height,Obj_Items_Master.ItemsMaster[Obj_Player.inventory[i][0]][itemstats.name]);
+			draw_text(150,display_y + display_height,Obj_Player.inventory[i][1]);}
 	
 	// OTHER INVENTORY
 	draw_set_color(c_white);
-	if (accessed_instance.slots_filled == 0){
-		draw_set_color(c_yellow);
-		draw_text(300,display_y + display_height,"empty");}
 	if (selected_index == i && column == 2){
 		draw_set_color(c_red);}
 	if (i < accessed_instance.slots_filled){
-		draw_text(300,display_y + display_height,accessed_instance.inventory[i].name);}
+		draw_text(300,display_y + display_height,Obj_Items_Master.ItemsMaster[accessed_instance.inventory[i][0]][itemstats.name]);
+			draw_text(450,display_y + display_height,accessed_instance.inventory[i][1]);}
 	
 	display_y += display_height;
 }

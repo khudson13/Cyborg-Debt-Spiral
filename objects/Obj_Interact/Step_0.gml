@@ -18,7 +18,7 @@ switch (keyboard_key)
 	
 	// If item pickup
 	if (selected_index < (itemCount)){
-		Obj_Player.inventory = inventory_Add(Obj_Player, Obj_Player.inventory, PLAYER_INVENTORY_SIZE, items[| selected_index].ItemID); // Copy item to inventory
+		Obj_Player.inventory = inventory_Add(Obj_Player, Obj_Player.inventory, Obj_Player.inventory_size, items[| selected_index].ItemID); // Copy item to inventory
 		Obj_Player.total_weight += Obj_Items_Master.ItemsMaster[items[| selected_index].ItemID][itemstats.weight]; // Increase carried weight
 		instance_destroy(items[| selected_index]);  // Destroy item instance on floor
 		Obj_Player.control = true;

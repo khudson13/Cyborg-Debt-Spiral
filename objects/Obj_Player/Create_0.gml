@@ -8,7 +8,8 @@ prevY = y;
 // True when currently controlling character and not inventory or something
 control = true;
 // Initialize Inventory - saves work by avoiding resizing later
-inventory = inventory_create(PLAYER_INVENTORY_SIZE);
+inventory_size = 19;
+inventory = inventory_create(inventory_size);
 money = 0;
 
 

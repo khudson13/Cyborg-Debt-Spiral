@@ -4,8 +4,12 @@
 name = "Cabinet";
 description = "A home for sundries.";
 passable = false;
-hasInventory = false; 
+hasInventory = true; 
 hasOptions = false;
+
+inventory_size = 19;
+inventory = inventory_create(inventory_size);
+slots_filled = 0;
 
 function access(){
 	Obj_Furniture_Manager.name = name;
