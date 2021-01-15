@@ -5,18 +5,9 @@
 	switch(keyboard_key){
 		case Obj_Control_Definitions.control_up:
 			selected_index -= 1; 
-			if (selected_index < 0){
-				if (column == 1){
-					selected_index = Obj_Player.slots_filled - 1;}
-				if (column == 2){
-					selected_index = accessed_instance.slots_filled - 1;}}
 			io_clear(); break;
 		case Obj_Control_Definitions.control_down:
 			selected_index += 1; 
-			if (column == 1 && selected_index > Obj_Player.slots_filled - 1){
-				selected_index = 0;}
-			if (column == 2 && selected_index > accessed_instance.slots_filled - 1){
-				selected_index = 0;}
 			io_clear(); break;
 		case Obj_Control_Definitions.control_right:
 			if (accessed_instance.slots_filled > 0){
@@ -43,4 +34,14 @@
 			io_clear();
 			instance_destroy(self);
 	}
-//}
+
+// Cursor correction
+if (selected_index < 0){
+	if (column == 1){
+		selected_index = Obj_Player.slots_filled - 1;}
+	if (column == 2){
+		selected_index = accessed_instance.slots_filled - 1;}}
+if (column == 1 && selected_index > Obj_Player.slots_filled - 1){
+	selected_index = 0;}
+if (column == 2 && selected_index > accessed_instance.slots_filled - 1){
+	selected_index = 0;}
