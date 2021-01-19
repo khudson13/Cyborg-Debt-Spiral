@@ -69,6 +69,7 @@
     {"id":{"name":"Obj_PaperTrash_B","path":"objects/Obj_PaperTrash_B/Obj_PaperTrash_B.yy",},"order":4,},
     {"id":{"name":"Obj_Chair_A","path":"objects/Obj_Chair_A/Obj_Chair_A.yy",},"order":17,},
     {"id":{"name":"Spr_Passport","path":"sprites/Spr_Passport/Spr_Passport.yy",},"order":8,},
+    {"id":{"name":"Obj_Room","path":"objects/Obj_Room/Obj_Room.yy",},"order":41,},
     {"id":{"name":"Obj_Passport","path":"objects/Obj_Passport/Obj_Passport.yy",},"order":2,},
     {"id":{"name":"Font_main","path":"fonts/Font_main/Font_main.yy",},"order":0,},
     {"id":{"name":"Obj_Control_Definitions","path":"objects/Obj_Control_Definitions/Obj_Control_Definitions.yy",},"order":1,},
