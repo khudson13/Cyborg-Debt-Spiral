@@ -7,6 +7,7 @@
     {"id":{"name":"Spr_Bed_A","path":"sprites/Spr_Bed_A/Spr_Bed_A.yy",},"order":0,},
     {"id":{"name":"Obj_Barkeep","path":"objects/Obj_Barkeep/Obj_Barkeep.yy",},"order":2,},
     {"id":{"name":"Obj_AlgaePurifier","path":"objects/Obj_AlgaePurifier/Obj_AlgaePurifier.yy",},"order":2,},
+    {"id":{"name":"Spr_Invisible_Collision_Mask","path":"sprites/Spr_Invisible_Collision_Mask/Spr_Invisible_Collision_Mask.yy",},"order":36,},
     {"id":{"name":"Obj_Blocker","path":"objects/Obj_Blocker/Obj_Blocker.yy",},"order":38,},
     {"id":{"name":"Spr_Player","path":"sprites/Spr_Player/Spr_Player.yy",},"order":0,},
     {"id":{"name":"Spr_AlgaePurifier","path":"sprites/Spr_AlgaePurifier/Spr_AlgaePurifier.yy",},"order":2,},
@@ -32,6 +33,7 @@
     {"id":{"name":"Obj_Bed_C","path":"objects/Obj_Bed_C/Obj_Bed_C.yy",},"order":5,},
     {"id":{"name":"Spr_Coin","path":"sprites/Spr_Coin/Spr_Coin.yy",},"order":3,},
     {"id":{"name":"Obj_Computer_C","path":"objects/Obj_Computer_C/Obj_Computer_C.yy",},"order":14,},
+    {"id":{"name":"Obj_Room_1B3","path":"objects/Obj_Room_1B3/Obj_Room_1B3.yy",},"order":0,},
     {"id":{"name":"Spr_Interact","path":"sprites/Spr_Interact/Spr_Interact.yy",},"order":27,},
     {"id":{"name":"Spr_NPC","path":"sprites/Spr_NPC/Spr_NPC.yy",},"order":7,},
     {"id":{"name":"Spr_Chair_A","path":"sprites/Spr_Chair_A/Spr_Chair_A.yy",},"order":7,},
@@ -137,6 +139,7 @@
     {"folderPath":"folders/Sprites/Furniture/Machines.yy","order":0,"resourceVersion":"1.0","name":"Machines","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Furniture/Beds.yy","order":1,"resourceVersion":"1.0","name":"Beds","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Furniture.yy","order":34,"resourceVersion":"1.0","name":"Furniture","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Specific Rooms.yy","order":42,"resourceVersion":"1.0","name":"Specific Rooms","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
