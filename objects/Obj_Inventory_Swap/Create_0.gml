@@ -16,3 +16,12 @@ else{
 	column = -1;}
 
 display_height = 35;
+
+// If NPC, spend money
+if (accessed_instance == Obj_NPC){
+	commerce = true;}
+else{
+	commerce = false;}
+
+// for when player doesn't have money for something
+insufficient_funds = false;
