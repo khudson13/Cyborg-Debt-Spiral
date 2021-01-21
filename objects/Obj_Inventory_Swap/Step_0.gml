@@ -44,7 +44,8 @@
 					column = 1;} io_clear(); break;}
 		case Obj_Control_Definitions.escape:
 			if (insufficient_funds == true){
-				insufficient_funds = false;}
+				insufficient_funds = false;
+				io_clear(); break;}
 			else{
 				Obj_Player.control = true;
 				io_clear();

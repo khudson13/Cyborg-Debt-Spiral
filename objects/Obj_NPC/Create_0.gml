@@ -4,11 +4,9 @@
 
 NPC_name = "nobody";
 
-// NPC inventory. Everybody has something.
-// This will be populated from a master NPC array similar to the items array
-inventory = [];
-for (var i = 0; i < 10; ++i;)
-{inventory[i] = item.nothing;}
+// NPC inventory. 
+inventory = inventory_create(19);
+slots_filled = 0;
 
 // NPC default dialogue choices, populated from NPC master array
 dialogue_options = [];

@@ -31,7 +31,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.sprite] = Spr_Biscuit_Wash;
 			ItemsMaster[i][itemstats.description] = "Crude beer fermented from stale and moldy algae biscuits.";
 			ItemsMaster[i][itemstats.weight] = 1;
-			ItemsMaster[i][itemstats.worth]  = 3;
+			ItemsMaster[i][itemstats.worth]  = 5;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
@@ -75,7 +75,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.sprite] = Spr_Old_Bog_Sweat;
 			ItemsMaster[i][itemstats.description] = "This cheap, dirty distillate of fermented algae will knock you on the floor";
 			ItemsMaster[i][itemstats.weight] = 1;
-			ItemsMaster[i][itemstats.worth]  = 1;
+			ItemsMaster[i][itemstats.worth]  = 10;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";

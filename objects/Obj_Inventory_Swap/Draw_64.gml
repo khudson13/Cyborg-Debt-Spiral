@@ -42,7 +42,7 @@ else{
 			draw_text(0,display_y + display_height,Obj_Items_Master.ItemsMaster[Obj_Player.inventory[i][0]][itemstats.name]);
 				draw_text(120,display_y + display_height,Obj_Player.inventory[i][1]);
 				if (commerce == true){
-					draw_text(150,display_y + display_height,string(Obj_Items_Master.ItemsMaster[Obj_Player.inventory[i][0]][itemstats.worth]));}}
+					draw_text(150,display_y + display_height,"$" + string(Obj_Items_Master.ItemsMaster[Obj_Player.inventory[i][0]][itemstats.worth]));}}
 	
 		// OTHER INVENTORY
 		draw_set_color(c_white);
@@ -52,7 +52,7 @@ else{
 			draw_text(300,display_y + display_height,Obj_Items_Master.ItemsMaster[accessed_instance.inventory[i][0]][itemstats.name]);
 				draw_text(420,display_y + display_height,accessed_instance.inventory[i][1]);
 				if (commerce == true){
-					draw_text(450,display_y + display_height,string(Obj_Items_Master.ItemsMaster[accessed_instance.inventory[i][0]][itemstats.worth]));}}
+					draw_text(450,display_y + display_height,"$" + string(Obj_Items_Master.ItemsMaster[accessed_instance.inventory[i][0]][itemstats.worth]));}}
 	
 		display_y += display_height;
 }}
