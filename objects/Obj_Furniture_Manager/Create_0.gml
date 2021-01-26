@@ -10,6 +10,7 @@ else{
 display_height = 35;
 name = "";
 description = "";      // Basic furniture text
+selected_option = 0;
 
 
 // Cause furniture manager to instantiate on top of furniture
