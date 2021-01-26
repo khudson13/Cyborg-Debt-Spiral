@@ -10,8 +10,15 @@ display_y += display_height;
 draw_text(Camera_Center_X - 50, display_y - 70, description);
 if (furniture.hasInventory == true){
 	display_y += display_height;
-	draw_text(Camera_Center_X -50, display_y -70, "Press 'e' to examine inventory");}
+	draw_text(Camera_Center_X -50, display_y - 70, "Press 'e' to examine inventory");}
 display_y += display_height;
+if (furniture.hasOptions == true){
+	for (var i =0; i < furniture.options_number; ++i){
+		draw_text(Camera_Center_X - 50, display_y - 70, "Press 'e' to:");
+		draw_text(Camera_Center_X - 50, display_y - 70, furniture.options_list[i]);
+		display_y += display_height;
+	}
+}
 draw_text(Camera_Center_X - 50, display_y - 70, "Press Escape to Exit");
 
 
