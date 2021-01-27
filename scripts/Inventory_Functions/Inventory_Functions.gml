@@ -2,7 +2,7 @@
 
 function inventory_create(size){
 	var inventory;
-	for (var i = 0; i < size; ++i;){
+	for (var i = 0; i < size + 1; ++i;){
 		inventory[i] = item.nothing;
 		inventory[i][1] = 0;}
 		return inventory;}
@@ -55,9 +55,6 @@ function inventory_Drop(droppingInstance,inventoryIndex,dropX,dropY){
 		
 		droppingInstance.slots_filled -= 1;
 	}
-	
-//	if (Obj_Inventory_window.selected_index > 0){
-//		Obj_Inventory_window.selected_index -= 1;}
 }
 
 function inventory_Remove(droppingInstance,inventoryIndex){

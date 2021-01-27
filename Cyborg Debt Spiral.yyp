@@ -44,6 +44,7 @@
     {"id":{"name":"Obj_VertDoor_A","path":"objects/Obj_VertDoor_A/Obj_VertDoor_A.yy",},"order":39,},
     {"id":{"name":"Tset_DemoWalls","path":"tilesets/Tset_DemoWalls/Tset_DemoWalls.yy",},"order":0,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
+    {"id":{"name":"Obj_Recycler_UI","path":"objects/Obj_Recycler_UI/Obj_Recycler_UI.yy",},"order":43,},
     {"id":{"name":"Obj_Computer_A","path":"objects/Obj_Computer_A/Obj_Computer_A.yy",},"order":12,},
     {"id":{"name":"Obj_Inventory_Swap","path":"objects/Obj_Inventory_Swap/Obj_Inventory_Swap.yy",},"order":40,},
     {"id":{"name":"Obj_Table_B","path":"objects/Obj_Table_B/Obj_Table_B.yy",},"order":16,},
