@@ -25,6 +25,8 @@ enum item{
 	// GARBAGE - SCENERY
 	garbage_start,
 	
+	drink_can,
+	empty_bottle,
 	paper_trash_A,
 	paper_trash_B,
 	

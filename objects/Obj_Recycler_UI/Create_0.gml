@@ -20,6 +20,10 @@ for (var i = 0; i < Obj_Player.slots_filled; ++i){
 function recycle(trash){
 	
 	switch (trash){
+		case item.drink_can:
+			Obj_Player.money += 0.05; break;
+		case item.empty_bottle:
+			Obj_Player.money += 0.10; break;
 		case item.paper_trash_A:
 			Obj_Player.money += 0.01; break;
 		case item.paper_trash_B:

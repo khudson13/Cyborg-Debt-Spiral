@@ -48,6 +48,28 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
 			
+		case item.drink_can:
+			ItemsMaster[i][itemstats.name]   = "drink can";
+			ItemsMaster[i][itemstats.sprite] = Spr_DrinkCan_A;
+			ItemsMaster[i][itemstats.description] = "An old can which used to hold a beverage";
+			ItemsMaster[i][itemstats.weight] = 0.01;
+			ItemsMaster[i][itemstats.worth]  = 0;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+			
+			case item.empty_bottle:
+			ItemsMaster[i][itemstats.name]   = "Empty Bottle";
+			ItemsMaster[i][itemstats.sprite] = Spr_Empty_Bottle_A;
+			ItemsMaster[i][itemstats.description] = "An old glass bottle. Recyclable!";
+			ItemsMaster[i][itemstats.weight] = 0.1;
+			ItemsMaster[i][itemstats.worth]  = 0;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+			
 		case item.homemade_knife:
 			ItemsMaster[i][itemstats.name]   = "homemade knife";
 			ItemsMaster[i][itemstats.sprite] = Spr_Homemade_Knife;
