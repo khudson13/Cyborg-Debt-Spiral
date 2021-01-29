@@ -13,9 +13,10 @@ enum item{
 	coin,
 	passport,
 	
-	// BOOZE
-	OldBogSweat,
+	// BEVERAGE
 	BiscuitWash,
+	BottledWater,
+	OldBogSweat,
 		
 	// WEAPONS
 	combat_kife,

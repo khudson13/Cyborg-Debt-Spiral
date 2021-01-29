@@ -37,6 +37,17 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
 			
+		case item.BottledWater:
+			ItemsMaster[i][itemstats.name]   = "Bottled Water";
+			ItemsMaster[i][itemstats.sprite] = Spr_Water_Bottle;
+			ItemsMaster[i][itemstats.description] = "Cool, refreshing water. Probably distilled urine.\nIt's the best there is.";
+			ItemsMaster[i][itemstats.weight] = 1;
+			ItemsMaster[i][itemstats.worth]  = 0.50;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+			
 		case item.coin:
 			ItemsMaster[i][itemstats.name]   = "coin";
 			ItemsMaster[i][itemstats.sprite] = Spr_Coin;

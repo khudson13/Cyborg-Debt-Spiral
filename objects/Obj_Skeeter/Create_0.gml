@@ -25,7 +25,7 @@ function dialogue(topic){
 			Obj_Dialogue.response = "Bartender will sell it.";
 			dialogue_options[0] = "I don't have any cash."; break;
 		case "I don't have any cash.":
-			Obj_Dialogue.response = "What, seriously? Take trash to the reprocessor near the bar. It's not much, though.";
+			Obj_Dialogue.response = "What, seriously? Take trash to the recycler machine near the algae processing plant. It's not much, though.";
 			dialogue_options[0] = "What do you want?"; break;
 		case "I brought your stuff.":
 			Obj_Dialogue.response = "CONTENT UNFINISHED";break;
