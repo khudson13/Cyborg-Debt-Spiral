@@ -11,7 +11,7 @@ inventory[0][1] = 5;
 inventory[1][0] = item.BiscuitWash;
 inventory[1][1] = 10;
 inventory[2][0] = item.BottledWater;
-inventory[3][1] = 20;
+inventory[2][1] = 20;
 slots_filled = 3;
 
 // NPC default dialogue choices, populated from NPC master array
