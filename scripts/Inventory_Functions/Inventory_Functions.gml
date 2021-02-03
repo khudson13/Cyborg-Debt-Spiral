@@ -78,3 +78,11 @@ function has_item(item,inventory_list,inventory_length){
 	}
 	return false;
 }
+
+// find inventoy index of an item, return false if item absent
+function get_item_index(inventory, inventory_length, item){
+		for (var i = 0; i < inventory_length; ++i;){
+		if (inventory[i][0] == item){return i;}
+	}
+	return false;
+}
