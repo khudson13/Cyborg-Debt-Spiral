@@ -15,9 +15,6 @@ dialogue_options = ["Hello","Who are you?","Open the gate!"];
 options_count = 3;
 
 
-// Evidence which the NPC can reveal
-// Populated when a case starts, cleared when the case concludes
-knowsabout = [];
 
 // Dialogue function returns appropriate response to each topic,
 // executes relevant actions, and updates topic array in dialogue 

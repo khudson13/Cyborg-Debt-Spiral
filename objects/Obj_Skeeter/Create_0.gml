@@ -46,7 +46,7 @@ function dialogue(topic){
 				BWIndex = get_item_index(Obj_Player.inventory, Obj_Player.slots_filled, item.BiscuitWash);
 				if (Obj_Player.inventory[BWIndex][1] >= 5){
 					for (var i =0; i <= 5; ++i){
-						item_remove(Obj_Player, BWIndex);
+						inventory_Remove(Obj_Player, BWIndex);
 					}
 					Obj_Dialogue.response = "Not my favorite, but it'll get the job done.";
 					dialogue_options[0] = "You've got your drink, tell me what you know.";
@@ -59,9 +59,10 @@ function dialogue(topic){
 		else{
 			Obj_Dialogue.response = "No you didn't.";
 		} break;
+		case "You've got your drink, tell me what you know.":
+			Obj_Dialogue.response = "dafuq";
+			dialogue_options[0] = "Tell me what you know again."; break;
+		case "Tell me what you know again.":
+			Obj_Dialogue.response = "dafuq"; break;
 	}
 }
-
-// Evidence which the NPC can reveal
-// Populated when a case starts, cleared when the case concludes
-knowsabout = [];

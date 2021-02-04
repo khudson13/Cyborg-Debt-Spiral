@@ -31,7 +31,3 @@ function dialogue(topic){
 		case "Anything interesting going on?":
 			Obj_Dialogue.response = "Buy something if you want to talk." break;
 	}} 
-
-// Evidence which the NPC can reveal
-// Populated when a case starts, cleared when the case concludes
-knowsabout = [];

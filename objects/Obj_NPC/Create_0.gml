@@ -20,6 +20,3 @@ options_count = 0;
 		
 	}} */
 
-// Evidence which the NPC can reveal
-// Populated when a case starts, cleared when the case concludes
-knowsabout = [];
