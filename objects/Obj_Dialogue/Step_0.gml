@@ -14,7 +14,11 @@ switch(keyboard_key){
 	case Obj_Control_Definitions.control_right:
 		io_clear();
 		access = selected_index;
-		talking_ID.dialogue(dialogue_options[selected_index]) break;
+		talking_ID.dialogue(dialogue_options[selected_index])
+		options_count = talking_ID.options_count; 
+		if (selected_index >= options_count){
+			selected_index = 0;
+		}break;
 	case Obj_Control_Definitions.escape:
 		Obj_Player.control = true;
 		io_clear();
