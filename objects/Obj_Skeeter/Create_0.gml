@@ -60,9 +60,10 @@ function dialogue(topic){
 			Obj_Dialogue.response = "No you didn't.";
 		} break;
 		case "You've got your drink, tell me what you know.":
-			Obj_Dialogue.response = "dafuq";
+			Obj_Player.skeeter_clue = true;
+			Obj_Dialogue.response = "Overheard a guy trying to sell a gun at the bar. Didn't recognize him.\nTry asking bar tender about him. (suspect description aquired)";
 			dialogue_options[0] = "Tell me what you know again."; break;
 		case "Tell me what you know again.":
-			Obj_Dialogue.response = "dafuq"; break;
+			Obj_Dialogue.response = "Overheard a guy trying to sell a gun at the bar. Didn't recognize him.\nTry asking bar tender about him. (suspect description aquired)"; break;
 	}
 }

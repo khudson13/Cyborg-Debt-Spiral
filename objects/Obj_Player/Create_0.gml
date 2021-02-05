@@ -12,9 +12,8 @@ inventory_size = 19;
 inventory = inventory_create(inventory_size);
 money = 0;
 
-
-evidence = [];
-evidence_count = 0;
+// Boolean indicators of certain clues being found
+skeeter_clue = false;
 
 // INVENTORY VARIABLES
 slots_filled = 0; // Number of inventory slots filled
