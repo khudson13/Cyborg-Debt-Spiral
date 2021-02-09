@@ -15,9 +15,9 @@ specific to either their unique room or category of room.
 
 roomID = ""; //Ident of unique room or category
 
-/***DEFINE INVENTORY CONTENTS BELOw***
+/***FURNITURE FUNCTIONES ETC BELOw***
 
-for example:
-cabinetInv[] = item.garbage,item.thingamabob,item.fu,item.bar;
+Furnishings and such in the room call a funciton here, such as cabinet(instance),
+to get their variables set.
 
 */
