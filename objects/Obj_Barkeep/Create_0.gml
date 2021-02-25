@@ -37,6 +37,7 @@ function dialogue(topic){
 				Obj_Dialogue.response = "I got nothing.";
 			} break;
 		case "I heard someone was trying to sell a firearm here":
-			Obj_Dialogue.response = "I don't need trouble and I don't know anything about that.\nSome weirdo was in here chatting up my regulars a few days ago.\nTry asking Baxter, right over there." break;
+			Obj_Dialogue.response = "I don't need trouble and I don't know anything about that.\nSome weirdo was in here chatting up my regulars a few days ago.\nTry asking Ernie, right over there."
+			Obj_Player.bartender_clue = true; break;
 	}
 } 

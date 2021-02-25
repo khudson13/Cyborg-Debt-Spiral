@@ -14,6 +14,9 @@ money = 0;
 
 // Boolean indicators of certain clues being found
 skeeter_clue = false;
+bartender_clue = false;
+ernie_clue = false;
+baxter_clue = false;
 
 // INVENTORY VARIABLES
 slots_filled = 0; // Number of inventory slots filled
