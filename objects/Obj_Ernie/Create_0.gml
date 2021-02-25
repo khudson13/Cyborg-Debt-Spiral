@@ -23,14 +23,13 @@ function dialogue(topic){
 		case "So, tell me...":
 			if (bartender_clue == true){
 			dialogue_options[1] = "I heard someone was trying to sell a gun";
-			options_count = 2;
 			}
 			else{
 				Obj_Dialogue.response = "I got nothing.";
 			} break;
 		case "I heard someone was trying to sell a gun":
 			Obj_Dialogue.response = "I remember seeing that guy. He was talking mostly to Baxter and... someone else.\nI forget who. Baxter works the algae refinery.";
-			break;
+			ernie_clue = true; break;
 	}
 } 
 
