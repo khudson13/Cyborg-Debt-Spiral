@@ -15,8 +15,8 @@ inventory[2][1] = 20;
 slots_filled = 3;
 
 // NPC default dialogue choices, populated from NPC master array
-dialogue_options = ["What's on tap?", "So, tell me..."];
-options_count = 2;
+dialogue_options = ["What's on tap?"];
+options_count = 1;
 
 
 // Dialogue function returns appropriate response to each topic,
@@ -29,15 +29,10 @@ function dialogue(topic){
 			instance_create_layer(x,y,"UI_Windows",Obj_Inventory_Swap);
 			Obj_Inventory_Swap.commerce = true;
 			instance_destroy(Obj_Dialogue); break;
-		case "So, tell me...":
-			if (Obj_Player.skeeter_clue == true){
-				dialogue_options[1] = "I heard someone was trying to sell a firearm here";
-			}
-			else{
-				Obj_Dialogue.response = "I got nothing.";
-			} break;
+
 		case "I heard someone was trying to sell a firearm here":
 			Obj_Dialogue.response = "I don't need trouble and I don't know anything about that.\nSome weirdo was in here chatting up my regulars a few days ago.\nTry asking Ernie, right over there."
-			Obj_Player.bartender_clue = true; break;
+			Obj_Ernie.dialogue_options[1] = "I heard someone was trying to sell a gun";
+			Obj_Ernie.options_count += 1; break;
 	}
 } 
