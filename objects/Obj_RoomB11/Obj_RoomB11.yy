@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Room_1B3","path":"objects/Obj_Room_1B3/Obj_Room_1B3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_RoomB11","path":"objects/Obj_RoomB11/Obj_RoomB11.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Specific Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Room_1B3",
+  "name": "Obj_RoomB11",
   "tags": [],
   "resourceType": "GMObject",
 }

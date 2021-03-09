@@ -20,4 +20,12 @@ roomID = ""; //Ident of unique room or category
 Furnishings and such in the room call a funciton here, such as cabinet(instance),
 to get their variables set.
 
+function furnitureFill(instance){
+	
+}
+
+function door(instance){
+
+}
+
 */
