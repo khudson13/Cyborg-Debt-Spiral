@@ -98,6 +98,7 @@
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
     {"id":{"name":"Obj_Recycler_UI","path":"objects/Obj_Recycler_UI/Obj_Recycler_UI.yy",},"order":43,},
     {"id":{"name":"Spr_A12","path":"sprites/Spr_A12/Spr_A12.yy",},"order":1,},
+    {"id":{"name":"Obj_RoomD23","path":"objects/Obj_RoomD23/Obj_RoomD23.yy",},"order":1,},
     {"id":{"name":"Obj_Computer_A","path":"objects/Obj_Computer_A/Obj_Computer_A.yy",},"order":12,},
     {"id":{"name":"Obj_A11","path":"objects/Obj_A11/Obj_A11.yy",},"order":0,},
     {"id":{"name":"Obj_C14","path":"objects/Obj_C14/Obj_C14.yy",},"order":27,},

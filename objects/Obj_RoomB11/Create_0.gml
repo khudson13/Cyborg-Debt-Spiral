@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+roomID = "B-1.1"; //Ident of unique room or category
 
 function furnitureFill(instance){
 	if (instance.object_index == Obj_Cabinet_C){
@@ -10,4 +11,8 @@ function furnitureFill(instance){
 		instance.inventory[1][0] = item.homemade_knife;
 		instance.inventory[1][1] = 1; 
 	}
+}
+
+function door(instance){
+	
 }

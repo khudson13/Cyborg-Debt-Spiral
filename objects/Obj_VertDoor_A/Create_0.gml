@@ -3,12 +3,15 @@
 
 name = "Door";
 passable = false;
+locked = false;
 hasInventory = false;
 hasOptions = false;
 
+alarm[0] = 1;
+
 function access(){
 
-	if (passable == false){
+	if (passable == false && locked == false){
 		instance_destroy(Obj_Furniture_Manager);
 		passable = true;
 		sprite_index = Spr_VertDoor_A_Open;
