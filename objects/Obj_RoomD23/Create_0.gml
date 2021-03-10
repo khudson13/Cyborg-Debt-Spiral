@@ -7,4 +7,5 @@ function furnitureFill(instance){
 
 function door(instance){
 	instance.locked = true;
+	instance.lockDifficulty = 100; // Can't be picked
 }
