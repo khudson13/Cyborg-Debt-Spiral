@@ -26,4 +26,10 @@ if (furniture.hasOptions == true){
 		display_y += display_height;
 	}
 }
+if (furniture.object_index == Obj_Door_A || furniture.object_index == Obj_VertDoor_A){
+	if (furniture.passable == false){
+		draw_text(Camera_Center_X - 50, display_y - 70, "This door is locked.");
+		display_y += display_height;
+	}
+}
 draw_text(Camera_Center_X - 50, display_y - 70, "Press Escape to Exit");
