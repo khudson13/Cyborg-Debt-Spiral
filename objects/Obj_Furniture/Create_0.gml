@@ -7,6 +7,8 @@ description = "";
 passable = false;
 hasInventory = false; 
 hasOptions = false;
+unique = false; // check this before trying to access unique functionality
+
 /* Does furniture contain inventory?
 Does furniture have additional functionality?
 Inventory (inventory[]) handled within furniture manager, and

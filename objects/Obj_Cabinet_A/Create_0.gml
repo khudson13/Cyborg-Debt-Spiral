@@ -6,6 +6,7 @@ description = "A home for sundries.";
 passable = false;
 hasInventory = true; 
 hasOptions = false;
+unique = false;
 
 inventory_size = 19;
 inventory = inventory_create(inventory_size);

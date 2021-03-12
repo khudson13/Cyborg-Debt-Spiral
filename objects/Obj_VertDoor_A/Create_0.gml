@@ -6,6 +6,7 @@ passable = false;
 locked = false;
 hasInventory = false;
 hasOptions = false;
+unique = false;
 
 alarm[0] = 1;
 
