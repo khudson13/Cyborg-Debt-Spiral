@@ -25,8 +25,12 @@ function dialogue(topic){
 			Obj_Dialogue.response = "Hello, I'm Baxter."; break;
 		case "Heard someone tried to sell you a gun":
 			Obj_Dialogue.response = "Yeah, but I didn't hang around. Don't need that kind of trouble.\nI think the name was Albert. When I left, Chunk was still listening. Lives over in 3-C.";
+			if (Obj_Player.found_lock == true){
+				dialogue_options[2] = "D-2.3 is locked.";
+				options_count += 1;
+			}
 			break;
-		case "3-C is locked.":
+		case "D-2.3 is locked.":
 			Obj_Dialogue.response = "Chunk may be in trouble. I have the spare key. Here, you can use it.";
 			break;
 	}

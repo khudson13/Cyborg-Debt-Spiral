@@ -12,6 +12,7 @@ inventory_size = 19;
 inventory = inventory_create(inventory_size);
 money = 0;
 
+found_lock = false; // found the unpickable lock
 
 // INVENTORY VARIABLES
 slots_filled = 0; // Number of inventory slots filled
