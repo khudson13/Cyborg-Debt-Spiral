@@ -17,7 +17,10 @@ enum item{
 	BiscuitWash,
 	BottledWater,
 	OldBogSweat,
-		
+	
+	// KEYS
+	ChunkKey,
+	
 	// WEAPONS
 	combat_kife,
 	homemade_knife,

@@ -14,9 +14,13 @@ function door(instance){
 	
 	if (locked == true){
 		Obj_Player.found_lock = true;
+		if (has_item(item.ChunkKey,Obj_Player.inventory,Obj_Player.inventory_size) == true){
+			locked = false;
+			}
+	
 		if (Obj_Baxter.options_count == 2){
 			Obj_Baxter.dialogue_options[2] = "D-2.3 is locked.";
-			Obj_Baxter.options_count += 1;
+			Obj_Baxter.options_count = 3;
 			}
 		}
 		if (passable == false && locked == false){

@@ -24,14 +24,15 @@ function dialogue(topic){
 		case "Hello":
 			Obj_Dialogue.response = "Hello, I'm Baxter."; break;
 		case "Heard someone tried to sell you a gun":
-			Obj_Dialogue.response = "Yeah, but I didn't hang around. Don't need that kind of trouble.\nI think the name was Albert. When I left, Chunk was still listening. Lives over in 3-C.";
+			Obj_Dialogue.response = "Yeah, but I didn't hang around. Don't need that kind of trouble.\nI think the name was Albert. When I left, Chunk was still listening. Lives over in D-2.3.";
 			if (Obj_Player.found_lock == true){
 				dialogue_options[2] = "D-2.3 is locked.";
-				options_count += 1;
+				options_count = 3;
 			}
 			break;
 		case "D-2.3 is locked.":
 			Obj_Dialogue.response = "Chunk may be in trouble. I have the spare key. Here, you can use it.";
+			inventory_Add(Obj_Player, Obj_Player.inventory, Obj_Player.inventory_size, item.ChunkKey);
 			break;
 	}
 } 

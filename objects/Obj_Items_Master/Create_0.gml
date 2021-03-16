@@ -48,6 +48,17 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
 			
+		case item.ChunkKey:
+			ItemsMaster[i][itemstats.name]  = "Chunk's key";
+			ItemsMaster[i][itemstats.sprite] = Spr_ChunkKey;
+			ItemsMaster[i][itemstats.description] = "A fancy room key with electronic encryption.";
+			ItemsMaster[i][itemstats.weight] = 0;
+			ItemsMaster[i][itemstats.worth]  = 0;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+			
 		case item.coin:
 			ItemsMaster[i][itemstats.name]   = "coin";
 			ItemsMaster[i][itemstats.sprite] = Spr_Coin;
