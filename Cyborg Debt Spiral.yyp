@@ -115,6 +115,7 @@
     {"id":{"name":"Obj_GateGuard","path":"objects/Obj_GateGuard/Obj_GateGuard.yy",},"order":0,},
     {"id":{"name":"Spr_C22","path":"sprites/Spr_C22/Spr_C22.yy",},"order":29,},
     {"id":{"name":"Obj_C21","path":"objects/Obj_C21/Obj_C21.yy",},"order":28,},
+    {"id":{"name":"Obj_QuestTracker","path":"objects/Obj_QuestTracker/Obj_QuestTracker.yy",},"order":45,},
     {"id":{"name":"Obj_D33","path":"objects/Obj_D33/Obj_D33.yy",},"order":46,},
     {"id":{"name":"Spr_A13","path":"sprites/Spr_A13/Spr_A13.yy",},"order":2,},
     {"id":{"name":"Spr_A33","path":"sprites/Spr_A33/Spr_A33.yy",},"order":10,},

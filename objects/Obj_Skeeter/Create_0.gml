@@ -60,8 +60,7 @@ function dialogue(topic){
 			Obj_Dialogue.response = "No you didn't.";
 		} break;
 		case "You've got your drink, tell me what you know.":
-			Obj_Barkeep.dialogue_options[1] = "I heard someone was trying to sell a firearm here";
-			Obj_Barkeep.options_count += 1;
+			Obj_QuestTracker.quest_update("Skeeter");
 			Obj_Dialogue.response = "Overheard a guy trying to sell a gun at the bar. Didn't recognize him.\nTry asking bar tender about him. (suspect description aquired)";
 			dialogue_options[0] = "Tell me what you know again."; break;
 		case "Tell me what you know again.":

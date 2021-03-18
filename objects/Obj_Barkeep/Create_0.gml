@@ -28,11 +28,12 @@ function dialogue(topic){
 			global.CALLING_INSTANCE = id;
 			instance_create_layer(x,y,"UI_Windows",Obj_Inventory_Swap);
 			Obj_Inventory_Swap.commerce = true;
-			instance_destroy(Obj_Dialogue); break;
+			instance_destroy(Obj_Dialogue);
+			break;
 
 		case "I heard someone was trying to sell a firearm here":
 			Obj_Dialogue.response = "I don't need trouble and I don't know anything about that.\nSome weirdo was in here chatting up my regulars a few days ago.\nTry asking Ernie, right over there."
-			Obj_Ernie.dialogue_options[1] = "I heard someone was trying to sell a gun";
-			Obj_Ernie.options_count += 1; break;
+			Obj_QuestTracker.quest_update("Barkeep");
+			break;
 	}
 } 

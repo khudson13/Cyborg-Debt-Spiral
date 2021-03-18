@@ -12,10 +12,6 @@ slots_filled = 0;
 dialogue_options = ["Hello"];
 options_count = 1;
 
-// If both these are true the player can ask for the key.
-clue_given = false;
-door_checked = false;
-
 // Dialogue function returns appropriate response to each topic,
 // executes relevant actions, and updates topic array in dialogue 
 // interface as needed
@@ -25,10 +21,7 @@ function dialogue(topic){
 			Obj_Dialogue.response = "Hello, I'm Baxter."; break;
 		case "Heard someone tried to sell you a gun":
 			Obj_Dialogue.response = "Yeah, but I didn't hang around. Don't need that kind of trouble.\nI think the name was Albert. When I left, Chunk was still listening. Lives over in D-2.3.";
-			if (Obj_Player.found_lock == true){
-				dialogue_options[2] = "D-2.3 is locked.";
-				options_count = 3;
-			}
+			Obj_QuestTracker.quest_update("Baxter");
 			break;
 		case "D-2.3 is locked.":
 			Obj_Dialogue.response = "Chunk may be in trouble. I have the spare key. Here, you can use it.";

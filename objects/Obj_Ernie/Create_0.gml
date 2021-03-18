@@ -19,11 +19,12 @@ options_count = 1;
 function dialogue(topic){
 	switch(topic){
 		case "Hello":
-			Obj_Dialogue.response = "Hello, I'm Ernie."; break;
+			Obj_Dialogue.response = "Hello, I'm Ernie.";
+			break;
 		case "I heard someone was trying to sell a gun":
 			Obj_Dialogue.response = "I remember seeing that guy. He was talking mostly to Baxter and... someone else.\nI forget who. Baxter works the algae refinery.";
-			Obj_Baxter.dialogue_options[1] = "Heard someone tried to sell you a gun";
-			Obj_Baxter.options_count += 1; break;
+			Obj_QuestTracker.quest_update("Ernie");
+			break;
 	}
 } 
 
