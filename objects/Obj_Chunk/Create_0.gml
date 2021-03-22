@@ -4,9 +4,14 @@
 
 NPC_name = "Chunk";
 
+alive = false;
+
 // NPC inventory. 
-inventory = inventory_create(19);
-slots_filled = 0;
+inventory_size = 19;
+inventory = inventory_create(inventory_size);
+slots_filled = 1;
+inventory[0][0] = item.OldBogSweat;
+inventory[0][1] = 2;
 
 // NPC default dialogue choices, populated from NPC master array
 dialogue_options = ["Hello"];

@@ -3,6 +3,8 @@
 
 NPC_name = "Barkeep";
 
+alive = true;
+
 // NPC inventory. 
 inventory_size= 19
 inventory = inventory_create(inventory_size);

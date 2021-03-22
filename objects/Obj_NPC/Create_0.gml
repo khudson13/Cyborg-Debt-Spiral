@@ -4,6 +4,8 @@
 
 NPC_name = "nobody";
 
+alive = true;
+
 // NPC inventory. 
 inventory = inventory_create(19);
 slots_filled = 0;

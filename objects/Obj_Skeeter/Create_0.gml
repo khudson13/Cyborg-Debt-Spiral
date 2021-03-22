@@ -3,6 +3,8 @@
 
 NPC_name = "Skeeter";
 
+alive = true;
+
 // NPC inventory. Everybody has something.
 // This will be populated from a master NPC array similar to the items array
 inventory = [];

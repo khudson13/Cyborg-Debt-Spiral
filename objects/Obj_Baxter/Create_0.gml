@@ -4,8 +4,11 @@
 
 NPC_name = "Baxter";
 
+alive = true;
+
 // NPC inventory. 
-inventory = inventory_create(19);
+inventory_size = 19;
+inventory = inventory_create(inventory_size);
 slots_filled = 0;
 
 // NPC default dialogue choices, populated from NPC master array

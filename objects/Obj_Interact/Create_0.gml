@@ -36,8 +36,15 @@ if (totalCount == 1){
 		
 	//IF NPC	
 	else if (npcCount == 1){
-		instance_create_layer(Obj_Player.x,Obj_Player.y,"UI_Windows",Obj_Dialogue);
-		instance_destroy(self);}
+		if (npc[| 0].alive == true){
+			instance_create_layer(Obj_Player.x,Obj_Player.y,"UI_Windows",Obj_Dialogue);
+		}
+		else{
+			global.CALLING_INSTANCE = npc[| 0];
+			instance_create_layer(x,y,"UI_Windows",Obj_Inventory_Swap);
+		}
+		instance_destroy(self);
+	}
 		
 	//IF FURNITURE
 	else if (furnitureCount == 1){
