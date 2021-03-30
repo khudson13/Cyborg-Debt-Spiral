@@ -103,6 +103,17 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
 			
+		case item.Manhole_Key:
+			ItemsMaster[i][itemstats.name]   = "Unusual Key";
+			ItemsMaster[i][itemstats.sprite] = Spr_ManholeKey;
+			ItemsMaster[i][itemstats.description] = "You're not sure what this opens, but it's probably important.";
+			ItemsMaster[i][itemstats.weight] = 0;
+			ItemsMaster[i][itemstats.worth]  = 0;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+			
 		case item.nothing:
 			ItemsMaster[i][itemstats.name]   = "nothing";
 			ItemsMaster[i][itemstats.sprite] = Spr_Fail;

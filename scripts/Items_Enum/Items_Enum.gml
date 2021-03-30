@@ -20,6 +20,7 @@ enum item{
 	
 	// KEYS
 	ChunkKey,
+	Manhole_Key,
 	
 	// WEAPONS
 	combat_kife,

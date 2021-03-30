@@ -72,9 +72,9 @@ function inventory_Remove(droppingInstance,inventoryIndex){
 }
 
 // check to see if an item is in an inventory
-function has_item(item,inventory_list,inventory_length){
-	for (var i = 0; i < inventory_length; ++i;){
-		if (inventory_list[i][0] == item){return true;}
+function has_item(item,inventory,inventory_size){
+	for (var i = 0; i < inventory_size; ++i;){
+		if (inventory[i][0] == item){return true;}
 	}
 	return false;
 }

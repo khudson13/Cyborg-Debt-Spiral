@@ -10,8 +10,8 @@ alive = false;
 inventory_size = 19;
 inventory = inventory_create(inventory_size);
 slots_filled = 1;
-inventory[0][0] = item.OldBogSweat;
-inventory[0][1] = 2;
+inventory[0][0] = item.Manhole_Key;
+inventory[0][1] = 1;
 
 // NPC default dialogue choices, populated from NPC master array
 dialogue_options = ["Hello"];
