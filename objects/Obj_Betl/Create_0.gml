@@ -1,7 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-NPC_name = "Crump";
+NPC_name = "Betl";
 
 alive = true;
 
@@ -13,11 +10,13 @@ slots_filled = 0;
 dialogue_options = ["Hello"];
 options_count = 1;
 
-
+// Dialogue function returns appropriate response to each topic,
+// executes relevant actions, and updates topic array in dialogue 
+// interface as needed
 function dialogue(topic){
 	switch(topic){
 		case "Hello":
-			Obj_Dialogue.response = "Hello, I'm Crump. I'd kill you if my programmer world hurry up\nand teach me how to.";
+			Obj_Dialogue.response = "I'm Betl, the shopkeeper. I'm not fully implemented yet.";
 			break;
 	}
 }
