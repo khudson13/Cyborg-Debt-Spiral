@@ -63,6 +63,9 @@ if (subaccess != -1){
 		access = -1;
 		io_clear();
 	}
+	if (Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess] == "use"){
+		/* set all other commands to run a switch case function in the specific item Obj
+	}
 }
 
 // Prevent base inventory selection from going out of bounds

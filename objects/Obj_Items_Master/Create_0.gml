@@ -92,6 +92,17 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
 			
+		case item.Fingerprint_Scanner:
+			ItemsMaster[i][itemstats.name]   = "Fingerprint Scanner";
+			ItemsMaster[i][itemstats.sprite] = Spr_Fingerprint_Scanner;
+			ItemsMaster[i][itemstats.description] = "This is a small, card shaped scanner capable of analyzing\nfingerprints from any surface.";
+			ItemsMaster[i][itemstats.weight] = 1;
+			ItemsMaster[i][itemstats.worth]  = 15;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+			
 		case item.homemade_knife:
 			ItemsMaster[i][itemstats.name]   = "homemade knife";
 			ItemsMaster[i][itemstats.sprite] = Spr_Homemade_Knife;

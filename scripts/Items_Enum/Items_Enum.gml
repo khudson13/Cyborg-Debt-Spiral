@@ -22,6 +22,9 @@ enum item{
 	ChunkKey,
 	Manhole_Key,
 	
+	// FORENSIC TOOS
+	Fingerprint_Scanner,
+	
 	// WEAPONS
 	combat_kife,
 	homemade_knife,
