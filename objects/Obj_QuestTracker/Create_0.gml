@@ -2,8 +2,21 @@
 
 // Variables and functions for measuring progress on investigation
 
-baxter_investigation = false; // asked Baxter about the gun
-found_lock = false;           // found locked door
+/* EVIDENCE ARRAY
+
+A simple array of boolean values indicating whether a given piece of evidence has been found.
+Indexes indicate evidence as follows:
+0 = asked Baxter about the gun
+1 = found the locked door at the murder scene
+2 = found murderer fingerprints
+3 = found Crump's fingerprints
+4 = matched murderer fingerprints to Crump
+*/
+
+evidence_array = [];
+for (var i = 0; i <= 4; ++i){
+	evidence_array[i] = false;
+}
 
 // Updates witness dialogues and variables as evidence is uncovered
 function quest_update(evidence){
@@ -21,15 +34,15 @@ function quest_update(evidence){
 			Obj_Baxter.options_count += 1;
 			break;
 		case "Baxter":
-			baxter_investigation = true;
-			if (found_lock == true){
+			evidence_array[0] = true;
+			if (evidence_array[1] == true){
 				Obj_Baxter.dialogue_options[2] = "D-2.3 is locked.";
 				Obj_Baxter.options_count = 3;
 			}
 			break;
 		case "D-2.3":
-			found_lock = true;
-			if (baxter_investigation == true){
+			evidence_array[1] = true;
+			if (evidence_array[0] == true){
 				Obj_Baxter.dialogue_options[2] = "D-2.3 is locked.";
 				Obj_Baxter.options_count = 3;
 			}

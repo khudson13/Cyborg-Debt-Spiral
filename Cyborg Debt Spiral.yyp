@@ -149,6 +149,7 @@
     {"id":{"name":"Spr_B22","path":"sprites/Spr_B22/Spr_B22.yy",},"order":17,},
     {"id":{"name":"Spr_B24","path":"sprites/Spr_B24/Spr_B24.yy",},"order":19,},
     {"id":{"name":"Spr_D34","path":"sprites/Spr_D34/Spr_D34.yy",},"order":47,},
+    {"id":{"name":"Obj_Word_Bubble","path":"objects/Obj_Word_Bubble/Obj_Word_Bubble.yy",},"order":46,},
     {"id":{"name":"Obj_A12","path":"objects/Obj_A12/Obj_A12.yy",},"order":1,},
     {"id":{"name":"Spr_OpenDoor_A","path":"sprites/Spr_OpenDoor_A/Spr_OpenDoor_A.yy",},"order":29,},
     {"id":{"name":"Spr_B12","path":"sprites/Spr_B12/Spr_B12.yy",},"order":13,},
