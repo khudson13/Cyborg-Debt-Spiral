@@ -63,8 +63,9 @@ if (subaccess != -1){
 		access = -1;
 		io_clear();
 	}
-	if (Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess] == "use"){
-		Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.object].use_case("use");
+	else if (Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess] == "use"){
+		io_clear();
+		asset_get_index(Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.object]).use_case("use");
 	}
 }
 

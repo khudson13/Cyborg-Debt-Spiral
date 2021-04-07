@@ -96,7 +96,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 		case item.Fingerprint_Scanner:
 			ItemsMaster[i][itemstats.name]   = "Fingerprint Scanner";
 			ItemsMaster[i][itemstats.sprite] = Spr_Fingerprint_Scanner;
-			ItemsMaster[i][itemstats.object] = Obj_Fingerprint_Scanner;
+			ItemsMaster[i][itemstats.object] = "Obj_Fingerprint_Scanner";
 			ItemsMaster[i][itemstats.description] = "This is a small, card shaped scanner capable of analyzing\nfingerprints from any surface.";
 			ItemsMaster[i][itemstats.weight] = 1;
 			ItemsMaster[i][itemstats.worth]  = 15;

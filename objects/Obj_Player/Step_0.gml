@@ -27,14 +27,17 @@ switch (keyboard_key)
 	case Obj_Control_Definitions.interact:
 		control = false;
 		instance_create_layer(x, y, "Instances", Obj_Interact);
-		io_clear();break;
+		io_clear();
+		break;
 		
 	// UI CONTROLS
 	
 	// open inventory
 	case Obj_Control_Definitions.inventory:
 		control = false;
-		instance_create_layer(x,y,layer_get_id("UI_Windows"), Obj_Inventory_window); break;
+		instance_create_layer(x, y, "UI_Windows", Obj_Inventory_window); 
+		io_clear();
+		break;
 	
 }
 }
