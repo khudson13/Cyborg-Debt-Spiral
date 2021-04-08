@@ -10,7 +10,6 @@ weight of a coin you'd just access ItemsMaster[item.coin][itemstats.weight]
 		case item.:
 			ItemsMaster[i][itemstats.name]   = "";
 			ItemsMaster[i][itemstats.sprite] = Spr_;
-			ItemsMaster[i][itemstats.object] = Obj_;
 			ItemsMaster[i][itemstats.description] = "";
 			ItemsMaster[i][itemstats.weight] = ;
 			ItemsMaster[i][itemstats.worth]  = ;
@@ -96,14 +95,16 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 		case item.Fingerprint_Scanner:
 			ItemsMaster[i][itemstats.name]   = "Fingerprint Scanner";
 			ItemsMaster[i][itemstats.sprite] = Spr_Fingerprint_Scanner;
-			ItemsMaster[i][itemstats.object] = "Obj_Fingerprint_Scanner";
 			ItemsMaster[i][itemstats.description] = "This is a small, card shaped scanner capable of analyzing\nfingerprints from any surface.";
 			ItemsMaster[i][itemstats.weight] = 1;
 			ItemsMaster[i][itemstats.worth]  = 15;
 			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
-			ItemsMaster[i][itemstats.menu][1] = "look";
-			ItemsMaster[i][itemstats.menu][2] = "use"
+			ItemsMaster[i][itemstats.menu][1] = "use"
+			ItemsMaster[i][itemstats.menu][2] = "look";
 			ItemsMaster[i][itemstats.menu][3] = "drop";
+			ItemsMaster[i][itemstats.functions][0] = "use";
+			ItemsMaster[i][itemstats.functions][1] = advanced_Fingerprint_Scan;
+			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
 			break;
 			
 		case item.homemade_knife:

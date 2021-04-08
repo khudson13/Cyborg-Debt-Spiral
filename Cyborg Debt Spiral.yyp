@@ -223,6 +223,7 @@
     {"id":{"name":"Obj_C22","path":"objects/Obj_C22/Obj_C22.yy",},"order":29,},
     {"id":{"name":"Spr_A22","path":"sprites/Spr_A22/Spr_A22.yy",},"order":5,},
     {"id":{"name":"Obj_Furniture_Manager","path":"objects/Obj_Furniture_Manager/Obj_Furniture_Manager.yy",},"order":35,},
+    {"id":{"name":"Item_Scripts","path":"scripts/Item_Scripts/Item_Scripts.yy",},"order":3,},
     {"id":{"name":"Obj_Fingerprint_Scanner","path":"objects/Obj_Fingerprint_Scanner/Obj_Fingerprint_Scanner.yy",},"order":12,},
     {"id":{"name":"Obj_Inventory_window","path":"objects/Obj_Inventory_window/Obj_Inventory_window.yy",},"order":9,},
     {"id":{"name":"Spr_Bed_D","path":"sprites/Spr_Bed_D/Spr_Bed_D.yy",},"order":3,},

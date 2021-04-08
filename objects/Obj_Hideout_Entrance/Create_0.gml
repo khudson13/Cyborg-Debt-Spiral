@@ -17,7 +17,7 @@ function furnitureFill(instance){
 				locked = false;
 			}
 			if (locked == false){
-				Obj_Player.x = 5151;
+				Obj_Player.x = 5184;
 				Obj_Player.y = 10880;
 				Obj_Player.control = true;
 				instance_destroy(Obj_Furniture_Manager);

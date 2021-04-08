@@ -63,10 +63,11 @@ if (subaccess != -1){
 		access = -1;
 		io_clear();
 	}
-	else if (Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess] == "use"){
+	else if (Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess] != "look"){
 		io_clear();
-		asset_get_index(Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.object]).use_case("use");
+		item_Script_Exec(inventory[selected_index][0], Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess]);
 	}
+	
 }
 
 // Prevent base inventory selection from going out of bounds

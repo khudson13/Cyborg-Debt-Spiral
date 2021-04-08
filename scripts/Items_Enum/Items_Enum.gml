@@ -50,11 +50,11 @@ enum itemstats{
 	
 	name,
 	sprite,
-	object,
 	description,
 	weight,
 	worth,
 	menu,
+	functions,
 	
 	nomore
 	
