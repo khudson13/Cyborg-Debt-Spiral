@@ -11,6 +11,21 @@ function item_Script_Exec(item, command){
 	}
 }
 
+function advanced_Ballistic_Analysis(){
+	if (place_meeting(Obj_Player.x, Obj_Player.y, Obj_RoomD23)){
+		Obj_QuestTracker.evidence_array[2] = true;
+		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
+		Obj_Word_Bubble.content = "Found murder weapon ballistics. Ready to match. Debris found in wounds is consistent\nwith a shrapnel gun. Deadly at short range, but very slow to reload between shots.";
+		instance_destroy(Obj_Inventory_window);
+		}
+	
+	else{
+		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
+		Obj_Word_Bubble.content = "Nothing to analyze.";
+		instance_destroy(Obj_Inventory_window);
+	}
+}
+
 function advanced_Fingerprint_Scan(){
 
 	if (place_meeting(Obj_Player.x, Obj_Player.y, Obj_RoomD23)){

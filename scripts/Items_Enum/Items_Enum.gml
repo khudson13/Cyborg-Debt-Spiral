@@ -23,6 +23,7 @@ enum item{
 	Manhole_Key,
 	
 	// FORENSIC TOOS
+	Ballistic_Analysis_Kit,
 	Fingerprint_Scanner,
 	
 	// WEAPONS

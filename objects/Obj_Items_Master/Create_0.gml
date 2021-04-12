@@ -16,6 +16,9 @@ weight of a coin you'd just access ItemsMaster[item.coin][itemstats.weight]
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
+			ItemsMaster[i][itemstats.functions][0] = "";
+			ItemsMaster[i][itemstats.functions][1] = ;
+			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
 			break;
 */
 
@@ -25,6 +28,21 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 	
 	// Stats for all the items, organized by category and in alphabetical order
 	switch(i){
+		
+		case item.Ballistic_Analysis_Kit:
+			ItemsMaster[i][itemstats.name]   = "Ballistic Analysis Kit";
+			ItemsMaster[i][itemstats.sprite] = Spr_Ballistic_Analysis_Kit;
+			ItemsMaster[i][itemstats.description] = "A kit with a variety of tools and references for analyzing\nboth firearms and impacts by their munitions.";
+			ItemsMaster[i][itemstats.weight] = 1;
+			ItemsMaster[i][itemstats.worth]  = 20;
+			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "use";
+			ItemsMaster[i][itemstats.menu][2] = "look";
+			ItemsMaster[i][itemstats.menu][3] = "drop";
+			ItemsMaster[i][itemstats.functions][0] = "use";
+			ItemsMaster[i][itemstats.functions][1] = advanced_Ballistic_Analysis;
+			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
+			break;
 		
 		case item.BiscuitWash:
 			ItemsMaster[i][itemstats.name]   = "Biscuit Wash";
