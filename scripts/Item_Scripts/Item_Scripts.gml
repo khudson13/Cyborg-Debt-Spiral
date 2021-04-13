@@ -26,6 +26,21 @@ function advanced_Ballistic_Analysis(){
 	}
 }
 
+function advanced_Blood_Analysis(){
+	if (place_meeting(Obj_Player.x, Obj_Player.y, Obj_RoomD23)){
+		Obj_QuestTracker.evidence_array[2] = true;
+		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
+		Obj_Word_Bubble.content = "Blood sample matched to victim. No other samples present.";
+		instance_destroy(Obj_Inventory_window);
+		}
+	
+	else{
+		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
+		Obj_Word_Bubble.content = "Nothing to analyze.";
+		instance_destroy(Obj_Inventory_window);
+	}
+}
+
 function advanced_Fingerprint_Scan(){
 
 	if (place_meeting(Obj_Player.x, Obj_Player.y, Obj_RoomD23)){
@@ -38,6 +53,21 @@ function advanced_Fingerprint_Scan(){
 	else{
 		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
 		Obj_Word_Bubble.content = "No fingerprints found.";
+		instance_destroy(Obj_Inventory_window);
+	}
+}
+
+function advanced_Investigation(){
+	if (place_meeting(Obj_Player.x, Obj_Player.y, Obj_RoomD23)){
+		Obj_QuestTracker.evidence_array[2] = true;
+		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
+		Obj_Word_Bubble.content = "Completed analysis of crime scene. No apparent signs of struggle. Victim taken by surprise and killed by a single shot.";
+		instance_destroy(Obj_Inventory_window);
+		}
+	
+	else{
+		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
+		Obj_Word_Bubble.content = "Nothing to investigate.";
 		instance_destroy(Obj_Inventory_window);
 	}
 }

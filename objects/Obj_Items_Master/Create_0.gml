@@ -44,6 +44,21 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
 			break;
 		
+		case item.Blood_Analysis_Kit:
+			ItemsMaster[i][itemstats.name]   = "Blood Analysis Kit";
+			ItemsMaster[i][itemstats.sprite] = Spr_Blood_Analysis_Kit;
+			ItemsMaster[i][itemstats.description] = "A forensic kit of analyzing and matching samples of blood, both fresh and dried.";
+			ItemsMaster[i][itemstats.weight] = 1;
+			ItemsMaster[i][itemstats.worth]  = 10;
+			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "use";
+			ItemsMaster[i][itemstats.menu][2] = "look";
+			ItemsMaster[i][itemstats.menu][3] = "drop";
+			ItemsMaster[i][itemstats.functions][0] = "use";
+			ItemsMaster[i][itemstats.functions][1] = advanced_Blood_Analysis;
+			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
+			break;
+		
 		case item.BiscuitWash:
 			ItemsMaster[i][itemstats.name]   = "Biscuit Wash";
 			ItemsMaster[i][itemstats.sprite] = Spr_Biscuit_Wash;
@@ -99,7 +114,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
 			
-			case item.empty_bottle:
+		case item.empty_bottle:
 			ItemsMaster[i][itemstats.name]   = "Empty Bottle";
 			ItemsMaster[i][itemstats.sprite] = Spr_Empty_Bottle_A;
 			ItemsMaster[i][itemstats.description] = "An old glass bottle. Recyclable!";
@@ -134,6 +149,21 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+			
+		case item.Investigator_Kit:
+			ItemsMaster[i][itemstats.name]   = "Investigator Kit";
+			ItemsMaster[i][itemstats.sprite] = Spr_Investigator_Kit;
+			ItemsMaster[i][itemstats.description] = "A case full of various useful tools for investigating a crime scene.";
+			ItemsMaster[i][itemstats.weight] = 1;
+			ItemsMaster[i][itemstats.worth]  = 10;
+			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "use";
+			ItemsMaster[i][itemstats.menu][2] = "look";
+			ItemsMaster[i][itemstats.menu][3] = "drop";
+			ItemsMaster[i][itemstats.functions][0] = "use";
+			ItemsMaster[i][itemstats.functions][1] = advanced_Investigation;
+			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
 			break;
 			
 		case item.Manhole_Key:

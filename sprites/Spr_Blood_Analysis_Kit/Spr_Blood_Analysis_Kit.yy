@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 17,
+  "bbox_left": 20,
   "bbox_right": 46,
-  "bbox_top": 22,
-  "bbox_bottom": 36,
+  "bbox_top": 23,
+  "bbox_bottom": 39,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"26ee55db-18b4-4a73-8225-15399ec61c12","path":"sprites/Spr_Ballistic_Analysis_Kit/Spr_Ballistic_Analysis_Kit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"26ee55db-18b4-4a73-8225-15399ec61c12","path":"sprites/Spr_Ballistic_Analysis_Kit/Spr_Ballistic_Analysis_Kit.yy",},"LayerId":{"name":"6d34662b-52e4-48d2-b660-13f66b5b81af","path":"sprites/Spr_Ballistic_Analysis_Kit/Spr_Ballistic_Analysis_Kit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Ballistic_Analysis_Kit","path":"sprites/Spr_Ballistic_Analysis_Kit/Spr_Ballistic_Analysis_Kit.yy",},"resourceVersion":"1.0","name":"26ee55db-18b4-4a73-8225-15399ec61c12","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8f5b6715-5422-43d1-9e00-a104c83345c8","path":"sprites/Spr_Blood_Analysis_Kit/Spr_Blood_Analysis_Kit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8f5b6715-5422-43d1-9e00-a104c83345c8","path":"sprites/Spr_Blood_Analysis_Kit/Spr_Blood_Analysis_Kit.yy",},"LayerId":{"name":"79935db9-9eb4-4e75-8712-e376fe06ab5d","path":"sprites/Spr_Blood_Analysis_Kit/Spr_Blood_Analysis_Kit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Blood_Analysis_Kit","path":"sprites/Spr_Blood_Analysis_Kit/Spr_Blood_Analysis_Kit.yy",},"resourceVersion":"1.0","name":"8f5b6715-5422-43d1-9e00-a104c83345c8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Ballistic_Analysis_Kit","path":"sprites/Spr_Ballistic_Analysis_Kit/Spr_Ballistic_Analysis_Kit.yy",},
+    "spriteId": {"name":"Spr_Blood_Analysis_Kit","path":"sprites/Spr_Blood_Analysis_Kit/Spr_Blood_Analysis_Kit.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c8e698e8-b5f0-40be-a69b-e739ed5f5f2a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"26ee55db-18b4-4a73-8225-15399ec61c12","path":"sprites/Spr_Ballistic_Analysis_Kit/Spr_Ballistic_Analysis_Kit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a687c645-92a1-4727-bbb7-7189bc6c0aa2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8f5b6715-5422-43d1-9e00-a104c83345c8","path":"sprites/Spr_Blood_Analysis_Kit/Spr_Blood_Analysis_Kit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Ballistic_Analysis_Kit","path":"sprites/Spr_Ballistic_Analysis_Kit/Spr_Ballistic_Analysis_Kit.yy",},
+    "parent": {"name":"Spr_Blood_Analysis_Kit","path":"sprites/Spr_Blood_Analysis_Kit/Spr_Blood_Analysis_Kit.yy",},
     "resourceVersion": "1.3",
-    "name": "Spr_Ballistic_Analysis_Kit",
+    "name": "Spr_Blood_Analysis_Kit",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6d34662b-52e4-48d2-b660-13f66b5b81af","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"79935db9-9eb4-4e75-8712-e376fe06ab5d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_Ballistic_Analysis_Kit",
+  "name": "Spr_Blood_Analysis_Kit",
   "tags": [],
   "resourceType": "GMSprite",
 }

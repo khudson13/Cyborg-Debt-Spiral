@@ -24,7 +24,9 @@ enum item{
 	
 	// FORENSIC TOOS
 	Ballistic_Analysis_Kit,
+	Blood_Analysis_Kit,
 	Fingerprint_Scanner,
+	Investigator_Kit,
 	
 	// WEAPONS
 	combat_kife,
