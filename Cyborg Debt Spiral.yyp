@@ -170,6 +170,7 @@
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
     {"id":{"name":"Spr_A24","path":"sprites/Spr_A24/Spr_A24.yy",},"order":7,},
     {"id":{"name":"Spr_ManholeCover","path":"sprites/Spr_ManholeCover/Spr_ManholeCover.yy",},"order":14,},
+    {"id":{"name":"Obj_Hideout","path":"objects/Obj_Hideout/Obj_Hideout.yy",},"order":3,},
     {"id":{"name":"Spr_C13","path":"sprites/Spr_C13/Spr_C13.yy",},"order":26,},
     {"id":{"name":"Spr_B33","path":"sprites/Spr_B33/Spr_B33.yy",},"order":22,},
     {"id":{"name":"Spr_Bed_F","path":"sprites/Spr_Bed_F/Spr_Bed_F.yy",},"order":5,},

@@ -16,12 +16,10 @@ Indexes indicate evidence as follows:
 7 = matched murder weapon to victim
 8 = analyzed crime scene (general analysis)
 9 = analyzed crime scene blood sample
-10 = matched blood sample to victim
-11 = blood analysis unproductive
 */
 
 evidence_array = [];
-for (var i = 0; i <= 11; ++i){
+for (var i = 0; i <= 9; ++i){
 	evidence_array[i] = false;
 }
 
