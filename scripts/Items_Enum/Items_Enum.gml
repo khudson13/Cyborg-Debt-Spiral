@@ -30,7 +30,9 @@ enum item{
 	
 	// WEAPONS
 	combat_kife,
+	Gun,
 	homemade_knife,
+	
 	
 	
 	// GARBAGE - SCENERY

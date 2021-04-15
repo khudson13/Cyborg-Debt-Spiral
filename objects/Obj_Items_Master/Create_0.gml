@@ -140,6 +140,20 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
 			break;
 			
+		case item.Gun:
+			ItemsMaster[i][itemstats.name]   = "Shrapnel Gun";
+			ItemsMaster[i][itemstats.sprite] = Spr_Gun;
+			ItemsMaster[i][itemstats.description] = "Little more than a pipe and an electronic trigger, but filled with scrap metal and an explosive charge it's absolutely deadly.\nExeptionally illegal, just having it is a death penalty. This can be turned in for a bounty.";
+			ItemsMaster[i][itemstats.weight] = 2;
+			ItemsMaster[i][itemstats.worth]  = 100;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			ItemsMaster[i][itemstats.functions][0] = "";
+			ItemsMaster[i][itemstats.functions][1] = 0;
+			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
+			break;
+			
 		case item.homemade_knife:
 			ItemsMaster[i][itemstats.name]   = "homemade knife";
 			ItemsMaster[i][itemstats.sprite] = Spr_Homemade_Knife;

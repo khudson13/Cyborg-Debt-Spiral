@@ -16,7 +16,7 @@ function advanced_Ballistic_Analysis(){
 		Obj_QuestTracker.evidence_array[5] = true;
 		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
 		if (Obj_QuestTracker.evidence_array[6] == true){
-			Obj_Word_Bubble.content = "Found murder weapon ballistics. Debris found in wounds is consistent\nwith a shrapnel gun. Deadly at short range, but very slow to reload between shots.\nFindings matched to murder weapon.";
+			Obj_Word_Bubble.content = "Found murder weapon ballistics. Debris found in wounds is consistent\nwith a shrapnel gun. Deadly at short range, but most are very slow to reload between shots.\nFindings matched to murder weapon.";
 		}
 		else{
 			Obj_Word_Bubble.content = "Found murder weapon ballistics. Debris found in wounds is consistent\nwith a shrapnel gun. Deadly at short range, but very slow to reload between shots.";
