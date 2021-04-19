@@ -133,6 +133,7 @@
     {"id":{"name":"Inventory_Functions","path":"scripts/Inventory_Functions/Inventory_Functions.yy",},"order":2,},
     {"id":{"name":"Spr_PaperTrash_B","path":"sprites/Spr_PaperTrash_B/Spr_PaperTrash_B.yy",},"order":25,},
     {"id":{"name":"R2_Demo_Level","path":"rooms/R2_Demo_Level/R2_Demo_Level.yy",},"order":1,},
+    {"id":{"name":"Spr_Gun_Blast","path":"sprites/Spr_Gun_Blast/Spr_Gun_Blast.yy",},"order":57,},
     {"id":{"name":"Spr_Computer_B","path":"sprites/Spr_Computer_B/Spr_Computer_B.yy",},"order":4,},
     {"id":{"name":"Spr_ChunkKey","path":"sprites/Spr_ChunkKey/Spr_ChunkKey.yy",},"order":48,},
     {"id":{"name":"Obj_B13","path":"objects/Obj_B13/Obj_B13.yy",},"order":14,},
