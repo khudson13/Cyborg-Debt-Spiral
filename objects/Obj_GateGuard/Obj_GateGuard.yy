@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_NPC",
-    "path": "sprites/Spr_NPC/Spr_NPC.yy",
+    "name": "Spr_Gate_Guard",
+    "path": "sprites/Spr_Gate_Guard/Spr_Gate_Guard.yy",
   },
   "solid": false,
   "visible": true,

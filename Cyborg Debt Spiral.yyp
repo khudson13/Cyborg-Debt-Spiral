@@ -145,6 +145,7 @@
     {"id":{"name":"Spr_A21","path":"sprites/Spr_A21/Spr_A21.yy",},"order":4,},
     {"id":{"name":"Obj_B12","path":"objects/Obj_B12/Obj_B12.yy",},"order":13,},
     {"id":{"name":"Obj_Impassable","path":"objects/Obj_Impassable/Obj_Impassable.yy",},"order":2,},
+    {"id":{"name":"Spr_Gate_Guard","path":"sprites/Spr_Gate_Guard/Spr_Gate_Guard.yy",},"order":58,},
     {"id":{"name":"Obj_Furniture","path":"objects/Obj_Furniture/Obj_Furniture.yy",},"order":6,},
     {"id":{"name":"Obj_C31","path":"objects/Obj_C31/Obj_C31.yy",},"order":32,},
     {"id":{"name":"Obj_Railing","path":"objects/Obj_Railing/Obj_Railing.yy",},"order":15,},
