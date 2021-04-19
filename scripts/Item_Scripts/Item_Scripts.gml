@@ -24,9 +24,9 @@ function advanced_Ballistic_Analysis(){
 	}
 	
 	else if (place_meeting(Obj_Player.x, Obj_Player.y, Obj_Hideout)){
-		Obj_QuestTracker.evidence_array[6] = true;
+		Obj_Quest_Tracker.evidence_array[6] = true;
 		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
-		if (Obj_QuestTracker.evidence_array[5] == true){
+		if (Obj_Quest_Tracker.evidence_array[5] == true){
 			Obj_Word_Bubble.content = "Analyzed weapon ballistics. Weapon matched to murder scene.";
 		}
 		else{
@@ -44,7 +44,7 @@ function advanced_Ballistic_Analysis(){
 
 function advanced_Blood_Analysis(){
 	if (place_meeting(Obj_Player.x, Obj_Player.y, Obj_RoomD23)){
-		Obj_QuestTracker.evidence_array[9] = true;
+		Obj_Quest_Tracker.evidence_array[9] = true;
 		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
 		Obj_Word_Bubble.content = "Blood sample matched to victim. No other samples present. Inconclusive.";
 		instance_destroy(Obj_Inventory_window);
@@ -60,9 +60,9 @@ function advanced_Blood_Analysis(){
 function advanced_Fingerprint_Scan(){
 
 	if (place_meeting(Obj_Player.x, Obj_Player.y, Obj_RoomD23)){
-		Obj_QuestTracker.evidence_array[2] = true;
+		Obj_Quest_Tracker.evidence_array[2] = true;
 		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
-		if (Obj_QuestTracker.evidence_array[3] == true){
+		if (Obj_Quest_Tracker.evidence_array[3] == true){
 			Obj_Word_Bubble.content = "Found murder suspect fingerprints. Matched to Crump."
 		}
 		else{
@@ -72,9 +72,9 @@ function advanced_Fingerprint_Scan(){
 	}
 	
 	else if(place_meeting(Obj_Player.x, Obj_Player.y, Obj_Hideout)){
-		Obj_QuestTracker.evidence_array[3] = true;
+		Obj_Quest_Tracker.evidence_array[3] = true;
 		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
-		if (Obj_QuestTracker.evidence_array[2] == true){
+		if (Obj_Quest_Tracker.evidence_array[2] == true){
 			Obj_Word_Bubble.content = "Crump's fingerprints recorded, matched to murder scene.";
 		}
 		else{
@@ -92,7 +92,7 @@ function advanced_Fingerprint_Scan(){
 
 function advanced_Investigation(){
 	if (place_meeting(Obj_Player.x, Obj_Player.y, Obj_RoomD23)){
-		Obj_QuestTracker.evidence_array[8] = true;
+		Obj_Quest_Tracker.evidence_array[8] = true;
 		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
 		Obj_Word_Bubble.content = "Completed analysis of crime scene. No apparent signs of struggle. Victim taken by surprise and killed by a single shot.";
 		instance_destroy(Obj_Inventory_window);
