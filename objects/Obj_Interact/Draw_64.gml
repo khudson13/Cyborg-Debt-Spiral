@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 var display_y = Camera_Center_Y; // Menu centered in screen
 var menuCount = 0; // Menu item currently printing

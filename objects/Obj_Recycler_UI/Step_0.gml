@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 switch(keyboard_key){
 	case Obj_Control_Definitions.control_up:

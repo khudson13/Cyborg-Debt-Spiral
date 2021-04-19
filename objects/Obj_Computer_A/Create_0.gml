@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 name = "Computer";
 description = "Does this save time, or consume it?";

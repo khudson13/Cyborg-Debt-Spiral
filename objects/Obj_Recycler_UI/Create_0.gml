@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 display_height = 35; // Character tallness
 selected_index = 0;

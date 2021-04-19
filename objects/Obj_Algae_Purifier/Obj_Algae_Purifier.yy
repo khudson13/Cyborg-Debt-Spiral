@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "Spr_DrinkCan_A",
-    "path": "sprites/Spr_DrinkCan_A/Spr_DrinkCan_A.yy",
+    "name": "Spr_AlgaePurifier",
+    "path": "sprites/Spr_AlgaePurifier/Spr_AlgaePurifier.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Obj_Item",
-    "path": "objects/Obj_Item/Obj_Item.yy",
+    "name": "Obj_Furniture",
+    "path": "objects/Obj_Furniture/Obj_Furniture.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_DrinkCan","path":"objects/Obj_DrinkCan/Obj_DrinkCan.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Algae_Purifier","path":"objects/Obj_Algae_Purifier/Obj_Algae_Purifier.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Specific Items",
-    "path": "folders/Objects/Specific Items.yy",
+    "name": "Furniture",
+    "path": "folders/Objects/Furniture.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_DrinkCan",
+  "name": "Obj_Algae_Purifier",
   "tags": [],
   "resourceType": "GMObject",
 }

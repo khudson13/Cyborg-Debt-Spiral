@@ -1,17 +1,14 @@
-/// @description Variable definitions and decision code
-
-// FOR THE DEMO VERSION ALL NPC ATTRIBUTES ARE HARD CODED
 
 NPC_name = "Baxter";
 
 alive = true;
 
-// NPC inventory. 
+// NPC INVENTORY 
 inventory_size = 19;
 inventory = inventory_create(inventory_size);
 slots_filled = 0;
 
-// NPC default dialogue choices, populated from NPC master array
+// DIALOGUE STARTING OPTIONS
 dialogue_options = ["Hello"];
 options_count = 1;
 
@@ -24,7 +21,7 @@ function dialogue(topic){
 			Obj_Dialogue.response = "Hello, I'm Baxter."; break;
 		case "Heard someone tried to sell you a gun":
 			Obj_Dialogue.response = "Yeah, but I didn't hang around. Don't need that kind of trouble.\nI think the name was Albert. When I left, Chunk was still listening. Lives over in D-2.3.";
-			Obj_QuestTracker.quest_update("Baxter");
+			Obj_Quest_Tracker.quest_update("Baxter");
 			break;
 		case "D-2.3 is locked.":
 			Obj_Dialogue.response = "Chunk may be in trouble. I have the spare key. Here, you can use it.";

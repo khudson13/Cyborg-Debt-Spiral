@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 var display_y = 0; // Start drawing at upper left
 

@@ -1,17 +1,14 @@
-/// @description Variable definitions and decision code
-
-// FOR THE DEMO VERSION ALL NPC ATTRIBUTES ARE HARD CODED
 
 NPC_name = "Ernie";
 
 alive = true;
 
-// NPC inventory. 
+// NPC INVENTORY
 inventory_size = 19;
 inventory = inventory_create(inventory_size);
 slots_filled = 0;
 
-// NPC default dialogue choices, populated from NPC master array
+// DIALOGUE STARTING OPTIONS
 dialogue_options = ["Hello"];
 options_count = 1;
 
@@ -26,7 +23,7 @@ function dialogue(topic){
 			break;
 		case "I heard someone was trying to sell a gun":
 			Obj_Dialogue.response = "I remember seeing that guy. He was talking mostly to Baxter and... someone else.\nI forget who. Baxter works the algae refinery.";
-			Obj_QuestTracker.quest_update("Ernie");
+			Obj_Quest_Tracker.quest_update("Ernie");
 			break;
 	}
 } 

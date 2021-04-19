@@ -1,4 +1,3 @@
-/// @
 
 name = "Trash Eater";
 description = "This machine dispenses money for recyclable trash.";

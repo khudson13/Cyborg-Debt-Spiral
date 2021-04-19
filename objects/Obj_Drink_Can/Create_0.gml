@@ -1,7 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 ItemID = item.drink_can;
+
 randomize();
 var random_sprite = irandom(2);
 

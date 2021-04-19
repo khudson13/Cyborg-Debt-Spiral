@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 
 accessed_instance = global.CALLING_INSTANCE;		// Get ID of opened instance
 global.CALLING_INSTANCE = 0;						// Restore global to default

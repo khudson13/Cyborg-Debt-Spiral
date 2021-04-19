@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "Spr_Gate_Guard",
-    "path": "sprites/Spr_Gate_Guard/Spr_Gate_Guard.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Obj_NPC",
-    "path": "objects/Obj_NPC/Obj_NPC.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_GateGuard","path":"objects/Obj_GateGuard/Obj_GateGuard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Quest_Tracker","path":"objects/Obj_Quest_Tracker/Obj_Quest_Tracker.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Characters",
-    "path": "folders/Objects/Characters.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_GateGuard",
+  "name": "Obj_Quest_Tracker",
   "tags": [],
   "resourceType": "GMObject",
 }

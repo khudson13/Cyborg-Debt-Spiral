@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_AlgaePurifier",
-    "path": "sprites/Spr_AlgaePurifier/Spr_AlgaePurifier.yy",
+    "name": "Spr_AlgaeProcessor",
+    "path": "sprites/Spr_AlgaeProcessor/Spr_AlgaeProcessor.yy",
   },
   "solid": true,
   "visible": true,
@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_AlgaePurifier","path":"objects/Obj_AlgaePurifier/Obj_AlgaePurifier.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Algae_Processor","path":"objects/Obj_Algae_Processor/Obj_Algae_Processor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Furniture.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_AlgaePurifier",
+  "name": "Obj_Algae_Processor",
   "tags": [],
   "resourceType": "GMObject",
 }

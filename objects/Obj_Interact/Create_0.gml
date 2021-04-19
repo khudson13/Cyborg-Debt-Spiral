@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 itemCount = 0;      // How many items.
 npcCount = 0;       // How many npc's

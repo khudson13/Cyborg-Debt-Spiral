@@ -1,4 +1,3 @@
-/// @description Variable definitions and decision code
 
 // FOR THE DEMO VERSION ALL NPC ATTRIBUTES ARE HARD CODED
 
@@ -6,7 +5,7 @@ NPC_name = "nobody";
 
 alive = true;
 
-// NPC inventory. 
+// NPC INVENTORY
 inventory = inventory_create(19);
 slots_filled = 0;
 

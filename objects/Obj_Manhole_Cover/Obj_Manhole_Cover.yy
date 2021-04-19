@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "Spr_AlgaeFinisher",
-    "path": "sprites/Spr_AlgaeFinisher/Spr_AlgaeFinisher.yy",
+    "name": "Spr_ManholeCover",
+    "path": "sprites/Spr_ManholeCover/Spr_ManholeCover.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -24,16 +24,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_AlgaeFinisher","path":"objects/Obj_AlgaeFinisher/Obj_AlgaeFinisher.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Manhole_Cover","path":"objects/Obj_Manhole_Cover/Obj_Manhole_Cover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"Obj_Manhole_Cover","path":"objects/Obj_Manhole_Cover/Obj_Manhole_Cover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Furniture",
-    "path": "folders/Objects/Furniture.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_AlgaeFinisher",
+  "name": "Obj_Manhole_Cover",
   "tags": [],
   "resourceType": "GMObject",
 }

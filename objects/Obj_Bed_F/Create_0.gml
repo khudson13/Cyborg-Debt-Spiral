@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 name = "Bed";
 description = "In time, sleep comes for us all.";

@@ -5,7 +5,7 @@ NPC_name = "Barkeep";
 
 alive = true;
 
-// NPC inventory. 
+// NPC INVENTORY
 inventory_size= 19
 inventory = inventory_create(inventory_size);
 inventory[0][0] = item.OldBogSweat;
@@ -16,7 +16,7 @@ inventory[2][0] = item.BottledWater;
 inventory[2][1] = 20;
 slots_filled = 3;
 
-// NPC default dialogue choices, populated from NPC master array
+// DIALOGUE STARTING OPTIONS
 dialogue_options = ["What's on tap?"];
 options_count = 1;
 

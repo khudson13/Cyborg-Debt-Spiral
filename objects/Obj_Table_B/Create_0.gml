@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 name = "Table";
 description = "A place to eat, to work, to clutter.";

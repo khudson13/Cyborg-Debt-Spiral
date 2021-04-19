@@ -1,15 +1,13 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 NPC_name = "Crump";
 
 alive = true;
 
-// NPC inventory. 
+// NPC INVENTORY
 inventory = inventory_create(19);
 slots_filled = 0;
 
-// NPC default dialogue choices, populated from NPC master array
+// DIALOGUE STARTING OPTIONS
 dialogue_options = ["Hello"];
 options_count = 1;
 

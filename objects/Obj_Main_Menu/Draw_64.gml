@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 // Just a simple main menu for now, more to come.
 

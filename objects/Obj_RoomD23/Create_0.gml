@@ -1,5 +1,5 @@
-roomID = "D-2.2"; //Ident of unique room or category
 
+roomID = "D-2.2"; //Ident of unique room or category
 
 function furnitureFill(instance){
 	
@@ -13,7 +13,7 @@ function door(instance){
 	instance.access = function(){
 	
 	if (locked == true){
-		Obj_QuestTracker.quest_update("D-2.3");
+		Obj_Quest_Tracker.quest_update("D-2.3");
 		if (has_item(item.ChunkKey,Obj_Player.inventory,Obj_Player.inventory_size) == true){
 			locked = false;
 			}

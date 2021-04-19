@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 
 /*
 Base this on the inventory window GUI. The primary list outputs the dialogue options array, from

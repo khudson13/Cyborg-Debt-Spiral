@@ -1,7 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
 
-name = "Algae Purifier";
+name = "Algae Finisher";
 description = "Part of the algae processing system.";
 passable = false;
 hasInventory = false; 

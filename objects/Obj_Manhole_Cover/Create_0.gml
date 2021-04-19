@@ -1,3 +1,4 @@
+
 name = "Manhole Cover";
 description = "It's welded shut.";
 passable = true;

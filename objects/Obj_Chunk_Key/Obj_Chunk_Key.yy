@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_ManholeKey",
-    "path": "sprites/Spr_ManholeKey/Spr_ManholeKey.yy",
+    "name": "Spr_ChunkKey",
+    "path": "sprites/Spr_ChunkKey/Spr_ChunkKey.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_ManholeKey","path":"objects/Obj_ManholeKey/Obj_ManholeKey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Chunk_Key","path":"objects/Obj_Chunk_Key/Obj_Chunk_Key.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Specific Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_ManholeKey",
+  "name": "Obj_Chunk_Key",
   "tags": [],
   "resourceType": "GMObject",
 }
