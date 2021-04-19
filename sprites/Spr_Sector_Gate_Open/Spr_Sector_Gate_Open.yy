@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e8890683-0c4a-4bd9-b76e-5be89262537e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Doors",
+    "path": "folders/Sprites/Furniture/Doors.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_Sector_Gate_Open",

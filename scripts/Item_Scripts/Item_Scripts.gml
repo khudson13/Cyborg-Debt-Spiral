@@ -1,5 +1,4 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+// FUNCTIONS USED BY SPECIFIC ITEMS
 
 // Finds the desired function in ItemsMaster and runs it.
 function item_Script_Exec(item, command){
@@ -13,9 +12,9 @@ function item_Script_Exec(item, command){
 
 function advanced_Ballistic_Analysis(){
 	if (place_meeting(Obj_Player.x, Obj_Player.y, Obj_RoomD23)){
-		Obj_QuestTracker.evidence_array[5] = true;
+		Obj_Quest_Tracker.evidence_array[5] = true;
 		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
-		if (Obj_QuestTracker.evidence_array[6] == true){
+		if (Obj_Quest_Tracker.evidence_array[6] == true){
 			Obj_Word_Bubble.content = "Found murder weapon ballistics. Debris found in wounds is consistent\nwith a shrapnel gun. Deadly at short range, but most are very slow to reload between shots.\nFindings matched to murder weapon.";
 		}
 		else{

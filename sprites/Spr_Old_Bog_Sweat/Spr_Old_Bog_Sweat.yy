@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"04ef2701-935e-44f3-8f19-888e3209afa1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Specific Items",
+    "path": "folders/Sprites/Specific Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_Old_Bog_Sweat",

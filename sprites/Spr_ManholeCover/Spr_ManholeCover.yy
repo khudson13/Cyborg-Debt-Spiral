@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"53888a59-2c88-4f04-8184-e93ae99c75df","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Doors",
+    "path": "folders/Sprites/Furniture/Doors.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_ManholeCover",

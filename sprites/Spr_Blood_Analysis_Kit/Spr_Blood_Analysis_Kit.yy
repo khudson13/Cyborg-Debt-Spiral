@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"79935db9-9eb4-4e75-8712-e376fe06ab5d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Specific Items",
+    "path": "folders/Sprites/Specific Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_Blood_Analysis_Kit",

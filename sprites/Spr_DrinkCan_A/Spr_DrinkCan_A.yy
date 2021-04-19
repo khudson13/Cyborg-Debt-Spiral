@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b93adb21-ea2d-42ba-831b-48311c5b1cb6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Specific Items",
+    "path": "folders/Sprites/Specific Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_DrinkCan_A",

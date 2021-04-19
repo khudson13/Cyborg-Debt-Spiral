@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6d34662b-52e4-48d2-b660-13f66b5b81af","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Specific Items",
+    "path": "folders/Sprites/Specific Items.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_Ballistic_Analysis_Kit",

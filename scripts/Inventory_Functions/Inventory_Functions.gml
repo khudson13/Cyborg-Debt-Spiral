@@ -1,4 +1,5 @@
-
+// FUNCTIONS FOR CREATING, MANIPULATING, AND MANAGING CHARACTER AND
+// OBJECT INVENTORIES
 
 function inventory_create(size){
 	var inventory;
@@ -67,8 +68,7 @@ function inventory_Remove(droppingInstance,inventoryIndex){
 		droppingInstance.slots_filled -= 1;
 	}
 	
-//	if (Obj_Inventory_Swap.selected_index > 0){
-//		Obj_Inventory_Swap.selected_index -= 1;}
+
 }
 
 // check to see if an item is in an inventory

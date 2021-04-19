@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3a714ac8-12f9-4dd2-92b0-59de8fc42ad5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Doors",
+    "path": "folders/Sprites/Furniture/Doors.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_Door_A",

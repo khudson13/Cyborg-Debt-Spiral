@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ecaa62b2-89ef-4349-9b51-5536a4247eb8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Furniture",
+    "path": "folders/Sprites/Furniture.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_Railing",
