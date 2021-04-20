@@ -1,3 +1,3 @@
 
 Obj_Player.control = false;
-alarm[0] = 40;
+alarm[0] = 35;
