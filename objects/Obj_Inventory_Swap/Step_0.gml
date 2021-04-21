@@ -4,17 +4,21 @@ switch(keyboard_key)
 	case Obj_Control_Definitions.control_up:
 		selected_index -= 1; 
 		io_clear(); break;
+		
 	case Obj_Control_Definitions.control_down:
 		selected_index += 1; 
 		io_clear(); break;
+		
 	case Obj_Control_Definitions.control_right:
 		if (accessed_instance.slots_filled > 0){
 			column = 2;}
 		io_clear(); break;
+		
 	case Obj_Control_Definitions.control_left:
 		if (Obj_Player.slots_filled > 0){
 			column = 1;}
 		io_clear(); break;
+		
 	case Obj_Control_Definitions.interact:
 		if (column == 1){
 			// Gain money for selling
@@ -40,6 +44,7 @@ switch(keyboard_key)
 				insufficient_funds = true;}
 			if (accessed_instance.slots_filled == 0){
 				column = 1;} io_clear(); break;}
+				
 	case Obj_Control_Definitions.escape:
 		if (insufficient_funds == true){
 			insufficient_funds = false;

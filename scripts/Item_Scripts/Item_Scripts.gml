@@ -104,3 +104,21 @@ function advanced_Investigation(){
 		instance_destroy(Obj_Inventory_window);
 	}
 }
+
+function try_Decoy_Dummy(){
+	if (place_meeting(Obj_Player.x, Obj_Player.y, Obj_Hideout_Opportunity))
+	{
+		Obj_Hideout_Opportunity.checkDoor();
+		instance_create_layer(Obj_Crump.x - 64, Obj_Crump.y, "Instances", Obj_Gun_Blast);
+		Obj_Gun_Blast.decoy = true;
+		inventory_Remove(Obj_Player, get_item_index(Obj_Player.inventory, Obj_Player.inventory_size, item.Decoy_Dummy));
+		instance_destroy(Obj_Hideout_Killzone);
+	}
+	else
+	{
+		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
+		Obj_Word_Bubble.content = "No reason to use this here.";
+	}
+	
+	instance_destroy(Obj_Inventory_window);
+}

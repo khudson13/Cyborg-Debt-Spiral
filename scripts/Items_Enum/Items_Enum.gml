@@ -18,6 +18,9 @@ enum item{
 	BottledWater,
 	OldBogSweat,
 	
+	// CLOTHING
+	Body_Armor,
+	
 	// KEYS
 	ChunkKey,
 	Manhole_Key,
@@ -33,8 +36,6 @@ enum item{
 	Gun,
 	homemade_knife,
 	
-	
-	
 	// GARBAGE - SCENERY
 	garbage_start,
 	
@@ -44,6 +45,9 @@ enum item{
 	paper_trash_B,
 	
 	garbage_end,
+	
+	// MISC
+	Decoy_Dummy,
 	
 	// NULL TERMINATOR
 	nomore

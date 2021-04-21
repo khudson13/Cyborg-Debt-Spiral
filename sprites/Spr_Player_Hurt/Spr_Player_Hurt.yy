@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 18,
-  "bbox_right": 47,
-  "bbox_top": 11,
-  "bbox_bottom": 51,
+  "bbox_left": 19,
+  "bbox_right": 48,
+  "bbox_top": 14,
+  "bbox_bottom": 46,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c434ea86-eab2-444d-b0ce-f812ac17c404","path":"sprites/Spr_Crump/Spr_Crump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c434ea86-eab2-444d-b0ce-f812ac17c404","path":"sprites/Spr_Crump/Spr_Crump.yy",},"LayerId":{"name":"ec9b42f3-464a-4421-8557-5cc5e52071af","path":"sprites/Spr_Crump/Spr_Crump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Crump","path":"sprites/Spr_Crump/Spr_Crump.yy",},"resourceVersion":"1.0","name":"c434ea86-eab2-444d-b0ce-f812ac17c404","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6a201f3e-8ea7-4acd-bbc9-b097182d0f41","path":"sprites/Spr_Player_Hurt/Spr_Player_Hurt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6a201f3e-8ea7-4acd-bbc9-b097182d0f41","path":"sprites/Spr_Player_Hurt/Spr_Player_Hurt.yy",},"LayerId":{"name":"24ae85f0-e3ad-4f53-adf8-bb66ecd88642","path":"sprites/Spr_Player_Hurt/Spr_Player_Hurt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Player_Hurt","path":"sprites/Spr_Player_Hurt/Spr_Player_Hurt.yy",},"resourceVersion":"1.0","name":"6a201f3e-8ea7-4acd-bbc9-b097182d0f41","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Crump","path":"sprites/Spr_Crump/Spr_Crump.yy",},
+    "spriteId": {"name":"Spr_Player_Hurt","path":"sprites/Spr_Player_Hurt/Spr_Player_Hurt.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"29d75040-955d-426d-b4bb-11fcc4e5c817","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c434ea86-eab2-444d-b0ce-f812ac17c404","path":"sprites/Spr_Crump/Spr_Crump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d82f13f9-3afe-4051-bce3-762198da6131","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6a201f3e-8ea7-4acd-bbc9-b097182d0f41","path":"sprites/Spr_Player_Hurt/Spr_Player_Hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Crump","path":"sprites/Spr_Crump/Spr_Crump.yy",},
+    "parent": {"name":"Spr_Player_Hurt","path":"sprites/Spr_Player_Hurt/Spr_Player_Hurt.yy",},
     "resourceVersion": "1.3",
-    "name": "Spr_Crump",
+    "name": "Spr_Player_Hurt",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ec9b42f3-464a-4421-8557-5cc5e52071af","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"24ae85f0-e3ad-4f53-adf8-bb66ecd88642","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Characters",
     "path": "folders/Sprites/Characters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_Crump",
+  "name": "Spr_Player_Hurt",
   "tags": [],
   "resourceType": "GMSprite",
 }

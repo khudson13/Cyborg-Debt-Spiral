@@ -44,6 +44,17 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
 			break;
 		
+		case item.BiscuitWash:
+			ItemsMaster[i][itemstats.name]   = "Biscuit Wash";
+			ItemsMaster[i][itemstats.sprite] = Spr_Biscuit_Wash;
+			ItemsMaster[i][itemstats.description] = "Crude beer fermented from stale and moldy algae biscuits.";
+			ItemsMaster[i][itemstats.weight] = 1;
+			ItemsMaster[i][itemstats.worth]  = 5;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+		
 		case item.Blood_Analysis_Kit:
 			ItemsMaster[i][itemstats.name]   = "Blood Analysis Kit";
 			ItemsMaster[i][itemstats.sprite] = Spr_Blood_Analysis_Kit;
@@ -59,17 +70,17 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
 			break;
 		
-		case item.BiscuitWash:
-			ItemsMaster[i][itemstats.name]   = "Biscuit Wash";
-			ItemsMaster[i][itemstats.sprite] = Spr_Biscuit_Wash;
-			ItemsMaster[i][itemstats.description] = "Crude beer fermented from stale and moldy algae biscuits.";
-			ItemsMaster[i][itemstats.weight] = 1;
-			ItemsMaster[i][itemstats.worth]  = 5;
+		case item.Body_Armor:
+			ItemsMaster[i][itemstats.name]   = "Body Armor";
+			ItemsMaster[i][itemstats.sprite] = Spr_Body_Armor;
+			ItemsMaster[i][itemstats.description] = "Good, stury body armor. Should help prevent sudden death.";
+			ItemsMaster[i][itemstats.weight] = 10;
+			ItemsMaster[i][itemstats.worth]  = 20;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
-			
+		
 		case item.BottledWater:
 			ItemsMaster[i][itemstats.name]   = "Bottled Water";
 			ItemsMaster[i][itemstats.sprite] = Spr_Water_Bottle;
@@ -102,7 +113,22 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
-			
+		
+		case item.Decoy_Dummy:
+			ItemsMaster[i][itemstats.name]   = "Decoy Dummy";
+			ItemsMaster[i][itemstats.sprite] = Spr_Decoy_Dummy;
+			ItemsMaster[i][itemstats.description] = "It's a fake head on the end of a stick. It might fool someone who's jumpy enough or not paying attention.";
+			ItemsMaster[i][itemstats.weight] = 5;
+			ItemsMaster[i][itemstats.worth]  = 1;
+			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "use";
+			ItemsMaster[i][itemstats.menu][2] = "look";
+			ItemsMaster[i][itemstats.menu][3] = "drop";
+			ItemsMaster[i][itemstats.functions][0] = "use";
+			ItemsMaster[i][itemstats.functions][1] = try_Decoy_Dummy;
+			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
+			break;
+		
 		case item.drink_can:
 			ItemsMaster[i][itemstats.name]   = "drink can";
 			ItemsMaster[i][itemstats.sprite] = Spr_DrinkCan_A;

@@ -80,8 +80,8 @@ function has_item(item,inventory,inventory_size){
 }
 
 // find inventoy index of an item, return false if item absent
-function get_item_index(inventory, inventory_length, item){
-		for (var i = 0; i < inventory_length; ++i;){
+function get_item_index(inventory, inventory_size, item){
+		for (var i = 0; i < inventory_size; ++i;){
 		if (inventory[i][0] == item){return i;}
 	}
 	return false;

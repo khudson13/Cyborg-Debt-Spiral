@@ -8,14 +8,15 @@ inventory = inventory_create(19);
 slots_filled = 0;
 
 // DIALOGUE STARTING OPTIONS
-dialogue_options = ["Hello"];
+dialogue_options = ["You're under arrest!"];
 options_count = 1;
 
 
 function dialogue(topic){
 	switch(topic){
-		case "Hello":
-			Obj_Dialogue.response = "Hello, I'm Crump. I'd kill you if my programmer world hurry up\nand teach me how to.";
+		case "You're under arrest!":
+			Obj_Dialogue.response = "Gosh darn it, you got me!";
+			Obj_Quest_Tracker.evidence_array[10] = true;
 			break;
 	}
 }

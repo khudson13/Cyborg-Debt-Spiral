@@ -4,6 +4,10 @@
 prevX = x;
 prevY = y;
 
+// Placeholder health measure
+alive = true;
+injured = false;
+
 // True when currently controlling character and not inventory or something
 control = true;
 // Initialize Inventory - saves work by avoiding resizing later
