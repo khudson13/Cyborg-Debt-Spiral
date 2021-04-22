@@ -96,6 +96,7 @@
     {"id":{"name":"Obj_Algae_Processor","path":"objects/Obj_Algae_Processor/Obj_Algae_Processor.yy",},"order":1,},
     {"id":{"name":"Spr_Table_B","path":"sprites/Spr_Table_B/Spr_Table_B.yy",},"order":6,},
     {"id":{"name":"Obj_B14","path":"objects/Obj_B14/Obj_B14.yy",},"order":15,},
+    {"id":{"name":"Obj_Hideout_Exit","path":"objects/Obj_Hideout_Exit/Obj_Hideout_Exit.yy",},"order":6,},
     {"id":{"name":"Obj_C13","path":"objects/Obj_C13/Obj_C13.yy",},"order":26,},
     {"id":{"name":"Spr_D31","path":"sprites/Spr_D31/Spr_D31.yy",},"order":44,},
     {"id":{"name":"Obj_Chunk","path":"objects/Obj_Chunk/Obj_Chunk.yy",},"order":5,},
