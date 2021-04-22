@@ -24,10 +24,12 @@ weight of a coin you'd just access ItemsMaster[item.coin][itemstats.weight]
 
 ItemsMaster = [];
 
-for (var i = item.nomore - 1; i >= item.nothing; --i;){
+for (var i = item.nomore - 1; i >= item.nothing; --i;)
+{
 	
 	// Stats for all the items, organized by category and in alphabetical order
-	switch(i){
+	switch(i)
+	{
 		
 		case item.Ballistic_Analysis_Kit:
 			ItemsMaster[i][itemstats.name]   = "Ballistic Analysis Kit";
@@ -270,8 +272,6 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;){
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
-			break;
-			
-		
+			break;				
 	}
 }

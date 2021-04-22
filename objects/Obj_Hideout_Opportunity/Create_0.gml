@@ -1,7 +1,8 @@
 
 roomID = "Hideout Opportunity";
 
-function checkDoor(){
+function checkDoor()
+{
 	if (instance_nearest(x, y, Obj_Door_A).passable == false)
 	{
 		instance_nearest(x, y, Obj_Door_A).passable = true;

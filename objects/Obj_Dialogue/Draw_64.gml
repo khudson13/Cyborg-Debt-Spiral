@@ -14,13 +14,16 @@ display_y += display_height * 2;
 draw_set_color(c_yellow);
 draw_text(0,display_y + display_height, response);
 display_y += display_height;
-for (var i = 0; i == 0 || i < options_count ; ++i;){
-	if (selected_index == i){ draw_set_color(c_red)};
-	else {draw_set_color(c_white)};
-	draw_text(0,display_y + display_height,dialogue_options[i]);
-/*	if (access == i){
+for (var i = 0; i == 0 || i < options_count ; ++i;)
+{
+	if (selected_index == i)
+	{ 
+		draw_set_color(c_red);
+	}
+	else 
+	{
 		draw_set_color(c_white);
-		draw_text(200,display_y + display_height,response);
-	}*/
+	}
+	draw_text(0,display_y + display_height,dialogue_options[i]);
 	display_y += display_height;
 }

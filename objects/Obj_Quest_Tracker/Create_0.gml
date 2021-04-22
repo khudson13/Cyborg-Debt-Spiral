@@ -20,13 +20,16 @@ Indexes indicate evidence as follows:
 */
 
 evidence_array = [];
-for (var i = 0; i <= 10; ++i){
+for (var i = 0; i <= 10; ++i)
+{
 	evidence_array[i] = false;
 }
 
 // Updates witness dialogues and variables as evidence is uncovered
-function quest_update(evidence){
-	switch (evidence){
+function quest_update(evidence)
+{
+	switch (evidence)
+	{
 		case "Skeeter":
 			Obj_Barkeep.dialogue_options[1] = "I heard someone was trying to sell a firearm here";
 			Obj_Barkeep.options_count += 1;
@@ -41,14 +44,16 @@ function quest_update(evidence){
 			break;
 		case "Baxter":
 			evidence_array[0] = true;
-			if (evidence_array[1] == true){
+			if (evidence_array[1] == true)
+			{
 				Obj_Baxter.dialogue_options[2] = "D-2.3 is locked.";
 				Obj_Baxter.options_count = 3;
 			}
 			break;
 		case "D-2.3":
 			evidence_array[1] = true;
-			if (evidence_array[0] == true){
+			if (evidence_array[0] == true)
+			{
 				Obj_Baxter.dialogue_options[2] = "D-2.3 is locked.";
 				Obj_Baxter.options_count = 3;
 			}
