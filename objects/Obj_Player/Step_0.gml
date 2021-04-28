@@ -35,7 +35,7 @@ switch (keyboard_key)
 	// open inventory
 	case Obj_Control_Definitions.inventory:
 		control = false;
-		instance_create_layer(x, y, "UI_Windows", Obj_Inventory_window); 
+		instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), "UI_Windows", Obj_Inventory_window); 
 		io_clear();
 		break;
 	
