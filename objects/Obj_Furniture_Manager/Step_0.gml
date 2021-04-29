@@ -31,7 +31,7 @@ switch(keyboard_key)
 		if (furniture.hasInventory == true)
 		{
 			global.CALLING_INSTANCE = furniture;
-			instance_create_layer(x,y,"UI_Windows",Obj_Inventory_Swap);
+			instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]),"UI_Windows",Obj_Inventory_Swap);
 			io_clear();
 			instance_destroy(self);
 		}

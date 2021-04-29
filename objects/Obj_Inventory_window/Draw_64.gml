@@ -1,12 +1,12 @@
 
-image_xscale = 1.7;
+image_xscale = 2.2;
 image_yscale = (1.35 + (Obj_Player.slots_filled * 0.27));
 var display_y = 0; // Start drawing at upper left
-var display_x = 17;
+var display_x = 25;
 
 // Header and money
 draw_set_color(c_yellow);
-draw_text(display_x + 20, display_y + display_height,"**INVENTORY**");
+draw_text(display_x + 55, display_y + display_height,"**INVENTORY**");
 display_y += display_height;
 draw_set_color(c_white);
 draw_text(display_x, display_y + display_height,"Money - $" + string(Obj_Player.money));
@@ -27,7 +27,7 @@ for (var i = 0; i == 0 || i < Obj_Player.slots_filled; ++i;)
 		draw_set_color(c_white);
 	}
 	draw_text(display_x, display_y + display_height,Obj_Items_Master.ItemsMaster[inventory[i][0]][itemstats.name]);
-	draw_text(display_x + 150, display_y + display_height,inventory[i][1]);  // Output item quantity, spacing needs to bemore procedural
+	draw_text(display_x + 220, display_y + display_height,inventory[i][1]);  // Output item quantity, spacing needs to bemore procedural
 	if (access == i)
 	{
 		var sub_y = display_y;
