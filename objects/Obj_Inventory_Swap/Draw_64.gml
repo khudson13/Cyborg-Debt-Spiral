@@ -1,6 +1,5 @@
 
-image_xscale = 4.4;
-image_yscale = (1.35 + (Obj_Player.slots_filled * 0.27));
+image_xscale = 5;
 var display_y = 0; // Start drawing at upper left
 var display_x = 60;
 
@@ -9,9 +8,11 @@ var display_x = 60;
 if (Obj_Player.slots_filled >= accessed_instance.slots_filled)
 {
 	var iteratorLimit = Obj_Player.slots_filled;
+	image_yscale = (1.35 + (Obj_Player.slots_filled * 0.27));
 }
 else{
 	var iteratorLimit = accessed_instance.slots_filled;
+	image_yscale = (1.35 + (accessed_instance.slots_filled * 0.27));
 }
 
 
@@ -29,6 +30,7 @@ else{
 	display_y += display_height;
 	if (commerce == true)
 	{
+		image_xscale += 1;
 		draw_text(display_x, display_y + display_height, "$" + string(Obj_Player.money));
 		display_y += display_height * 2;
 	}

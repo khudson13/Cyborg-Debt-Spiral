@@ -28,7 +28,7 @@ function dialogue(topic){
 	switch(topic){
 		case "What's on tap?":
 			global.CALLING_INSTANCE = id;
-			instance_create_layer(x,y,"UI_Windows",Obj_Inventory_Swap);
+			instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]),"UI_Windows",Obj_Inventory_Swap);
 			Obj_Inventory_Swap.commerce = true;
 			instance_destroy(Obj_Dialogue);
 			break;
