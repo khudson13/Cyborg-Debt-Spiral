@@ -18,7 +18,6 @@ talking_to = talking_ID.NPC_name;
 
 // Dialogue options array
 dialogue_options = talking_ID.dialogue_options;
-	//+ instance_nearest(x,y,Obj_Player).evidence;
 	
 response = "";
 
