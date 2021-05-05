@@ -30,14 +30,14 @@ switch (keyboard_key)
 	{
 		if (npc[| selected_index - itemCount].alive == true)
 		{
-			instance_create_layer(Obj_Player.x,Obj_Player.y,"UI_Windows",Obj_Dialogue);
+			instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), "UI_Windows", Obj_Dialogue);
 			Obj_Dialogue.talking_ID = npc[| selected_index - itemCount];
 			Obj_Dialogue.talking_to = npc[| selected_index - itemCount].NPC_name;
 			Obj_Dialogue.dialogue_options = npc[| selected_index - itemCount].dialogue_options;
 		}
 		else{
 			global.CALLING_INSTANCE = npc[| selected_index - itemCount];
-			instance_create_layer(x,y,"UI_Windows",Obj_Inventory_Swap);
+			instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), "UI_Windows", Obj_Inventory_Swap);
 		}
 		io_clear();
 		instance_destroy(self);

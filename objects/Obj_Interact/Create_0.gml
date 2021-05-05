@@ -42,12 +42,12 @@ if (totalCount == 1)
 	{
 		if (npc[| 0].alive == true)
 		{
-			instance_create_layer(Obj_Player.x,Obj_Player.y,"UI_Windows",Obj_Dialogue);
+			instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), "UI_Windows", Obj_Dialogue);
 		}
 		else
 		{
 			global.CALLING_INSTANCE = npc[| 0];
-			instance_create_layer(x,y,"UI_Windows",Obj_Inventory_Swap);
+			instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), "UI_Windows", Obj_Inventory_Swap);
 		}
 		instance_destroy(self);
 	}
