@@ -1,4 +1,3 @@
-
 NPC_name = "Skeeter";
 
 alive = true;
@@ -15,8 +14,10 @@ options_count = 1;
 // Dialogue function returns appropriate response to each topic,
 // executes relevant actions, and updates topic array in dialogue 
 // interface as needed
-function dialogue(topic){
-	switch(topic){
+function dialogue(topic)
+{
+	switch(topic)
+	{
 		case "What do you want?":
 			Obj_Dialogue.response = @"
 			I crave a bottle of Old Bog Sweat
@@ -84,11 +85,13 @@ function dialogue(topic){
 					Obj_Dialogue.response_scale = 1;
 				}
 			}
-		else{
+		else
+		{
 			Obj_Dialogue.response = "No you didn't.";
 			Obj_Dialogue.response_height = Obj_Dialogue.display_height;
 			Obj_Dialogue.response_scale = 1;
-		} break;
+		} 
+		break;
 		case "You've got your drink, tell me what you know.":
 			Obj_Quest_Tracker.quest_update("Skeeter");
 			Obj_Dialogue.response = @"

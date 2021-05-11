@@ -1,4 +1,3 @@
-
 NPC_name = "Baxter";
 
 alive = true;
@@ -16,10 +15,13 @@ options_count = 1;
 // Dialogue function returns appropriate response to each topic,
 // executes relevant actions, and updates topic array in dialogue 
 // interface as needed
-function dialogue(topic){
-	switch(topic){
+function dialogue(topic)
+{
+	switch(topic)
+	{
 		case "Hello":
-			Obj_Dialogue.response = "Hello, I'm Baxter."; break;
+			Obj_Dialogue.response = "Hello, I'm Baxter."; 
+			break;
 		case "Heard someone tried to sell you a gun":
 			Obj_Dialogue.response = "Yeah, but I didn't hang around. Don't need that kind of trouble.\nI think the name was Albert. When I left, Chunk was still listening. Lives over in D-2.3.";
 			Obj_Quest_Tracker.quest_update("Baxter");

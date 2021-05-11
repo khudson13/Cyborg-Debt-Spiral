@@ -1,4 +1,3 @@
-
 NPC_name = "Crump";
 
 alive = true;
@@ -13,8 +12,10 @@ dialogue_options = ["You're under arrest!"];
 options_count = 1;
 
 
-function dialogue(topic){
-	switch(topic){
+function dialogue(topic)
+{
+	switch(topic)
+	{
 		case "You're under arrest!":
 			Obj_Dialogue.response = "Gosh darn it, you got me!";
 			Obj_Quest_Tracker.evidence_array[10] = true;

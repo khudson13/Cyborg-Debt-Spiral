@@ -1,4 +1,3 @@
-
 NPC_name = "Gate Guard";
 
 alive = true;

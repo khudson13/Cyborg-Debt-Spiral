@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 NPC_name = "Barkeep";
 
 alive = true;
@@ -25,8 +22,10 @@ options_count = 1;
 // Dialogue function returns appropriate response to each topic,
 // executes relevant actions, and updates topic array in dialogue 
 // interface as needed
-function dialogue(topic){
-	switch(topic){
+function dialogue(topic)
+{
+	switch(topic)
+	{
 		case "What's on tap?":
 			global.CALLING_INSTANCE = id;
 			instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]),"UI_Windows",Obj_Inventory_Swap);
@@ -35,8 +34,8 @@ function dialogue(topic){
 			break;
 
 		case "I heard someone was trying to sell a firearm here":
-			Obj_Dialogue.response = "I don't need trouble and I don't know anything about that.\nSome weirdo was in here chatting up my regulars a few days ago.\nTry asking Ernie, right over there."
-			Obj_QuestTracker.quest_update("Barkeep");
+			Obj_Dialogue.response = "I don't need trouble and I don't know anything about that.\nSome weirdo was in here chatting up my regulars a few days ago.\nTry asking Ernie, right over there.";
+			Obj_Quest_Tracker.quest_update("Barkeep");
 			break;
 	}
 } 

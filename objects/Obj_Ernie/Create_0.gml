@@ -1,4 +1,3 @@
-
 NPC_name = "Ernie";
 
 alive = true;
@@ -17,8 +16,10 @@ options_count = 1;
 // Dialogue function returns appropriate response to each topic,
 // executes relevant actions, and updates topic array in dialogue 
 // interface as needed
-function dialogue(topic){
-	switch(topic){
+function dialogue(topic)
+{
+	switch(topic)
+	{
 		case "Hello":
 			Obj_Dialogue.response = "Hello, I'm Ernie.";
 			break;
