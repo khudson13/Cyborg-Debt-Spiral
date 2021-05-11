@@ -17,6 +17,7 @@ inventory[2][1] = 20;
 slots_filled = 3;
 
 // DIALOGUE STARTING OPTIONS
+starting_response = "Heya!";
 dialogue_options = ["What's on tap?"];
 options_count = 1;
 

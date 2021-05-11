@@ -11,6 +11,7 @@ inventory[0][0] = item.Manhole_Key;
 inventory[0][1] = 1;
 
 // DIALOGUE STARTING OPTIONS
+starting_response = "Shhh, I'm dead.";
 dialogue_options = ["Hello"];
 options_count = 1;
 

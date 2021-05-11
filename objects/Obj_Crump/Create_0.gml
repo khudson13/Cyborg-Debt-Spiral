@@ -8,6 +8,7 @@ inventory = inventory_create(19);
 slots_filled = 0;
 
 // DIALOGUE STARTING OPTIONS
+starting_response = "Do please fuck off.";
 dialogue_options = ["You're under arrest!"];
 options_count = 1;
 

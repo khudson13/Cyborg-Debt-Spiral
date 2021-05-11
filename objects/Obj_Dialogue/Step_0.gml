@@ -1,4 +1,3 @@
-
 switch(keyboard_key)
 {
 	case Obj_Control_Definitions.control_up:

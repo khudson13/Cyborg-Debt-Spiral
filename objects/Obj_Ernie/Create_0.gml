@@ -9,6 +9,7 @@ inventory = inventory_create(inventory_size);
 slots_filled = 0;
 
 // DIALOGUE STARTING OPTIONS
+starting_response = "What's going on?";
 dialogue_options = ["Hello"];
 options_count = 1;
 

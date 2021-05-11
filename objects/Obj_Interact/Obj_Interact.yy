@@ -1,10 +1,7 @@
 {
-  "spriteId": {
-    "name": "Spr_Interact",
-    "path": "sprites/Spr_Interact/Spr_Interact.yy",
-  },
+  "spriteId": null,
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
