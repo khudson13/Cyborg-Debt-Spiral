@@ -22,7 +22,10 @@ function dialogue(topic)
 	switch(topic)
 	{
 		case "Hello":
-			Obj_Dialogue.response = "Hello, I'm Chunk."; break;
+			Obj_Dialogue.response = "Hello, I'm Chunk."; 
+			Obj_Dialogue.response_height = Obj_Dialogue.display_height;
+			Obj_Dialogue.response_scale = 1;
+			break;
 	}
 } 
 

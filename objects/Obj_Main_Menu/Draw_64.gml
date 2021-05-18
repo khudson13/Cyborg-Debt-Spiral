@@ -1,4 +1,3 @@
-
 // Just a simple main menu for now, more to come.
 
 // Dialogue selections show red, with responses to the right

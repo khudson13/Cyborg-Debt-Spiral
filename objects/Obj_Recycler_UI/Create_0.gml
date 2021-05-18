@@ -1,4 +1,3 @@
-
 display_height = 35; // Character tallness
 selected_index = 0;
 

@@ -1,4 +1,3 @@
-
 image_xscale = 5;
 var display_y = 0; // Start drawing at upper left
 var display_x = 60;
@@ -23,7 +22,8 @@ if (insufficient_funds == true)
 	draw_text(display_x + 150, display_y + display_height, "***PRESS ESCAPE***");
 }
 
-else{
+else
+{
 	// HEADER
 	draw_set_color(c_yellow);
 	draw_text(display_x + 150, display_y + display_height, "***TRADE***");
@@ -50,23 +50,34 @@ else{
 	{
 		// PLAYER INVENTORY
 		draw_set_color(c_white);
-		if (selected_index == i && column == 1){
+		if (selected_index == i && column == 1)
+		{
 			draw_set_color(c_red);}
-		if (i < Obj_Player.slots_filled){
+		if (i < Obj_Player.slots_filled)
+		{
 			draw_text(display_x, display_y + display_height, Obj_Items_Master.ItemsMaster[Obj_Player.inventory[i][0]][itemstats.name]);
 				draw_text(display_x + 100, display_y + display_height, Obj_Player.inventory[i][1]);
-				if (commerce == true){
-					draw_text(display_x + 125, display_y + display_height, "$" + string(Obj_Items_Master.ItemsMaster[Obj_Player.inventory[i][0]][itemstats.worth]));}}
+				if (commerce == true)
+				{
+					draw_text(display_x + 125, display_y + display_height, "$" + string(Obj_Items_Master.ItemsMaster[Obj_Player.inventory[i][0]][itemstats.worth]));
+				}
+		}
 	
 		// OTHER INVENTORY
 		draw_set_color(c_white);
-		if (selected_index == i && column == 2){
-			draw_set_color(c_red);}
-		if (i < accessed_instance.slots_filled){
+		if (selected_index == i && column == 2)
+		{
+			draw_set_color(c_red);
+			}
+		if (i < accessed_instance.slots_filled)
+		{
 			draw_text(display_x + 275, display_y + display_height, Obj_Items_Master.ItemsMaster[accessed_instance.inventory[i][0]][itemstats.name]);
 				draw_text(display_x + 415, display_y + display_height, accessed_instance.inventory[i][1]);
-				if (commerce == true){
-					draw_text(display_x + 425, display_y + display_height, "$" + string(Obj_Items_Master.ItemsMaster[accessed_instance.inventory[i][0]][itemstats.worth]));}}
+				if (commerce == true)
+				{
+					draw_text(display_x + 425, display_y + display_height, "$" + string(Obj_Items_Master.ItemsMaster[accessed_instance.inventory[i][0]][itemstats.worth]));
+				}
+		}
 	
 		display_y += display_height;
 	}

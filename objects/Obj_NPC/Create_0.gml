@@ -1,6 +1,3 @@
-
-// FOR THE DEMO VERSION ALL NPC ATTRIBUTES ARE HARD CODED
-
 NPC_name = "nobody";
 
 alive = true;

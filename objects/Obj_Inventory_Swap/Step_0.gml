@@ -1,27 +1,30 @@
-
 switch(keyboard_key)
 {
 	case Obj_Control_Definitions.control_up:
 		selected_index -= 1; 
-		io_clear(); break;
+		io_clear(); 
+		break;
 		
 	case Obj_Control_Definitions.control_down:
 		selected_index += 1; 
-		io_clear(); break;
+		io_clear(); 
+		break;
 		
 	case Obj_Control_Definitions.control_right:
 		if (accessed_instance.slots_filled > 0)
 		{
 			column = 2;
 		}
-		io_clear(); break;
+		io_clear(); 
+		break;
 		
 	case Obj_Control_Definitions.control_left:
 		if (Obj_Player.slots_filled > 0)
 		{
 			column = 1;
 		}
-		io_clear(); break;
+		io_clear(); 
+		break;
 		
 	case Obj_Control_Definitions.interact:
 		if (column == 1)
@@ -38,7 +41,8 @@ switch(keyboard_key)
 			{
 				column = 2;
 			}
-			io_clear(); break;
+			io_clear(); 
+			break;
 		}
 				
 		if (column == 2)
@@ -64,14 +68,16 @@ switch(keyboard_key)
 			{
 				column = 1;
 			} 
-			io_clear(); break;
+			io_clear(); 
+			break;
 		}
 				
 	case Obj_Control_Definitions.escape:
 		if (insufficient_funds == true)
 		{
 			insufficient_funds = false;
-			io_clear(); break;
+			io_clear(); 
+			break;
 		}
 		else
 		{

@@ -1,4 +1,3 @@
-
 // FURNITURE CONTROLS
 switch(keyboard_key)
 {
@@ -12,7 +11,8 @@ switch(keyboard_key)
 				selected_option = furniture.options_number - 1;
 			}
 		}
-		io_clear(); break;
+		io_clear(); 
+		break;
 		
 	// Options menu down
 	case Obj_Control_Definitions.control_down:
@@ -24,7 +24,8 @@ switch(keyboard_key)
 				selected_option = 0;
 			}
 		}
-		io_clear(); break;
+		io_clear(); 
+		break;
 		
 	// Access inventory
 	case Obj_Control_Definitions.interact:
@@ -39,7 +40,8 @@ switch(keyboard_key)
 		{
 			furniture.options(furniture.options_list[selected_option]);
 		}
-		io_clear(); break;
+		io_clear(); 
+		break;
 		
 	// Exit
 	case Obj_Control_Definitions.escape:

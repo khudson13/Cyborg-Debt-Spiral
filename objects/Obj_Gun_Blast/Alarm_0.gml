@@ -1,4 +1,3 @@
-
 if (decoy == false)
 {
 	if (has_item(item.Body_Armor ,Obj_Player.inventory, Obj_Player.inventory_size) == true)

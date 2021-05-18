@@ -1,5 +1,3 @@
-/// @
-
 /*
 This is the generic base of objects used to define rooms within a level,
 useful because individual instances of a given object are all identical

@@ -4,8 +4,8 @@
 // The itemstats enum is below
 // Both enums together serve as index values for the master item array
 
-enum item{
-
+enum item
+{
 	// NULL TERMINATOR
 	nothing,
 
@@ -51,12 +51,11 @@ enum item{
 	
 	// NULL TERMINATOR
 	nomore
-
 }
 
 
-enum itemstats{
-	
+enum itemstats
+{
 	name,
 	sprite,
 	description,
@@ -65,6 +64,5 @@ enum itemstats{
 	menu,
 	functions,
 	
-	nomore
-	
+	nomore	
 }

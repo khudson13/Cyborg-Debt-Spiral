@@ -1,4 +1,3 @@
-
 roomID = "B-1.1"; //Ident of unique room or category
 
 function furnitureFill(instance)

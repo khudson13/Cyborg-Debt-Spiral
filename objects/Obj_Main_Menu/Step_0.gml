@@ -1,4 +1,3 @@
-
 if (access == -1)
 {
 	switch(keyboard_key)

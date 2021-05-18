@@ -1,4 +1,3 @@
-
 #macro TILE_SIZE 64
 
 // Figure out how to access camera variables directly

@@ -1,4 +1,3 @@
-
 // MAIN INVENTORY WINDOW
 if (access == -1)
 {
@@ -6,13 +5,16 @@ if (access == -1)
 	{
 		case Obj_Control_Definitions.control_up:
 			selected_index -= 1; 
-			io_clear(); break;
+			io_clear(); 
+			break;
 		case Obj_Control_Definitions.control_down:
 			selected_index += 1; 
-			io_clear(); break;
+			io_clear(); 
+			break;
 		case Obj_Control_Definitions.control_right:
 			io_clear();
-			access = selected_index; break;
+			access = selected_index; 
+			break;
 		case Obj_Control_Definitions.escape:
 			Obj_Player.control = true;
 			io_clear();
@@ -32,14 +34,16 @@ if ((access != -1) && (subaccess == -1))
 			{
 				selected_subindex = Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][0];
 			}
-			io_clear(); break;
+			io_clear(); 
+			break;
 		case Obj_Control_Definitions.control_down:
 			selected_subindex += 1; 
 			if (selected_subindex > Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][0])
 			{
 				selected_subindex = 1;
 			}
-			io_clear(); break;
+			io_clear(); 
+			break;
 		case Obj_Control_Definitions.control_right:
 			io_clear();
 			subaccess = selected_subindex; 

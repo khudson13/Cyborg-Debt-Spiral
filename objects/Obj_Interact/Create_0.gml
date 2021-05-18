@@ -1,4 +1,3 @@
-
 itemCount = 0;      // How many items.
 npcCount = 0;       // How many npc's
 furnitureCount = 0; // How many furniture.

@@ -1,4 +1,3 @@
-
 roomID = "Hideout Opportunity";
 
 function checkDoor()

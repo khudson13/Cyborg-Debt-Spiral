@@ -1,4 +1,3 @@
-
 var display_y = Camera_Center_Y - 30;
 
 draw_set_color(c_yellow);

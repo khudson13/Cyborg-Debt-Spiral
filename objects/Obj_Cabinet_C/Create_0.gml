@@ -1,4 +1,3 @@
-
 name = "Cabinet";
 description = "A home for sundries.";
 passable = false;
@@ -12,7 +11,8 @@ slots_filled = 0;
 
 alarm[0] = 1;
 
-function access(){
+function access()
+{
 	Obj_Furniture_Manager.name = name;
 	Obj_Furniture_Manager.description = description;
 }

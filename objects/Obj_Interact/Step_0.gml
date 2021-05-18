@@ -1,4 +1,3 @@
-
 switch (keyboard_key)
 {
 	// Navigate the menu
@@ -9,7 +8,8 @@ switch (keyboard_key)
 	case Obj_Control_Definitions.control_down:
 	selected_index += 1;
 	if (selected_index > totalCount - 1) selected_index = 0;
-	io_clear(); break;
+	io_clear(); 
+	break;
 	
 	// Execute menu choice
 	case Obj_Control_Definitions.control_right:
@@ -35,7 +35,8 @@ switch (keyboard_key)
 			Obj_Dialogue.talking_to = npc[| selected_index - itemCount].NPC_name;
 			Obj_Dialogue.dialogue_options = npc[| selected_index - itemCount].dialogue_options;
 		}
-		else{
+		else
+		{
 			global.CALLING_INSTANCE = npc[| selected_index - itemCount];
 			instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), "UI_Windows", Obj_Inventory_Swap);
 		}
@@ -50,7 +51,8 @@ switch (keyboard_key)
 		instance_destroy(self);
 	}
 	
-	io_clear(); break;
+	io_clear(); 
+	break;
 	
 	// QUIT GAME
 	case Obj_Control_Definitions.escape:

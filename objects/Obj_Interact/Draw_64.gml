@@ -1,4 +1,3 @@
-
 var display_y = Camera_Center_Y; // Menu centered in screen
 var menuCount = 0; // Menu item currently printing
 
@@ -27,7 +26,8 @@ if (itemCount > 0)
 		menuCount += 1;
 
 		display_y += display_height;
-}}
+	}
+}
 
 // Output npc collisions
 if (npcCount > 0)
@@ -49,7 +49,8 @@ if (npcCount > 0)
 		menuCount += 1;
 
 		display_y += display_height;
-}}
+	}
+}
 
 // Output furniture collisions
 if (furnitureCount > 0)

@@ -1,4 +1,3 @@
-
 switch(keyboard_key)
 {
 	case Obj_Control_Definitions.control_up:
@@ -7,14 +6,16 @@ switch(keyboard_key)
 		{
 			selected_index = slots_filled - 1;
 		}
-		io_clear(); break;
+		io_clear(); 
+		break;
 	case Obj_Control_Definitions.control_down:
 		selected_index += 1; 
 		if (selected_index >= slots_filled)
 		{
 			selected_index = 0;
 		}
-		io_clear(); break;
+		io_clear(); 
+		break;
 	case Obj_Control_Definitions.interact:
 		if (inventory[selected_index][0] != item.nothing)
 		{

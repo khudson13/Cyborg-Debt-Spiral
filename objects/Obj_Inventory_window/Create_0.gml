@@ -1,4 +1,3 @@
-
 inventory = Obj_Player.inventory; // Copy player inventory
 display_height = 35; // Character tallness
 selected_index = 0;  // Highlighted inventory index

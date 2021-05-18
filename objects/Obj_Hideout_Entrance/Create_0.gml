@@ -1,4 +1,3 @@
-
 roomID = "Hideout Entrance"; //Ident of unique room or category
 
 

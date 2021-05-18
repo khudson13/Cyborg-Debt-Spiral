@@ -1,4 +1,3 @@
-
 var display_y = 0; // Start drawing at upper left
 
 // Header and money

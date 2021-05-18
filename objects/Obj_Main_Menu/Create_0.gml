@@ -1,4 +1,3 @@
-
 menu_array[0] = "Start Game";
 menu_array[1] = "Selector Test";
 menu_items = 2;

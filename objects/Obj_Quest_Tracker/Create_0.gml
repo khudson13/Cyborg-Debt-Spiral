@@ -1,5 +1,3 @@
-/// @description Insert description here
-
 // Variables and functions for measuring progress on investigation
 
 /* EVIDENCE ARRAY

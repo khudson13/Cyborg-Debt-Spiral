@@ -1,4 +1,3 @@
-
 roomID = "Hideout Exit"; //Ident of unique room or category
 
 function furnitureFill(instance)

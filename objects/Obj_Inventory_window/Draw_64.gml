@@ -1,4 +1,3 @@
-
 image_xscale = 2.2;
 image_yscale = (1.35 + (Obj_Player.slots_filled * 0.27));
 var display_y = 0; // Start drawing at upper left
