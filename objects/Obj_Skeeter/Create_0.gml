@@ -19,10 +19,8 @@ function dialogue(topic)
 	switch(topic)
 	{
 		case "What do you want?":
-			Obj_Dialogue.response = @"
-			I crave a bottle of Old Bog Sweat
-			Or five bottles of Biscuit Wash.
-			";
+			Obj_Dialogue.response = @"I crave a bottle of Old Bog Sweat
+			Or five bottles of Biscuit Wash.";
 			Obj_Dialogue.response_height = Obj_Dialogue.display_height * 2;
 			Obj_Dialogue.response_scale = 2;
 			dialogue_options[0] = "How can I get that stuff?";
@@ -37,12 +35,10 @@ function dialogue(topic)
 			dialogue_options[0] = "I don't have any cash."; 
 			break;
 		case "I don't have any cash.":
-			Obj_Dialogue.response = @"
-			What, seriously? Take trash to the 
+			Obj_Dialogue.response = @"What, seriously? Take trash to the 
 			recycler machine near the algae 
 			processing plant. 
-			It's not much, though.
-			";
+			It's not much, though.";
 			Obj_Dialogue.response_height = Obj_Dialogue.display_height * 4;
 			Obj_Dialogue.response_scale = 4;
 			dialogue_options[0] = "What do you want?"; 
@@ -94,21 +90,17 @@ function dialogue(topic)
 		break;
 		case "You've got your drink, tell me what you know.":
 			Obj_Quest_Tracker.quest_update("Skeeter");
-			Obj_Dialogue.response = @"
-			Overheard a guy trying to sell a gun at the bar.
+			Obj_Dialogue.response = @"Overheard a guy trying to sell a gun at the bar.
 			Didn't recognize him.Try asking bar tender about him. 
-			(suspect description aquired)
-			";
+			(suspect description aquired)";
 			Obj_Dialogue.response_height = Obj_Dialogue.display_height * 3;
 			Obj_Dialogue.response_scale = 3;
 			dialogue_options[0] = "Tell me what you know again."; 
 			break;
 		case "Tell me what you know again.":
-			Obj_Dialogue.response = @"
-			Overheard a guy trying to sell a gun at the bar.
+			Obj_Dialogue.response = @"Overheard a guy trying to sell a gun at the bar.
 			Didn't recognize him. Try asking bar tender about him.
-			(suspect description aquired)
-			"; 
+			(suspect description aquired)"; 
 			Obj_Dialogue.response_height = Obj_Dialogue.display_height * 3;
 			Obj_Dialogue.response_scale = 3;
 			break;

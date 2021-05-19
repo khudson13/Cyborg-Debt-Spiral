@@ -1,6 +1,6 @@
 display_height = 35;  // Height of character display
 response_height = 35; // Height of current response text
-response_scale = 0;   // Enlarge sprite based on response size
+response_scale = 1;   // Enlarge sprite based on response size
 // dialogue options
 selected_index = 0;
 access = -1;
