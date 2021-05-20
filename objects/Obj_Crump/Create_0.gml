@@ -18,7 +18,7 @@ function dialogue(topic)
 	{
 		case "You're under arrest!":
 			Obj_Dialogue.response = "Gosh darn it, you got me!";
-			Obj_Dialogue.response_height = Obj_Dialogue.display_height;
+			Obj_Dialogue.response_height = LINE_HEIGHT;
 			Obj_Dialogue.response_scale = 1;
 			Obj_Quest_Tracker.evidence_array[10] = true;
 			break;

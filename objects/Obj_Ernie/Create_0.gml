@@ -22,18 +22,15 @@ function dialogue(topic)
 	{
 		case "Hello":
 			Obj_Dialogue.response = "Hello, I'm Ernie.";
-			Obj_Dialogue.response_height = Obj_Dialogue.display_height;
+			Obj_Dialogue.response_height = LINE_HEIGHT;
 			Obj_Dialogue.response_scale = 1;
 			break;
 		case "I heard someone was trying to sell a gun":
-			Obj_Dialogue.response = @"
-			I remember seeing that guy. He was talking mostly to Baxter and... someone else.
-			I forget who. Baxter works the algae refinery.
-			";
-			Obj_Dialogue.response_height = Obj_Dialogue.display_height * 2;
+			Obj_Dialogue.response = @"I remember seeing that guy. He was talking mostly to Baxter and... someone else.
+			I forget who. Baxter works the algae refinery.";
+			Obj_Dialogue.response_height = LINE_HEIGHT * 2;
 			Obj_Dialogue.response_scale = 2;
 			Obj_Quest_Tracker.quest_update("Ernie");
 			break;
 	}
 } 
-

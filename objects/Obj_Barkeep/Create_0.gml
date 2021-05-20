@@ -34,12 +34,10 @@ function dialogue(topic)
 			break;
 
 		case "I heard someone was trying to sell a firearm here":
-			Obj_Dialogue.response = @"
-			I don't need trouble and I don't know anything about that.
+			Obj_Dialogue.response = @"I don't need trouble and I don't know anything about that.
 			Some weirdo was in here chatting up my regulars a few days ago.
-			Try asking Ernie, right over there.
-			";
-			Obj_Dialogue.response_height = Obj_Dialogue.display_height * 3;
+			Try asking Ernie, right over there.";
+			Obj_Dialogue.response_height = LINE_HEIGHT * 3;
 			Obj_Dialogue.response_scale = 3;
 			Obj_Quest_Tracker.quest_update("Barkeep");
 			break;

@@ -21,7 +21,7 @@ function dialogue(topic)
 		case "What do you want?":
 			Obj_Dialogue.response = @"I crave a bottle of Old Bog Sweat
 			Or five bottles of Biscuit Wash.";
-			Obj_Dialogue.response_height = Obj_Dialogue.display_height * 2;
+			Obj_Dialogue.response_height = LINE_HEIGHT * 2;
 			Obj_Dialogue.response_scale = 2;
 			dialogue_options[0] = "How can I get that stuff?";
 			dialogue_options[1] = "I brought you a bottle of Old Bog Sweat."
@@ -30,7 +30,7 @@ function dialogue(topic)
 			break;
 		case "How can I get that stuff?":
 			Obj_Dialogue.response = "Bartender will sell it.";
-			Obj_Dialogue.response_height = Obj_Dialogue.display_height;
+			Obj_Dialogue.response_height = LINE_HEIGHT;
 			Obj_Dialogue.response_scale = 1;
 			dialogue_options[0] = "I don't have any cash."; 
 			break;
@@ -39,7 +39,7 @@ function dialogue(topic)
 			recycler machine near the algae 
 			processing plant. 
 			It's not much, though.";
-			Obj_Dialogue.response_height = Obj_Dialogue.display_height * 4;
+			Obj_Dialogue.response_height = LINE_HEIGHT * 4;
 			Obj_Dialogue.response_scale = 4;
 			dialogue_options[0] = "What do you want?"; 
 			break;
@@ -48,7 +48,7 @@ function dialogue(topic)
 			{
 				inventory_Remove(Obj_Player,get_item_index(Obj_Player.inventory, Obj_Player.slots_filled, item.OldBogSweat));
 				Obj_Dialogue.response = "Excellent, this stuff is my favorite!";
-				Obj_Dialogue.response_height = Obj_Dialogue.display_height;
+				Obj_Dialogue.response_height = LINE_HEIGHT;
 				Obj_Dialogue.response_scale = 1;
 				dialogue_options[0] = "You've got your drink, tell me what you know.";
 				options_count = 1;
@@ -56,9 +56,10 @@ function dialogue(topic)
 			else
 			{
 				Obj_Dialogue.response = "No you didn't.";
-				Obj_Dialogue.response_height = Obj_Dialogue.display_height;
+				Obj_Dialogue.response_height = LINE_HEIGHT;
 				Obj_Dialogue.response_scale = 1;
-			} break;
+			} 
+			break;
 		case "I brought your Biscuit Wash.":
 			if ((has_item(item.BiscuitWash,Obj_Player.inventory,Obj_Player.slots_filled == true) == true))
 			{
@@ -70,21 +71,21 @@ function dialogue(topic)
 						inventory_Remove(Obj_Player, BWIndex);
 					}
 					Obj_Dialogue.response = "Not my favorite, but it'll get the job done.";
-					Obj_Dialogue.response_height = Obj_Dialogue.display_height;
+					Obj_Dialogue.response_height = LINE_HEIGHT;
 					Obj_Dialogue.response_scale = 1;
 					dialogue_options[0] = "You've got your drink, tell me what you know.";
 					options_count = 1;
 				}
 				else{
 					Obj_Dialogue.response = "No you didn't.";
-					Obj_Dialogue.response_height = Obj_Dialogue.display_height;
+					Obj_Dialogue.response_height = LINE_HEIGHT;
 					Obj_Dialogue.response_scale = 1;
 				}
 			}
 		else
 		{
 			Obj_Dialogue.response = "No you didn't.";
-			Obj_Dialogue.response_height = Obj_Dialogue.display_height;
+			Obj_Dialogue.response_height = LINE_HEIGHT;
 			Obj_Dialogue.response_scale = 1;
 		} 
 		break;
@@ -93,7 +94,7 @@ function dialogue(topic)
 			Obj_Dialogue.response = @"Overheard a guy trying to sell a gun at the bar.
 			Didn't recognize him.Try asking bar tender about him. 
 			(suspect description aquired)";
-			Obj_Dialogue.response_height = Obj_Dialogue.display_height * 3;
+			Obj_Dialogue.response_height = LINE_HEIGHT * 3;
 			Obj_Dialogue.response_scale = 3;
 			dialogue_options[0] = "Tell me what you know again."; 
 			break;
@@ -101,7 +102,7 @@ function dialogue(topic)
 			Obj_Dialogue.response = @"Overheard a guy trying to sell a gun at the bar.
 			Didn't recognize him. Try asking bar tender about him.
 			(suspect description aquired)"; 
-			Obj_Dialogue.response_height = Obj_Dialogue.display_height * 3;
+			Obj_Dialogue.response_height = LINE_HEIGHT * 3;
 			Obj_Dialogue.response_scale = 3;
 			break;
 	}

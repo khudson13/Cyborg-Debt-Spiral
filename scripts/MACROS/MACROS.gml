@@ -1,4 +1,5 @@
 #macro TILE_SIZE 64
+#macro LINE_HEIGHT 25 // height of a line of text in paragraph format
 
 // Figure out how to access camera variables directly
 #macro Camera_Center_X 750

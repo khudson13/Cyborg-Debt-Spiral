@@ -20,7 +20,7 @@ function dialogue(topic)
 	{
 		case "Hello":
 			Obj_Dialogue.response = "I'm Betl, the shopkeeper. I'm not fully implemented yet.";
-			Obj_Dialogue.response_height = Obj_Dialogue.display_height;
+			Obj_Dialogue.response_height = LINE_HEIGHT;
 			Obj_Dialogue.response_scale = 1;
 			break;
 	}

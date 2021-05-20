@@ -1,6 +1,5 @@
 roomID = "Hideout Entrance"; //Ident of unique room or category
 
-
 function furnitureFill(instance)
 {
 	instance.locked = true;
