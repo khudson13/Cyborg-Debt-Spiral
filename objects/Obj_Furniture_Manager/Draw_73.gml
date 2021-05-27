@@ -1,22 +1,25 @@
-
-var display_y = Camera_Center_Y - 30;
+image_xscale = 3;
+image_yscale = 1.2;
+var display_y = y + 5;
+var display_x = x + 20;
 
 // Basic text output - Furniture description
+draw_set_font(Font_main);
 draw_set_color(c_white);
-draw_text(Camera_Center_X - 50, display_y - 70, name);
+draw_text(display_x, display_y, name);
 display_y += display_height;
-draw_text(Camera_Center_X - 50, display_y - 70, description);
+draw_text(display_x, display_y, description);
 if (furniture.hasInventory == true)
 {
 	display_y += display_height;
-	draw_text(Camera_Center_X -50, display_y - 70, "Press 'e' to examine inventory");
+	draw_text(display_x, display_y, "Press 'e' to examine inventory");
 }
 display_y += display_height;
 if (furniture.hasOptions == true)
 {
 	for (var i =0; i < furniture.options_number; ++i)
 	{
-		draw_text(Camera_Center_X - 50, display_y - 70, "Press 'e' to:");
+		draw_text(display_x, display_y, "Press 'e' to:");
 		display_y += display_height;
 		if (selected_option == i)
 		{
@@ -26,7 +29,7 @@ if (furniture.hasOptions == true)
 		{
 			draw_set_color(c_white);
 		}
-		draw_text(Camera_Center_X - 50, display_y - 70, furniture.options_list[i]);
+		draw_text(display_x, display_y, furniture.options_list[i]);
 		display_y += display_height;
 	}
 }
@@ -34,8 +37,8 @@ if (furniture.object_index == Obj_Door_A || furniture.object_index == Obj_VertDo
 {
 	if (furniture.passable == false)
 	{
-		draw_text(Camera_Center_X - 50, display_y - 70, "This door is locked.");
+		draw_text(display_x, display_y, "This door is locked.");
 		display_y += display_height;
 	}
 }
-draw_text(Camera_Center_X - 50, display_y - 70, "Press Escape to Exit");
+draw_text(display_x, display_y, "Press Escape to Exit");

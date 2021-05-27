@@ -1,4 +1,3 @@
-
 // Identify the object accessed and activate its code
 if (instance_exists(Obj_Interact))
 {
@@ -10,7 +9,7 @@ else
 }
 
 // Display variables
-display_height = 35;
+display_height = 26;
 name = "";
 description = "";      // Basic furniture text
 selected_option = 0;
