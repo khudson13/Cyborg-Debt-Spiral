@@ -13,14 +13,14 @@ if (furniture.hasInventory == true)
 {
 	display_y += display_height;
 	draw_text(display_x, display_y, "Press 'e' to examine inventory");
-	image_yscale += 0.1;
+	image_yscale += 0.4;
 }
 display_y += display_height;
 if (furniture.hasOptions == true)
 {
 	draw_text(display_x, display_y, "Press 'e' to:");
 	display_y += display_height;
-	image_yscale += 0.1;
+	image_yscale += 0.4;
 	for (var i =0; i < furniture.options_number; ++i)
 	{
 		if (selected_option == i)
@@ -33,7 +33,7 @@ if (furniture.hasOptions == true)
 		}
 		draw_text(display_x, display_y, furniture.options_list[i]);
 		display_y += display_height;
-		image_yscale += 0.1;
+		image_yscale += 0.4;
 	}
 }
 if (furniture.object_index == Obj_Door_A || furniture.object_index == Obj_VertDoor_A)

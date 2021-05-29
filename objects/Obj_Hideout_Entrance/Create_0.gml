@@ -4,7 +4,8 @@ function furnitureFill(instance)
 {
 	instance.locked = true;
 	instance.lockDifficulty = 100; // Can't be picked
-	instance.description = "It's locked tight. There's an unusually shaped keyhole."
+	instance.description = "It's locked tight\nThere's an unusually\nshaped keyhole."
+	//instance.text_yscale += 1;
 	
 	with (other)
 	{
