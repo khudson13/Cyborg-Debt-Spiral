@@ -1,5 +1,5 @@
-display_height = 35;  // Height of character display
-response_height = 35; // Height of current response text
+display_height = 12;  // Height of character display
+response_height = LINE_HEIGHT; // Height of current response text
 response_scale = 1;   // Enlarge sprite based on response size
 // dialogue options
 selected_index = 0;
@@ -15,9 +15,9 @@ else
 }
 talking_to = talking_ID.NPC_name;
 
-// Dialogue options array
+// Dialogue options vars
 dialogue_options = talking_ID.dialogue_options;
-
 response = talking_ID.starting_response;
-
 options_count = talking_ID.options_count;
+
+image_xscale = talking_ID.text_Xscale;

@@ -10,6 +10,7 @@ slots_filled = 0;
 starting_response = "I have a mighty thirst!";
 dialogue_options = ["What do you want?"];
 options_count = 1;
+text_Xscale = 5; 
 
 // Dialogue function returns appropriate response to each topic,
 // executes relevant actions, and updates topic array in dialogue 
@@ -19,12 +20,13 @@ function dialogue(topic)
 	switch(topic)
 	{
 		case "What do you want?":
-			Obj_Dialogue.response = @"I crave a bottle of Old Bog Sweat
-			Or five bottles of Biscuit Wash.";
-			Obj_Dialogue.response_height = LINE_HEIGHT * 2;
+			Obj_Dialogue.response = @"I crave a bottle of Old Bog
+			Sweat or five bottles of
+			Biscuit Wash.";
+			Obj_Dialogue.response_height = LINE_HEIGHT * 3;
 			Obj_Dialogue.response_scale = 2;
 			dialogue_options[0] = "How can I get that stuff?";
-			dialogue_options[1] = "I brought you a bottle of Old Bog Sweat."
+			dialogue_options[1] = "I brought your Old Bog Sweat."
 			dialogue_options[2] = "I brought your Biscuit Wash."
 			options_count = 3; 
 			break;
@@ -35,15 +37,15 @@ function dialogue(topic)
 			dialogue_options[0] = "I don't have any cash."; 
 			break;
 		case "I don't have any cash.":
-			Obj_Dialogue.response = @"What, seriously? Take trash to the 
-			recycler machine near the algae 
-			processing plant. 
+			Obj_Dialogue.response = @"What, seriously? Take trash
+			to the recycler machine near
+			the algae processing plant.
 			It's not much, though.";
 			Obj_Dialogue.response_height = LINE_HEIGHT * 4;
 			Obj_Dialogue.response_scale = 4;
 			dialogue_options[0] = "What do you want?"; 
 			break;
-		case "I brought you a bottle of Old Bog Sweat.":
+		case "I brought your Old Bog Sweat.":
 			if (has_item(item.OldBogSweat, Obj_Player.inventory, Obj_Player.slots_filled) == true)
 			{
 				inventory_Remove(Obj_Player,get_item_index(Obj_Player.inventory, Obj_Player.slots_filled, item.OldBogSweat));

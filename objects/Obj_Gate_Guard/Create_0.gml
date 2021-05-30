@@ -10,6 +10,7 @@ slots_filled = 0;
 starting_response = "Whadaya want?";
 dialogue_options = ["Hello","Who are you?","Open the gate!"];
 options_count = 3;
+text_Xscale = 3;
 
 // Dialogue function returns appropriate response to each topic,
 // executes relevant actions, and updates topic array in dialogue 

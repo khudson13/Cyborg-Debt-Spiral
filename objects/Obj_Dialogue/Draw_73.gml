@@ -1,9 +1,10 @@
-image_xscale = 4;
-image_yscale = (1.35 + ((options_count * 0.27) + (response_scale * 0.27)));
-var display_y = 0; // Start drawing at upper left
-var display_x = 50;
+
+image_yscale = (1.35 + ((options_count * 0.3) + (response_scale * 0.3)));
+var display_y = y; // Start drawing at upper left
+var display_x = x + (image_xscale * 5);
 
 // Dialogue selections show red, with responses to the right
+
 draw_set_color(c_white);
 draw_text(display_x ,display_y + display_height, talking_to);
 display_y += display_height * 2;
@@ -21,5 +22,5 @@ for (var i = 0; i == 0 || i < options_count ; ++i;)
 		draw_set_color(c_white);
 	}
 	draw_text(display_x, display_y + display_height, dialogue_options[i]);
-	display_y += display_height;
+	display_y += display_height * 1.5;
 }
