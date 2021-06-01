@@ -1,12 +1,12 @@
-image_xscale = 2.2;
-image_yscale = (1.35 + (Obj_Player.slots_filled * 0.27));
-var display_y = 0; // Start drawing at upper left
-var display_x = 25;
+image_xscale = 4.5;
+image_yscale = (1.4 + (Obj_Player.slots_filled * 0.20));
+var display_y = y; // Start drawing at upper left
+var display_x = x + 25;
 
 // Header and money
 draw_set_color(c_yellow);
 draw_text(display_x + 55, display_y + display_height,"**INVENTORY**");
-display_y += display_height;
+display_y += display_height * 2;
 draw_set_color(c_white);
 draw_text(display_x, display_y + display_height,"Money - $" + string(Obj_Player.money));
 display_y += (display_height * 2);
@@ -54,4 +54,3 @@ for (var i = 0; i == 0 || i < Obj_Player.slots_filled; ++i;)
 	}
 	display_y += display_height;
 }
-
