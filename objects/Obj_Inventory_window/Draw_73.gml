@@ -26,11 +26,15 @@ for (var i = 0; i == 0 || i < Obj_Player.slots_filled; ++i;)
 		draw_set_color(c_white);
 	}
 	draw_text(display_x, display_y + display_height,Obj_Items_Master.ItemsMaster[inventory[i][0]][itemstats.name]);
-	draw_text(display_x + 220, display_y + display_height,inventory[i][1]);  // Output item quantity, spacing needs to bemore procedural
+	// Output item quantity
+	draw_text(display_x + 220, display_y + display_height,inventory[i][1]);
+	
+	// Display sub-menu for selected item
 	if (access == i)
 	{
 		var sub_y = display_y;
 		var menu_depth = Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][0];
+		draw_sprite_ext(Spr_Menu_Frame, 0, display_x + 260, sub_y + 10, 1, 1, 0, c_white, 1);
 		for (var ii = 1; ii <= menu_depth; ++ii;)
 		{
 			if (selected_subindex == ii)
@@ -41,7 +45,7 @@ for (var i = 0; i == 0 || i < Obj_Player.slots_filled; ++i;)
 			{
 				draw_set_color(c_white);
 			}
-			draw_text(display_x + 200, sub_y + display_height,Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][ii]);
+			draw_text(display_x + 270, sub_y + display_height,Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][ii]);
 			sub_y += display_height;
 		}
 		if (subaccess != -1)
