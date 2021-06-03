@@ -1,7 +1,19 @@
 depth = 0;
 image_xscale = 4;
 image_yscale = 2;
-image_yscale += totalCount * 0.27;
+image_yscale += totalCount * 0.28;
+if (itemCount > 0)
+{
+	image_yscale += 0.28;
+}
+if (furnitureCount > 0)
+{
+	image_yscale += 0.28;
+}
+if (npcCount > 0)
+{
+	image_yscale += 0.28;
+}
 
 var display_y = y - 40;
 var display_x = x + 20; 

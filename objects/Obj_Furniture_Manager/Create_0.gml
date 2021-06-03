@@ -9,7 +9,7 @@ else
 }
 
 // Display variables
-display_height = 26;
+display_height = LINE_HEIGHT;
 name = "";
 description = "";      // Basic furniture text
 selected_option = 0;
