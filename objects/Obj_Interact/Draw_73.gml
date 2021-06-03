@@ -1,10 +1,10 @@
 depth = 0;
-image_xscale = 1.5;
-image_yscale = 1;
-image_yscale += totalCount * 0.25;
+image_xscale = 4;
+image_yscale = 2;
+image_yscale += totalCount * 0.27;
 
-var display_y = Camera_Center_Y - 60;
-var display_x = Camera_Center_X + 20; 
+var display_y = y - 40;
+var display_x = x + 20; 
 var menuCount = 0; // Menu item currently printing
 
 // Top text

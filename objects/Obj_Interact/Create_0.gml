@@ -12,8 +12,11 @@ furniture = ds_list_create();
 furnitureCount = collision_circle_list(x,y,50,Obj_Furniture,false,true,furniture,true);
 totalCount = itemCount + npcCount + furnitureCount;
 
+x = camera_get_view_x(view_camera[0]);
+y = camera_get_view_y(view_camera[0]);
+
 selected_index = 0; // Selected index in collision menu.
-display_height = 35;
+display_height = LINE_HEIGHT;
 
 // IF NO COLLISIONS
 if (totalCount == 0)
