@@ -13,6 +13,7 @@ inventory[0][1] = 1;
 starting_response = "Shhh, I'm dead.";
 dialogue_options = ["Hello"];
 options_count = 1;
+text_Xscale = 3;
 
 // Dialogue function returns appropriate response to each topic,
 // executes relevant actions, and updates topic array in dialogue 

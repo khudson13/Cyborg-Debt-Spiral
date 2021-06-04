@@ -1,8 +1,8 @@
 depth = 0;
-image_xscale = 3;
-image_yscale = 1.2;
-var display_y = y + 5;
-var display_x = x + 20;
+image_xscale = 4;
+image_yscale = 1.5;
+var display_y = y + 10;
+var display_x = x + 23;
 
 // Basic text output - Furniture description
 draw_set_font(Font_main);

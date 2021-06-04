@@ -1,7 +1,6 @@
-/*
-image_xscale = 5;
-var display_y = 0; // Start drawing at upper left
-var display_x = 60;
+image_xscale = 8;
+var display_y = y; // Start drawing at upper left
+var display_x = x + 45;
 
 
 // Set iterator value to control display loop based on largest inventory
@@ -13,6 +12,10 @@ if (Obj_Player.slots_filled >= accessed_instance.slots_filled)
 else{
 	var iteratorLimit = accessed_instance.slots_filled;
 	image_yscale = (1.35 + (accessed_instance.slots_filled * 0.27));
+}
+if (commerce == true)
+{
+	image_yscale += 1;
 }
 
 
@@ -60,7 +63,7 @@ else
 				draw_text(display_x + 100, display_y + display_height, Obj_Player.inventory[i][1]);
 				if (commerce == true)
 				{
-					draw_text(display_x + 125, display_y + display_height, "$" + string(Obj_Items_Master.ItemsMaster[Obj_Player.inventory[i][0]][itemstats.worth]));
+					draw_text(display_x + 135, display_y + display_height, "$" + string(Obj_Items_Master.ItemsMaster[Obj_Player.inventory[i][0]][itemstats.worth]));
 				}
 		}
 	
@@ -76,7 +79,7 @@ else
 				draw_text(display_x + 415, display_y + display_height, accessed_instance.inventory[i][1]);
 				if (commerce == true)
 				{
-					draw_text(display_x + 425, display_y + display_height, "$" + string(Obj_Items_Master.ItemsMaster[accessed_instance.inventory[i][0]][itemstats.worth]));
+					draw_text(display_x + 435, display_y + display_height, "$" + string(Obj_Items_Master.ItemsMaster[accessed_instance.inventory[i][0]][itemstats.worth]));
 				}
 		}
 	

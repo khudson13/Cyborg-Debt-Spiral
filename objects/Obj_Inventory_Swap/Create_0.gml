@@ -17,7 +17,7 @@ else
 	column = -1;
 }
 
-display_height = 35;
+display_height = LINE_HEIGHT;
 
 // false unless npc shop
 commerce = false;

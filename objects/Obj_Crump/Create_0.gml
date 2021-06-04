@@ -10,7 +10,7 @@ slots_filled = 0;
 starting_response = "Do please fuck off.";
 dialogue_options = ["You're under arrest!"];
 options_count = 1;
-
+text_Xscale = 3;
 
 function dialogue(topic)
 {

@@ -11,7 +11,7 @@ slots_filled = 0;
 starting_response = "What's going on?";
 dialogue_options = ["Hello"];
 options_count = 1;
-
+text_Xscale = 3;
 
 // Dialogue function returns appropriate response to each topic,
 // executes relevant actions, and updates topic array in dialogue 
