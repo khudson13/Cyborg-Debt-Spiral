@@ -1,7 +1,7 @@
 depth = 0;
 image_xscale = 4;
-image_yscale = 1.5;
-var display_y = y + 10;
+image_yscale = 2;
+var display_y = y + 15;
 var display_x = x + 23;
 
 // Basic text output - Furniture description
@@ -10,6 +10,7 @@ draw_set_color(c_white);
 draw_text(display_x, display_y, name);
 display_y += display_height;
 draw_text(display_x, display_y, description);
+display_y += display_height;
 if (furniture.hasInventory == true)
 {
 	display_y += display_height;

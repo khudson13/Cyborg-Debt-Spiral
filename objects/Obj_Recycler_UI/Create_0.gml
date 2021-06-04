@@ -1,4 +1,4 @@
-display_height = 35; // Character tallness
+display_height = LINE_HEIGHT; // Character tallness
 selected_index = 0;
 
 // Generate a list of trash held by player

@@ -1,5 +1,5 @@
 name = "Trash Eater";
-description = "This machine dispenses money for recyclable trash.";
+description = "This machine dispenses\nmoney for recyclable trash.";
 passable = false;
 hasInventory = false; 
 hasOptions = true;
@@ -11,6 +11,7 @@ function access()
 {
 	Obj_Furniture_Manager.name = name;
 	Obj_Furniture_Manager.description = description;
+	Obj_Furniture_Manager.image_xscale += 0.2;
 	}
 
 function options(option)
