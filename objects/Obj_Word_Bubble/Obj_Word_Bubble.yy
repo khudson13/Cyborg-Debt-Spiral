@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Spr_Menu_Frame",
+    "path": "sprites/Spr_Menu_Frame/Spr_Menu_Frame.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -19,8 +22,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Word_Bubble","path":"objects/Obj_Word_Bubble/Obj_Word_Bubble.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_Word_Bubble","path":"objects/Obj_Word_Bubble/Obj_Word_Bubble.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_Word_Bubble","path":"objects/Obj_Word_Bubble/Obj_Word_Bubble.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_Word_Bubble","path":"objects/Obj_Word_Bubble/Obj_Word_Bubble.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
