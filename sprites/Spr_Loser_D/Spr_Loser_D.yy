@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 20,
+  "bbox_left": 17,
   "bbox_right": 45,
-  "bbox_top": 14,
-  "bbox_bottom": 47,
+  "bbox_top": 10,
+  "bbox_bottom": 51,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"56c0d2e8-02d0-4124-a4d4-11aefab70915","path":"sprites/Spr_Bar_Stool_B/Spr_Bar_Stool_B.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"56c0d2e8-02d0-4124-a4d4-11aefab70915","path":"sprites/Spr_Bar_Stool_B/Spr_Bar_Stool_B.yy",},"LayerId":{"name":"cbbe6299-ab0a-4a3a-846e-1530a1cb0ee5","path":"sprites/Spr_Bar_Stool_B/Spr_Bar_Stool_B.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Bar_Stool_B","path":"sprites/Spr_Bar_Stool_B/Spr_Bar_Stool_B.yy",},"resourceVersion":"1.0","name":"56c0d2e8-02d0-4124-a4d4-11aefab70915","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5f381c94-9f33-4839-9c41-2d1cc0b4e318","path":"sprites/Spr_Loser_D/Spr_Loser_D.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5f381c94-9f33-4839-9c41-2d1cc0b4e318","path":"sprites/Spr_Loser_D/Spr_Loser_D.yy",},"LayerId":{"name":"0d7f5c2d-58b1-4232-8cf9-00b20b14ae21","path":"sprites/Spr_Loser_D/Spr_Loser_D.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Loser_D","path":"sprites/Spr_Loser_D/Spr_Loser_D.yy",},"resourceVersion":"1.0","name":"5f381c94-9f33-4839-9c41-2d1cc0b4e318","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_Bar_Stool_B","path":"sprites/Spr_Bar_Stool_B/Spr_Bar_Stool_B.yy",},
+    "spriteId": {"name":"Spr_Loser_D","path":"sprites/Spr_Loser_D/Spr_Loser_D.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5d91c866-8bf6-4000-8ec1-e0e6e811bbb9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"56c0d2e8-02d0-4124-a4d4-11aefab70915","path":"sprites/Spr_Bar_Stool_B/Spr_Bar_Stool_B.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2ee8e5a5-a5cd-4bbe-8104-db536029e640","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5f381c94-9f33-4839-9c41-2d1cc0b4e318","path":"sprites/Spr_Loser_D/Spr_Loser_D.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_Bar_Stool_B","path":"sprites/Spr_Bar_Stool_B/Spr_Bar_Stool_B.yy",},
+    "parent": {"name":"Spr_Loser_D","path":"sprites/Spr_Loser_D/Spr_Loser_D.yy",},
     "resourceVersion": "1.3",
-    "name": "Spr_Bar_Stool_B",
+    "name": "Spr_Loser_D",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cbbe6299-ab0a-4a3a-846e-1530a1cb0ee5","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0d7f5c2d-58b1-4232-8cf9-00b20b14ae21","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Furniture",
-    "path": "folders/Sprites/Furniture.yy",
+    "name": "Extras",
+    "path": "folders/Sprites/Characters/Extras.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_Bar_Stool_B",
+  "name": "Spr_Loser_D",
   "tags": [],
   "resourceType": "GMSprite",
 }
