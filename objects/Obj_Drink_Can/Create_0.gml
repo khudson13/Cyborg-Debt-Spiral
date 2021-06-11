@@ -1,6 +1,6 @@
 ItemID = item.drink_can;
 
-randomize();
+//randomize();
 var random_sprite = irandom(2);
 
 switch (random_sprite)

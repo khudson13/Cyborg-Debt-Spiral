@@ -14,6 +14,11 @@ else
 	talking_ID = instance_nearest(Obj_Player.x,Obj_Player.y,Obj_NPC);
 }
 talking_to = talking_ID.NPC_name;
+// check for non-interactive npc
+if (talking_to == "nobody")
+{
+	talking_ID.one_Liner();
+}
 
 // Dialogue options vars
 dialogue_options = talking_ID.dialogue_options;

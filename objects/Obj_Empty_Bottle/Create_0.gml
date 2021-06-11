@@ -1,6 +1,6 @@
 ItemID = item.empty_bottle;
 
-randomize();
+//randomize();
 var random_sprite = irandom(3);
 
 switch (random_sprite)
