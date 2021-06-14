@@ -13,10 +13,10 @@ display_y += response_height;
 for (var i = 0; i == 0 || i < options_count ; ++i;)
 {
 	if (selected_index == i)
-	{ 
+	{
 		draw_set_color(c_red);
 	}
-	else 
+	else
 	{
 		draw_set_color(c_white);
 	}

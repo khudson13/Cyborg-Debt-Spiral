@@ -1,5 +1,5 @@
 name = "Computer";
-description = "Does this save time, or consume it?";
+description = "Does this save time, or consume it?\nYou don't recognize the interface.";
 passable = false;
 hasInventory = false; 
 hasOptions = false;
