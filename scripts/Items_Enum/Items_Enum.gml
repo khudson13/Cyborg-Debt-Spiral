@@ -23,6 +23,7 @@ enum item
 	
 	// KEYS
 	ChunkKey,
+	Lockpick,
 	Manhole_Key,
 	
 	// FORENSIC TOOS

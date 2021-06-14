@@ -147,3 +147,39 @@ function try_Decoy_Dummy()
 	
 	instance_destroy(Obj_Inventory_window);
 }
+
+function pick_Simple_Lock()
+{
+	if (collision_circle(Obj_Player.x, Obj_Player.y, 50, Obj_Door_A, false, true) == true)
+	{
+		if (instance_nearest(Obj_Player.x, Obj_Player.y, Obj_Door_A).lockDifficulty <= 10)
+		{
+			instance_nearest(Obj_Player.x, Obj_Player.y, Obj_Door_A).locked = false;
+			instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
+			Obj_Word_Bubble.content = "The lock clicks open.";
+			Obj_Word_Bubble.lines_multiple = 1;
+		}
+		else
+		{
+			instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
+			Obj_Word_Bubble.content = "The lock is too complex.";
+			Obj_Word_Bubble.lines_multiple = 1;
+		}
+	}
+	else if (collision_circle(Obj_Player.x, Obj_Player.y, 50, Obj_VertDoor_A, false, true) == true)
+	{
+		if (instance_nearest(Obj_Player.x, Obj_Player.y, Obj_VertDoor_A).lockDifficulty <= 10)
+		{
+			instance_nearest(Obj_Player.x, Obj_Player.y, Obj_VertDoor_A).locked = false;
+			instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
+			Obj_Word_Bubble.content = "The lock clicks open.";
+			Obj_Word_Bubble.lines_multiple = 1;
+		}
+		else
+		{
+			instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
+			Obj_Word_Bubble.content = "The lock is too complex.";
+			Obj_Word_Bubble.lines_multiple = 1;
+		}
+	}
+}

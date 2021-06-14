@@ -1,6 +1,7 @@
 name = "Door";
 passable = false;
 locked = false;
+lockDifficulty = 10;
 hasInventory = false;
 hasOptions = false;
 unique = false;

@@ -208,6 +208,21 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
 			break;
 			
+		case item.Lockpick:
+			ItemsMaster[i][itemstats.name]   = "Lockpick";
+			ItemsMaster[i][itemstats.sprite] = Spr_Lockpick;
+			ItemsMaster[i][itemstats.description] = "A simple electronic lockpick for simple locks";
+			ItemsMaster[i][itemstats.weight] = 0.1;
+			ItemsMaster[i][itemstats.worth]  = 10;
+			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "use";
+			ItemsMaster[i][itemstats.menu][2] = "look";
+			ItemsMaster[i][itemstats.menu][3] = "drop";
+			ItemsMaster[i][itemstats.functions][0] = "use";
+			ItemsMaster[i][itemstats.functions][1] = pick_Simple_Lock;
+			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
+			break;
+			
 		case item.Manhole_Key:
 			ItemsMaster[i][itemstats.name]   = "Unusual Key";
 			ItemsMaster[i][itemstats.sprite] = Spr_ManholeKey;
