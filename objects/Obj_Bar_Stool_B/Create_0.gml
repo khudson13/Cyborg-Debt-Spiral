@@ -1,6 +1,6 @@
 name = "Bar Stool";
 description = "It's an old bar stool, redolent of sweat and algae.";
-passable = false;
+passable = true;
 hasInventory = false; 
 hasOptions = false;
 unique = false; // check this before trying to access unique functionality

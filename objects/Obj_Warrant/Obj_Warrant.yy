@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Passport",
-    "path": "sprites/Spr_Passport/Spr_Passport.yy",
+    "name": "Spr_Warrant",
+    "path": "sprites/Spr_Warrant/Spr_Warrant.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Passport","path":"objects/Obj_Passport/Obj_Passport.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Warrant","path":"objects/Obj_Warrant/Obj_Warrant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Specific Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Passport",
+  "name": "Obj_Warrant",
   "tags": [],
   "resourceType": "GMObject",
 }

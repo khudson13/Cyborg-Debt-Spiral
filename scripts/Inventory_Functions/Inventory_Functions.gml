@@ -15,7 +15,7 @@ function inventory_create(size)
 // @function inventory_Add(inventory, thing);
 // @param {array} Inventory array
 // @param {enum} Item being added
-function inventory_Add(calling_instance, inventory, size, thing)
+function inventory_Add(calling_instance, inventory, inventory_size, thing)
 {
 	// @description Adds an item to an inventory array
 	// Returns 'false' if inventory is full
@@ -29,7 +29,7 @@ function inventory_Add(calling_instance, inventory, size, thing)
 	// Add item
 	else
 	{
-		for (var i = 0; i < size; ++i;)
+		for (var i = 0; i < inventory_size; ++i;)
 		{
 			//Add new item
 			if (inventory[i][0] == item.nothing)

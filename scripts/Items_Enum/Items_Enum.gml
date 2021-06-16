@@ -11,7 +11,7 @@ enum item
 
 	// MONEY AND VENDOR TRASH
 	coin,
-	passport,
+	Warrant,
 	
 	// BEVERAGE
 	BiscuitWash,

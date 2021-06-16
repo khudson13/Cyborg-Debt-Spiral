@@ -278,10 +278,10 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
 			
-		case item.passport:
-			ItemsMaster[i][itemstats.name]   = "passport";
-			ItemsMaster[i][itemstats.sprite] = Spr_Passport;
-			ItemsMaster[i][itemstats.description] = "This will get you past the gate";
+		case item.Warrant:
+			ItemsMaster[i][itemstats.name]   = "Bounty Warrant";
+			ItemsMaster[i][itemstats.sprite] = Spr_Warrant;
+			ItemsMaster[i][itemstats.description] = "Grants broad powers in persuit of a criminal.";
 			ItemsMaster[i][itemstats.weight] = 0;
 			ItemsMaster[i][itemstats.worth]  = 0;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
