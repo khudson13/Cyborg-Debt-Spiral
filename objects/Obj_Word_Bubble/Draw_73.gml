@@ -6,5 +6,5 @@ var display_x = x + 15;
 
 draw_set_color(c_yellow);
 draw_text(display_x, display_y, content);
-display_y += ((LINE_HEIGHT) + (LINE_HEIGHT * lines_multiple));
+display_y += ((display_height) + (display_height * lines_multiple));
 draw_text(display_x, display_y, "Press Escape");

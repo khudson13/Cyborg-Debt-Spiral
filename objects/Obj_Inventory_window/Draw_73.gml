@@ -6,7 +6,7 @@ var display_x = x + 25;
 // Header and money
 draw_set_color(c_yellow);
 draw_text(display_x + 55, display_y + display_height,"**INVENTORY**");
-display_y += display_height * 2;
+display_y += (display_height * 2) + 1;
 draw_set_color(c_white);
 draw_text(display_x, display_y + display_height,"Money - $" + string(Obj_Player.money));
 display_y += (display_height * 2);
@@ -52,7 +52,7 @@ for (var i = 0; i == 0 || i < Obj_Player.slots_filled; ++i;)
 		{
 			if (Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess] == "look")
 			{
-				draw_text(display_x + 400, sub_y + display_height,Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.description]);
+				draw_text(display_x + 400, sub_y + display_height, Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.description]);
 			}
 		}
 	}

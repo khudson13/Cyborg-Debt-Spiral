@@ -18,11 +18,14 @@ talking_to = talking_ID.NPC_name;
 if (talking_to == "nobody")
 {
 	talking_ID.one_Liner();
+	instance_destroy(Obj_Dialogue);
 }
+else
+{
+	// Dialogue options vars
+	dialogue_options = talking_ID.dialogue_options;
+	response = talking_ID.starting_response;
+	options_count = talking_ID.options_count;
 
-// Dialogue options vars
-dialogue_options = talking_ID.dialogue_options;
-response = talking_ID.starting_response;
-options_count = talking_ID.options_count;
-
-image_xscale = talking_ID.text_Xscale;
+	image_xscale = talking_ID.text_Xscale;
+}

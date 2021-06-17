@@ -14,5 +14,5 @@ function furnitureFill(instance)
 
 function door(instance)
 {
-	
+	instance.locked = true;
 }

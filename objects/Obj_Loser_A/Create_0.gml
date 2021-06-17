@@ -11,7 +11,6 @@ options_count = 3;
 
 function one_Liner()
 {
-	instance_destroy(Obj_Dialogue);
 	instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
 	
 	var what_Say = irandom(options_count - 1);

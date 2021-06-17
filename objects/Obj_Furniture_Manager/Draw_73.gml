@@ -42,6 +42,8 @@ if (furniture.object_index == Obj_Door_A || furniture.object_index == Obj_VertDo
 {
 	if (furniture.passable == false)
 	{
+		display_y = y + 15;
+		display_x = x + 23;
 		draw_text(display_x, display_y, "This door is locked.");
 		display_y += display_height;
 	}
