@@ -206,7 +206,6 @@
     {"id":{"name":"Spr_B33","path":"sprites/Spr_B33/Spr_B33.yy",},"order":22,},
     {"id":{"name":"Spr_Bed_F","path":"sprites/Spr_Bed_F/Spr_Bed_F.yy",},"order":5,},
     {"id":{"name":"Spr_Menu_Frame","path":"sprites/Spr_Menu_Frame/Spr_Menu_Frame.yy",},"order":61,},
-    {"id":{"name":"Obj_PaperTrash_B","path":"objects/Obj_PaperTrash_B/Obj_PaperTrash_B.yy",},"order":4,},
     {"id":{"name":"Obj_A31","path":"objects/Obj_A31/Obj_A31.yy",},"order":8,},
     {"id":{"name":"Spr_Ballistic_Analysis_Kit","path":"sprites/Spr_Ballistic_Analysis_Kit/Spr_Ballistic_Analysis_Kit.yy",},"order":0,},
     {"id":{"name":"Obj_Chair_A","path":"objects/Obj_Chair_A/Obj_Chair_A.yy",},"order":17,},

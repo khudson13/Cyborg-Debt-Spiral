@@ -256,20 +256,9 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
 			
-		case item.paper_trash_A:
+		case item.paper_trash:
 			ItemsMaster[i][itemstats.name]   = "Paper Trash";
 			ItemsMaster[i][itemstats.sprite] = Spr_PaperTrash_A;
-			ItemsMaster[i][itemstats.description] = "Some scraps of algae-based waste paper. It's technically edible!";
-			ItemsMaster[i][itemstats.weight] = .01;
-			ItemsMaster[i][itemstats.worth]  = 0;
-			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
-			ItemsMaster[i][itemstats.menu][1] = "look";
-			ItemsMaster[i][itemstats.menu][2] = "drop";
-			break;
-			
-		case item.paper_trash_B:
-			ItemsMaster[i][itemstats.name]   = "Paper Trash";
-			ItemsMaster[i][itemstats.sprite] = Spr_PaperTrash_B;
 			ItemsMaster[i][itemstats.description] = "Some scraps of algae-based waste paper. It's technically edible!";
 			ItemsMaster[i][itemstats.weight] = .01;
 			ItemsMaster[i][itemstats.worth]  = 0;
