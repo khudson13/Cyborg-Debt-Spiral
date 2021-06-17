@@ -14,6 +14,10 @@ if (access == -1)
 		case Obj_Control_Definitions.control_right:
 			io_clear();
 			access = selected_index; 
+			if (inventory[selected_index][0] == item.nothing)
+			{
+				access = -1;
+			}
 			break;
 		case Obj_Control_Definitions.escape:
 			Obj_Player.control = true;

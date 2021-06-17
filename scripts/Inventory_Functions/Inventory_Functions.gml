@@ -45,6 +45,17 @@ function inventory_Add(calling_instance, inventory, inventory_size, thing)
 				inventory[i][1] = (inventory[i][1] + 1); // += fails for some reason
 				return inventory;
 			}
+			// Enlarge inventry and add to end
+			else if (i == inventory_size - 1)
+			{
+				calling_instance.inventory_size += 1;
+				calling_instance.slots_filled += 1;
+				inventory[i + 1][0] = thing;
+				inventory[i + 1][1] = 1;
+				inventory[i + 2][0] = item.nothing;
+				inventory[i + 2][1] = 0;
+				return inventory;
+			}
 		}
 	}
 	return inventory;

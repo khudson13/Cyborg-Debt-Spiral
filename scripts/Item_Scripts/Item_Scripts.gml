@@ -182,4 +182,5 @@ function pick_Simple_Lock()
 			Obj_Word_Bubble.lines_multiple = 1;
 		}
 	}
+	instance_destroy(Obj_Inventory_window);
 }
