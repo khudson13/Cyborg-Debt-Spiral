@@ -40,11 +40,13 @@ if (furniture.hasOptions == true)
 }
 if (furniture.object_index == Obj_Door_A || furniture.object_index == Obj_VertDoor_A)
 {
-	if (furniture.passable == false)
+	if (furniture.locked == true)
 	{
 		display_y = y + 15;
 		display_x = x + 23;
 		draw_text(display_x, display_y, "This door is locked.");
+		display_y += display_height;
+		draw_text(display_x, display_y, "Press 'e' to pick the lock.");
 		display_y += display_height;
 	}
 }

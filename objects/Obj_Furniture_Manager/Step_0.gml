@@ -36,9 +36,18 @@ switch(keyboard_key)
 			io_clear();
 			instance_destroy(self);
 		}
-		if (furniture.hasOptions == true)
+		else if (furniture.hasOptions == true)
 		{
 			furniture.options(furniture.options_list[selected_option]);
+		}
+		else if ((furniture.object_index == Obj_Door_A) || (furniture.object_index == Obj_VertDoor_A))
+		{
+			if (furniture.locked == true)
+			{
+				pick_Lock(furniture);
+				io_clear();
+				instance_destroy(self);
+			}
 		}
 		io_clear(); 
 		break;

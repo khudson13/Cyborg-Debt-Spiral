@@ -5,7 +5,8 @@ function item_Script_Exec(item, command)
 {
 	for (var i = 0; Obj_Items_Master.ItemsMaster[item][itemstats.functions][i] != itemstats.nomore; i += 2)
 	{
-		if (Obj_Items_Master.ItemsMaster[item][itemstats.functions][i] == command){
+		if (Obj_Items_Master.ItemsMaster[item][itemstats.functions][i] == command)
+		{
 			Obj_Items_Master.ItemsMaster[item][itemstats.functions][i + 1]();  //Function call
 			break;
 		}
@@ -148,39 +149,25 @@ function try_Decoy_Dummy()
 	instance_destroy(Obj_Inventory_window);
 }
 
-function pick_Simple_Lock()
+function pick_Lock(door)
 {
-	if (collision_circle(Obj_Player.x, Obj_Player.y, 50, Obj_Door_A, false, true) == true)
+	if (has_item(item.Lockpick, Obj_Player.inventory, Obj_Player.inventory_size) == true)
 	{
-		if (instance_nearest(Obj_Player.x, Obj_Player.y, Obj_Door_A).lockDifficulty <= 10)
+		if (door.lockDifficulty <= 10)
 		{
-			instance_nearest(Obj_Player.x, Obj_Player.y, Obj_Door_A).locked = false;
+			door.locked = false;
 			instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
-			Obj_Word_Bubble.content = "The lock clicks open.";
-			Obj_Word_Bubble.lines_multiple = 1;
+			Obj_Word_Bubble.content = "You pick the lock.";
 		}
 		else
 		{
 			instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
-			Obj_Word_Bubble.content = "The lock is too complex.";
-			Obj_Word_Bubble.lines_multiple = 1;
+			Obj_Word_Bubble.content = "This lock is too complex.";
 		}
 	}
-	else if (collision_circle(Obj_Player.x, Obj_Player.y, 50, Obj_VertDoor_A, false, true) == true)
+	else
 	{
-		if (instance_nearest(Obj_Player.x, Obj_Player.y, Obj_VertDoor_A).lockDifficulty <= 10)
-		{
-			instance_nearest(Obj_Player.x, Obj_Player.y, Obj_VertDoor_A).locked = false;
-			instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
-			Obj_Word_Bubble.content = "The lock clicks open.";
-			Obj_Word_Bubble.lines_multiple = 1;
-		}
-		else
-		{
-			instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
-			Obj_Word_Bubble.content = "The lock is too complex.";
-			Obj_Word_Bubble.lines_multiple = 1;
-		}
+		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
+			Obj_Word_Bubble.content = "You don't have a lockpick.";
 	}
-	instance_destroy(Obj_Inventory_window);
 }
