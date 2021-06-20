@@ -263,6 +263,17 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
 			
+		case item.Scrap_Electronics:
+			ItemsMaster[i][itemstats.name]   = "Scrap Electronics";
+			ItemsMaster[i][itemstats.sprite] = Spr_Scrap_Electronics;
+			ItemsMaster[i][itemstats.description] = "Mixed electronic scrap, worth a little money.";
+			ItemsMaster[i][itemstats.weight] = 1;
+			ItemsMaster[i][itemstats.worth]  = 3;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+			
 		case item.Warrant:
 			ItemsMaster[i][itemstats.name]   = "Bounty Warrant";
 			ItemsMaster[i][itemstats.sprite] = Spr_Warrant;

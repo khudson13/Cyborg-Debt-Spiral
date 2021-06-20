@@ -11,6 +11,7 @@ enum item
 
 	// MONEY AND VENDOR TRASH
 	coin,
+	Scrap_Electronics,
 	Warrant,
 	
 	// BEVERAGE
