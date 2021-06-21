@@ -1,5 +1,4 @@
-roomID = ""; //Ident of unique room or category
-
+roomID = "A-1.2"; 
 
 function furnitureFill(instance){
 	if (instance.object_index == Obj_Wall_Crack)
