@@ -1,8 +1,8 @@
-roomID = "A-1.3";
+roomID = "A-1.1";
 
 function furnitureFill(instance)
 {
-	if (instance.object_index == Obj_Computer_B)
+	if (instance.object_index == Obj_Computer_A)
 	{
 		instance.hasOptions = true;
 		instance.options_number = 1;
