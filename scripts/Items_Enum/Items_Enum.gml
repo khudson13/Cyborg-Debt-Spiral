@@ -10,7 +10,9 @@ enum item
 	nothing,
 
 	// MONEY AND VENDOR TRASH
+	Alloy_Ingot,
 	coin,
+	Knick_Knack,
 	Scrap_Electronics,
 	Warrant,
 	
@@ -44,6 +46,7 @@ enum item
 	drink_can,
 	empty_bottle,
 	paper_trash,
+	Rags,
 	
 	garbage_end,
 	

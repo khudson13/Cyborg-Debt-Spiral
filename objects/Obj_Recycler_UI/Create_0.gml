@@ -24,10 +24,12 @@ function recycle(trash)
 	switch (trash)
 	{
 		case item.drink_can:
-			Obj_Player.money += 0.05; break;
-		case item.empty_bottle:
 			Obj_Player.money += 0.10; break;
+		case item.empty_bottle:
+			Obj_Player.money += 0.25; break;
 		case item.paper_trash:
 			Obj_Player.money += 0.01; break;
+		case item.Rags:
+			Obj_Player.money += 0.05; break;
 	}
 }

@@ -31,6 +31,17 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 	switch(i)
 	{
 		
+		case item.Alloy_Ingot:
+			ItemsMaster[i][itemstats.name]   = "Alloy Ingot";
+			ItemsMaster[i][itemstats.sprite] = Spr_Alloy_Ingot;
+			ItemsMaster[i][itemstats.description] = "Pure, refined metals.";
+			ItemsMaster[i][itemstats.weight] = 1;
+			ItemsMaster[i][itemstats.worth]  = 2;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+		
 		case item.Ballistic_Analysis_Kit:
 			ItemsMaster[i][itemstats.name]   = "Ballistic Analysis Kit";
 			ItemsMaster[i][itemstats.sprite] = Spr_Ballistic_Analysis_Kit;
@@ -208,6 +219,17 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
 			break;
 			
+		case item.Knick_Knack:
+			ItemsMaster[i][itemstats.name]   = "Knick Knack";
+			ItemsMaster[i][itemstats.sprite] = Spr_Knick_Knak;
+			ItemsMaster[i][itemstats.description] = "Cheap figurines and decor.";
+			ItemsMaster[i][itemstats.weight] = 1;
+			ItemsMaster[i][itemstats.worth]  = 2;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;	
+			
 		case item.Lockpick:
 			ItemsMaster[i][itemstats.name]   = "Lockpick";
 			ItemsMaster[i][itemstats.sprite] = Spr_Lockpick;
@@ -263,12 +285,23 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
 			
+		case item.Rags:
+			ItemsMaster[i][itemstats.name]   = "Cloth Rags";
+			ItemsMaster[i][itemstats.sprite] = Spr_Rags;
+			ItemsMaster[i][itemstats.description] = "Old cloth scraps.";
+			ItemsMaster[i][itemstats.weight] = 0;
+			ItemsMaster[i][itemstats.worth]  = 0;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+			
 		case item.Scrap_Electronics:
 			ItemsMaster[i][itemstats.name]   = "Scrap Electronics";
 			ItemsMaster[i][itemstats.sprite] = Spr_Scrap_Electronics;
 			ItemsMaster[i][itemstats.description] = "Mixed electronic scrap, worth a little money.";
 			ItemsMaster[i][itemstats.weight] = 1;
-			ItemsMaster[i][itemstats.worth]  = 3;
+			ItemsMaster[i][itemstats.worth]  = 4;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
