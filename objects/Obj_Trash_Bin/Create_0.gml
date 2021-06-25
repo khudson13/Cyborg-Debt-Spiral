@@ -5,6 +5,8 @@ hasInventory = true;
 hasOptions = false;
 unique = false; // check this before trying to access unique functionality
 
+alarm[0] = 1;
+
 inventory_size = 19;
 inventory = inventory_create(inventory_size);
 slots_filled = 0;
