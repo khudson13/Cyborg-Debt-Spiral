@@ -178,6 +178,7 @@
     {"id":{"name":"Spr_ChunkKey","path":"sprites/Spr_ChunkKey/Spr_ChunkKey.yy",},"order":3,},
     {"id":{"name":"Obj_B13","path":"objects/Obj_B13/Obj_B13.yy",},"order":14,},
     {"id":{"name":"Obj_RoomB12","path":"objects/Obj_RoomB12/Obj_RoomB12.yy",},"order":17,},
+    {"id":{"name":"Obj_RoomA21","path":"objects/Obj_RoomA21/Obj_RoomA21.yy",},"order":21,},
     {"id":{"name":"Obj_Interact","path":"objects/Obj_Interact/Obj_Interact.yy",},"order":36,},
     {"id":{"name":"Obj_D32","path":"objects/Obj_D32/Obj_D32.yy",},"order":45,},
     {"id":{"name":"Obj_Bed_A","path":"objects/Obj_Bed_A/Obj_Bed_A.yy",},"order":3,},
