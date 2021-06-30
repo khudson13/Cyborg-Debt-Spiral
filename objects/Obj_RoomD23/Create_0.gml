@@ -1,4 +1,4 @@
-roomID = "D-2.2"; //Ident of unique room or category
+roomID = "D-2.3"; //Ident of unique room or category
 
 function door(instance)
 {
