@@ -31,9 +31,6 @@ switch (keyboard_key)
 		if (npc[| selected_index - itemCount].alive == true)
 		{
 			instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), "UI_Windows", Obj_Dialogue);
-			Obj_Dialogue.talking_ID = npc[| selected_index - itemCount];
-			Obj_Dialogue.talking_to = npc[| selected_index - itemCount].NPC_name;
-			Obj_Dialogue.dialogue_options = npc[| selected_index - itemCount].dialogue_options;
 		}
 		else
 		{
