@@ -58,6 +58,7 @@
     {"id":{"name":"Obj_Sector_Gate","path":"objects/Obj_Sector_Gate/Obj_Sector_Gate.yy",},"order":22,},
     {"id":{"name":"Spr_Fingerprint_Scanner","path":"sprites/Spr_Fingerprint_Scanner/Spr_Fingerprint_Scanner.yy",},"order":10,},
     {"id":{"name":"Spr_Sector_Gate","path":"sprites/Spr_Sector_Gate/Spr_Sector_Gate.yy",},"order":3,},
+    {"id":{"name":"Obj_Room_Algae_Refinery","path":"objects/Obj_Room_Algae_Refinery/Obj_Room_Algae_Refinery.yy",},"order":33,},
     {"id":{"name":"Spr_C14","path":"sprites/Spr_C14/Spr_C14.yy",},"order":27,},
     {"id":{"name":"Spr_AlgaeFinisher","path":"sprites/Spr_AlgaeFinisher/Spr_AlgaeFinisher.yy",},"order":0,},
     {"id":{"name":"Obj_Table_A","path":"objects/Obj_Table_A/Obj_Table_A.yy",},"order":15,},
