@@ -1,4 +1,4 @@
-NPC_name = "nobody";
+NPC_name = "Citizen";
 
 alive = true;
 

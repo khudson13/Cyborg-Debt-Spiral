@@ -11,6 +11,7 @@
     {"id":{"name":"Spr_A23","path":"sprites/Spr_A23/Spr_A23.yy",},"order":6,},
     {"id":{"name":"Spr_VertDoor_A","path":"sprites/Spr_VertDoor_A/Spr_VertDoor_A.yy",},"order":5,},
     {"id":{"name":"Spr_Railing","path":"sprites/Spr_Railing/Spr_Railing.yy",},"order":12,},
+    {"id":{"name":"Spr_Title_C","path":"sprites/Spr_Title_C/Spr_Title_C.yy",},"order":0,},
     {"id":{"name":"Obj_C12","path":"objects/Obj_C12/Obj_C12.yy",},"order":25,},
     {"id":{"name":"Spr_Bed_A","path":"sprites/Spr_Bed_A/Spr_Bed_A.yy",},"order":0,},
     {"id":{"name":"Obj_D21","path":"objects/Obj_D21/Obj_D21.yy",},"order":40,},
@@ -357,6 +358,7 @@
     {"folderPath":"folders/Sprites/Furniture/Doors.yy","order":16,"resourceVersion":"1.0","name":"Doors","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Characters/Extras.yy","order":11,"resourceVersion":"1.0","name":"Extras","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Characters/Extras.yy","order":9,"resourceVersion":"1.0","name":"Extras","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Title.yy","order":62,"resourceVersion":"1.0","name":"Title","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
