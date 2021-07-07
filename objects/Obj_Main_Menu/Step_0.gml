@@ -1,3 +1,9 @@
+if (keyboard_check_pressed(vk_anykey))
+{
+	room_goto(R2_Demo_Level);
+}
+
+/*
 if (access == -1)
 {
 	switch(keyboard_key)
