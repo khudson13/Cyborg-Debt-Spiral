@@ -1,5 +1,6 @@
 if (keyboard_check_pressed(vk_anykey))
 {
+	io_clear();
 	room_goto(R2_Demo_Level);
 }
 

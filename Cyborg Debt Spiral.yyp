@@ -210,6 +210,7 @@
     {"id":{"name":"Obj_Baxter","path":"objects/Obj_Baxter/Obj_Baxter.yy",},"order":4,},
     {"id":{"name":"Spr_Crump","path":"sprites/Spr_Crump/Spr_Crump.yy",},"order":4,},
     {"id":{"name":"Spr_B22","path":"sprites/Spr_B22/Spr_B22.yy",},"order":17,},
+    {"id":{"name":"Obj_Introductory_Spiel","path":"objects/Obj_Introductory_Spiel/Obj_Introductory_Spiel.yy",},"order":48,},
     {"id":{"name":"Spr_B24","path":"sprites/Spr_B24/Spr_B24.yy",},"order":19,},
     {"id":{"name":"Obj_Bar_Stool_B","path":"objects/Obj_Bar_Stool_B/Obj_Bar_Stool_B.yy",},"order":29,},
     {"id":{"name":"Spr_D34","path":"sprites/Spr_D34/Spr_D34.yy",},"order":47,},

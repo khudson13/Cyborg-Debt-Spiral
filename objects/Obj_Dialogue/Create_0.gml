@@ -15,7 +15,7 @@ else
 }
 talking_to = talking_ID.NPC_name;
 // check for non-interactive npc
-if (talking_to == "nobody")
+if (talking_to == "Citizen")
 {
 	talking_ID.one_Liner();
 	instance_destroy(Obj_Dialogue);
