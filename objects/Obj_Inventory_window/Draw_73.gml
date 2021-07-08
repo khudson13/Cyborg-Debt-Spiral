@@ -48,13 +48,13 @@ for (var i = 0; i == 0 || i < Obj_Player.slots_filled; ++i;)
 			draw_text(display_x + 270, sub_y + display_height,Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][ii]);
 			sub_y += display_height;
 		}
-		if (subaccess != -1)
+		/*if (subaccess != -1)
 		{
 			if (Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess] == "look")
 			{
 				draw_text(display_x + 400, sub_y + display_height, Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.description]);
 			}
-		}
+		}*/
 	}
 	display_y += display_height;
 }

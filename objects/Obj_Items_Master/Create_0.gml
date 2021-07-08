@@ -321,7 +321,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.Warrant:
 			ItemsMaster[i][itemstats.name]   = "Bounty Warrant";
 			ItemsMaster[i][itemstats.sprite] = Spr_Warrant;
-			ItemsMaster[i][itemstats.description] = "Grants broad powers in persuit of a criminal.";
+			ItemsMaster[i][itemstats.description] = "Grants broad powers in persuit\nof a criminal.";
 			ItemsMaster[i][itemstats.weight] = 0;
 			ItemsMaster[i][itemstats.worth]  = 0;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu

@@ -165,6 +165,7 @@
     {"id":{"name":"Obj_Gate_Guard","path":"objects/Obj_Gate_Guard/Obj_Gate_Guard.yy",},"order":0,},
     {"id":{"name":"Spr_C22","path":"sprites/Spr_C22/Spr_C22.yy",},"order":29,},
     {"id":{"name":"Obj_C21","path":"objects/Obj_C21/Obj_C21.yy",},"order":28,},
+    {"id":{"name":"Obj_Word_Bubble_Look","path":"objects/Obj_Word_Bubble_Look/Obj_Word_Bubble_Look.yy",},"order":49,},
     {"id":{"name":"Obj_Bar_Stool","path":"objects/Obj_Bar_Stool/Obj_Bar_Stool.yy",},"order":28,},
     {"id":{"name":"Obj_Scrap_Electronics","path":"objects/Obj_Scrap_Electronics/Obj_Scrap_Electronics.yy",},"order":20,},
     {"id":{"name":"Obj_RoomD11","path":"objects/Obj_RoomD11/Obj_RoomD11.yy",},"order":12,},

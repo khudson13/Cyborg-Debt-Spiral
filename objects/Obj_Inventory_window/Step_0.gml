@@ -85,7 +85,19 @@ if (subaccess != -1)
 		access = -1;
 		io_clear();
 	}
-	else if (Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess] != "look")
+	else if (Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess] == "look")
+	{
+		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble_Look);
+		Obj_Word_Bubble_Look.content = Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.description];
+		Obj_Word_Bubble_Look.x = Obj_Player.x - 200;
+		Obj_Word_Bubble_Look.y = Obj_Player.y - 50;
+		Obj_Word_Bubble_Look.image_xscale = 5.5;
+		Obj_Word_Bubble_Look.lines_multiple = 2;
+		Obj_Word_Bubble_Look.Xmod = 30;
+		Obj_Word_Bubble_Look.selected_index = selected_index;
+		instance_destroy(self);
+	}
+	else //if (Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess] != "look")
 	{
 		io_clear();
 		item_Script_Exec(inventory[selected_index][0], Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess]);
