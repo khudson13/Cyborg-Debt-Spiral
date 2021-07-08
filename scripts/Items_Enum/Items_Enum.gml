@@ -28,6 +28,7 @@ enum item
 	ChunkKey,
 	Lockpick,
 	Manhole_Key,
+	Note,
 	
 	// FORENSIC TOOS
 	Ballistic_Analysis_Kit,

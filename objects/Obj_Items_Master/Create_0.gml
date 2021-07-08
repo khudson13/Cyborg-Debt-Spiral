@@ -252,6 +252,17 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
 			
+		case item.Note:
+			ItemsMaster[i][itemstats.name]   = "A cryptic clue";
+			ItemsMaster[i][itemstats.sprite] = Spr_PaperTrash_B;
+			ItemsMaster[i][itemstats.description] = "Crack in the wall. Apple 1 dot 2.";
+			ItemsMaster[i][itemstats.weight] = 0;
+			ItemsMaster[i][itemstats.worth]  = 0;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+			
 		case item.nothing:
 			ItemsMaster[i][itemstats.name]   = "nothing";
 			ItemsMaster[i][itemstats.sprite] = Spr_Fail;
