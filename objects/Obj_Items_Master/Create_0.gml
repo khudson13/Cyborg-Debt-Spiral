@@ -45,7 +45,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.Ballistic_Analysis_Kit:
 			ItemsMaster[i][itemstats.name]   = "Ballistic Analysis Kit";
 			ItemsMaster[i][itemstats.sprite] = Spr_Ballistic_Analysis_Kit;
-			ItemsMaster[i][itemstats.description] = "A kit with a variety of tools and references for analyzing\nboth firearms and impacts by their munitions.";
+			ItemsMaster[i][itemstats.description] = "A kit with a variety of tools and references\nfor analyzing both firearms and impacts by\ntheir munitions.";
 			ItemsMaster[i][itemstats.weight] = 1;
 			ItemsMaster[i][itemstats.worth]  = 20;
 			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
@@ -60,7 +60,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.BiscuitWash:
 			ItemsMaster[i][itemstats.name]   = "Biscuit Wash";
 			ItemsMaster[i][itemstats.sprite] = Spr_Biscuit_Wash;
-			ItemsMaster[i][itemstats.description] = "Crude beer fermented from stale and moldy algae biscuits.";
+			ItemsMaster[i][itemstats.description] = "Crude beer fermented from stale and\nmoldy algae biscuits.";
 			ItemsMaster[i][itemstats.weight] = 1;
 			ItemsMaster[i][itemstats.worth]  = 5;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
@@ -71,7 +71,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.Blood_Analysis_Kit:
 			ItemsMaster[i][itemstats.name]   = "Blood Analysis Kit";
 			ItemsMaster[i][itemstats.sprite] = Spr_Blood_Analysis_Kit;
-			ItemsMaster[i][itemstats.description] = "A forensic kit of analyzing and matching samples of blood, both fresh and dried.";
+			ItemsMaster[i][itemstats.description] = "A forensic kit of analyzing and matching\nsamples of blood, both fresh and dried.";
 			ItemsMaster[i][itemstats.weight] = 1;
 			ItemsMaster[i][itemstats.worth]  = 10;
 			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
@@ -86,7 +86,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.Body_Armor:
 			ItemsMaster[i][itemstats.name]   = "Body Armor";
 			ItemsMaster[i][itemstats.sprite] = Spr_Body_Armor;
-			ItemsMaster[i][itemstats.description] = "Good, stury body armor. Should help prevent sudden death.";
+			ItemsMaster[i][itemstats.description] = "Good, stury body armor. Should help\nprevent sudden death.";
 			ItemsMaster[i][itemstats.weight] = 10;
 			ItemsMaster[i][itemstats.worth]  = 20;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
@@ -97,7 +97,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.BottledWater:
 			ItemsMaster[i][itemstats.name]   = "Bottled Water";
 			ItemsMaster[i][itemstats.sprite] = Spr_Water_Bottle;
-			ItemsMaster[i][itemstats.description] = "Cool, refreshing water. Probably distilled urine.\nIt's the best there is.";
+			ItemsMaster[i][itemstats.description] = "Cool, refreshing water. Probably distilled\nurine. It's the best there is.";
 			ItemsMaster[i][itemstats.weight] = 1;
 			ItemsMaster[i][itemstats.worth]  = 0.50;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
@@ -130,7 +130,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.Decoy_Dummy:
 			ItemsMaster[i][itemstats.name]   = "Decoy Dummy";
 			ItemsMaster[i][itemstats.sprite] = Spr_Decoy_Dummy;
-			ItemsMaster[i][itemstats.description] = "It's a fake head on the end of a stick. It might fool someone who's jumpy enough or not paying attention.";
+			ItemsMaster[i][itemstats.description] = "It's a fake head on the end of a stick.\nIt might fool someone who's jumpy enough\nor not paying attention.";
 			ItemsMaster[i][itemstats.weight] = 5;
 			ItemsMaster[i][itemstats.worth]  = 1;
 			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
@@ -167,7 +167,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.Fingerprint_Scanner:
 			ItemsMaster[i][itemstats.name]   = "Fingerprint Scanner";
 			ItemsMaster[i][itemstats.sprite] = Spr_Fingerprint_Scanner;
-			ItemsMaster[i][itemstats.description] = "This is a small, card shaped scanner capable of analyzing\nfingerprints from any surface.";
+			ItemsMaster[i][itemstats.description] = "This is a small, card shaped scanner capable of\nanalyzing fingerprints from any surface.";
 			ItemsMaster[i][itemstats.weight] = 1;
 			ItemsMaster[i][itemstats.worth]  = 15;
 			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
@@ -182,7 +182,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.Gun:
 			ItemsMaster[i][itemstats.name]   = "Shrapnel Gun";
 			ItemsMaster[i][itemstats.sprite] = Spr_Gun;
-			ItemsMaster[i][itemstats.description] = "Little more than a pipe and an electronic trigger, but filled with scrap metal and an explosive charge it's absolutely deadly.\nExeptionally illegal, just having it is a death penalty. This can be turned in for a bounty.";
+			ItemsMaster[i][itemstats.description] = "Little more than a pipe and an electronic\ntrigger, but filled with scrap metal and an explosive charge it's absolutely deadly.\nExeptionally illegal, just having it is a death penalty. This can be turned in for a bounty.";
 			ItemsMaster[i][itemstats.weight] = 2;
 			ItemsMaster[i][itemstats.worth]  = 100;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
@@ -207,7 +207,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.Investigator_Kit:
 			ItemsMaster[i][itemstats.name]   = "Investigator Kit";
 			ItemsMaster[i][itemstats.sprite] = Spr_Investigator_Kit;
-			ItemsMaster[i][itemstats.description] = "A case full of various useful tools for investigating a crime scene.";
+			ItemsMaster[i][itemstats.description] = "A case full of various useful tools\nfor investigating a crime scene.";
 			ItemsMaster[i][itemstats.weight] = 1;
 			ItemsMaster[i][itemstats.worth]  = 10;
 			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
@@ -233,7 +233,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.Lockpick:
 			ItemsMaster[i][itemstats.name]   = "Lockpick";
 			ItemsMaster[i][itemstats.sprite] = Spr_Lockpick;
-			ItemsMaster[i][itemstats.description] = "A simple electronic lockpick for simple locks";
+			ItemsMaster[i][itemstats.description] = "A simple electronic lockpick for\nsimple locks";
 			ItemsMaster[i][itemstats.weight] = 0.1;
 			ItemsMaster[i][itemstats.worth]  = 10;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
@@ -244,7 +244,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.Manhole_Key:
 			ItemsMaster[i][itemstats.name]   = "Unusual Key";
 			ItemsMaster[i][itemstats.sprite] = Spr_ManholeKey;
-			ItemsMaster[i][itemstats.description] = "You're not sure what this opens, but it's probably important.";
+			ItemsMaster[i][itemstats.description] = "You're not sure what this opens,\nbut it's probably important.";
 			ItemsMaster[i][itemstats.weight] = 0;
 			ItemsMaster[i][itemstats.worth]  = 0;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
@@ -277,7 +277,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.OldBogSweat:
 			ItemsMaster[i][itemstats.name]   = "Old Bog Sweat";
 			ItemsMaster[i][itemstats.sprite] = Spr_Old_Bog_Sweat;
-			ItemsMaster[i][itemstats.description] = "This cheap, dirty distillate of fermented algae will knock you on the floor";
+			ItemsMaster[i][itemstats.description] = "This cheap, dirty distillate of fermented\nalgae will knock you on the floor";
 			ItemsMaster[i][itemstats.weight] = 1;
 			ItemsMaster[i][itemstats.worth]  = 10;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
@@ -288,7 +288,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.paper_trash:
 			ItemsMaster[i][itemstats.name]   = "Paper Trash";
 			ItemsMaster[i][itemstats.sprite] = Spr_PaperTrash_A;
-			ItemsMaster[i][itemstats.description] = "Some scraps of algae-based waste paper. It's technically edible!";
+			ItemsMaster[i][itemstats.description] = "Some scraps of algae-based waste\npaper. It's technically edible!";
 			ItemsMaster[i][itemstats.weight] = .01;
 			ItemsMaster[i][itemstats.worth]  = 0;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
@@ -310,7 +310,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.Scrap_Electronics:
 			ItemsMaster[i][itemstats.name]   = "Scrap Electronics";
 			ItemsMaster[i][itemstats.sprite] = Spr_Scrap_Electronics;
-			ItemsMaster[i][itemstats.description] = "Mixed electronic scrap, worth a little money.";
+			ItemsMaster[i][itemstats.description] = "Mixed electronic scrap, worth\na little money.";
 			ItemsMaster[i][itemstats.weight] = 1;
 			ItemsMaster[i][itemstats.worth]  = 4;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
