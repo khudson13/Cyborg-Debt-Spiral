@@ -76,6 +76,7 @@
     {"id":{"name":"Obj_A14","path":"objects/Obj_A14/Obj_A14.yy",},"order":3,},
     {"id":{"name":"Spr_Player_Hurt","path":"sprites/Spr_Player_Hurt/Spr_Player_Hurt.yy",},"order":10,},
     {"id":{"name":"Obj_RoomD12","path":"objects/Obj_RoomD12/Obj_RoomD12.yy",},"order":13,},
+    {"id":{"name":"Obj_Escape_Menu","path":"objects/Obj_Escape_Menu/Obj_Escape_Menu.yy",},"order":50,},
     {"id":{"name":"Obj_Loser_C","path":"objects/Obj_Loser_C/Obj_Loser_C.yy",},"order":2,},
     {"id":{"name":"Spr_Barkeep","path":"sprites/Spr_Barkeep/Spr_Barkeep.yy",},"order":0,},
     {"id":{"name":"Spr_Chunk","path":"sprites/Spr_Chunk/Spr_Chunk.yy",},"order":3,},
