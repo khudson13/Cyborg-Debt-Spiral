@@ -28,7 +28,7 @@ function quest_update(evidence)
 {
 	switch (evidence)
 	{
-		case "Skeeter":
+		case "Sket":
 			Obj_Barkeep.dialogue_options[1] = "I heard someone was trying to sell a firearm here";
 			Obj_Barkeep.options_count += 1;
 			break;

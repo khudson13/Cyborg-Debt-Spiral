@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Skeeter",
-    "path": "sprites/Spr_Skeeter/Spr_Skeeter.yy",
+    "name": "Spr_Sket",
+    "path": "sprites/Spr_Sket/Spr_Sket.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Skeeter","path":"objects/Obj_Skeeter/Obj_Skeeter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Sket","path":"objects/Obj_Sket/Obj_Sket.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Characters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Skeeter",
+  "name": "Obj_Sket",
   "tags": [],
   "resourceType": "GMObject",
 }
