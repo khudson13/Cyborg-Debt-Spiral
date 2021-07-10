@@ -21,7 +21,7 @@ if (commerce == true)
 
 if (insufficient_funds == true)
 {
-	draw_text(display_x + 125, display_y + display_height, "***INSUFFICIENT FUNDS FOR PURCHASE***");
+	draw_text(display_x + 100, display_y + display_height, "***INSUFFICIENT FUNDS FOR PURCHASE***");
 	display_y += display_height;
 	draw_text(display_x + 150, display_y + display_height, "***PRESS ESCAPE***");
 }

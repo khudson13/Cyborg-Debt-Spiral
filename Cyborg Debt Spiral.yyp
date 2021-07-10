@@ -99,7 +99,7 @@
     {"id":{"name":"Obj_Lockpick","path":"objects/Obj_Lockpick/Obj_Lockpick.yy",},"order":19,},
     {"id":{"name":"Obj_Empty_Bottle","path":"objects/Obj_Empty_Bottle/Obj_Empty_Bottle.yy",},"order":8,},
     {"id":{"name":"Spr_Sket","path":"sprites/Spr_Sket/Spr_Sket.yy",},"order":8,},
-    {"id":{"name":"Obj_Ernie","path":"objects/Obj_Ernie/Obj_Ernie.yy",},"order":3,},
+    {"id":{"name":"Obj_Einren","path":"objects/Obj_Einren/Obj_Einren.yy",},"order":3,},
     {"id":{"name":"Spr_Sector_Gate_Open","path":"sprites/Spr_Sector_Gate_Open/Spr_Sector_Gate_Open.yy",},"order":4,},
     {"id":{"name":"Obj_RoomC34","path":"objects/Obj_RoomC34/Obj_RoomC34.yy",},"order":27,},
     {"id":{"name":"Obj_Bed_C","path":"objects/Obj_Bed_C/Obj_Bed_C.yy",},"order":5,},

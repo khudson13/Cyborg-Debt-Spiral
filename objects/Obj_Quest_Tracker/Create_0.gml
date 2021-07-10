@@ -29,14 +29,15 @@ function quest_update(evidence)
 	switch (evidence)
 	{
 		case "Sket":
-			Obj_Barkeep.dialogue_options[1] = "I heard someone was trying to sell a firearm here";
+			Obj_Barkeep.dialogue_options[1] = "I heard someone was trying\nto sell a firearm here";
 			Obj_Barkeep.options_count += 1;
+			Obj_Barkeep.text_Xscale = 5;
 			break;
 		case "Barkeep":
-			Obj_Ernie.dialogue_options[1] = "I heard someone was trying to sell a gun";
-			Obj_Ernie.options_count += 1;
+			Obj_Einren.dialogue_options[1] = "I heard someone was trying to sell a gun";
+			Obj_Einren.options_count += 1;
 			break
-		case "Ernie":
+		case "Einren":
 			Obj_Baxter.dialogue_options[1] = "Heard someone tried to sell you a gun";
 			Obj_Baxter.options_count += 1;
 			break;

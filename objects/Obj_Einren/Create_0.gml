@@ -1,4 +1,4 @@
-NPC_name = "Ernie";
+NPC_name = "Einren";
 
 alive = true;
 
@@ -21,7 +21,7 @@ function dialogue(topic)
 	switch(topic)
 	{
 		case "Hello":
-			Obj_Dialogue.response = "Hello, I'm Ernie.";
+			Obj_Dialogue.response = "Hello, I'm Einren.";
 			Obj_Dialogue.response_height = LINE_HEIGHT;
 			Obj_Dialogue.response_scale = 1;
 			break;
@@ -30,7 +30,7 @@ function dialogue(topic)
 			I forget who. Baxter works the algae refinery.";
 			Obj_Dialogue.response_height = LINE_HEIGHT * 2;
 			Obj_Dialogue.response_scale = 2;
-			Obj_Quest_Tracker.quest_update("Ernie");
+			Obj_Quest_Tracker.quest_update("Einren");
 			break;
 	}
 } 

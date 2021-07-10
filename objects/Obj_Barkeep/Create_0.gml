@@ -33,12 +33,15 @@ function dialogue(topic)
 			instance_destroy(Obj_Dialogue);
 			break;
 
-		case "I heard someone was trying to sell a firearm here":
-			Obj_Dialogue.response = @"I don't need trouble and I don't know anything about that.
-			Some weirdo was in here chatting up my regulars a few days ago.
-			Try asking Ernie, right over there.";
-			Obj_Dialogue.response_height = LINE_HEIGHT * 3;
-			Obj_Dialogue.response_scale = 3;
+		case "I heard someone was trying\nto sell a firearm here":
+			Obj_Dialogue.response = @"I don't need trouble and I
+			don't know anything about
+			that. Some weirdo was in here
+			chatting up my regulars a few
+			days ago. Try asking Einren, 
+			right over there.";
+			Obj_Dialogue.response_height = LINE_HEIGHT * 6;
+			Obj_Dialogue.response_scale = 6;
 			Obj_Quest_Tracker.quest_update("Barkeep");
 			break;
 	}
