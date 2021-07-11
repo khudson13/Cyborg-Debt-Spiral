@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_ChunkKey",
-    "path": "sprites/Spr_ChunkKey/Spr_ChunkKey.yy",
+    "name": "Spr_Zed_Key",
+    "path": "sprites/Spr_Zed_Key/Spr_Zed_Key.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Chunk_Key","path":"objects/Obj_Chunk_Key/Obj_Chunk_Key.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Zed_Key","path":"objects/Obj_Zed_Key/Obj_Zed_Key.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Specific Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Chunk_Key",
+  "name": "Obj_Zed_Key",
   "tags": [],
   "resourceType": "GMObject",
 }

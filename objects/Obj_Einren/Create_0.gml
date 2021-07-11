@@ -11,7 +11,7 @@ slots_filled = 0;
 starting_response = "What's going on?";
 dialogue_options = ["Hello"];
 options_count = 1;
-text_Xscale = 3;
+text_Xscale = 5;
 
 // Dialogue function returns appropriate response to each topic,
 // executes relevant actions, and updates topic array in dialogue 
@@ -26,10 +26,12 @@ function dialogue(topic)
 			Obj_Dialogue.response_scale = 1;
 			break;
 		case "I heard someone was trying to sell a gun":
-			Obj_Dialogue.response = @"I remember seeing that guy. He was talking mostly to Baxter and... someone else.
-			I forget who. Baxter works the algae refinery.";
-			Obj_Dialogue.response_height = LINE_HEIGHT * 2;
-			Obj_Dialogue.response_scale = 2;
+			Obj_Dialogue.response = @"I remember seeing that guy.
+			He was talking mostly to Baxter and... 
+			someone else. I forget who.
+			Baxter works the algae refinery.";
+			Obj_Dialogue.response_height = LINE_HEIGHT * 4;
+			Obj_Dialogue.response_scale = 4;
 			Obj_Quest_Tracker.quest_update("Einren");
 			break;
 	}

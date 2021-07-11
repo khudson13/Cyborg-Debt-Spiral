@@ -25,10 +25,10 @@ enum item
 	Body_Armor,
 	
 	// KEYS
-	ChunkKey,
 	Lockpick,
 	Manhole_Key,
 	Note,
+	ZedKey,
 	
 	// FORENSIC TOOS
 	Ballistic_Analysis_Kit,

@@ -41,7 +41,7 @@ function quest_update(evidence)
 			Obj_Baxter.dialogue_options[1] = "Heard someone tried to sell you a gun";
 			Obj_Baxter.options_count += 1;
 			break;
-		case "Baxter":
+		case "B'tax":
 			evidence_array[0] = true;
 			if (evidence_array[1] == true)
 			{

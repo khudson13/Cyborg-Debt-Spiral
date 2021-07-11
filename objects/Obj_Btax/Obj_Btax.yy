@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Baxter",
-    "path": "sprites/Spr_Baxter/Spr_Baxter.yy",
+    "name": "Spr_Btax",
+    "path": "sprites/Spr_Btax/Spr_Btax.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Baxter","path":"objects/Obj_Baxter/Obj_Baxter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Btax","path":"objects/Obj_Btax/Obj_Btax.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Characters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Baxter",
+  "name": "Obj_Btax",
   "tags": [],
   "resourceType": "GMObject",
 }

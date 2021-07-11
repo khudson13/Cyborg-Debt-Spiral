@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Ernie",
-    "path": "sprites/Spr_Ernie/Spr_Ernie.yy",
+    "name": "Spr_Einren",
+    "path": "sprites/Spr_Einren/Spr_Einren.yy",
   },
   "solid": false,
   "visible": true,
