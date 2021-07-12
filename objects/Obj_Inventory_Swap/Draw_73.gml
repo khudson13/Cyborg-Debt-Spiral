@@ -1,17 +1,17 @@
-image_xscale = 8;
+image_xscale = 9.5;
 var display_y = y; // Start drawing at upper left
-var display_x = x + 45;
+var display_x = x + 55;
 
 
 // Set iterator value to control display loop based on largest inventory
 if (Obj_Player.slots_filled >= accessed_instance.slots_filled)
 {
 	var iteratorLimit = Obj_Player.slots_filled;
-	image_yscale = (1.35 + (Obj_Player.slots_filled * 0.29));
+	image_yscale = (1.35 + (Obj_Player.slots_filled * 0.3));
 }
 else{
 	var iteratorLimit = accessed_instance.slots_filled;
-	image_yscale = (1.35 + (accessed_instance.slots_filled * 0.29));
+	image_yscale = (1.35 + (accessed_instance.slots_filled * 0.3));
 }
 if (commerce == true)
 {
@@ -30,7 +30,7 @@ else
 {
 	// HEADER
 	draw_set_color(c_yellow);
-	draw_text(display_x + 150, display_y + display_height, "***TRADE***");
+	draw_text(display_x + 200, display_y + display_height, "***TRADE***");
 	display_y += display_height;
 	if (commerce == true)
 	{
@@ -60,10 +60,10 @@ else
 		if (i < Obj_Player.slots_filled)
 		{
 			draw_text(display_x, display_y + display_height, Obj_Items_Master.ItemsMaster[Obj_Player.inventory[i][0]][itemstats.name]);
-				draw_text(display_x + 100, display_y + display_height, Obj_Player.inventory[i][1]);
+				draw_text(display_x + 200, display_y + display_height, Obj_Player.inventory[i][1]);
 				if (commerce == true)
 				{
-					draw_text(display_x + 135, display_y + display_height, "$" + string(Obj_Items_Master.ItemsMaster[Obj_Player.inventory[i][0]][itemstats.worth]));
+					draw_text(display_x + 220, display_y + display_height, "$" + string(Obj_Items_Master.ItemsMaster[Obj_Player.inventory[i][0]][itemstats.worth]));
 				}
 		}
 	
@@ -76,10 +76,10 @@ else
 		if (i < accessed_instance.slots_filled)
 		{
 			draw_text(display_x + 275, display_y + display_height, Obj_Items_Master.ItemsMaster[accessed_instance.inventory[i][0]][itemstats.name]);
-				draw_text(display_x + 415, display_y + display_height, accessed_instance.inventory[i][1]);
+				draw_text(display_x + 500, display_y + display_height, accessed_instance.inventory[i][1]);
 				if (commerce == true)
 				{
-					draw_text(display_x + 435, display_y + display_height, "$" + string(Obj_Items_Master.ItemsMaster[accessed_instance.inventory[i][0]][itemstats.worth]));
+					draw_text(display_x + 520, display_y + display_height, "$" + string(Obj_Items_Master.ItemsMaster[accessed_instance.inventory[i][0]][itemstats.worth]));
 				}
 		}
 	

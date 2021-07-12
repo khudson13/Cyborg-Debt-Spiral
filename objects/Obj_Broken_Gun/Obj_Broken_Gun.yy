@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Old_Bog_Sweat",
-    "path": "sprites/Spr_Old_Bog_Sweat/Spr_Old_Bog_Sweat.yy",
+    "name": "Spr_Broken_Gun",
+    "path": "sprites/Spr_Broken_Gun/Spr_Broken_Gun.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Old_Bog_Sweat","path":"objects/Obj_Old_Bog_Sweat/Obj_Old_Bog_Sweat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Broken_Gun","path":"objects/Obj_Broken_Gun/Obj_Broken_Gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Comestible",
-    "path": "folders/Objects/Specific Items/Comestible.yy",
+    "name": "Junk",
+    "path": "folders/Objects/Specific Items/Junk.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Old_Bog_Sweat",
+  "name": "Obj_Broken_Gun",
   "tags": [],
   "resourceType": "GMObject",
 }

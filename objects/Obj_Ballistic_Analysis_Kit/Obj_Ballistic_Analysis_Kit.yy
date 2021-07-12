@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Specific Items",
-    "path": "folders/Objects/Specific Items.yy",
+    "name": "Forensic",
+    "path": "folders/Objects/Specific Items/Forensic.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_Ballistic_Analysis_Kit",

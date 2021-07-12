@@ -1,6 +1,8 @@
 accessed_instance = global.CALLING_INSTANCE;		// Get ID of opened instance
 global.CALLING_INSTANCE = 0;						// Restore global to default
 
+depth = 0;
+
 selected_index = 0;
 
 // Which inventory has selector 1 = player 2 = other -1 = both empty

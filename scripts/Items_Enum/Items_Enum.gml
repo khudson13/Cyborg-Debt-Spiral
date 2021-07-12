@@ -44,6 +44,7 @@ enum item
 	// GARBAGE - SCENERY
 	garbage_start,
 	
+	Broken_Gun,
 	drink_can,
 	empty_bottle,
 	paper_trash,

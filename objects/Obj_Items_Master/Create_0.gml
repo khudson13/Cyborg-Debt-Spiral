@@ -177,8 +177,9 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
-			ItemsMaster[i][itemstats.functions][0] = "";
-			ItemsMaster[i][itemstats.functions][1] = 0;
+			ItemsMaster[i][itemstats.menu][2] = "destroy";
+			ItemsMaster[i][itemstats.functions][0] = "destroy";
+			ItemsMaster[i][itemstats.functions][1] = destroy_Gun;
 			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
 			break;
 			

@@ -13,8 +13,8 @@ inventory_Add(self, self.inventory, self.inventory_size, item.Fingerprint_Scanne
 inventory_Add(self, self.inventory, self.inventory_size, item.Investigator_Kit);
 
 // DIALOGUE STARTING OPTIONS
-starting_response = "Nuh.";
-dialogue_options = ["Hello"];
+starting_response = "What're ya buying?";
+dialogue_options = ["Buy/Sell"];
 options_count = 1;
 text_Xscale = 3;
 
@@ -25,10 +25,11 @@ function dialogue(topic)
 {
 	switch(topic)
 	{
-		case "Hello":
-			Obj_Dialogue.response = "I'm Betl, the shopkeeper. I'm not fully implemented yet.";
-			Obj_Dialogue.response_height = LINE_HEIGHT;
-			Obj_Dialogue.response_scale = 1;
+		case "Buy/Sell":
+			global.CALLING_INSTANCE = id;
+			instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]),"UI_Windows",Obj_Inventory_Swap);
+			Obj_Inventory_Swap.commerce = true;
+			instance_destroy(Obj_Dialogue);
 			break;
 	}
 }

@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Specific Items",
-    "path": "folders/Objects/Specific Items.yy",
+    "name": "Comestible",
+    "path": "folders/Objects/Specific Items/Comestible.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_Biscuit_Wash",

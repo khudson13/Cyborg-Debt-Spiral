@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Specific Items",
-    "path": "folders/Objects/Specific Items.yy",
+    "name": "Junk",
+    "path": "folders/Objects/Specific Items/Junk.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_PaperTrash_A",
