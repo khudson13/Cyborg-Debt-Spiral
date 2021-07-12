@@ -12,7 +12,7 @@ function access()
 	Obj_Furniture_Manager.name = name;
 	Obj_Furniture_Manager.description = description;
 	Obj_Furniture_Manager.image_xscale += 0.2;
-	}
+}
 
 function options(option)
 {
@@ -22,10 +22,4 @@ function options(option)
 			instance_create_layer(x,y,"UI_Windows",Obj_Recycler_UI);
 			instance_destroy(Obj_Furniture_Manager);
 	}
-}
-
-function dialogue(topic)
-{
-	
-	
 }

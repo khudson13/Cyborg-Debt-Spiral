@@ -244,6 +244,7 @@
     {"id":{"name":"Spr_Menu_Frame","path":"sprites/Spr_Menu_Frame/Spr_Menu_Frame.yy",},"order":61,},
     {"id":{"name":"Obj_RoomA12","path":"objects/Obj_RoomA12/Obj_RoomA12.yy",},"order":7,},
     {"id":{"name":"Obj_A31","path":"objects/Obj_A31/Obj_A31.yy",},"order":8,},
+    {"id":{"name":"Obj_Room_Main_Entrance","path":"objects/Obj_Room_Main_Entrance/Obj_Room_Main_Entrance.yy",},"order":34,},
     {"id":{"name":"Obj_Alloy_Ingot","path":"objects/Obj_Alloy_Ingot/Obj_Alloy_Ingot.yy",},"order":21,},
     {"id":{"name":"Obj_RoomB14","path":"objects/Obj_RoomB14/Obj_RoomB14.yy",},"order":18,},
     {"id":{"name":"Spr_Ballistic_Analysis_Kit","path":"sprites/Spr_Ballistic_Analysis_Kit/Spr_Ballistic_Analysis_Kit.yy",},"order":0,},
