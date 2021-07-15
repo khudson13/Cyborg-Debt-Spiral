@@ -13,6 +13,7 @@ function furnitureFill(instance)
 				switch (selected_option)
 				{
 					case "Gut it for scrap":
+						Obj_Quest_Tracker.electronics_theft += 1;
 						inventory_Add(Obj_Player, Obj_Player.inventory, Obj_Player.inventory_size, item.Scrap_Electronics);
 						hasOptions = false;
 						sprite_index = Spr_Computer_C;
@@ -41,6 +42,7 @@ function furnitureFill(instance)
 				switch (selected_option)
 				{
 					case "Gut it for scrap":
+						Obj_Quest_Tracker.electronics_theft += 1;
 						inventory_Add(Obj_Player, Obj_Player.inventory, Obj_Player.inventory_size, item.Scrap_Electronics);
 						hasOptions = false;
 						sprite_index = Spr_Computer_C;
@@ -69,6 +71,7 @@ function furnitureFill(instance)
 				switch (selected_option)
 				{
 					case "Gut it for scrap":
+						Obj_Quest_Tracker.electronics_theft += 1;
 						inventory_Add(Obj_Player, Obj_Player.inventory, Obj_Player.inventory_size, item.Scrap_Electronics);
 						hasOptions = false;
 						sprite_index = Spr_Computer_C;

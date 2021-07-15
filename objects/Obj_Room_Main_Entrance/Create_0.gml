@@ -25,6 +25,7 @@ function options(option)
 	switch (option)
 	{
 		case "Exit (End Game)":	
-			game_end();
+			instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Endgame_Spiel);
+			instance_destroy(Obj_Furniture_Manager);
 	}
 }

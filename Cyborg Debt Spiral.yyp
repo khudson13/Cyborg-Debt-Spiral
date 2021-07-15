@@ -17,6 +17,7 @@
     {"id":{"name":"Obj_D21","path":"objects/Obj_D21/Obj_D21.yy",},"order":40,},
     {"id":{"name":"Obj_Loser_A","path":"objects/Obj_Loser_A/Obj_Loser_A.yy",},"order":0,},
     {"id":{"name":"Obj_RoomD24","path":"objects/Obj_RoomD24/Obj_RoomD24.yy",},"order":26,},
+    {"id":{"name":"Obj_Endgame_Spiel","path":"objects/Obj_Endgame_Spiel/Obj_Endgame_Spiel.yy",},"order":51,},
     {"id":{"name":"Obj_RoomB13","path":"objects/Obj_RoomB13/Obj_RoomB13.yy",},"order":19,},
     {"id":{"name":"Obj_D23","path":"objects/Obj_D23/Obj_D23.yy",},"order":42,},
     {"id":{"name":"Obj_Drink_Can","path":"objects/Obj_Drink_Can/Obj_Drink_Can.yy",},"order":2,},

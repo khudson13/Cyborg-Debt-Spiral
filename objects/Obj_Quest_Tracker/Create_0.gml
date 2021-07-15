@@ -23,6 +23,8 @@ for (var i = 0; i <= 10; ++i)
 	evidence_array[i] = false;
 }
 
+electronics_theft = 0;
+
 // Updates witness dialogues and variables as evidence is uncovered
 function quest_update(evidence)
 {
@@ -38,23 +40,23 @@ function quest_update(evidence)
 			Obj_Einren.options_count += 1;
 			break
 		case "Einren":
-			Obj_Baxter.dialogue_options[1] = "Heard someone tried to sell you a gun";
-			Obj_Baxter.options_count += 1;
+			Obj_Btax.dialogue_options[1] = "Heard someone tried to sell you a gun";
+			Obj_Btax.options_count += 1;
 			break;
 		case "B'tax":
 			evidence_array[0] = true;
 			if (evidence_array[1] == true)
 			{
-				Obj_Baxter.dialogue_options[2] = "D-2.3 is locked.";
-				Obj_Baxter.options_count = 3;
+				Obj_Btax.dialogue_options[2] = "D-2.3 is locked.";
+				Obj_Btax.options_count = 3;
 			}
 			break;
 		case "D-2.3":
 			evidence_array[1] = true;
 			if (evidence_array[0] == true)
 			{
-				Obj_Baxter.dialogue_options[2] = "D-2.3 is locked.";
-				Obj_Baxter.options_count = 3;
+				Obj_Btax.dialogue_options[2] = "D-2.3 is locked.";
+				Obj_Btax.options_count = 3;
 			}
 			break;
 	}
