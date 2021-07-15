@@ -11,7 +11,7 @@ if (access == -1)
 			selected_index += 1; 
 			io_clear(); 
 			break;
-		case Obj_Control_Definitions.control_right:
+		case Obj_Control_Definitions.interact:
 			io_clear();
 			access = selected_index; 
 			if (inventory[selected_index][0] == item.nothing)
@@ -48,7 +48,7 @@ if ((access != -1) && (subaccess == -1))
 			}
 			io_clear(); 
 			break;
-		case Obj_Control_Definitions.control_right:
+		case Obj_Control_Definitions.interact:
 			io_clear();
 			subaccess = selected_subindex; 
 			break;
@@ -74,8 +74,6 @@ if (subaccess != -1)
 // ACTIVATE SUBMENU COMMAND
 if (subaccess != -1)
 {		
-	// "look" code in DRAW event
-		
 	// if "drop"
 	if (Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess] == "drop")
 	{

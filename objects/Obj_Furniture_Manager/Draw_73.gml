@@ -1,5 +1,5 @@
 depth = 0;
-image_xscale = 4;
+image_xscale = 4.5;
 image_yscale = 2;
 var display_y = y + 15;
 var display_x = x + 23;

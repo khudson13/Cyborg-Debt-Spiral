@@ -7,11 +7,11 @@ var display_x = x + 55;
 if (Obj_Player.slots_filled >= accessed_instance.slots_filled)
 {
 	var iteratorLimit = Obj_Player.slots_filled;
-	image_yscale = (1.35 + (Obj_Player.slots_filled * 0.3));
+	image_yscale = (1.35 + (Obj_Player.slots_filled * 0.35));
 }
 else{
 	var iteratorLimit = accessed_instance.slots_filled;
-	image_yscale = (1.35 + (accessed_instance.slots_filled * 0.3));
+	image_yscale = (1.35 + (accessed_instance.slots_filled * 0.35));
 }
 if (commerce == true)
 {

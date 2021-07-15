@@ -54,7 +54,20 @@ if (keyboard_key == vk_escape)
 		Obj_Word_Bubble.Xmod = 30;
 	}
 	
-	else if (bubble_count >=6)
+	else if (bubble_count == 6)
+	{
+		Obj_Player.control = false;
+		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
+		Obj_Word_Bubble.x = Obj_Player.x - 200;
+		Obj_Word_Bubble.y = Obj_Player.y - 50;
+		Obj_Word_Bubble.content = "CONTROLS\nW = up   S = down\nA = left   D = right\nI = open inventory\nE = interact / menu select\nEsc = exit / main menu";
+		Obj_Word_Bubble.lines_multiple = 7;
+		Obj_Word_Bubble.image_xscale = 5.5;
+		Obj_Word_Bubble.image_yscale = 3;
+		Obj_Word_Bubble.Xmod = 30;
+	}
+	
+	else if (bubble_count >=7)
 	{
 		instance_destroy(self);
 	}

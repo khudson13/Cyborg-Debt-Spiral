@@ -1,6 +1,5 @@
-menu_array[0] = "RESUME";
-menu_array[1] = "QUIT";
-menu_items = 2;
+menu_array = ["RESUME", "CONTROLS", "QUIT"];
+menu_items = 3;
 selected_index = 0;
 display_height = 35;
 menu_access = -1;
