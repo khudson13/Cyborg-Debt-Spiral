@@ -5,7 +5,6 @@ var display_y = y + 15;
 var display_x = x + 23;
 
 // Basic text output - Furniture description
-draw_set_font(Font_main);
 draw_set_color(c_white);
 draw_text(display_x, display_y, name);
 display_y += display_height;

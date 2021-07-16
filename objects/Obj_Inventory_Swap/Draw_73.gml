@@ -1,4 +1,4 @@
-image_xscale = 9.5;
+image_xscale = 9.7;
 var display_y = y; // Start drawing at upper left
 var display_x = x + 55;
 

@@ -1,4 +1,4 @@
-image_xscale = 1.5;
+image_xscale = 1.7;
 image_yscale = 1.7;
 
 draw_set_color(c_yellow);

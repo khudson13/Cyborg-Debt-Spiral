@@ -4,7 +4,7 @@ display_height = 17;
 depth = 0;
 
 image_yscale = 1.5;
-image_xscale = 2.5;
+image_xscale = 2.8;
 Ymod = 10;
 Xmod = 15;
 

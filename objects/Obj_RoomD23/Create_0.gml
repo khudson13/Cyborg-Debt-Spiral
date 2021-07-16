@@ -12,7 +12,7 @@ function door(instance)
 			if (locked == true)
 			{
 				Obj_Quest_Tracker.quest_update("D-2.3");
-				if (has_item(item.ChunkKey,Obj_Player.inventory,Obj_Player.inventory_size) == true)
+				if (has_item(item.ZedKey,Obj_Player.inventory,Obj_Player.inventory_size) == true)
 					{
 					locked = false;
 					}
@@ -56,7 +56,9 @@ function furnitureFill(instance)
 						name = "Broken Computer";
 						description = "This computer is broken."
 						instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
-						Obj_Word_Bubble.content = "You ruin the perfectly good computer.";
+						Obj_Word_Bubble.content = "You completely ruin\nthe computer.";
+						Obj_Word_Bubble.lines_multiple = 2;
+						Obj_Word_Bubble.image_xscale += 0.3;
 						io_clear();
 						instance_destroy(Obj_Furniture_Manager);
 						break;

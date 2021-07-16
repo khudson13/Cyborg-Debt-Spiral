@@ -173,6 +173,7 @@ function pick_Lock(door)
 	else
 	{
 		instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
-			Obj_Word_Bubble.content = "You don't have a lockpick.";
+		Obj_Word_Bubble.content = "You don't have a\nlockpick.";
+		Obj_Word_Bubble.lines_multiple = 2;
 	}
 }

@@ -16,7 +16,7 @@ switch(keyboard_key)
 		}
 		io_clear(); 
 		break;
-	case Obj_Control_Definitions.control_right:
+	case Obj_Control_Definitions.interact:
 		access = selected_index;
 		talking_ID.dialogue(dialogue_options[selected_index])
 		options_count = talking_ID.options_count; 

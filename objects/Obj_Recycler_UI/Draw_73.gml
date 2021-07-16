@@ -26,7 +26,7 @@ for (var i = 0; i == 0 || i < slots_filled; ++i;)
 		draw_set_color(c_white);
 	}
 	draw_text(display_x, display_y + display_height, Obj_Items_Master.ItemsMaster[inventory[i][0]][itemstats.name]);
-	image_yscale += 0.2
+	image_yscale += 0.3
 	// Output item quantity
 	draw_text(display_x + 150, display_y + display_height, inventory[i][1]);
 	display_y += display_height;
