@@ -11,9 +11,9 @@ switch(keyboard_key)
 				selected_option = furniture.options_number - 1;
 			}
 		}
-		io_clear(); 
+		io_clear();
 		break;
-		
+
 	// Options menu down
 	case Obj_Control_Definitions.control_down:
 		if (furniture.hasOptions == true)
@@ -26,7 +26,7 @@ switch(keyboard_key)
 		}
 		io_clear(); 
 		break;
-		
+
 	// Access inventory
 	case Obj_Control_Definitions.interact:
 		if (furniture.hasInventory == true)
@@ -49,9 +49,9 @@ switch(keyboard_key)
 				instance_destroy(self);
 			}
 		}
-		io_clear(); 
+		io_clear();
 		break;
-		
+
 	// Exit
 	case Obj_Control_Definitions.escape:
 		Obj_Player.control = true;

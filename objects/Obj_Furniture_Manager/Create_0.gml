@@ -14,7 +14,6 @@ name = "";
 description = "";      // Basic furniture text
 selected_option = 0;
 
-
 // Cause furniture manager to instantiate on top of furniture
 x = furniture.x;
 y = furniture.y;

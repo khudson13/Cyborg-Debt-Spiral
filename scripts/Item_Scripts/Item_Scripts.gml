@@ -163,11 +163,13 @@ function pick_Lock(door)
 			door.locked = false;
 			instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
 			Obj_Word_Bubble.content = "You pick the lock.";
+			Obj_Word_Bubble.image_xscale = 1.3;
 		}
 		else
 		{
 			instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
 			Obj_Word_Bubble.content = "This lock is too complex.";
+			Obj_Word_Bubble.image_xscale = 1.5;
 		}
 	}
 	else

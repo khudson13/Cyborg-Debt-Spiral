@@ -47,7 +47,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.sprite] = Spr_Ballistic_Analysis_Kit;
 			ItemsMaster[i][itemstats.description] = "A kit with a variety of tools and references\nfor analyzing both firearms and impacts by\ntheir munitions.";
 			ItemsMaster[i][itemstats.weight] = 1;
-			ItemsMaster[i][itemstats.worth]  = 20;
+			ItemsMaster[i][itemstats.worth]  = 15;
 			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "use";
 			ItemsMaster[i][itemstats.menu][2] = "look";
@@ -73,7 +73,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.sprite] = Spr_Blood_Analysis_Kit;
 			ItemsMaster[i][itemstats.description] = "A forensic kit of analyzing and matching\nsamples of blood, both fresh and dried.";
 			ItemsMaster[i][itemstats.weight] = 1;
-			ItemsMaster[i][itemstats.worth]  = 10;
+			ItemsMaster[i][itemstats.worth]  = 5;
 			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "use";
 			ItemsMaster[i][itemstats.menu][2] = "look";
@@ -88,7 +88,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.sprite] = Spr_Body_Armor;
 			ItemsMaster[i][itemstats.description] = "Good, stury body armor. Should help\nprevent sudden death.";
 			ItemsMaster[i][itemstats.weight] = 10;
-			ItemsMaster[i][itemstats.worth]  = 20;
+			ItemsMaster[i][itemstats.worth]  = 15;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
@@ -134,7 +134,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.drink_can:
 			ItemsMaster[i][itemstats.name]   = "drink can";
 			ItemsMaster[i][itemstats.sprite] = Spr_DrinkCan_A;
-			ItemsMaster[i][itemstats.description] = "An old can which used to hold a beverage";
+			ItemsMaster[i][itemstats.description] = "An old can which used to hold a\nbeverage";
 			ItemsMaster[i][itemstats.weight] = 0.01;
 			ItemsMaster[i][itemstats.worth]  = 0;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
@@ -199,7 +199,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.sprite] = Spr_Investigator_Kit;
 			ItemsMaster[i][itemstats.description] = "A case full of various useful tools\nfor investigating a crime scene.";
 			ItemsMaster[i][itemstats.weight] = 1;
-			ItemsMaster[i][itemstats.worth]  = 10;
+			ItemsMaster[i][itemstats.worth]  = 5;
 			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "use";
 			ItemsMaster[i][itemstats.menu][2] = "look";
@@ -300,7 +300,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.Scrap_Electronics:
 			ItemsMaster[i][itemstats.name]   = "Scrap Electronics";
 			ItemsMaster[i][itemstats.sprite] = Spr_Scrap_Electronics;
-			ItemsMaster[i][itemstats.description] = "Mixed electronic scrap, worth\na little money.";
+			ItemsMaster[i][itemstats.description] = " Mixed electronic scrap, worth\na little money.";
 			ItemsMaster[i][itemstats.weight] = 1;
 			ItemsMaster[i][itemstats.worth]  = 4;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu

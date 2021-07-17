@@ -23,7 +23,7 @@ function furnitureFill(instance)
 						instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
 						Obj_Word_Bubble.content = "You completely ruin\nthe computer.";
 						Obj_Word_Bubble.lines_multiple = 2;
-						Obj_Word_Bubble.image_xscale += 0.3;
+						Obj_Word_Bubble.image_xscale += 0.4;
 						io_clear();
 						instance_destroy(Obj_Furniture_Manager);
 						break;
