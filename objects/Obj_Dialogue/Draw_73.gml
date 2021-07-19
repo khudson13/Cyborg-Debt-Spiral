@@ -1,5 +1,4 @@
 image_yscale = (1.35 + ((options_count * 0.35) + (response_scale * 0.35)));
-image_xscale = 1.5;
 var display_y = y; // Start drawing at upper left
 var display_x = x + (image_xscale * 5);
 

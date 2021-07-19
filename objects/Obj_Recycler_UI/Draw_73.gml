@@ -1,6 +1,6 @@
 depth = 0;
 image_yscale = 1.5;
-image_xscale = 4;
+image_xscale = 3.5;
 
 var display_y = y - 15; // Start drawing at upper left
 var display_x = x + 15;

@@ -1,5 +1,5 @@
 depth = 0;
-image_xscale = 4;
+image_xscale = 3.5;
 image_yscale = 2;
 image_yscale += totalCount * 0.28;
 if (itemCount > 0)

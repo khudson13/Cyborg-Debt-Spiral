@@ -10,7 +10,7 @@ slots_filled = 0;
 starting_response = "No! Wait! I'm still reloading!";
 dialogue_options = ["You're under arrest!", "Give me that gun!"];
 options_count = 2;
-text_Xscale = 3;
+text_Xscale = 6;
 
 function dialogue(topic)
 {

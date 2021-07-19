@@ -17,7 +17,7 @@ slots_filled = 3;
 starting_response = "Heya!";
 dialogue_options = ["What's on tap?"];
 options_count = 1;
-text_Xscale = 3;
+text_Xscale = 5;
 
 // Dialogue function returns appropriate response to each topic,
 // executes relevant actions, and updates topic array in dialogue 

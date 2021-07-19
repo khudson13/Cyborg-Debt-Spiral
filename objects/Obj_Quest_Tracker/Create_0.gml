@@ -36,7 +36,7 @@ function quest_update(evidence)
 			Obj_Barkeep.text_Xscale = 5;
 			break;
 		case "Barkeep":
-			Obj_Einren.dialogue_options[1] = "I heard someone was trying to sell a gun";
+			Obj_Einren.dialogue_options[1] = "I heard someone was trying to\nsell a gun";
 			Obj_Einren.options_count += 1;
 			break
 		case "Einren":

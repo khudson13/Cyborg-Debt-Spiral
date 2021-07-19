@@ -1,5 +1,5 @@
 name = "Wall Crack";
-description = "There's a big crack in the wall.\nIs there something inside?";
+description = "A big crack in the wall.\nIs something inside?";
 passable = true;
 hasInventory = true; 
 hasOptions = false;

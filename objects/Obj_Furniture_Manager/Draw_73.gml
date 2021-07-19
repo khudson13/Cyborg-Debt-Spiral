@@ -13,7 +13,7 @@ display_y += display_height;
 if (furniture.hasInventory == true)
 {
 	display_y += display_height;
-	draw_text(display_x, display_y, "Press 'e' to examine inventory");
+	draw_text(display_x, display_y, "Press 'e' to look inside");
 	image_yscale += 0.4;
 }
 display_y += display_height;

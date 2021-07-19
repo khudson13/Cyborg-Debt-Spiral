@@ -4,6 +4,7 @@ response_scale = 1;   // Enlarge sprite based on response size
 // dialogue options
 selected_index = 0;
 access = -1;
+image_xscale = 3;
 
 if (instance_exists(Obj_Interact))
 {

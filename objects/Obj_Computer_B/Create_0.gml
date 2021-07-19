@@ -1,5 +1,5 @@
 name = "Computer";
-description = "Both a saver and destroyer of time.\nYou don't recognize the interface.";
+description = "Saver and destroyer of time.\nIt has a strange interface.";
 passable = false;
 hasInventory = false; 
 hasOptions = false;

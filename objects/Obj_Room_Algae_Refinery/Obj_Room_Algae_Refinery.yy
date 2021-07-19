@@ -4,7 +4,7 @@
     "path": "sprites/Spr_Invisible_Collision_Mask/Spr_Invisible_Collision_Mask.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
