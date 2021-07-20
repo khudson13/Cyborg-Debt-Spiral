@@ -46,7 +46,7 @@ function stolen_Electronics()
 {
 	if (Obj_Quest_Tracker.electronics_theft > 0)
 	{
-		lines_multiple += 1;
+		Obj_Word_Bubble.lines_multiple += 1;
 		image_yscale += 0.3;
 		total_income -= Obj_Quest_Tracker.electronics_theft * 1000;
 		return "\nWitnessed Stealing - Penalty = $-" + string(Obj_Quest_Tracker.electronics_theft * 1000);
@@ -61,15 +61,16 @@ function medical_Bills()
 {
 	if (Obj_Player.alive == false)
 	{
-		lines_multiple += 2;
+		Obj_Word_Bubble.lines_multiple += 2;
 		image_yscale += 0.6;
+		Obj_Word_Bubble.image_xscale += 2;
 		total_income -= 150000;
 		return "\nEmergency Mortality Reversal  = $-100,000" +
 			"\nBionic Reconstruction = $-50,000";
 	}
 	else if (Obj_Player.injured == true)
 	{
-		lines_multiple += 1;
+		Obj_Word_Bubble.lines_multiple += 1;
 		image_yscale += 0.3;
 		total_income -= 50000;
 		return "\nBionic Reconstruction = $-50,000";

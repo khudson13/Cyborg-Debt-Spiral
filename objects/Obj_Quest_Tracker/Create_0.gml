@@ -40,7 +40,7 @@ function quest_update(evidence)
 			Obj_Einren.options_count += 1;
 			break
 		case "Einren":
-			Obj_Btax.dialogue_options[1] = "Heard someone tried to sell you a gun";
+			Obj_Btax.dialogue_options[1] = "Heard someone tried to sell a gun";
 			Obj_Btax.options_count += 1;
 			break;
 		case "B'tax":

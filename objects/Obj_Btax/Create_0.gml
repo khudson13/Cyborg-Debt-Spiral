@@ -25,7 +25,7 @@ function dialogue(topic)
 			Obj_Dialogue.response_height = LINE_HEIGHT;
 			Obj_Dialogue.response_scale = 1;
 			break;
-		case "Heard someone tried to sell you a gun":
+		case "Heard someone tried to sell a gun":
 			Obj_Dialogue.response = @"Yeah, but I didn't hang around.
 			Don't need that kind of trouble.
 			I think the name was Crump. When I
@@ -39,7 +39,7 @@ function dialogue(topic)
 			Obj_Dialogue.response = @"Zed may be in trouble. I have
 			the spare key. Here, you can
 			use it.";
-			Obj_Dialogue.response_height = LINE_HEIGHT;
+			Obj_Dialogue.response_height = LINE_HEIGHT * 3;
 			Obj_Dialogue.response_scale = 3;
 			Obj_Dialogue.response_scale = 3;
 			inventory_Add(Obj_Player, Obj_Player.inventory, Obj_Player.inventory_size, item.ZedKey);
