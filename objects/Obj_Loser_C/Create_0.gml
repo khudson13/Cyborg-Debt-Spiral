@@ -20,18 +20,18 @@ function one_Liner()
 	switch (what_Say)
 	{
 		case 0:
-			Obj_Word_Bubble.content = "Rub-a-dub-dub";
-			Obj_Word_Bubble.lines_multiple = 1;
+			Obj_Word_Bubble.content = "Once heard of something\ncalled 'cheese.'";
+			Obj_Word_Bubble.lines_multiple = 2;
 			break;
 			
 		case 1:
-			Obj_Word_Bubble.content = "Have a ba-na-na";
+			Obj_Word_Bubble.content = "I forgot to lock my door!";
 			Obj_Word_Bubble.lines_multiple = 1;
 			break;
 			
 		case 2:
-			Obj_Word_Bubble.content = "Maybe a cabbage or something?";
-			Obj_Word_Bubble.lines_multiple = 1;
+			Obj_Word_Bubble.content = "Toasted algae.\nBoiled algae.\nFermented algae.\nBlended algae.\nScrambled algae.\nBlech.";
+			Obj_Word_Bubble.lines_multiple = 6;
 			break;
 	}
 }

@@ -18,17 +18,17 @@ function one_Liner()
 	switch (what_Say)
 	{
 		case 0:
-			Obj_Word_Bubble.content = "Talk to me about grilled cheese";
+			Obj_Word_Bubble.content = "Who are you?";
 			Obj_Word_Bubble.lines_multiple = 1;
 			break;
 		
 		case 1:
-			Obj_Word_Bubble.content = "I care deeply about grilled cheese";
+			Obj_Word_Bubble.content = "You don't belong here.";
 			Obj_Word_Bubble.lines_multiple = 1;
 			break;
 			
 		case 2:
-			Obj_Word_Bubble.content = "God is a grilled cheese sandwich.\nYou know it's true.";
+			Obj_Word_Bubble.content = "You should leave.";
 			Obj_Word_Bubble.lines_multiple = 2;
 			break
 	}

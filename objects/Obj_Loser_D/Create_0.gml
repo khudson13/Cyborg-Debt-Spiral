@@ -20,12 +20,12 @@ function one_Liner()
 	switch (what_Say)
 	{
 		case 0:
-			Obj_Word_Bubble.content = "Even depression is more\npassion than I can muster.";
-			Obj_Word_Bubble.lines_multiple = 2;
+			Obj_Word_Bubble.content = "I don't really care.";
+			Obj_Word_Bubble.lines_multiple = 1;
 			break;
 			
 		case 1:
-			Obj_Word_Bubble.content = "All the best trash is gone.";
+			Obj_Word_Bubble.content = "Pinch your pennies.";
 			Obj_Word_Bubble.lines_multiple = 1;
 			break;
 			

@@ -8,7 +8,7 @@ slots_filled = 0;
 
 // NPC default dialogue choices, populated from NPC master array
 dialogue_options = [];
-options_count = 3;
+options_count = 2;
 
 function one_Liner()
 {
@@ -20,18 +20,13 @@ function one_Liner()
 	switch (what_Say)
 	{
 		case 0:
-			Obj_Word_Bubble.content = "I'm an NPC!";
+			Obj_Word_Bubble.content = "There's never enough...";
 			Obj_Word_Bubble.lines_multiple = 1;
 			break;
 			
 		case 1:
-			Obj_Word_Bubble.content = "But what are you?\nAre you an NPC too?";
+			Obj_Word_Bubble.content = "I'm so hungry...";
 			Obj_Word_Bubble.lines_multiple = 2;
-			break;
-			
-		case 2:
-			Obj_Word_Bubble.content = "We're all NPCs down here!";
-			Obj_Word_Bubble.lines_multiple = 1;
 			break;
 	}
 }
