@@ -22,6 +22,7 @@ function one_Liner()
 		case 0:
 			Obj_Word_Bubble.content = "Once heard of something\ncalled 'cheese.'";
 			Obj_Word_Bubble.lines_multiple = 2;
+			Obj_Word_Bubble.image_xscale = 2.5;
 			break;
 			
 		case 1:
@@ -32,6 +33,7 @@ function one_Liner()
 		case 2:
 			Obj_Word_Bubble.content = "Toasted algae.\nBoiled algae.\nFermented algae.\nBlended algae.\nScrambled algae.\nBlech.";
 			Obj_Word_Bubble.lines_multiple = 6;
+			Obj_Word_Bubble.image_yscale = 2.5;
 			break;
 	}
 }

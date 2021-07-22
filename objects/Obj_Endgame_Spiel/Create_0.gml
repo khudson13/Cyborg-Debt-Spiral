@@ -10,16 +10,16 @@ function forensic_Value()
 	discovery = Obj_Quest_Tracker.evidence_array[4] + Obj_Quest_Tracker.evidence_array[7];
 	if (discovery == 0)
 	{
-		return "\nForensic Analysis - Failed = $0";
+		return "\nForensics - Failed = $0";
 	}
 	else if (discovery == 1)
 	{
 		total_income += 500;
-		return "\nForensic Analysis - Partial = $500";
+		return "\nForensics - Partial = $500";
 	}
 	else if (discovery == 2)
 	{total_income += 1000;
-		return "\nForensic Analysis - Complete = $1000";
+		return "\nForensics- Complete = $1000";
 	}
 	else
 	{

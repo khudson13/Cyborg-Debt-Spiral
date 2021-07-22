@@ -269,7 +269,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.sprite] = Spr_Old_Bog_Sweat;
 			ItemsMaster[i][itemstats.description] = "This cheap, dirty distillate of fermented\nalgae will knock you on the floor";
 			ItemsMaster[i][itemstats.weight] = 1;
-			ItemsMaster[i][itemstats.worth]  = 10;
+			ItemsMaster[i][itemstats.worth]  = 20;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
@@ -323,6 +323,17 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.name]  = "Zed's key";
 			ItemsMaster[i][itemstats.sprite] = Spr_Zed_Key;
 			ItemsMaster[i][itemstats.description] = "A fancy room key with electronic encryption.";
+			ItemsMaster[i][itemstats.weight] = 0;
+			ItemsMaster[i][itemstats.worth]  = 0;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+			
+		case item.Zed_Note:
+			ItemsMaster[i][itemstats.name]   = "Memo";
+			ItemsMaster[i][itemstats.sprite] = Spr_PaperTrash_B;
+			ItemsMaster[i][itemstats.description] = "Meet me in the maintainance basement\nnext to the algae pool.";
 			ItemsMaster[i][itemstats.weight] = 0;
 			ItemsMaster[i][itemstats.worth]  = 0;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu

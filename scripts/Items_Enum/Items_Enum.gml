@@ -29,6 +29,7 @@ enum item
 	Manhole_Key,
 	Note,
 	ZedKey,
+	Zed_Note,
 	
 	// FORENSIC TOOS
 	Ballistic_Analysis_Kit,

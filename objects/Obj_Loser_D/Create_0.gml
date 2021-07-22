@@ -32,6 +32,7 @@ function one_Liner()
 		case 2:
 			Obj_Word_Bubble.content = "From algae we come.\nTo algae we return.";
 			Obj_Word_Bubble.lines_multiple = 2;
+			Obj_Word_Bubble.image_xscale = 3;
 			break;
 	}
 }

@@ -23,7 +23,7 @@ function one_Liner()
 			break;
 		
 		case 1:
-			Obj_Word_Bubble.content = "You don't belong here.";
+			Obj_Word_Bubble.content = "You don't belong\nhere.";
 			Obj_Word_Bubble.lines_multiple = 1;
 			break;
 			
