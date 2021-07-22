@@ -1,5 +1,5 @@
 name = "Bar Stool";
-description = "It's an old bar stool, redolent of sweat and algae.";
+description = "It's an old bar stool,\nredolent of sweat and algae.";
 passable = true;
 hasInventory = false; 
 hasOptions = false;

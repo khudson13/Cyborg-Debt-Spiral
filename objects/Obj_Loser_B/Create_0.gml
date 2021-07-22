@@ -20,8 +20,8 @@ function one_Liner()
 	switch (what_Say)
 	{
 		case 0:
-			Obj_Word_Bubble.content = "There's never enough...";
-			Obj_Word_Bubble.lines_multiple = 1;
+			Obj_Word_Bubble.content = "There's never\nenough...";
+			Obj_Word_Bubble.lines_multiple = 2;
 			break;
 			
 		case 1:

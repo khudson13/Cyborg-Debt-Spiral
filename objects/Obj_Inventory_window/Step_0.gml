@@ -1,5 +1,5 @@
 // MAIN INVENTORY WINDOW
-if (access == -1)
+if (menu_access == -1)
 {
 	switch(keyboard_key)
 	{
@@ -13,10 +13,10 @@ if (access == -1)
 			break;
 		case Obj_Control_Definitions.interact:
 			io_clear();
-			access = selected_index; 
+			menu_access = selected_index; 
 			if (inventory[selected_index][0] == item.nothing)
 			{
-				access = -1;
+				menu_access = -1;
 			}
 			break;
 		case Obj_Control_Definitions.escape:
@@ -28,7 +28,7 @@ if (access == -1)
 
 
 // INVENTORY SUB-MENU
-if ((access != -1) && (subaccess == -1))
+if ((menu_access != -1) && (subaccess == -1))
 {
 	switch (keyboard_key)
 	{
@@ -54,7 +54,7 @@ if ((access != -1) && (subaccess == -1))
 			break;
 		case Obj_Control_Definitions.escape:
 			io_clear();
-			access = -1;
+			menu_access = -1;
 			selected_subindex = 1; 
 			break;
 	}
@@ -80,7 +80,7 @@ if (subaccess != -1)
 		subaccess = -1;
 		selected_subindex = 1;
 		inventory_Drop(Obj_Player,selected_index,Obj_Player.x,Obj_Player.y);
-		access = -1;
+		menu_access = -1;
 		io_clear();
 	}
 	else if (Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][subaccess] == "look")

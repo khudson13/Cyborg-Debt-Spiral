@@ -24,7 +24,7 @@ function one_Liner()
 		
 		case 1:
 			Obj_Word_Bubble.content = "You don't belong\nhere.";
-			Obj_Word_Bubble.lines_multiple = 1;
+			Obj_Word_Bubble.lines_multiple = 2;
 			break;
 			
 		case 2:

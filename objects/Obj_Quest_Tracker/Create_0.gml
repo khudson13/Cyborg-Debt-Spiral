@@ -37,11 +37,11 @@ function quest_update(evidence)
 			break;
 		case "Barkeep":
 			Obj_Einren.dialogue_options[1] = "I heard someone was trying to\nsell a gun";
-			Obj_Einren.options_count += 1;
+			Obj_Einren.options_count = 2;
 			break
 		case "Einren":
 			Obj_Btax.dialogue_options[1] = "Heard someone tried to sell a gun";
-			Obj_Btax.options_count += 1;
+			Obj_Btax.options_count = 2;
 			break;
 		case "B'tax":
 			evidence_array[0] = true;

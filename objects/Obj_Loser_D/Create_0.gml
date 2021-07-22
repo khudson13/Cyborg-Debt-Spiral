@@ -20,19 +20,20 @@ function one_Liner()
 	switch (what_Say)
 	{
 		case 0:
-			Obj_Word_Bubble.content = "I don't really care.";
-			Obj_Word_Bubble.lines_multiple = 1;
+			Obj_Word_Bubble.content = "I don't really\ncare.";
+			Obj_Word_Bubble.lines_multiple = 2;
 			break;
 			
 		case 1:
 			Obj_Word_Bubble.content = "Pinch your pennies.";
 			Obj_Word_Bubble.lines_multiple = 1;
+			Obj_Word_Bubble.image_xscale = 3.3;
 			break;
 			
 		case 2:
 			Obj_Word_Bubble.content = "From algae we come.\nTo algae we return.";
 			Obj_Word_Bubble.lines_multiple = 2;
-			Obj_Word_Bubble.image_xscale = 3;
+			Obj_Word_Bubble.image_xscale = 3.3;
 			break;
 	}
 }

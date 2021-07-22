@@ -105,6 +105,17 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
 			
+		case item.Broken_Gun:
+			ItemsMaster[i][itemstats.name]   = "Broken Gun";
+			ItemsMaster[i][itemstats.sprite] = Spr_Broken_Gun;
+			ItemsMaster[i][itemstats.description] = "It's destroyed.";
+			ItemsMaster[i][itemstats.weight] = 2;
+			ItemsMaster[i][itemstats.worth]  = 0;
+			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "look";
+			ItemsMaster[i][itemstats.menu][2] = "drop";
+			break;
+			
 		case item.coin:
 			ItemsMaster[i][itemstats.name]   = "coin";
 			ItemsMaster[i][itemstats.sprite] = Spr_Coin;
@@ -177,8 +188,8 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
-			ItemsMaster[i][itemstats.menu][2] = "destroy";
-			ItemsMaster[i][itemstats.functions][0] = "destroy";
+			ItemsMaster[i][itemstats.menu][2] = "break";
+			ItemsMaster[i][itemstats.functions][0] = "break";
 			ItemsMaster[i][itemstats.functions][1] = destroy_Gun;
 			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
 			break;
@@ -333,7 +344,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 		case item.Zed_Note:
 			ItemsMaster[i][itemstats.name]   = "Memo";
 			ItemsMaster[i][itemstats.sprite] = Spr_PaperTrash_B;
-			ItemsMaster[i][itemstats.description] = "Meet me in the maintainance basement\nnext to the algae pool.";
+			ItemsMaster[i][itemstats.description] = "Meet me in the maintainance\nbasement next to the algae pool.";
 			ItemsMaster[i][itemstats.weight] = 0;
 			ItemsMaster[i][itemstats.worth]  = 0;
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu

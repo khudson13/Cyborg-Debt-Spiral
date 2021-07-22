@@ -22,12 +22,13 @@ function one_Liner()
 		case 0:
 			Obj_Word_Bubble.content = "Once heard of something\ncalled 'cheese.'";
 			Obj_Word_Bubble.lines_multiple = 2;
-			Obj_Word_Bubble.image_xscale = 2.5;
+			Obj_Word_Bubble.image_xscale = 4;
+			Obj_Word_Bubble.Xmod += 5;
 			break;
 			
 		case 1:
-			Obj_Word_Bubble.content = "I forgot to lock my door!";
-			Obj_Word_Bubble.lines_multiple = 1;
+			Obj_Word_Bubble.content = "I forgot to lock\nmy door!";
+			Obj_Word_Bubble.lines_multiple = 2;
 			break;
 			
 		case 2:

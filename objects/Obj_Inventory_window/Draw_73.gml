@@ -30,7 +30,7 @@ for (var i = 0; i == 0 || i < Obj_Player.slots_filled; ++i;)
 	draw_text(display_x + 220, display_y + display_height,inventory[i][1]);
 	
 	// Display sub-menu for selected item
-	if (access == i)
+	if (menu_access == i)
 	{
 		var sub_y = display_y;
 		var menu_depth = Obj_Items_Master.ItemsMaster[inventory[selected_index][0]][itemstats.menu][0];
