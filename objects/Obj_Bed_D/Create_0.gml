@@ -1,5 +1,5 @@
 name = "Bed";
-description = "In time, sleep comes for us all.";
+description = "In time, sleep comes for\nus all.";
 passable = false;
 hasInventory = false; 
 hasOptions = false;
