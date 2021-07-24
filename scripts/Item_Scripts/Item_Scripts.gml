@@ -137,6 +137,13 @@ function destroy_Gun()
 	Obj_Player.inventory[get_item_index(Obj_Player.inventory, Obj_Player.inventory_size, item.Gun)][0] = item.Broken_Gun;
 }
 
+function open_Envelope()
+{
+	Obj_Inventory_window.menu_access = -1;
+	Obj_Inventory_window.subaccess = -1;
+	Obj_Player.inventory[get_item_index(Obj_Player.inventory, Obj_Player.inventory_size, item.Envelope)][0] = item.Warrant;
+}
+
 function try_Decoy_Dummy()
 {
 	if (place_meeting(Obj_Player.x, Obj_Player.y, Obj_Hideout_Opportunity))

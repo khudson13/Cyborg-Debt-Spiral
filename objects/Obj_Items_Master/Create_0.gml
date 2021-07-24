@@ -164,6 +164,21 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.menu][2] = "drop";
 			break;
 			
+		case item.Envelope:
+			ItemsMaster[i][itemstats.name]   = "Envelope";
+			ItemsMaster[i][itemstats.sprite] = Spr_Envelope;
+			ItemsMaster[i][itemstats.description] = "An official looking sealed\nenvelope";
+			ItemsMaster[i][itemstats.weight] = 0;
+			ItemsMaster[i][itemstats.worth]  = 0;
+			ItemsMaster[i][itemstats.menu][0] = 3; // Number of options in sub-menu
+			ItemsMaster[i][itemstats.menu][1] = "open";
+			ItemsMaster[i][itemstats.menu][2] = "look";
+			ItemsMaster[i][itemstats.menu][3] = "drop";
+			ItemsMaster[i][itemstats.functions][0] = "open";
+			ItemsMaster[i][itemstats.functions][1] = open_Envelope;
+			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
+			break;
+			
 		case item.Fingerprint_Scanner:
 			ItemsMaster[i][itemstats.name]   = "Fingerprint Scanner";
 			ItemsMaster[i][itemstats.sprite] = Spr_Fingerprint_Scanner;

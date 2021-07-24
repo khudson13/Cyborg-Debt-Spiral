@@ -21,4 +21,4 @@ money = 0;
 slots_filled = 0; // Number of inventory slots filled
 total_weight = 0; // Total inventory weight
 
-inventory_Add(self, self.inventory, self.inventory_size, item.Warrant);
+inventory_Add(self, self.inventory, self.inventory_size, item.Envelope);

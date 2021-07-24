@@ -12,6 +12,7 @@ enum item
 	// MONEY AND VENDOR TRASH
 	Alloy_Ingot,
 	coin,
+	Envelope,
 	Knick_Knack,
 	Scrap_Electronics,
 	Warrant,
