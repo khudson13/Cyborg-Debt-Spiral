@@ -3,8 +3,18 @@
 // Check if controling character
 if (control == true)
 {
+	// UP DOWN
+	if (keyboard_check(Obj_Control_Definitions.control_up) && keyboard_check(Obj_Control_Definitions.control_down))
+	{
+		// DO NOTHING
+	}
+	// LEFT RIGHT
+	else if (keyboard_check(Obj_Control_Definitions.control_left) && keyboard_check(Obj_Control_Definitions.control_right))
+	{
+		// DO NOTHING
+	}
 	// UP LEFT
-	if (keyboard_check(Obj_Control_Definitions.control_up) && keyboard_check(Obj_Control_Definitions.control_left))
+	else if (keyboard_check(Obj_Control_Definitions.control_up) && keyboard_check(Obj_Control_Definitions.control_left))
 	{
 		prevY = y;
 		prevX = x;
@@ -34,16 +44,6 @@ if (control == true)
 		prevX = x;
 		y += TILE_SIZE / 8;
 		x += TILE_SIZE / 8;;
-	}
-	// UP DOWN
-	else if (keyboard_check(Obj_Control_Definitions.control_up) && keyboard_check(Obj_Control_Definitions.control_down))
-	{
-		// DO NOTHING
-	}
-	// LEFT RIGHT
-	else if (keyboard_check(Obj_Control_Definitions.control_left) && keyboard_check(Obj_Control_Definitions.control_right))
-	{
-		// DO NOTHING
 	}
 	else if (keyboard_check(Obj_Control_Definitions.control_up))
 	{
