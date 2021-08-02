@@ -16,58 +16,162 @@ if (control == true)
 	// UP LEFT
 	else if (keyboard_check(Obj_Control_Definitions.control_up) && keyboard_check(Obj_Control_Definitions.control_left))
 	{
-		prevY = y;
-		prevX = x;
-		y -= TILE_SIZE / 8;
-		x -= TILE_SIZE / 8;
+		if (keyboard_check(vk_space))
+		{
+			for (var i = 0; i <= 3; ++i)
+			{
+				prevY = y;
+				prevX = x;
+				y -= TILE_SIZE / 8;
+				x -= TILE_SIZE / 8;
+			}
+		}
+		else
+		{
+			prevY = y;
+			prevX = x;
+			y -= TILE_SIZE / 8;
+			x -= TILE_SIZE / 8;
+		}
 	}
 	// UP RIGHT
 	else if (keyboard_check(Obj_Control_Definitions.control_up) && keyboard_check(Obj_Control_Definitions.control_right))
 	{
-		prevY = y;
-		prevX = x;
-		y -= TILE_SIZE / 8;
-		x += TILE_SIZE / 8;
+		if (keyboard_check(vk_space))
+		{
+			for (var i = 0; i <= 3; ++i)
+			{
+				prevY = y;
+				prevX = x;
+				y -= TILE_SIZE / 8;
+				x += TILE_SIZE / 8;
+			}
+		}
+		else
+		{
+			prevY = y;
+			prevX = x;
+			y -= TILE_SIZE / 8;
+			x += TILE_SIZE / 8;
+		}
 	}
 	// DOWN LEFT
 	else if (keyboard_check(Obj_Control_Definitions.control_down) && keyboard_check(Obj_Control_Definitions.control_left))
 	{
-		prevY = y;
-		prevX = x;
-		y += TILE_SIZE / 8;
-		x -= TILE_SIZE / 8;
+		if (keyboard_check(vk_space))
+		{
+			for (var i = 0; i <= 3; ++i)
+			{
+				prevY = y;
+				prevX = x;
+				y += TILE_SIZE / 8;
+				x -= TILE_SIZE / 8;
+			}
+		}
+		else
+		{
+			prevY = y;
+			prevX = x;
+			y += TILE_SIZE / 8;
+			x -= TILE_SIZE / 8;
+		}
 	}
 	// DOWN RIGHT
 	else if (keyboard_check(Obj_Control_Definitions.control_down) && keyboard_check(Obj_Control_Definitions.control_right))
 	{
-		prevY = y;
-		prevX = x;
-		y += TILE_SIZE / 8;
-		x += TILE_SIZE / 8;;
+		if (keyboard_check(vk_space))
+		{
+			for (var i = 0; i <= 3; ++i)
+			{
+				prevY = y;
+				prevX = x;
+				y += TILE_SIZE / 8;
+				x += TILE_SIZE / 8;
+			}
+		}
+		else
+		{
+			prevY = y;
+			prevX = x;
+			y += TILE_SIZE / 8;
+			x += TILE_SIZE / 8;
+		}
 	}
+	// UP
 	else if (keyboard_check(Obj_Control_Definitions.control_up))
 	{
-		prevY = y;
-		prevX = x;
-		y -= TILE_SIZE / 4; 
+		if (keyboard_check_pressed(vk_space))
+		{
+			for (var i = 0; i <= 3; ++i)
+			{
+				prevY = y;
+				prevX = x;
+				y -= TILE_SIZE / 4;
+			}
+		}
+		else
+		{
+			prevY = y;
+			prevX = x;
+			y -= TILE_SIZE / 4; 
+		}
 	}
+	// DOWN
 	else if (keyboard_check(Obj_Control_Definitions.control_down))
 	{
-		prevY = y;
-		prevX = x;
-		y += TILE_SIZE / 4;
+		if (keyboard_check(vk_space))
+		{
+			for (var i = 0; i <= 3; ++i)
+			{
+				prevY = y;
+				prevX = x;
+				y += TILE_SIZE / 4;
+			}
+		}
+		else
+		{
+			prevY = y;
+			prevX = x;
+			y += TILE_SIZE / 4;
+		}
 	}
+	// LEFT
 	else if (keyboard_check(Obj_Control_Definitions.control_left))
 	{
-		prevX = x;
-		prevY = y;
-		x -= TILE_SIZE / 4;
+		if (keyboard_check(vk_space))
+		{
+			for (var i = 0; i <= 3; ++i)
+			{
+				prevY = y;
+				prevX = x;
+				x -= TILE_SIZE / 4;
+			}
+		}
+		else
+		{
+			prevX = x;
+			prevY = y;
+			x -= TILE_SIZE / 4;
+		}
 	}
+	// RIGHT
 	else if (keyboard_check(Obj_Control_Definitions.control_right))
 	{
-		prevX = x;
-		prevY = y;
-		x += TILE_SIZE / 4;
+		if (keyboard_check(vk_space))
+		{
+			for (var i = 0; i <= 3; ++i)
+			{
+				prevY = y;
+				prevX = x;
+				x += TILE_SIZE / 4;
+			}
+		}
+		else
+		{
+			prevX = x;
+			prevY = y;
+			x += TILE_SIZE / 4;
+		}
 	}
 
 	switch (keyboard_key)

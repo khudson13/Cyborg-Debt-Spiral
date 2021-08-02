@@ -3,7 +3,7 @@
     "name": "Spr_Railing",
     "path": "sprites/Spr_Railing/Spr_Railing.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

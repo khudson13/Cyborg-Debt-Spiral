@@ -15,6 +15,7 @@ function access()
 	{
 		instance_destroy(Obj_Furniture_Manager);
 		passable = true;
+		solid = false;
 		sprite_index = Spr_Sector_Gate_Open;
 		Obj_Player.control = true;
 	}
@@ -22,6 +23,7 @@ function access()
 	{
 		instance_destroy(Obj_Furniture_Manager);
 		passable = false;
+		solid = true;
 		sprite_index = Spr_Sector_Gate;
 		Obj_Player.control = true;
 	}

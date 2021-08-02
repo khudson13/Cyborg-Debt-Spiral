@@ -3,7 +3,7 @@
     "name": "Spr_Sector_Gate",
     "path": "sprites/Spr_Sector_Gate/Spr_Sector_Gate.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
