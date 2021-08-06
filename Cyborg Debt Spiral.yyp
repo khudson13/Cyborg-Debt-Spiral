@@ -148,6 +148,7 @@
     {"id":{"name":"Spr_A12","path":"sprites/Spr_A12/Spr_A12.yy",},"order":1,},
     {"id":{"name":"Spr_ManholeKey","path":"sprites/Spr_ManholeKey/Spr_ManholeKey.yy",},"order":14,},
     {"id":{"name":"Obj_RoomD23","path":"objects/Obj_RoomD23/Obj_RoomD23.yy",},"order":1,},
+    {"id":{"name":"Spr_Lunge_Lines","path":"sprites/Spr_Lunge_Lines/Spr_Lunge_Lines.yy",},"order":0,},
     {"id":{"name":"Obj_RoomA32","path":"objects/Obj_RoomA32/Obj_RoomA32.yy",},"order":32,},
     {"id":{"name":"Obj_Computer_A","path":"objects/Obj_Computer_A/Obj_Computer_A.yy",},"order":12,},
     {"id":{"name":"Spr_Bar_Stool","path":"sprites/Spr_Bar_Stool/Spr_Bar_Stool.yy",},"order":21,},
@@ -374,6 +375,7 @@
     {"folderPath":"folders/Objects/Specific Items/Junk.yy","order":25,"resourceVersion":"1.0","name":"Junk","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Specific Items/Forensic.yy","order":26,"resourceVersion":"1.0","name":"Forensic","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Specific Items/Comestible.yy","order":27,"resourceVersion":"1.0","name":"Comestible","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Characters/Effects.yy","order":12,"resourceVersion":"1.0","name":"Effects","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},

@@ -26,6 +26,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Blocker","path":"objects/Obj_Blocker/Obj_Blocker.yy",},"parent":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Furniture","path":"objects/Obj_Furniture/Obj_Furniture.yy",},"parent":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Railing","path":"objects/Obj_Railing/Obj_Railing.yy",},"parent":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":73,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
