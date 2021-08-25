@@ -18,6 +18,7 @@
     {"id":{"name":"Obj_Loser_A","path":"objects/Obj_Loser_A/Obj_Loser_A.yy",},"order":0,},
     {"id":{"name":"Obj_RoomD24","path":"objects/Obj_RoomD24/Obj_RoomD24.yy",},"order":26,},
     {"id":{"name":"Obj_Endgame_Spiel","path":"objects/Obj_Endgame_Spiel/Obj_Endgame_Spiel.yy",},"order":51,},
+    {"id":{"name":"Spr_Sword_A","path":"sprites/Spr_Sword_A/Spr_Sword_A.yy",},"order":29,},
     {"id":{"name":"Obj_RoomB13","path":"objects/Obj_RoomB13/Obj_RoomB13.yy",},"order":19,},
     {"id":{"name":"Obj_D23","path":"objects/Obj_D23/Obj_D23.yy",},"order":42,},
     {"id":{"name":"Obj_Drink_Can","path":"objects/Obj_Drink_Can/Obj_Drink_Can.yy",},"order":2,},
@@ -212,6 +213,7 @@
     {"id":{"name":"Obj_Impassable","path":"objects/Obj_Impassable/Obj_Impassable.yy",},"order":2,},
     {"id":{"name":"Obj_Wall_Crack","path":"objects/Obj_Wall_Crack/Obj_Wall_Crack.yy",},"order":30,},
     {"id":{"name":"Spr_Gate_Guard","path":"sprites/Spr_Gate_Guard/Spr_Gate_Guard.yy",},"order":6,},
+    {"id":{"name":"R3_Arena","path":"rooms/R3_Arena/R3_Arena.yy",},"order":2,},
     {"id":{"name":"Obj_Furniture","path":"objects/Obj_Furniture/Obj_Furniture.yy",},"order":6,},
     {"id":{"name":"Obj_C31","path":"objects/Obj_C31/Obj_C31.yy",},"order":32,},
     {"id":{"name":"Obj_Railing","path":"objects/Obj_Railing/Obj_Railing.yy",},"order":21,},
@@ -283,6 +285,7 @@
     {"id":{"name":"Obj_Gun","path":"objects/Obj_Gun/Obj_Gun.yy",},"order":16,},
     {"id":{"name":"Sound_Blop","path":"sounds/Sound_Blop/Sound_Blop.yy",},"order":0,},
     {"id":{"name":"Spr_Old_Bog_Sweat","path":"sprites/Spr_Old_Bog_Sweat/Spr_Old_Bog_Sweat.yy",},"order":15,},
+    {"id":{"name":"Melee_Scripts","path":"scripts/Melee_Scripts/Melee_Scripts.yy",},"order":4,},
     {"id":{"name":"Spr_C32","path":"sprites/Spr_C32/Spr_C32.yy",},"order":33,},
     {"id":{"name":"Spr_VertDoor_A_Open","path":"sprites/Spr_VertDoor_A_Open/Spr_VertDoor_A_Open.yy",},"order":6,},
     {"id":{"name":"Spr_Table_A","path":"sprites/Spr_Table_A/Spr_Table_A.yy",},"order":5,},
@@ -341,6 +344,7 @@
   "RoomOrder": [
     {"name":"R1_Start_Screen","path":"rooms/R1_Start_Screen/R1_Start_Screen.yy",},
     {"name":"R2_Demo_Level","path":"rooms/R2_Demo_Level/R2_Demo_Level.yy",},
+    {"name":"R3_Arena","path":"rooms/R3_Arena/R3_Arena.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

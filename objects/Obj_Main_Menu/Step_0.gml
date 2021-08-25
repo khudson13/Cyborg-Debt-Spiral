@@ -1,10 +1,10 @@
-if (keyboard_check_pressed(vk_anykey))
+/*if (keyboard_check_pressed(vk_anykey))
 {
 	io_clear();
 	room_goto(R2_Demo_Level);
-}
+}*/
 
-/*
+
 if (menu_access == -1)
 {
 	switch(keyboard_key)
@@ -30,7 +30,11 @@ if (menu_access == -1)
 }
 
 
-if (menu_access = 0)
+if (menu_access == 0)
 {
 	room_goto(R2_Demo_Level);
+}
+if (menu_access == 1)
+{
+	room_goto(R3_Arena);
 }

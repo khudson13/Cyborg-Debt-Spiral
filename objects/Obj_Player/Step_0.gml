@@ -6,12 +6,12 @@ if (control == true)
 	// UP DOWN
 	if (keyboard_check(Obj_Control_Definitions.control_up) && keyboard_check(Obj_Control_Definitions.control_down))
 	{
-		// DO NOTHING
+		// DO NOTHING : HOLD STILL
 	}
 	// LEFT RIGHT
 	else if (keyboard_check(Obj_Control_Definitions.control_left) && keyboard_check(Obj_Control_Definitions.control_right))
 	{
-		// DO NOTHING
+		// DO NOTHING : HOLD STILL
 	}
 	// UP LEFT
 	else if (keyboard_check(Obj_Control_Definitions.control_up) && keyboard_check(Obj_Control_Definitions.control_left))
@@ -26,8 +26,8 @@ if (control == true)
 		{
 			prevY = y;
 			prevX = x;
-			y -= 1 //TILE_SIZE / 8;
-			x -= 1 //TILE_SIZE / 8;
+			y -= 2;
+			x -= 2;
 		}
 	}
 	// UP RIGHT
@@ -43,8 +43,8 @@ if (control == true)
 		{
 			prevY = y;
 			prevX = x;
-			y -= 1 //TILE_SIZE / 8;
-			x += 1 //TILE_SIZE / 8;
+			y -= 2;
+			x += 2;
 		}
 	}
 	// DOWN LEFT
@@ -60,8 +60,8 @@ if (control == true)
 		{
 			prevY = y;
 			prevX = x;
-			y += 1 //TILE_SIZE / 8;
-			x -= 1 //TILE_SIZE / 8;
+			y += 2;
+			x -= 2;
 		}
 	}
 	// DOWN RIGHT
@@ -77,8 +77,8 @@ if (control == true)
 		{
 			prevY = y;
 			prevX = x;
-			y += 1 //TILE_SIZE / 8;
-			x += 1 //TILE_SIZE / 8;
+			y += 2;
+			x += 2;
 		}
 	}
 	// UP
@@ -94,7 +94,7 @@ if (control == true)
 		{
 			prevY = y;
 			prevX = x;
-			y -= 2 //TILE_SIZE / 4; 
+			y -= 4; 
 		}
 	}
 	// DOWN
@@ -110,7 +110,7 @@ if (control == true)
 		{
 			prevY = y;
 			prevX = x;
-			y += 2 //TILE_SIZE / 4;
+			y += 4;
 		}
 	}
 	// LEFT
@@ -126,7 +126,7 @@ if (control == true)
 		{
 			prevX = x;
 			prevY = y;
-			x -= 2 //TILE_SIZE / 4;
+			x -= 4;
 		}
 	}
 	// RIGHT
@@ -142,7 +142,7 @@ if (control == true)
 		{
 			prevX = x;
 			prevY = y;
-			x += 2 //TILE_SIZE / 4;
+			x += 4;
 		}
 	}
 
