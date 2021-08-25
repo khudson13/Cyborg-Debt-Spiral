@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a48ebe88-6f8a-4fbb-ae03-c3e5bed9daab","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Room Codes",
     "path": "folders/Sprites/Room Codes.yy",
