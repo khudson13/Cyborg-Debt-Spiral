@@ -21,6 +21,7 @@
     {"id":{"name":"Spr_Sword_A","path":"sprites/Spr_Sword_A/Spr_Sword_A.yy",},"order":29,},
     {"id":{"name":"Obj_RoomB13","path":"objects/Obj_RoomB13/Obj_RoomB13.yy",},"order":19,},
     {"id":{"name":"Obj_D23","path":"objects/Obj_D23/Obj_D23.yy",},"order":42,},
+    {"id":{"name":"Obj_Sword_A","path":"objects/Obj_Sword_A/Obj_Sword_A.yy",},"order":1,},
     {"id":{"name":"Obj_Drink_Can","path":"objects/Obj_Drink_Can/Obj_Drink_Can.yy",},"order":2,},
     {"id":{"name":"Obj_Barkeep","path":"objects/Obj_Barkeep/Obj_Barkeep.yy",},"order":2,},
     {"id":{"name":"Obj_Algae_Purifier","path":"objects/Obj_Algae_Purifier/Obj_Algae_Purifier.yy",},"order":2,},
@@ -229,6 +230,7 @@
     {"id":{"name":"Obj_A12","path":"objects/Obj_A12/Obj_A12.yy",},"order":1,},
     {"id":{"name":"Spr_OpenDoor_A","path":"sprites/Spr_OpenDoor_A/Spr_OpenDoor_A.yy",},"order":2,},
     {"id":{"name":"Spr_B12","path":"sprites/Spr_B12/Spr_B12.yy",},"order":13,},
+    {"id":{"name":"Obj_Arena_Sword_Manager","path":"objects/Obj_Arena_Sword_Manager/Obj_Arena_Sword_Manager.yy",},"order":0,},
     {"id":{"name":"Spr_C33","path":"sprites/Spr_C33/Spr_C33.yy",},"order":34,},
     {"id":{"name":"Obj_Rags","path":"objects/Obj_Rags/Obj_Rags.yy",},"order":5,},
     {"id":{"name":"Spr_Btax","path":"sprites/Spr_Btax/Spr_Btax.yy",},"order":1,},
@@ -380,6 +382,7 @@
     {"folderPath":"folders/Objects/Specific Items/Forensic.yy","order":26,"resourceVersion":"1.0","name":"Forensic","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Specific Items/Comestible.yy","order":27,"resourceVersion":"1.0","name":"Comestible","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Characters/Effects.yy","order":12,"resourceVersion":"1.0","name":"Effects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Arena Sword Stuff.yy","order":53,"resourceVersion":"1.0","name":"Arena Sword Stuff","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
