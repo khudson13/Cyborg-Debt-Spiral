@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "Spr_Sword_A_up",
-    "path": "sprites/Spr_Sword_A_up/Spr_Sword_A_up.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Obj_Sword",
-    "path": "objects/Obj_Sword/Obj_Sword.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -33,7 +27,7 @@
     "path": "folders/Objects/Arena Sword Stuff.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Sword_A",
+  "name": "Obj_Sword",
   "tags": [],
   "resourceType": "GMObject",
 }
