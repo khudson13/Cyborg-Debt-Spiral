@@ -6,6 +6,11 @@ control_left = ord("A");
 control_right = ord("D");
 control_down = ord("S");
 
+//SWORD CONTROLS
+point_up = vk_up;
+point_down = vk_down;
+point_left = vk_left;
+point_right = vk_right;
 
 interact = ord("E");
 
