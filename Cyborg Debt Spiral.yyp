@@ -291,7 +291,6 @@
     {"id":{"name":"Obj_Gun","path":"objects/Obj_Gun/Obj_Gun.yy",},"order":16,},
     {"id":{"name":"Sound_Blop","path":"sounds/Sound_Blop/Sound_Blop.yy",},"order":0,},
     {"id":{"name":"Spr_Old_Bog_Sweat","path":"sprites/Spr_Old_Bog_Sweat/Spr_Old_Bog_Sweat.yy",},"order":15,},
-    {"id":{"name":"Melee_Scripts","path":"scripts/Melee_Scripts/Melee_Scripts.yy",},"order":4,},
     {"id":{"name":"Spr_C32","path":"sprites/Spr_C32/Spr_C32.yy",},"order":33,},
     {"id":{"name":"Spr_VertDoor_A_Open","path":"sprites/Spr_VertDoor_A_Open/Spr_VertDoor_A_Open.yy",},"order":6,},
     {"id":{"name":"Spr_Table_A","path":"sprites/Spr_Table_A/Spr_Table_A.yy",},"order":5,},

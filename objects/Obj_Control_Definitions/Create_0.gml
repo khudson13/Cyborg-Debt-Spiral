@@ -12,6 +12,7 @@ point_down = vk_down;
 point_left = vk_left;
 point_right = vk_right;
 
+lunge = vk_space;
 interact = ord("E");
 
 // UI CONTROLS

@@ -16,7 +16,7 @@ if (control == true)
 	// UP LEFT
 	else if (keyboard_check(Obj_Control_Definitions.control_up) && keyboard_check(Obj_Control_Definitions.control_left))
 	{
-		if (keyboard_check_pressed(vk_space))
+		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
 			lunge_direction = "UP LEFT";
@@ -33,7 +33,7 @@ if (control == true)
 	// UP RIGHT
 	else if (keyboard_check(Obj_Control_Definitions.control_up) && keyboard_check(Obj_Control_Definitions.control_right))
 	{
-		if (keyboard_check_pressed(vk_space))
+		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
 			lunge_direction = "UP RIGHT";
@@ -50,7 +50,7 @@ if (control == true)
 	// DOWN LEFT
 	else if (keyboard_check(Obj_Control_Definitions.control_down) && keyboard_check(Obj_Control_Definitions.control_left))
 	{
-		if (keyboard_check_pressed(vk_space))
+		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
 			lunge_direction = "DOWN LEFT";
@@ -67,7 +67,7 @@ if (control == true)
 	// DOWN RIGHT
 	else if (keyboard_check(Obj_Control_Definitions.control_down) && keyboard_check(Obj_Control_Definitions.control_right))
 	{
-		if (keyboard_check_pressed(vk_space))
+		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
 			lunge_direction = "DOWN RIGHT";
@@ -88,7 +88,7 @@ if (control == true)
 		{
 			Obj_Sword.sprite_index = Obj_Sword.up_sprite;
 		}
-		if (keyboard_check_pressed(vk_space))
+		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
 			lunge_direction = "UP";
@@ -108,7 +108,7 @@ if (control == true)
 		{
 			Obj_Sword.sprite_index = Obj_Sword.down_sprite;
 		}
-		if (keyboard_check_pressed(vk_space))
+		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
 			lunge_direction = "DOWN";
@@ -128,7 +128,7 @@ if (control == true)
 		{
 			Obj_Sword.sprite_index = Obj_Sword.left_sprite;
 		}
-		if (keyboard_check_pressed(vk_space))
+		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
 			lunge_direction = "LEFT";
@@ -148,7 +148,7 @@ if (control == true)
 		{
 			Obj_Sword.sprite_index = Obj_Sword.right_sprite;
 		}
-		if (keyboard_check_pressed(vk_space))
+		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
 			lunge_direction = "RIGHT";
@@ -168,25 +168,41 @@ if (control == true)
 		case Obj_Control_Definitions.point_up:
 			if (instance_exists(Obj_Sword))
 			{
-				Obj_Sword.sprite_index = Obj_Sword.up_sprite;
+				if (Obj_Sword.attack == false)
+				{
+					Obj_Sword.sprite_index = Obj_Sword.up_sprite;
+					Obj_Sword.attack = true;
+				}
 			}
 			break;
 		case Obj_Control_Definitions.point_down:
 			if (instance_exists(Obj_Sword))
 			{
-				Obj_Sword.sprite_index = Obj_Sword.down_sprite;
+				if (Obj_Sword.attack == false)
+				{
+					Obj_Sword.sprite_index = Obj_Sword.down_sprite;
+					Obj_Sword.attack = true;
+				}
 			}
 			break;
 		case Obj_Control_Definitions.point_left:
 			if (instance_exists(Obj_Sword))
 			{
-				Obj_Sword.sprite_index = Obj_Sword.left_sprite;
+				if (Obj_Sword.attack == false)
+				{
+					Obj_Sword.sprite_index = Obj_Sword.left_sprite;
+					Obj_Sword.attack = true;
+				}
 			}
 			break;
 		case Obj_Control_Definitions.point_right:
 			if (instance_exists(Obj_Sword))
 			{
-				Obj_Sword.sprite_index = Obj_Sword.right_sprite;
+				if (Obj_Sword.attack == false)
+				{
+					Obj_Sword.sprite_index = Obj_Sword.right_sprite;
+					Obj_Sword.attack = true;
+				}
 			}
 			break;
 			
