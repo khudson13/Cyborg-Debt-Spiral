@@ -1,6 +1,7 @@
 NPC_name = "Barkeep";
 
 alive = true;
+hostile = false;
 
 // NPC INVENTORY
 inventory_size= 19

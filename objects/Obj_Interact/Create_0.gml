@@ -42,6 +42,11 @@ if (totalCount == 1)
 	//IF NPC	
 	else if (npcCount == 1)
 	{
+		if (npc[| 0].hostile == true)
+		{
+			Obj_Player.control = true;
+			instance_destroy(self);
+		}
 		if (npc[| 0].alive == true)
 		{
 			instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), "UI_Windows", Obj_Dialogue);

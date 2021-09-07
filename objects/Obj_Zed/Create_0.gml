@@ -1,6 +1,7 @@
 NPC_name = "Zed";
 
 alive = false;
+hostile = false;
 
 // NPC INVENTORY
 inventory_size = 19;

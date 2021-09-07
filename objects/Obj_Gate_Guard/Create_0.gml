@@ -1,6 +1,7 @@
 NPC_name = "Gate Guard";
 
 alive = true;
+hostile = false;
 
 // SET INVENTORY
 inventory = inventory_create(19);

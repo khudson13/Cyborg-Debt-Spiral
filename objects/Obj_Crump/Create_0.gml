@@ -1,6 +1,7 @@
 NPC_name = "Crump";
 
 alive = true;
+hostile = false;
 
 // NPC INVENTORY
 inventory = inventory_create(19);

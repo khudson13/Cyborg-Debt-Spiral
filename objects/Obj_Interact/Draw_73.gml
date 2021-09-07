@@ -55,6 +55,11 @@ if (npcCount > 0)
 	display_y += display_height;
 	for (var i = 0; i == 0 || i < npcCount ; ++i;)
 	{
+		if (npc[| i].hostile == true)
+		{
+			Obj_Player.control = true;
+			instance_destroy(self);
+		}
 		if (selected_index == menuCount)
 		{
 			draw_set_color(c_red);
