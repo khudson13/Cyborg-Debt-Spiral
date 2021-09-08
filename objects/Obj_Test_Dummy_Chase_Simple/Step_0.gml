@@ -1,20 +1,20 @@
 if (Obj_Player.x > x)
 {
-	prevX = -2;
+	prevX = x;
 	x += 1;
 }
 if (Obj_Player.x < x)
 {
-	prevX = 2;
+	prevX = x;
 	x -= 1;
 }
 if (Obj_Player.y > y)
 {
-	prevY = -2;
+	prevY = y;
 	y += 1;
 }
 if (Obj_Player.y < y)
 {
-	prevY = 2;
+	prevY = y;
 	y -= 1;
 }
