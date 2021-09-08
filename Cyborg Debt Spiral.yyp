@@ -213,6 +213,7 @@
     {"id":{"name":"Items_Enum","path":"scripts/Items_Enum/Items_Enum.yy",},"order":1,},
     {"id":{"name":"Spr_Rags","path":"sprites/Spr_Rags/Spr_Rags.yy",},"order":26,},
     {"id":{"name":"Spr_Empty_Bottle_C","path":"sprites/Spr_Empty_Bottle_C/Spr_Empty_Bottle_C.yy",},"order":9,},
+    {"id":{"name":"Obj_Test_Dummy_Chase_Simple","path":"objects/Obj_Test_Dummy_Chase_Simple/Obj_Test_Dummy_Chase_Simple.yy",},"order":1,},
     {"id":{"name":"Obj_Gun_Blast","path":"objects/Obj_Gun_Blast/Obj_Gun_Blast.yy",},"order":47,},
     {"id":{"name":"Spr_A21","path":"sprites/Spr_A21/Spr_A21.yy",},"order":4,},
     {"id":{"name":"Obj_B12","path":"objects/Obj_B12/Obj_B12.yy",},"order":13,},
