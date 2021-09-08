@@ -7,3 +7,6 @@ hostile = true;
 // NPC INVENTORY
 inventory = inventory_create(19);
 slots_filled = 0;
+
+prevX = x;
+prevY = y;

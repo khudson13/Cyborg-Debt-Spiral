@@ -3,7 +3,7 @@
     "name": "Spr_Test_Dummie_Immobile",
     "path": "sprites/Spr_Test_Dummie_Immobile/Spr_Test_Dummie_Immobile.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
