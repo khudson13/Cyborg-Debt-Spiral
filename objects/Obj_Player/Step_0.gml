@@ -171,6 +171,7 @@ if (control == true)
 				if (Obj_Sword.attack == false)
 				{
 					Obj_Sword.sprite_index = Obj_Sword.up_sprite;
+					Obj_Sword.mask_index = Spr_No_Mask;
 					Obj_Sword.attack = true;
 				}
 			}
@@ -181,6 +182,7 @@ if (control == true)
 				if (Obj_Sword.attack == false)
 				{
 					Obj_Sword.sprite_index = Obj_Sword.down_sprite;
+					Obj_Sword.mask_index = Spr_No_Mask;
 					Obj_Sword.attack = true;
 				}
 			}
@@ -191,6 +193,7 @@ if (control == true)
 				if (Obj_Sword.attack == false)
 				{
 					Obj_Sword.sprite_index = Obj_Sword.left_sprite;
+					Obj_Sword.mask_index = Spr_No_Mask;
 					Obj_Sword.attack = true;
 				}
 			}
@@ -201,6 +204,7 @@ if (control == true)
 				if (Obj_Sword.attack == false)
 				{
 					Obj_Sword.sprite_index = Obj_Sword.right_sprite;
+					Obj_Sword.mask_index = Spr_No_Mask;
 					Obj_Sword.attack = true;
 				}
 			}

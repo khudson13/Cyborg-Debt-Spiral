@@ -148,6 +148,7 @@
     {"id":{"name":"Tset_DemoWalls","path":"tilesets/Tset_DemoWalls/Tset_DemoWalls.yy",},"order":0,},
     {"id":{"name":"Obj_RoomA33","path":"objects/Obj_RoomA33/Obj_RoomA33.yy",},"order":31,},
     {"id":{"name":"Obj_Bar_Table_A","path":"objects/Obj_Bar_Table_A/Obj_Bar_Table_A.yy",},"order":26,},
+    {"id":{"name":"Spr_No_Mask","path":"sprites/Spr_No_Mask/Spr_No_Mask.yy",},"order":64,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
     {"id":{"name":"Obj_Recycler_UI","path":"objects/Obj_Recycler_UI/Obj_Recycler_UI.yy",},"order":43,},
     {"id":{"name":"Spr_A12","path":"sprites/Spr_A12/Spr_A12.yy",},"order":1,},
