@@ -16,6 +16,7 @@ if (control == true)
 	// UP LEFT
 	else if (keyboard_check(Obj_Control_Definitions.control_up) && keyboard_check(Obj_Control_Definitions.control_left))
 	{
+		Obj_Sword.sprite_index = Obj_Sword.up_left_sprite;
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
@@ -33,6 +34,7 @@ if (control == true)
 	// UP RIGHT
 	else if (keyboard_check(Obj_Control_Definitions.control_up) && keyboard_check(Obj_Control_Definitions.control_right))
 	{
+		Obj_Sword.sprite_index = Obj_Sword.up_right_sprite;
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
@@ -50,6 +52,7 @@ if (control == true)
 	// DOWN LEFT
 	else if (keyboard_check(Obj_Control_Definitions.control_down) && keyboard_check(Obj_Control_Definitions.control_left))
 	{
+		Obj_Sword.sprite_index = Obj_Sword.down_left_sprite;
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
@@ -67,6 +70,7 @@ if (control == true)
 	// DOWN RIGHT
 	else if (keyboard_check(Obj_Control_Definitions.control_down) && keyboard_check(Obj_Control_Definitions.control_right))
 	{
+		Obj_Sword.sprite_index = Obj_Sword.down_right_sprite;
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
