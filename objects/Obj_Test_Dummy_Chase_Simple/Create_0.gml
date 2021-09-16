@@ -10,3 +10,7 @@ slots_filled = 0;
 
 prevX = x;
 prevY = y;
+
+alarm[0] = 1;
+
+do_path = false;

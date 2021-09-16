@@ -58,6 +58,7 @@
     {"id":{"name":"Spr_Blank","path":"sprites/Spr_Blank/Spr_Blank.yy",},"order":2,},
     {"id":{"name":"Spr_Sword_A_right","path":"sprites/Spr_Sword_A_right/Spr_Sword_A_right.yy",},"order":2,},
     {"id":{"name":"Obj_RoomB31","path":"objects/Obj_RoomB31/Obj_RoomB31.yy",},"order":30,},
+    {"id":{"name":"Obj_Systems_Control","path":"objects/Obj_Systems_Control/Obj_Systems_Control.yy",},"order":54,},
     {"id":{"name":"Obj_Bottled_Water","path":"objects/Obj_Bottled_Water/Obj_Bottled_Water.yy",},"order":1,},
     {"id":{"name":"Obj_Decoy_Dummy","path":"objects/Obj_Decoy_Dummy/Obj_Decoy_Dummy.yy",},"order":18,},
     {"id":{"name":"Obj_Cabinet_A","path":"objects/Obj_Cabinet_A/Obj_Cabinet_A.yy",},"order":9,},
