@@ -3,6 +3,9 @@ with other
 	Obj_Player.x = Obj_Player.prevX;
 	Obj_Player.y = Obj_Player.prevY;
 }
-		
-lunging = false;
-control = true;
+
+if (lunging = true)
+{
+	lunging = false;
+	control = true;
+}

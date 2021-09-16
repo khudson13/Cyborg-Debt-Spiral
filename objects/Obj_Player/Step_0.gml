@@ -216,6 +216,7 @@ if (control == true)
 			
 		// QUIT GAME
 		case Obj_Control_Definitions.escape: 
+			control = false;
 			instance_create_layer(Obj_Player.x - 50, Obj_Player.y - 50, "UI_Windows", Obj_Escape_Menu);
 			io_clear();
 			break;
