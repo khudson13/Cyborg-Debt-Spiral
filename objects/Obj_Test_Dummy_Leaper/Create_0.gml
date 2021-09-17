@@ -15,3 +15,6 @@ alarm[0] = 50;
 leaping = false;
 leapX = 0;
 leapY = 0;
+leap_count = 0;
+goX = 0;
+goY = 0;
