@@ -310,6 +310,7 @@
     {"id":{"name":"Spr_Cabinet_C","path":"sprites/Spr_Cabinet_C/Spr_Cabinet_C.yy",},"order":4,},
     {"id":{"name":"Obj_Zed_Note","path":"objects/Obj_Zed_Note/Obj_Zed_Note.yy",},"order":28,},
     {"id":{"name":"Obj_Computer_B","path":"objects/Obj_Computer_B/Obj_Computer_B.yy",},"order":13,},
+    {"id":{"name":"Obj_Test_Dummy_Leaper","path":"objects/Obj_Test_Dummy_Leaper/Obj_Test_Dummy_Leaper.yy",},"order":2,},
     {"id":{"name":"Obj_PaperTrash_A","path":"objects/Obj_PaperTrash_A/Obj_PaperTrash_A.yy",},"order":6,},
     {"id":{"name":"Spr_Bar_Counter","path":"sprites/Spr_Bar_Counter/Spr_Bar_Counter.yy",},"order":17,},
     {"id":{"name":"Spr_Empty_Bottle_B","path":"sprites/Spr_Empty_Bottle_B/Spr_Empty_Bottle_B.yy",},"order":8,},
