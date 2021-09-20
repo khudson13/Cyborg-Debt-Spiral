@@ -16,7 +16,10 @@ if (control == true)
 	// UP LEFT
 	else if (keyboard_check(Obj_Control_Definitions.control_up) && keyboard_check(Obj_Control_Definitions.control_left))
 	{
-		Obj_Sword.sprite_index = Obj_Sword.up_left_sprite;
+		if (!keyboard_check(Obj_Control_Definitions.point_up) && !keyboard_check(Obj_Control_Definitions.point_down) && !keyboard_check(Obj_Control_Definitions.point_left) && !keyboard_check(Obj_Control_Definitions.point_right))
+		{
+			Obj_Sword.sprite_index = Obj_Sword.up_left_sprite;
+		}
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
@@ -34,7 +37,10 @@ if (control == true)
 	// UP RIGHT
 	else if (keyboard_check(Obj_Control_Definitions.control_up) && keyboard_check(Obj_Control_Definitions.control_right))
 	{
-		Obj_Sword.sprite_index = Obj_Sword.up_right_sprite;
+		if (!keyboard_check(Obj_Control_Definitions.point_up) && !keyboard_check(Obj_Control_Definitions.point_down) && !keyboard_check(Obj_Control_Definitions.point_left) && !keyboard_check(Obj_Control_Definitions.point_right))
+		{
+			Obj_Sword.sprite_index = Obj_Sword.up_right_sprite;
+		}
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
@@ -52,7 +58,10 @@ if (control == true)
 	// DOWN LEFT
 	else if (keyboard_check(Obj_Control_Definitions.control_down) && keyboard_check(Obj_Control_Definitions.control_left))
 	{
-		Obj_Sword.sprite_index = Obj_Sword.down_left_sprite;
+		if (!keyboard_check(Obj_Control_Definitions.point_up) && !keyboard_check(Obj_Control_Definitions.point_down) && !keyboard_check(Obj_Control_Definitions.point_left) && !keyboard_check(Obj_Control_Definitions.point_right))
+		{
+			Obj_Sword.sprite_index = Obj_Sword.down_left_sprite;
+		}
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
@@ -70,7 +79,10 @@ if (control == true)
 	// DOWN RIGHT
 	else if (keyboard_check(Obj_Control_Definitions.control_down) && keyboard_check(Obj_Control_Definitions.control_right))
 	{
-		Obj_Sword.sprite_index = Obj_Sword.down_right_sprite;
+		if (!keyboard_check(Obj_Control_Definitions.point_up) && !keyboard_check(Obj_Control_Definitions.point_down) && !keyboard_check(Obj_Control_Definitions.point_left) && !keyboard_check(Obj_Control_Definitions.point_right))
+		{
+			Obj_Sword.sprite_index = Obj_Sword.down_right_sprite;
+		}
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
 			lunging = true;
@@ -166,11 +178,67 @@ if (control == true)
 		}
 	}
 
-	switch (keyboard_key)
+
+	// POINT THE SWORD IF IT EXISTS
+	if (keyboard_check(Obj_Control_Definitions.point_up) && keyboard_check(Obj_Control_Definitions.point_down))
 	{
-		// POINT WEAPON
-		case Obj_Control_Definitions.point_up:
-			if (instance_exists(Obj_Sword))
+		//DO NOTHING
+	}
+	else if (keyboard_check(Obj_Control_Definitions.point_left) && keyboard_check(Obj_Control_Definitions.point_right))
+	{
+		//DO NOTHING
+	}
+	else if (keyboard_check(Obj_Control_Definitions.point_up) && keyboard_check(Obj_Control_Definitions.point_left))
+	{
+		if (instance_exists(Obj_Sword))
+			{
+				if (Obj_Sword.attack == false)
+				{
+					Obj_Sword.sprite_index = Obj_Sword.up_left_sprite;
+					Obj_Sword.mask_index = Spr_No_Mask;
+					Obj_Sword.attack = true;
+				}
+			}
+	}
+	else if (keyboard_check(Obj_Control_Definitions.point_up) && keyboard_check(Obj_Control_Definitions.point_right))
+	{
+		if (instance_exists(Obj_Sword))
+			{
+				if (Obj_Sword.attack == false)
+				{
+					Obj_Sword.sprite_index = Obj_Sword.up_right_sprite;
+					Obj_Sword.mask_index = Spr_No_Mask;
+					Obj_Sword.attack = true;
+				}
+			}
+	}
+	else if (keyboard_check(Obj_Control_Definitions.point_down) && keyboard_check(Obj_Control_Definitions.point_left))
+	{
+		if (instance_exists(Obj_Sword))
+			{
+				if (Obj_Sword.attack == false)
+				{
+					Obj_Sword.sprite_index = Obj_Sword.down_left_sprite;
+					Obj_Sword.mask_index = Spr_No_Mask;
+					Obj_Sword.attack = true;
+				}
+			}
+	}
+	else if (keyboard_check(Obj_Control_Definitions.point_down) && keyboard_check(Obj_Control_Definitions.point_right))
+	{
+		if (instance_exists(Obj_Sword))
+			{
+				if (Obj_Sword.attack == false)
+				{
+					Obj_Sword.sprite_index = Obj_Sword.down_right_sprite;
+					Obj_Sword.mask_index = Spr_No_Mask;
+					Obj_Sword.attack = true;
+				}
+			}
+	}
+	else if(keyboard_check(Obj_Control_Definitions.point_up))
+	{
+		if (instance_exists(Obj_Sword))
 			{
 				if (Obj_Sword.attack == false)
 				{
@@ -179,9 +247,10 @@ if (control == true)
 					Obj_Sword.attack = true;
 				}
 			}
-			break;
-		case Obj_Control_Definitions.point_down:
-			if (instance_exists(Obj_Sword))
+	}
+	else if(keyboard_check(Obj_Control_Definitions.point_down))
+	{
+		if (instance_exists(Obj_Sword))
 			{
 				if (Obj_Sword.attack == false)
 				{
@@ -190,9 +259,10 @@ if (control == true)
 					Obj_Sword.attack = true;
 				}
 			}
-			break;
-		case Obj_Control_Definitions.point_left:
-			if (instance_exists(Obj_Sword))
+	}
+	else if(keyboard_check( Obj_Control_Definitions.point_left))
+	{
+		if (instance_exists(Obj_Sword))
 			{
 				if (Obj_Sword.attack == false)
 				{
@@ -201,9 +271,10 @@ if (control == true)
 					Obj_Sword.attack = true;
 				}
 			}
-			break;
-		case Obj_Control_Definitions.point_right:
-			if (instance_exists(Obj_Sword))
+	}
+	else if(keyboard_check(Obj_Control_Definitions.point_right))
+	{
+		if (instance_exists(Obj_Sword))
 			{
 				if (Obj_Sword.attack == false)
 				{
@@ -212,9 +283,11 @@ if (control == true)
 					Obj_Sword.attack = true;
 				}
 			}
-			break;
+	}
 			
 		// QUIT GAME
+	switch(keyboard_key)
+	{
 		case Obj_Control_Definitions.escape: 
 			control = false;
 			instance_create_layer(Obj_Player.x - 50, Obj_Player.y - 50, "UI_Windows", Obj_Escape_Menu);
