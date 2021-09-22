@@ -9,6 +9,7 @@ prevY = y;
 // Placeholder health measure
 alive = true;
 injured = false;
+hit_points = 20;
 
 // Specials
 lunging = false;

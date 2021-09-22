@@ -372,3 +372,15 @@ if (lunging == true)
 		lunge_time = 5;
 	}
 }
+
+if (hit_points <= 10)
+{
+	injured = true;
+	sprite_index = Spr_Player_Hurt;
+}
+
+if (hit_points <= 0)
+{
+	alive = false;
+	sprite_index = Spr_Player_Dead;
+}

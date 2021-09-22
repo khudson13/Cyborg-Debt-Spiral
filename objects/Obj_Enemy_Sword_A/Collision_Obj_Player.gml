@@ -1,0 +1,1 @@
+Obj_Player.hit_points -= 1;

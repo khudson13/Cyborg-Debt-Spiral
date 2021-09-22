@@ -61,6 +61,10 @@ if (attack == true)
 	}
 	else
 	{
+		if (collision_point(x, y, Obj_Player, false, true))
+		{
+			Obj_Player.hit_points -= 1;
+		}
 		mask_index = Spr_No_Mask;
 		attack = false;
 		attack_duration = 1;
@@ -119,7 +123,7 @@ else
 	// if attacking upward
 	if (sprite_index == up_sprite || sprite_index == up_left_sprite || sprite_index == up_right_sprite)
 	{
-		if (collision_point(x, y - 40, Obj_Player, false, true))
+		if (collision_point(x, y - 50, Obj_Player, false, true))
 		{
 			attack = true;
 		}
@@ -127,7 +131,7 @@ else
 	// if attacking down
 	else if (sprite_index == down_sprite || sprite_index == down_left_sprite || sprite_index == down_right_sprite)
 	{
-		if (collision_point(x, y + 40, Obj_Player, false, true))
+		if (collision_point(x, y + 50, Obj_Player, false, true))
 		{
 			attack = true;
 		}
@@ -135,7 +139,7 @@ else
 	// if attacking left
 	else if (sprite_index == left_sprite || sprite_index == up_left_sprite || sprite_index == down_left_sprite)
 	{
-		if (collision_point(x - 40, y, Obj_Player, false, true))
+		if (collision_point(x - 50, y, Obj_Player, false, true))
 		{
 			attack = true;
 		}
@@ -143,7 +147,7 @@ else
 	// if attacking right
 	else if (sprite_index == right_sprite || sprite_index == up_right_sprite || sprite_index == down_right_sprite)
 	{
-		if (collision_point(x + 40, y, Obj_Player, false, true))
+		if (collision_point(x + 50, y, Obj_Player, false, true))
 		{
 			attack = true;
 		}
