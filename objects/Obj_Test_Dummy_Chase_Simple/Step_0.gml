@@ -1,4 +1,3 @@
-
 if (Obj_Player.control == true)
 {
 	path = path_add();
@@ -10,4 +9,3 @@ else
 {
 	path_end();
 }
-

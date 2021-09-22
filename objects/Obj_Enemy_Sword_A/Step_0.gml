@@ -1,6 +1,6 @@
 if (attack == true)
 {
-	if (attack_duration < 10)
+	if (attack_duration <= 10)
 	{
 		if (sprite_index == up_left_sprite)
 		{
@@ -58,16 +58,22 @@ if (attack == true)
 			x = owner.x - (3 * attack_duration);
 			++attack_duration;
 		}
+		
+		if (attack_duration = 10)
+		{
+		if (collision_point(x, y, Obj_Player, false, true))
+			{
+				Obj_Player.hit_points -= 1;
+			}
+		}
 	}
 	else
 	{
-		if (collision_point(x, y, Obj_Player, false, true))
-		{
-			Obj_Player.hit_points -= 1;
-		}
 		mask_index = Spr_No_Mask;
 		attack = false;
 		attack_duration = 1;
+		x = prevX;
+		y = prevY;
 	}
 }
 else
@@ -77,53 +83,55 @@ else
 	x = owner.x;
 	y = owner.y;
 	
+	
 	// WEAPON ORIENTATION
-	// moving up and right diagonal
-	if (x > prevX && y < prevY)
-	{
-		sprite_index = up_right_sprite;
-	}
-	// moving up and left diagonal
-	else if (x < prevX && y < prevY)
-	{
-		sprite_index = up_left_sprite;
-	}
-	// moving down and right diagonal
-	else if (x > prevX && y > prevY)
-	{
-		sprite_index = down_right_sprite;
-	}
-	// moving down and left diagonal
-	else if (x < prevX && y > prevY)
-	{
-		sprite_index = down_left_sprite;
-	}
 	// moving up
-	else if (x == prevX && y < prevY)
+	if (((x < (prevX + 1)) && (x > (prevX - 1))) && y < prevY)
 	{
 		sprite_index = up_sprite;
 	}
 	// moving down
-	else if (x == prevX && y > prevY)
+	else if (((x < (prevX + 1)) && (x > (prevX - 1))) && y > prevY)
 	{
 		sprite_index = down_sprite;
 	}
 	// moving left
-	else if (x < prevX && y == prevY)
+	else if (((y < (prevY + 1)) && (y > (prevY - 1))) && x < prevX)
 	{
 		sprite_index = left_sprite;
 	}
 	// moving right
-	else if (x > prevX && y == prevY)
+	else if (((y < (prevY + 1)) && (y > (prevY - 1))) && x > prevX)
 	{
 		sprite_index = right_sprite;
 	}
+	// moving up and right diagonal
+	else if (x > (prevX + 1) && y < prevY)
+	{
+		sprite_index = up_right_sprite;
+	}
+	// moving up and left diagonal
+	else if (x < (prevX - 1) && y < prevY)
+	{
+		sprite_index = up_left_sprite;
+	}
+	// moving down and right diagonal
+	else if (x > (prevX + 1) && y > prevY)
+	{
+		sprite_index = down_right_sprite;
+	}
+	// moving down and left diagonal
+	else if (x < (prevX - 1) && y > prevY)
+	{
+		sprite_index = down_left_sprite;
+	}
+	
 	
 	// ATTACK CONDITIONALS
 	// if attacking upward
 	if (sprite_index == up_sprite || sprite_index == up_left_sprite || sprite_index == up_right_sprite)
 	{
-		if (collision_point(x, y - 50, Obj_Player, false, true))
+		if ((Obj_Player.y > (y - 50) && Obj_Player.y < y) && (Obj_Player.x > (x - 50) && Obj_Player.x < (x + 50)))
 		{
 			attack = true;
 		}
@@ -131,7 +139,7 @@ else
 	// if attacking down
 	else if (sprite_index == down_sprite || sprite_index == down_left_sprite || sprite_index == down_right_sprite)
 	{
-		if (collision_point(x, y + 50, Obj_Player, false, true))
+		if ((Obj_Player.y < (y + 50) && Obj_Player.y > y) && (Obj_Player.x > (x - 50) && Obj_Player.x < (x + 50)))
 		{
 			attack = true;
 		}
@@ -139,7 +147,7 @@ else
 	// if attacking left
 	else if (sprite_index == left_sprite || sprite_index == up_left_sprite || sprite_index == down_left_sprite)
 	{
-		if (collision_point(x - 50, y, Obj_Player, false, true))
+		if ((Obj_Player.x > (x - 50) && Obj_Player.x < x) && (Obj_Player.y > (y - 50) && Obj_Player.y < (y + 50)))
 		{
 			attack = true;
 		}
@@ -147,7 +155,7 @@ else
 	// if attacking right
 	else if (sprite_index == right_sprite || sprite_index == up_right_sprite || sprite_index == down_right_sprite)
 	{
-		if (collision_point(x + 50, y, Obj_Player, false, true))
+		if ((Obj_Player.x < (x + 50) && Obj_Player.x > x) && (Obj_Player.y > (y - 50) && Obj_Player.y < (y + 50)))
 		{
 			attack = true;
 		}
