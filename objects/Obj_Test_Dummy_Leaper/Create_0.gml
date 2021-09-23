@@ -4,8 +4,6 @@ life = 1;
 alive = true;
 hostile = true;
 hit_points = 1;
-rotting = false;
-rot = 100;
 
 // NPC INVENTORY
 inventory = inventory_create(19);

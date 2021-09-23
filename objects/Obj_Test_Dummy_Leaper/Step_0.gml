@@ -2,6 +2,8 @@ if (alive == true)
 {
 	if (leaping == true)
 	{
+		prevX = x;
+		prevY = y;
 		path = path_add();
 		mp_grid_add_instances(path, Obj_Impassable, true);
 		mp_grid_path(Obj_Systems_Control.grid, path, x, y, goX, goY, true);
@@ -27,14 +29,6 @@ else
 {
 	path_end();
 	instance_destroy(weapon);
-	rotting = true;
-}
-
-if (rotting == true)
-{
-	rot -= 1;
-	if (rot <= 0)
-	{
-		instance_destroy(self);
-	}
+	dummy_Death(x, y);
+	instance_destroy(self);
 }
