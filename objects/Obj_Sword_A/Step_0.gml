@@ -1,6 +1,6 @@
 if (attack == true)
 {
-	if (attack_duration < 10)
+	if (attack_duration <= attack_end)
 	{
 		if (sprite_index == up_left_sprite)
 		{

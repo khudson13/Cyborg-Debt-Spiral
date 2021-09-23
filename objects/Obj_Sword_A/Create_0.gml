@@ -11,3 +11,4 @@ mask_index = Spr_No_Mask;
 
 attack = false;
 attack_duration = 1;
+attack_end = 10;

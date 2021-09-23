@@ -61,7 +61,7 @@ if (attack == true)
 		
 		if (attack_duration = 10)
 		{
-		if (collision_point(x, y, Obj_Player, false, true))
+		if (collision_circle(x, y, 10, Obj_Player, false, true))
 			{
 				Obj_Player.hit_points -= 1;
 			}

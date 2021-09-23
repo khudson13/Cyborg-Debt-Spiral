@@ -9,7 +9,7 @@ prevY = y;
 // Placeholder health measure
 alive = true;
 injured = false;
-hit_points = 20;
+hit_points = 10;
 
 // Specials
 lunging = false;
@@ -18,6 +18,7 @@ lunge_direction = "";
 
 // True when currently controlling character and not inventory or something
 control = true;
+
 // Initialize Inventory - saves work by avoiding resizing later
 inventory_size = 19;
 inventory = inventory_create(inventory_size);

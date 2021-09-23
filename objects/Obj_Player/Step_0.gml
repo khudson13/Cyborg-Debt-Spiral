@@ -373,7 +373,7 @@ if (lunging == true)
 	}
 }
 
-if (hit_points <= 10)
+if (hit_points <= 5)
 {
 	injured = true;
 	sprite_index = Spr_Player_Hurt;
