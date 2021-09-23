@@ -137,6 +137,7 @@
     {"id":{"name":"Spr_Fail","path":"sprites/Spr_Fail/Spr_Fail.yy",},"order":4,},
     {"id":{"name":"Obj_Investigator_Kit","path":"objects/Obj_Investigator_Kit/Obj_Investigator_Kit.yy",},"order":3,},
     {"id":{"name":"Obj_Algae_Processor","path":"objects/Obj_Algae_Processor/Obj_Algae_Processor.yy",},"order":1,},
+    {"id":{"name":"Obj_Test_Dummy_Rook","path":"objects/Obj_Test_Dummy_Rook/Obj_Test_Dummy_Rook.yy",},"order":3,},
     {"id":{"name":"Spr_Table_B","path":"sprites/Spr_Table_B/Spr_Table_B.yy",},"order":6,},
     {"id":{"name":"Obj_RoomA11","path":"objects/Obj_RoomA11/Obj_RoomA11.yy",},"order":9,},
     {"id":{"name":"Spr_No_Mask","path":"sprites/Spr_No_Mask/Spr_No_Mask.yy",},"order":64,},
