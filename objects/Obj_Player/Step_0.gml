@@ -18,7 +18,10 @@ if (control == true)
 	{
 		if (!keyboard_check(Obj_Control_Definitions.point_up) && !keyboard_check(Obj_Control_Definitions.point_down) && !keyboard_check(Obj_Control_Definitions.point_left) && !keyboard_check(Obj_Control_Definitions.point_right))
 		{
+			if (instance_exists(Obj_Sword))
+			{
 			Obj_Sword.sprite_index = Obj_Sword.up_left_sprite;
+			}
 		}
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
@@ -39,7 +42,10 @@ if (control == true)
 	{
 		if (!keyboard_check(Obj_Control_Definitions.point_up) && !keyboard_check(Obj_Control_Definitions.point_down) && !keyboard_check(Obj_Control_Definitions.point_left) && !keyboard_check(Obj_Control_Definitions.point_right))
 		{
+			if (instance_exists(Obj_Sword))
+			{
 			Obj_Sword.sprite_index = Obj_Sword.up_right_sprite;
+			}
 		}
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
@@ -60,7 +66,10 @@ if (control == true)
 	{
 		if (!keyboard_check(Obj_Control_Definitions.point_up) && !keyboard_check(Obj_Control_Definitions.point_down) && !keyboard_check(Obj_Control_Definitions.point_left) && !keyboard_check(Obj_Control_Definitions.point_right))
 		{
+			if (instance_exists(Obj_Sword))
+			{
 			Obj_Sword.sprite_index = Obj_Sword.down_left_sprite;
+			}
 		}
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
@@ -81,7 +90,10 @@ if (control == true)
 	{
 		if (!keyboard_check(Obj_Control_Definitions.point_up) && !keyboard_check(Obj_Control_Definitions.point_down) && !keyboard_check(Obj_Control_Definitions.point_left) && !keyboard_check(Obj_Control_Definitions.point_right))
 		{
+			if (instance_exists(Obj_Sword))
+			{
 			Obj_Sword.sprite_index = Obj_Sword.down_right_sprite;
+			}
 		}
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
@@ -102,7 +114,10 @@ if (control == true)
 	{
 		if (!keyboard_check(Obj_Control_Definitions.point_up) && !keyboard_check(Obj_Control_Definitions.point_down) && !keyboard_check(Obj_Control_Definitions.point_left) && !keyboard_check(Obj_Control_Definitions.point_right))
 		{
+			if (instance_exists(Obj_Sword))
+			{
 			Obj_Sword.sprite_index = Obj_Sword.up_sprite;
+			}
 		}
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
@@ -122,7 +137,10 @@ if (control == true)
 	{
 		if (!keyboard_check(Obj_Control_Definitions.point_up) && !keyboard_check(Obj_Control_Definitions.point_down) && !keyboard_check(Obj_Control_Definitions.point_left) && !keyboard_check(Obj_Control_Definitions.point_right))
 		{
+			if (instance_exists(Obj_Sword))
+			{
 			Obj_Sword.sprite_index = Obj_Sword.down_sprite;
+			}
 		}
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
@@ -142,7 +160,10 @@ if (control == true)
 	{
 		if (!keyboard_check(Obj_Control_Definitions.point_up) && !keyboard_check(Obj_Control_Definitions.point_down) && !keyboard_check(Obj_Control_Definitions.point_left) && !keyboard_check(Obj_Control_Definitions.point_right))
 		{
+			if (instance_exists(Obj_Sword))
+			{
 			Obj_Sword.sprite_index = Obj_Sword.left_sprite;
+			}
 		}
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{
@@ -162,7 +183,10 @@ if (control == true)
 	{
 		if (!keyboard_check(Obj_Control_Definitions.point_up) && !keyboard_check(Obj_Control_Definitions.point_down) && !keyboard_check(Obj_Control_Definitions.point_left) && !keyboard_check(Obj_Control_Definitions.point_right))
 		{
+			if (instance_exists(Obj_Sword))
+			{
 			Obj_Sword.sprite_index = Obj_Sword.right_sprite;
+			}
 		}
 		if (keyboard_check_pressed(Obj_Control_Definitions.lunge))
 		{

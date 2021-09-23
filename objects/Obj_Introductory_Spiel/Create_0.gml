@@ -1,5 +1,3 @@
-Obj_Player.control = false;
-
 instance_create_layer(Obj_Player.x, Obj_Player.y, "UI_Windows", Obj_Word_Bubble);
 Obj_Word_Bubble.x = Obj_Player.x - 200;
 Obj_Word_Bubble.y = Obj_Player.y - 50;

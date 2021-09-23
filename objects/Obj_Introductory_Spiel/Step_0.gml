@@ -1,3 +1,5 @@
+Obj_Player.control = false;
+
 if (keyboard_key == vk_escape)
 {
 	bubble_count += 1;
@@ -69,6 +71,7 @@ if (keyboard_key == vk_escape)
 	
 	else if (bubble_count >=7)
 	{
+		Obj_Player.control = true;
 		instance_destroy(self);
 	}
 }
