@@ -1,5 +1,5 @@
 name = "Table";
-description = "A place to eat, to work, to clutter.";
+description = "A place to eat, to work,\n to clutter.";
 passable = false;
 hasInventory = false; 
 hasOptions = false;

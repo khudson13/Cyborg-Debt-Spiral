@@ -215,125 +215,125 @@ if (control == true)
 	else if (keyboard_check(Obj_Control_Definitions.point_up) && keyboard_check(Obj_Control_Definitions.point_left))
 	{
 		if (instance_exists(Obj_Sword))
+		{
+			if (Obj_Sword.attack == false)
 			{
-				if (Obj_Sword.attack == false)
-				{
-					Obj_Sword.sprite_index = Obj_Sword.up_left_sprite;
-					Obj_Sword.mask_index = Spr_No_Mask;
-					Obj_Sword.attack = true;
-				}
+				Obj_Sword.sprite_index = Obj_Sword.up_left_sprite;
+				Obj_Sword.mask_index = Spr_No_Mask;
+				Obj_Sword.attack = true;
 			}
+		}
 	}
 	else if (keyboard_check(Obj_Control_Definitions.point_up) && keyboard_check(Obj_Control_Definitions.point_right))
 	{
 		if (instance_exists(Obj_Sword))
+		{
+			if (Obj_Sword.attack == false)
 			{
-				if (Obj_Sword.attack == false)
-				{
-					Obj_Sword.sprite_index = Obj_Sword.up_right_sprite;
-					Obj_Sword.mask_index = Spr_No_Mask;
-					Obj_Sword.attack = true;
-				}
+				Obj_Sword.sprite_index = Obj_Sword.up_right_sprite;
+				Obj_Sword.mask_index = Spr_No_Mask;
+				Obj_Sword.attack = true;
 			}
+		}
 	}
 	else if (keyboard_check(Obj_Control_Definitions.point_down) && keyboard_check(Obj_Control_Definitions.point_left))
 	{
 		if (instance_exists(Obj_Sword))
+		{
+			if (Obj_Sword.attack == false)
 			{
-				if (Obj_Sword.attack == false)
-				{
-					Obj_Sword.sprite_index = Obj_Sword.down_left_sprite;
-					Obj_Sword.mask_index = Spr_No_Mask;
-					Obj_Sword.attack = true;
-				}
+				Obj_Sword.sprite_index = Obj_Sword.down_left_sprite;
+				Obj_Sword.mask_index = Spr_No_Mask;
+				Obj_Sword.attack = true;
 			}
+		}
 	}
 	else if (keyboard_check(Obj_Control_Definitions.point_down) && keyboard_check(Obj_Control_Definitions.point_right))
 	{
 		if (instance_exists(Obj_Sword))
+		{
+			if (Obj_Sword.attack == false)
 			{
-				if (Obj_Sword.attack == false)
-				{
-					Obj_Sword.sprite_index = Obj_Sword.down_right_sprite;
-					Obj_Sword.mask_index = Spr_No_Mask;
-					Obj_Sword.attack = true;
-				}
+				Obj_Sword.sprite_index = Obj_Sword.down_right_sprite;
+				Obj_Sword.mask_index = Spr_No_Mask;
+				Obj_Sword.attack = true;
 			}
+		}
 	}
 	else if(keyboard_check(Obj_Control_Definitions.point_up))
 	{
 		if (instance_exists(Obj_Sword))
+		{
+			if (Obj_Sword.attack == false)
 			{
-				if (Obj_Sword.attack == false)
-				{
-					Obj_Sword.sprite_index = Obj_Sword.up_sprite;
-					Obj_Sword.mask_index = Spr_No_Mask;
-					Obj_Sword.attack = true;
-				}
+				Obj_Sword.sprite_index = Obj_Sword.up_sprite;
+				Obj_Sword.mask_index = Spr_No_Mask;
+				Obj_Sword.attack = true;
 			}
+		}
 	}
 	else if(keyboard_check(Obj_Control_Definitions.point_down))
 	{
 		if (instance_exists(Obj_Sword))
+		{
+			if (Obj_Sword.attack == false)
 			{
-				if (Obj_Sword.attack == false)
-				{
-					Obj_Sword.sprite_index = Obj_Sword.down_sprite;
-					Obj_Sword.mask_index = Spr_No_Mask;
-					Obj_Sword.attack = true;
-				}
+				Obj_Sword.sprite_index = Obj_Sword.down_sprite;
+				Obj_Sword.mask_index = Spr_No_Mask;
+				Obj_Sword.attack = true;
 			}
+		}
 	}
 	else if(keyboard_check( Obj_Control_Definitions.point_left))
 	{
 		if (instance_exists(Obj_Sword))
+		{
+			if (Obj_Sword.attack == false)
 			{
-				if (Obj_Sword.attack == false)
-				{
-					Obj_Sword.sprite_index = Obj_Sword.left_sprite;
-					Obj_Sword.mask_index = Spr_No_Mask;
-					Obj_Sword.attack = true;
-				}
+				Obj_Sword.sprite_index = Obj_Sword.left_sprite;
+				Obj_Sword.mask_index = Spr_No_Mask;
+				Obj_Sword.attack = true;
 			}
+		}
 	}
 	else if(keyboard_check(Obj_Control_Definitions.point_right))
 	{
 		if (instance_exists(Obj_Sword))
+		{
+			if (Obj_Sword.attack == false)
 			{
-				if (Obj_Sword.attack == false)
-				{
-					Obj_Sword.sprite_index = Obj_Sword.right_sprite;
-					Obj_Sword.mask_index = Spr_No_Mask;
-					Obj_Sword.attack = true;
-				}
+				Obj_Sword.sprite_index = Obj_Sword.right_sprite;
+				Obj_Sword.mask_index = Spr_No_Mask;
+				Obj_Sword.attack = true;
 			}
-	}
+		}
+	} 
 			
-		// QUIT GAME
-	switch(keyboard_key)
+	// QUIT GAME
+	if (keyboard_check_pressed(Obj_Control_Definitions.escape))
 	{
-		case Obj_Control_Definitions.escape: 
-			control = false;
-			instance_create_layer(Obj_Player.x - 50, Obj_Player.y - 50, "UI_Windows", Obj_Escape_Menu);
-			io_clear();
-			break;
+		control = false;
+		instance_create_layer(Obj_Player.x - 50, Obj_Player.y - 50, "UI_Windows", Obj_Escape_Menu);
+		io_clear();
+	}
 	
-		// INTERACTION CONTROLS
+	// INTERACTION CONTROLS
 
-		case Obj_Control_Definitions.interact:
-			control = false;
-			instance_create_layer(x, y, "Instances", Obj_Interact);
-			io_clear();
-			break;
+	if (keyboard_check_pressed(Obj_Control_Definitions.interact))
+	{
+		control = false;
+		instance_create_layer(x, y, "Instances", Obj_Interact);
+		io_clear();
+	}
 		
-		// UI CONTROLS
+	// UI CONTROLS
 	
-		// open inventory
-		case Obj_Control_Definitions.inventory:
-			control = false;
-			instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), "UI_Windows", Obj_Inventory_window); 
-			io_clear();
-			break;
+	// open inventory
+	if (keyboard_check_pressed(Obj_Control_Definitions.inventory))
+	{
+		control = false;
+		instance_create_layer(camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]), "UI_Windows", Obj_Inventory_window); 
+		io_clear();
 	}
 }
 

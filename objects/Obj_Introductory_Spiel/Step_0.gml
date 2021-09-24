@@ -69,9 +69,14 @@ if (keyboard_key == vk_escape)
 		Obj_Word_Bubble.Xmod = 30;
 	}
 	
-	else if (bubble_count >=7)
+	else if (bubble_count == 7)
 	{
+		io_clear();
 		Obj_Player.control = true;
+		if (instance_exists(Obj_Word_Bubble))
+		{
+			instance_destroy(Obj_Word_Bubble);
+		}
 		instance_destroy(self);
 	}
 }

@@ -1,5 +1,5 @@
 name = "Algae Purifier";
-description = "Part of the algae processing system.";
+description = "Part of the algae\nprocessing system.";
 passable = false;
 hasInventory = false; 
 hasOptions = false;

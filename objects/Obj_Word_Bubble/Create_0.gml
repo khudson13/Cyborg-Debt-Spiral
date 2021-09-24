@@ -10,3 +10,5 @@ Xmod = 15;
 
 content = "";
 lines_multiple = 1; // how many lines in message
+
+Obj_Player.control = false;

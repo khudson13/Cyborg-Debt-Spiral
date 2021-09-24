@@ -1,3 +1,5 @@
+Obj_Player.control = false;
+
 // Identify the object accessed and activate its code
 if (instance_exists(Obj_Interact))
 {

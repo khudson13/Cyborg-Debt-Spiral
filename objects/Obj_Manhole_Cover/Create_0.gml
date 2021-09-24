@@ -3,7 +3,7 @@ description = "It's welded shut.";
 passable = true;
 hasInventory = false; 
 hasOptions = false;
-unique = false; // check this before trying to access unique functionality
+//unique = false; // check this before trying to access unique functionality
 
 alarm[0] = 1;
 

@@ -1,6 +1,7 @@
 NPC_name = "Citizen";
 
 alive = true;
+hostile = false;
 
 // NPC INVENTORY
 inventory = inventory_create(19);

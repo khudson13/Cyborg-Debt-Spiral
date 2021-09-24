@@ -1,4 +1,6 @@
 // FURNITURE CONTROLS
+Obj_Player.control = false;
+
 switch(keyboard_key)
 {
 	// Options menu up
@@ -56,5 +58,14 @@ switch(keyboard_key)
 	case Obj_Control_Definitions.escape:
 		Obj_Player.control = true;
 		io_clear();
+		if (instance_exists(Obj_Word_Bubble))
+		{
+			instance_destroy(Obj_Word_Bubble);
+		}
 		instance_destroy(self);
+}
+
+if (Obj_Player.control == true)
+{
+	instance_destroy(self);
 }

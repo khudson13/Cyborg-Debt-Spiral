@@ -16,7 +16,7 @@ if (alive == true)
 		if (place_meeting(x, y, Obj_Player))
 		{
 			leaping = false;
-			alarm[0] = 100;
+			alarm[0] = 70;
 			path_end();
 		}
 
@@ -24,7 +24,7 @@ if (alive == true)
 		if (leap_count == 0)
 		{
 			leaping = false;
-			alarm[0] = 100;
+			alarm[0] = 70;
 			path_end();
 		}
 	}

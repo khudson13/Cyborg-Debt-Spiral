@@ -142,6 +142,7 @@ function open_Envelope()
 	Obj_Inventory_window.menu_access = -1;
 	Obj_Inventory_window.subaccess = -1;
 	Obj_Player.inventory[get_item_index(Obj_Player.inventory, Obj_Player.inventory_size, item.Envelope)][0] = item.Warrant;
+	Obj_Inventory_window.inventory[get_item_index(Obj_Player.inventory, Obj_Player.inventory_size, item.Envelope)][0] = item.Warrant;
 }
 
 function try_Decoy_Dummy()
