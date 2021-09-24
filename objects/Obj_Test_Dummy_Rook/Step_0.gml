@@ -1,7 +1,10 @@
+if (Obj_Player.control == true)
+{
 if (alive == true)
 {
 	if (charging == true)
 	{
+		
 		prevX = x;
 		prevY = y;
 		
@@ -24,8 +27,12 @@ if (alive == true)
 		
 		if (place_meeting(x, y, Obj_Player))
 		{
-			Obj_Player.hit_points -= 5;
-			charging = false;
+			if (harmless = false)
+			{
+				Obj_Player.hit_points -= 5;
+				harmless = true;
+				alarm[1] = 50;
+			}
 		}
 		
 		if (moving_direction == "up")
@@ -110,4 +117,5 @@ else
 	path_end();
 	dummy_Death(x, y);
 	instance_destroy(self);
+}
 }

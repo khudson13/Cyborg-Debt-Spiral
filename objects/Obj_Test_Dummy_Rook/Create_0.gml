@@ -10,6 +10,7 @@ prevY = y;
 
 alive = true;
 hostile = true;
+harmless = false;
 
 // NPC INVENTORY
 inventory = inventory_create(19);

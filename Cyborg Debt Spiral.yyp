@@ -46,6 +46,7 @@
     {"id":{"name":"Spr_Player_Dead","path":"sprites/Spr_Player_Dead/Spr_Player_Dead.yy",},"order":9,},
     {"id":{"name":"Obj_D11","path":"objects/Obj_D11/Obj_D11.yy",},"order":36,},
     {"id":{"name":"Spr_Envelope","path":"sprites/Spr_Envelope/Spr_Envelope.yy",},"order":28,},
+    {"id":{"name":"Obj_Arena_Outro","path":"objects/Obj_Arena_Outro/Obj_Arena_Outro.yy",},"order":55,},
     {"id":{"name":"Obj_B31","path":"objects/Obj_B31/Obj_B31.yy",},"order":20,},
     {"id":{"name":"Obj_C33","path":"objects/Obj_C33/Obj_C33.yy",},"order":34,},
     {"id":{"name":"Spr_DemoWalls","path":"sprites/Spr_DemoWalls/Spr_DemoWalls.yy",},"order":1,},

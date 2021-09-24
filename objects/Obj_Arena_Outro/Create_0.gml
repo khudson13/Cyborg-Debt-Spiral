@@ -1,0 +1,2 @@
+fail = false;
+win = false;
