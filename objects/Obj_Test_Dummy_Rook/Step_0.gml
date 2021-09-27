@@ -1,121 +1,120 @@
-if (Obj_Player.control == true)
+if (Obj_Player.control == true || Obj_Player.lunging == true)
 {
-if (alive == true)
-{
-	if (charging == true)
+	if (alive == true)
 	{
-		
-		prevX = x;
-		prevY = y;
-		
-		if (targetX > x)
-		{
-			x += 5;
-		}
-		else if (targetY > y)
-		{
-			y += 5;
-		}
-		else if (targetX < x)
-		{
-			x -= 5;
-		}
-		else if (targetY < y)
-		{
-			y -= 5;
-		}
-		
-		if (place_meeting(x, y, Obj_Player))
-		{
-			if (harmless = false)
+		if (charging == true)
+		{	
+			prevX = x;
+			prevY = y;
+				
+			if (targetX > x)
 			{
-				Obj_Player.hit_points -= 5;
-				harmless = true;
-				alarm[1] = 50;
+				x += 5;
 			}
-		}
+			else if (targetY > y)
+			{
+				y += 5;
+			}
+			else if (targetX < x)
+			{
+				x -= 5;
+			}
+			else if (targetY < y)
+			{
+				y -= 5;
+			}
 		
-		if (moving_direction == "up")
-		{
-			if (y <= targetY)
+			if (place_meeting(x, y, Obj_Player))
+			{
+				if (harmless = false)
+				{
+					Obj_Player.hit_points -= 5;
+					harmless = true;
+					alarm[1] = 50;
+				}
+			}
+		
+			if (moving_direction == "up")
+			{
+				if (y <= targetY)
+				{
+					charging = false;
+				}
+			}
+			else if (moving_direction == "down")
+			{
+				if (y >= targetY)
+				{
+					charging = false;
+				}
+			}
+			else if (moving_direction == "left")
+			{
+				if (x <= targetX)
+				{
+					charging = false;
+				}
+			}
+			else if (moving_direction == "right")
+			{
+				if (x >= targetX)
+				{
+					charging = false;
+				}
+			}
+		
+			if (prevX == x && prevY == y)
 			{
 				charging = false;
+				path_end();
 			}
 		}
-		else if (moving_direction == "down")
+	
+		// TRY TO TARGET PLAYER
+		else
 		{
-			if (y >= targetY)
+			if (Obj_Player.x >= (x - 20) && Obj_Player.x <= (x + 20))
 			{
-				charging = false;
+				if (Obj_Player.y > y)
+				{
+					charging = true;
+					targetX = x;
+					targetY = Obj_Player.y + 100;
+					moving_direction = "down";
+				}
+				else
+				{
+					charging = true;
+					targetX = x;
+					targetY = Obj_Player.y - 100;
+					moving_direction = "up";
+				}
 			}
-		}
-		else if (moving_direction == "left")
-		{
-			if (x <= targetX)
+			else if (Obj_Player.y >= (y - 20) && Obj_Player.y <= (y + 20))
 			{
-				charging = false;
+				if (Obj_Player.x > x)
+				{
+					charging = true;
+					targetX = Obj_Player.x + 100;
+					targetY = y;
+					moving_direction = "right";
+				}
+				else
+				{
+					charging = true;
+					targetX = Obj_Player.x - 100;
+					targetY = y;
+					moving_direction = "left";
+				}
 			}
-		}
-		else if (moving_direction == "right")
-		{
-			if (x >= targetX)
-			{
-				charging = false;
-			}
-		}
-		
-		if (prevX == x && prevY == y)
-		{
-			charging = false;
-			path_end();
 		}
 	}
-	
-	// TRY TO TARGET PLAYER
+
+	// IF DEAD
 	else
 	{
-		if (Obj_Player.x >= (x - 20) && Obj_Player.x <= (x + 20))
-		{
-			if (Obj_Player.y > y)
-			{
-				charging = true;
-				targetX = x;
-				targetY = Obj_Player.y + 100;
-				moving_direction = "down";
-			}
-			else
-			{
-				charging = true;
-				targetX = x;
-				targetY = Obj_Player.y - 100;
-				moving_direction = "up";
-			}
-		}
-		else if (Obj_Player.y >= (y - 20) && Obj_Player.y <= (y + 20))
-		{
-			if (Obj_Player.x > x)
-			{
-				charging = true;
-				targetX = Obj_Player.x + 100;
-				targetY = y;
-				moving_direction = "right";
-			}
-			else
-			{
-				charging = true;
-				targetX = Obj_Player.x - 100;
-				targetY = y;
-				moving_direction = "left";
-			}
-		}
+		path_end();
+		dummy_Death(x, y);
+		instance_destroy(self);
 	}
-}
-
-// IF DEAD
-else
-{
-	path_end();
-	dummy_Death(x, y);
-	instance_destroy(self);
-}
 }

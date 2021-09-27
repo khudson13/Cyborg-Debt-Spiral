@@ -23,7 +23,7 @@ if (menu_access == -1)
 				selected_index = 0;
 			}
 			io_clear(); break;
-		case Obj_Control_Definitions.control_right:
+		case Obj_Control_Definitions.interact:
 			io_clear();
 			menu_access = selected_index; break;
 	}

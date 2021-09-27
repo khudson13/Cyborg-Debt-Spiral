@@ -1,5 +1,6 @@
 /// @description Initialize Variables
 
+
 depth = 1;
 
 // previous position, used when movement is blocked

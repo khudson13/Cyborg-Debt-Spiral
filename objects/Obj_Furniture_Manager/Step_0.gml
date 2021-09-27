@@ -1,5 +1,4 @@
 // FURNITURE CONTROLS
-Obj_Player.control = false;
 
 switch(keyboard_key)
 {
@@ -63,9 +62,4 @@ switch(keyboard_key)
 			instance_destroy(Obj_Word_Bubble);
 		}
 		instance_destroy(self);
-}
-
-if (Obj_Player.control == true)
-{
-	instance_destroy(self);
 }

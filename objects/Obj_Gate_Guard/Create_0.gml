@@ -40,8 +40,8 @@ function dialogue(topic)
 			}
 			else
 			{
-				Obj_Dialogue.response = "Entry refused.";
-				Obj_Dialogue.response_height = LINE_HEIGHT;
+				Obj_Dialogue.response = "Entry refused. You\nneed documentation.";
+				Obj_Dialogue.response_height = LINE_HEIGHT * 2;
 				Obj_Dialogue.response_scale = 1;
 			}
 			break;

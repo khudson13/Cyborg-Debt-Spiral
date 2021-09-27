@@ -5,7 +5,7 @@ if (alive == true)
 		prevX = x;
 		prevY = y;
 		
-		if (Obj_Player.control == true)
+		if (Obj_Player.control == true || Obj_Player.lunging == true)
 		{
 			path = path_add();
 			mp_grid_add_instances(path, Obj_Impassable, true);
