@@ -19,7 +19,8 @@ switch(keyboard_key)
 	case Obj_Control_Definitions.interact:
 		access = selected_index;
 		talking_ID.dialogue(dialogue_options[selected_index])
-		options_count = talking_ID.options_count; 
+		options_count = talking_ID.options_count;
+		dialogue_options = talking_ID.dialogue_options;
 		if (selected_index >= options_count)
 		{
 			selected_index = 0;

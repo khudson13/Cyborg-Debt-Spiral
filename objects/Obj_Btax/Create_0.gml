@@ -43,7 +43,7 @@ function dialogue(topic)
 			Obj_Dialogue.response_height = LINE_HEIGHT * 3;
 			Obj_Dialogue.response_scale = 3;
 			Obj_Dialogue.response_scale = 3;
-			inventory_Add(Obj_Player, Obj_Player.inventory, Obj_Player.inventory_size, item.ZedKey);
+			Obj_Player.inventory = inventory_Add(Obj_Player, Obj_Player.inventory, Obj_Player.inventory_size, item.ZedKey);
 			break;
 	}
 } 
