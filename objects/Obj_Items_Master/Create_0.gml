@@ -203,7 +203,7 @@ for (var i = item.nomore - 1; i >= item.nothing; --i;)
 			ItemsMaster[i][itemstats.menu][0] = 2; // Number of options in sub-menu
 			ItemsMaster[i][itemstats.menu][1] = "look";
 			ItemsMaster[i][itemstats.menu][2] = "drop";
-			ItemsMaster[i][itemstats.menu][2] = "break";
+			ItemsMaster[i][itemstats.menu][3] = "break";
 			ItemsMaster[i][itemstats.functions][0] = "break";
 			ItemsMaster[i][itemstats.functions][1] = destroy_Gun;
 			ItemsMaster[i][itemstats.functions][2] = itemstats.nomore;
